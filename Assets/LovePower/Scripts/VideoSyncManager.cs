@@ -17,6 +17,18 @@ namespace LovePower
         [SyncVar(hook = nameof(OnTimeChanged))]
         private double videoTime;
 
+        public VideoHallPanel m_panel;
+
+
+        private void Start()
+        {
+            // 监听视频播放事件以更新UI
+            //videoPlayer.prepareCompleted += OnVideoReady;
+            //videoPlayer.frameReady += OnFrameReady;
+
+            videoPlayer.loopPointReached += (source) => { Debug.Log("播放完成"); CmdPauseVideo(); };
+        }
+
         private void Update()
         {
             if (isServer)
@@ -46,21 +58,48 @@ namespace LovePower
                     videoPlayer.time = videoTime;
                 }
             }
+
+            var value = (float)(videoPlayer.time / videoPlayer.clip.length);
+            m_panel.SetVideoSliderValue(value, (float)videoPlayer.time, (float)videoPlayer.clip.length);
         }
 
-        [Command]
+        private void OnVideoReady(VideoPlayer source)
+        {
+            // 视频准备完成后可以开始播放  
+            //videoPlayer.Play();
+        }
+
+        private void OnFrameReady(VideoPlayer source, long frameIdx)
+        {
+            // 更新当前时间文本  
+            //currentTimeText.text = TimeUtility.FormatTime(source.time);
+
+            // 更新Slider的Value以匹配视频的当前帧  
+            //videoSlider.value = (int)(source.frame * videoSlider.maxValue / videoPlayer.frameCount);
+
+            //m_panel.SetVideoSliderValue()
+        }
+
+        //[Command]
         public void CmdPlayVideo()
         {
+            if (!isServer)
+                return;
+
             isPlaying = true;
+            m_panel.SetPlayState(true);
         }
 
-        [Command]
+        //[Command]
         public void CmdPauseVideo()
         {
+            if (!isServer)
+                return;
             isPlaying = false;
+            m_panel.SetPlayState(false);
         }
 
-        [Command]
+        //[Command]
         public void CmdSetTime(double time)
         {
             videoTime = time;
@@ -81,7 +120,8 @@ namespace LovePower
 
         private void OnTimeChanged(double oldValue, double newValue)
         {
-            videoPlayer.time = newValue;
+            if(!isServer)
+                videoPlayer.time = newValue;
         }
     }
 }

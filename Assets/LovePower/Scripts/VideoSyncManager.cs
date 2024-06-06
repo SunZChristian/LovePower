@@ -26,6 +26,9 @@ namespace LovePower
             //videoPlayer.prepareCompleted += OnVideoReady;
             //videoPlayer.frameReady += OnFrameReady;
 
+            m_panel = UIManager.Instance.ShowVideoHallPanel();
+            m_panel.videoSyncManager = this;
+
             videoPlayer.loopPointReached += (source) => { Debug.Log("≤•∑≈ÕÍ≥…"); CmdPauseVideo(); };
         }
 

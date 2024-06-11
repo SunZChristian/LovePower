@@ -1,17 +1,18 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace LovePower
 {
     /// <summary>
-    /// ÓÎÏ·Èë¿Ú¡£
+    /// æ¸¸æˆå…¥å£ã€‚
     /// </summary>
     public partial class GameEntry : MonoBehaviour
     {
         private void Start()
         {
             InitBuiltinComponents();
+            InitCustomComponents();
         }
     }
 }

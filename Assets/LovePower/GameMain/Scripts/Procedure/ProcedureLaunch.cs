@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Net;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
@@ -9,8 +8,6 @@ namespace LovePower
 {
     public class ProcedureLaunch : ProcedureBase
     {
-        private GameFramework.Network.INetworkChannel m_Channel;
-        private NetworkChannelHelper m_NetworkChannelHelper;
 
         public override bool UseNativeDialog
         {
@@ -23,6 +20,8 @@ namespace LovePower
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
             base.OnEnter(procedureOwner);
+
+            //GameEntry.Event.Subscribe(NetworkConnectedEventArgs)
 
             // 构建信息：发布版本时，把一些数据以 Json 的格式写入 Assets/GameMain/Configs/BuildInfo.txt，供游戏逻辑读取
             //GameEntry.BuiltinData.InitBuildInfo();
@@ -41,7 +40,7 @@ namespace LovePower
             //GameEntry.BuiltinData.InitDefaultDictionary();
 
             // 网络配置
-            InitNetWork();
+            InitNetwork();
 
             Log.Info("进入Launch");
         }
@@ -54,14 +53,9 @@ namespace LovePower
             ChangeState<ProcedureSplash>(procedureOwner);
         }
 
-        private void InitNetWork()
+        private void InitNetwork()
         {
-            // 创建频道
-            m_NetworkChannelHelper = new NetworkChannelHelper();
-            m_Channel = GameEntry.Network.CreateNetworkChannel("LovePower", GameFramework.Network.ServiceType.Tcp, m_NetworkChannelHelper);
-
-            // 连接服务器
-            m_Channel.Connect(IPAddress.Parse("127.0.0.1"), 8098);
+            GameEntry.TcpClient.InitNetwork();
         }
 
         //private void InitLanguageSettings()

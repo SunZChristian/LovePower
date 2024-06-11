@@ -16,17 +16,12 @@ namespace LovePower
             }
         }
 
-        public static readonly string[] DataTableNames = new string[]
-        {
-            "UIForm",
-        };
-
 
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {
             base.OnEnter(procedureOwner);
 
-            GameEntry.UI.OpenUIForm(UIFormID.CreateOrJoinRoomPanel, this);
+            GameEntry.UI.OpenUIForm(EUIFormID.CreateOrJoinRoomPanel, this);
 
         }
     }

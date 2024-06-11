@@ -22,7 +22,7 @@ namespace LovePower
             canvasGroup.alpha = alpha;
         }
 
-        public static int? OpenUIForm(this UIComponent uiComponent, UIFormID uiFormId, object userData = null)
+        public static int? OpenUIForm(this UIComponent uiComponent, EUIFormID uiFormId, object userData = null)
         {
             return uiComponent.OpenUIForm((int)uiFormId, userData);
         }

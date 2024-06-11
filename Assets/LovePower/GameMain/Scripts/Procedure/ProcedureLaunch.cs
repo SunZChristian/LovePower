@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
@@ -8,6 +9,9 @@ namespace LovePower
 {
     public class ProcedureLaunch : ProcedureBase
     {
+        private GameFramework.Network.INetworkChannel m_Channel;
+        private NetworkChannelHelper m_NetworkChannelHelper;
+
         public override bool UseNativeDialog
         {
             get
@@ -35,6 +39,10 @@ namespace LovePower
             // 默认字典：加载默认字典文件 Assets/GameMain/Configs/DefaultDictionary.xml
             // 此字典文件记录了资源更新前使用的各种语言的字符串，会随 App 一起发布，故不可更新
             //GameEntry.BuiltinData.InitDefaultDictionary();
+
+            // 网络配置
+            InitNetWork();
+
             Log.Info("进入Launch");
         }
 
@@ -44,6 +52,16 @@ namespace LovePower
 
             // 运行一帧即切换到 Splash 展示流程
             ChangeState<ProcedureSplash>(procedureOwner);
+        }
+
+        private void InitNetWork()
+        {
+            // 创建频道
+            m_NetworkChannelHelper = new NetworkChannelHelper();
+            m_Channel = GameEntry.Network.CreateNetworkChannel("LovePower", GameFramework.Network.ServiceType.Tcp, m_NetworkChannelHelper);
+
+            // 连接服务器
+            m_Channel.Connect(IPAddress.Parse("127.0.0.1"), 8098);
         }
 
         //private void InitLanguageSettings()

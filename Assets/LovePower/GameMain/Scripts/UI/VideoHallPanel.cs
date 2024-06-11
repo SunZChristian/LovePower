@@ -9,7 +9,7 @@ namespace LovePower
 {
     public class VideoHallPanel : MonoBehaviour
     {
-        public VideoSyncManager videoSyncManager;
+        //public VideoSyncManager videoSyncManager;
         public Slider m_slider_videoProgress;
         public Button m_btn_play;
         public Button m_btn_pause;
@@ -29,33 +29,22 @@ namespace LovePower
 
         private void Update()
         {
-            if (videoSyncManager != null)
-            {
-
-
-            }
+            
         }
 
         private void OnSliderVideoProgress(float value)
         {
-            //if (videoSyncManager.authority)
-            //{
 
-            //}
-            double newTime = value * videoSyncManager.videoPlayer.clip.length;
-            videoSyncManager.CmdSetTime(newTime);
         }
 
         private void OnBtnPlay()
         {
-            //if (videoSyncManager.authority)
-            videoSyncManager.CmdPlayVideo();
+
         }
 
         private void OnBtnPause()
         {
-            //if (videoSyncManager.authority)
-            videoSyncManager.CmdPauseVideo();
+
         }
 
         public void SetPlayState(bool isPlay)

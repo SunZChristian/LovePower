@@ -7,7 +7,7 @@ namespace LovePower
     public class UIManager : MonoBehaviour
     {
         public VideoHallPanel videoHallPanel;
-        public StartPanel startPanel;
+        public CreateOrJoinRoomPanel startPanel;
 
         public GameObject UICanvas;
 
@@ -23,9 +23,9 @@ namespace LovePower
             return ui;
         }
 
-        public StartPanel ShowStartPanel()
+        public CreateOrJoinRoomPanel ShowStartPanel()
         {
-            var ui = Instantiate<StartPanel>(startPanel, UICanvas.transform);
+            var ui = Instantiate<CreateOrJoinRoomPanel>(startPanel, UICanvas.transform);
             return ui;
         }
     }

@@ -13,10 +13,10 @@ namespace LovePower.Editor.DataTableTools
 {
     public sealed class DataTableGeneratorMenu
     {
-        [MenuItem("Star Force/Generate DataTables")]
+        [MenuItem("Love Power/Generate DataTables")]
         private static void GenerateDataTables()
         {
-            foreach (string dataTableName in ProcedureMain.DataTableNames)
+            foreach (string dataTableName in ProcedurePreload.DataTableNames)
             {
                 DataTableProcessor dataTableProcessor = DataTableGenerator.CreateDataTableProcessor(dataTableName);
                 if (!DataTableGenerator.CheckRawData(dataTableProcessor, dataTableName))

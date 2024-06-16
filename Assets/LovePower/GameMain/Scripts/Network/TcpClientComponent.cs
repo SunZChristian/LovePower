@@ -22,7 +22,7 @@ namespace LovePower
 
         private void OnDestroy()
         {
-            
+
         }
 
         public void InitNetwork()
@@ -32,7 +32,7 @@ namespace LovePower
             m_Channel = GameEntry.Network.CreateNetworkChannel("LovePower", GameFramework.Network.ServiceType.Tcp, m_NetworkChannelHelper);
 
             // 连接服务器
-            m_Channel.Connect(IPAddress.Parse("127.0.0.1"), 9601);
+            m_Channel.Connect(IPAddress.Parse("127.0.0.1"), 1234);
 
             Log.Info("开始连接服务器");
         }

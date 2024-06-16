@@ -36,6 +36,16 @@ namespace LovePower
 
             Log.Info("开始连接服务器");
         }
+
+        public void CreateRoom()
+        {
+            m_Channel.Send<CSCreateRoom>(new CSCreateRoom());
+        }
+
+        public void JoinRoom()
+        {
+
+        }
     }
 
 }

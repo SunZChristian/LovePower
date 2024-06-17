@@ -25,7 +25,7 @@ public class ServNet
 	public long heartBeatTime = 180;
 	//协议
 	public ProtocolBase proto ;
-	//消息分发
+	//消息分发  
 	public HandleConnMsg handleConnMsg = new HandleConnMsg();
 	public HandlePlayerMsg handlePlayerMsg = new HandlePlayerMsg();
 	public HandlePlayerEvent handlePlayerEvent = new HandlePlayerEvent ();

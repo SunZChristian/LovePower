@@ -18,7 +18,7 @@ namespace LovePower
 
         private void OnCreateRoom()
         {
-            
+            GameEntry.TcpClient.CreateRoom();
         }
 
         private void OnJoinRoom()

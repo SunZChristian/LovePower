@@ -7,7 +7,7 @@ using TMPro;
 
 namespace LovePower
 {
-    public class VideoHallPanel : MonoBehaviour
+    public class VideoHallPanel : PanelBase
     {
         //public VideoSyncManager videoSyncManager;
         public Slider m_slider_videoProgress;
@@ -29,22 +29,27 @@ namespace LovePower
 
         private void Update()
         {
-            
+            if (GameEntry.Video.IsPlaying)
+            {
+                SetVideoSliderValueWithoutNotify((float)GameEntry.Video.CurentTime, (float)GameEntry.Video.TotalTime);
+            }
         }
 
         private void OnSliderVideoProgress(float value)
         {
-
+            GameEntry.Video.SetPlayProgress(value);
         }
 
         private void OnBtnPlay()
         {
-
+            GameEntry.Video.Play();
+            SetPlayState(true);
         }
 
         private void OnBtnPause()
         {
-
+            GameEntry.Video.Pause();
+            SetPlayState(false);
         }
 
         public void SetPlayState(bool isPlay)
@@ -53,9 +58,9 @@ namespace LovePower
             m_btn_pause.gameObject.SetActive(isPlay);
         }
 
-        public void SetVideoSliderValue(float value, float curTime, float totalTime)
+        public void SetVideoSliderValueWithoutNotify(float curTime, float totalTime)
         {
-            m_slider_videoProgress.SetValueWithoutNotify(value);
+            m_slider_videoProgress.SetValueWithoutNotify(curTime/totalTime);
             RefreshTime(curTime, totalTime);
         }
 

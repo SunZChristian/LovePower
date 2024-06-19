@@ -9,6 +9,8 @@ namespace LovePower
         Undefined = 0,
 
         CreateOrJoinRoomPanel = 1,
+
+        VideoHallPanel = 2,
     }
 }
 

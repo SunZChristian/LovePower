@@ -7,17 +7,24 @@ using TMPro;
 
 namespace LovePower
 {
+    /// <summary>
+    ///  ”∆µ≤•∑≈√Ê∞Â
+    /// </summary>
     public class VideoHallPanel : PanelBase
     {
         //public VideoSyncManager videoSyncManager;
-        public Slider m_slider_videoProgress;
+        public SunZSlider m_slider_videoProgress;
         public Button m_btn_play;
         public Button m_btn_pause;
         public TextMeshProUGUI m_txt_time;
 
+        public bool isPauseWhenPrePointDown;
+
         private void Awake()
         {
             m_slider_videoProgress.onValueChanged.AddListener(OnSliderVideoProgress);
+            m_slider_videoProgress.OnPointDownEvent.AddListener(OnSliderPointDown);
+            m_slider_videoProgress.OnPointUpEvent.AddListener(OnSliderPointUp);
             m_btn_play.onClick.AddListener(OnBtnPlay);
             m_btn_pause.onClick.AddListener(OnBtnPause);
         }
@@ -38,6 +45,16 @@ namespace LovePower
         private void OnSliderVideoProgress(float value)
         {
             GameEntry.Video.SetPlayProgress(value);
+        }
+
+        private void OnSliderPointDown()
+        {
+            GameEntry.Video.Pause();
+        }
+
+        private void OnSliderPointUp()
+        {
+            
         }
 
         private void OnBtnPlay()

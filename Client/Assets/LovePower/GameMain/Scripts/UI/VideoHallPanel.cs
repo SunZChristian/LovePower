@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Video;
 using TMPro;
 using GameFramework.Event;
+using UnityGameFramework.Runtime;
 
 namespace LovePower
 {
@@ -17,6 +18,7 @@ namespace LovePower
         public SunZSlider m_slider_videoProgress;
         public Button m_btn_play;
         public Button m_btn_pause;
+        public Button m_btn_selectfile;
         public TextMeshProUGUI m_txt_time;
 
         public bool isPlayingWhenPrePointDown;
@@ -28,6 +30,7 @@ namespace LovePower
             m_slider_videoProgress.OnPointUpEvent.AddListener(OnSliderPointUp);
             m_btn_play.onClick.AddListener(OnBtnPlay);
             m_btn_pause.onClick.AddListener(OnBtnPause);
+            m_btn_selectfile.onClick.AddListener(OnBtnSelectFile);
         }
 
         private void Start()
@@ -76,6 +79,14 @@ namespace LovePower
         private void OnBtnPause()
         {
             GameEntry.Video.Pause();
+        }
+
+        private void OnBtnSelectFile()
+        {
+            OpenDialogHelper.SelectFile((path) =>
+            {
+                Log.Info("path:" + path);
+            }, "");
         }
 
         public void SetPlayState(bool isPlay)

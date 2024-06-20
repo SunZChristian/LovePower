@@ -71,6 +71,7 @@ namespace LovePower
                 return;
 
             m_videoPlayer.Play();
+            GameEntry.Event.FireNow(this, VideoPlayStateEventArgs.Create(true));
         }
 
         public void Pause()
@@ -83,6 +84,7 @@ namespace LovePower
                 return;
 
             m_videoPlayer.Pause();
+            GameEntry.Event.FireNow(this, VideoPlayStateEventArgs.Create(false));
         }
 
         public void SetPlayProgress(float percentage)

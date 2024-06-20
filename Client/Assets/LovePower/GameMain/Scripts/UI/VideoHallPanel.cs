@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 using TMPro;
+using GameFramework.Event;
 
 namespace LovePower
 {
@@ -18,7 +19,7 @@ namespace LovePower
         public Button m_btn_pause;
         public TextMeshProUGUI m_txt_time;
 
-        public bool isPauseWhenPrePointDown;
+        public bool isPlayingWhenPrePointDown;
 
         private void Awake()
         {
@@ -31,15 +32,22 @@ namespace LovePower
 
         private void Start()
         {
-            SetPlayState(false);
+            SetPlayState(GameEntry.Video.IsPlaying);
+
+            GameEntry.Event.Subscribe(VideoPlayStateEventArgs.EventId, EventVideoPlayStateChaneg);
+        }
+
+        private void OnDestroy()
+        {
+            GameEntry.Event.Unsubscribe(VideoPlayStateEventArgs.EventId, EventVideoPlayStateChaneg);
         }
 
         private void Update()
         {
-            if (GameEntry.Video.IsPlaying)
-            {
+            //if (GameEntry.Video.IsPlaying)
+            //{
                 SetVideoSliderValueWithoutNotify((float)GameEntry.Video.CurentTime, (float)GameEntry.Video.TotalTime);
-            }
+            //}
         }
 
         private void OnSliderVideoProgress(float value)
@@ -49,24 +57,25 @@ namespace LovePower
 
         private void OnSliderPointDown()
         {
+            isPlayingWhenPrePointDown = GameEntry.Video.IsPlaying;
+
             GameEntry.Video.Pause();
         }
 
         private void OnSliderPointUp()
         {
-            
+            if (isPlayingWhenPrePointDown)
+                GameEntry.Video.Play();
         }
 
         private void OnBtnPlay()
         {
             GameEntry.Video.Play();
-            SetPlayState(true);
         }
 
         private void OnBtnPause()
         {
             GameEntry.Video.Pause();
-            SetPlayState(false);
         }
 
         public void SetPlayState(bool isPlay)
@@ -104,6 +113,15 @@ namespace LovePower
             }
 
             return formatted;
+        }
+
+        public void EventVideoPlayStateChaneg(object sender, GameEventArgs e)
+        {
+            VideoPlayStateEventArgs args = (VideoPlayStateEventArgs)e;
+            if (args != null)
+            {
+                SetPlayState(args.IsPlaying);
+            }
         }
     }
 }

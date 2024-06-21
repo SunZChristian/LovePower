@@ -94,12 +94,50 @@ namespace LovePower
 			}
 		}
 
-		/// <summary>
-		/// 选择文件夹
-		/// </summary>
-		/// <param name="callBack"></param>
-		/// <param name="title"></param>
-		public static void SelectFolder(Action<string> callBack, string title = "请选择文件夹")
+        /// <summary>
+        /// 打开文件
+        /// </summary>
+        /// <param name="callBack">获得文件回调</param>
+        /// <param name="fileter">文件类型</param>
+        public static string SelectFile(string fileter, string dirPath = "", Action<string> callBack = null)
+        {
+            OpenFileName openFileName = new OpenFileName();
+            openFileName.structSize = Marshal.SizeOf(openFileName);
+            if (!string.IsNullOrEmpty(fileter))
+                openFileName.filter = fileter;
+            openFileName.file = new string(new char[1024]);
+            openFileName.maxFile = openFileName.file.Length;
+            openFileName.fileTitle = new string(new char[64]);
+            openFileName.maxFileTitle = openFileName.fileTitle.Length;
+            if (!string.IsNullOrEmpty(dirPath) && !Directory.Exists(dirPath))
+                Directory.CreateDirectory(dirPath);
+            openFileName.initialDir = string.IsNullOrEmpty(dirPath) ?
+                                    Application.streamingAssetsPath.Replace('/', '\\')
+                                    : dirPath.Replace('/', '\\');//默认路径
+            openFileName.title = "选择文件";
+            //openFileName.defExt = "FBX";
+            //openFileName.flags = 0x00001000 | 0x00001000 | 0x00000800 | 0x00000200 | 0x00000008;
+            openFileName.flags = 0x00080000 | 0x00001000 | 0x00000800 | 0x00000008;
+
+            if (LocalDialog.GetFile(openFileName))
+            {
+                string filePath = openFileName.file;
+                if (File.Exists(filePath))
+                {
+                    callBack?.Invoke(filePath);
+                    return filePath;
+                }
+            }
+            return null;
+
+        }
+
+        /// <summary>
+        /// 选择文件夹
+        /// </summary>
+        /// <param name="callBack"></param>
+        /// <param name="title"></param>
+        public static void SelectFolder(Action<string> callBack, string title = "请选择文件夹")
 		{
 			try
 			{

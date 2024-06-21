@@ -83,10 +83,18 @@ namespace LovePower
 
         private void OnBtnSelectFile()
         {
-            OpenDialogHelper.SelectFile((path) =>
+            //OpenDialogHelper.SelectFile((path) =>
+            //{
+            //    Log.Info("path:" + path);
+            //}, "");
+
+            string path = OpenDialogHelper.SelectFile("视频文件(*.mp4*.mov*.mpg*.mpeg*.avi*.asf)\0*.mp4;*.mov*.mpg*.mpeg*.avi*.asf", null, (url) =>
             {
-                Log.Info("path:" + path);
-            }, "");
+                Log.Info("path:" + url);
+
+                //切换视频
+
+            });
         }
 
         public void SetPlayState(bool isPlay)

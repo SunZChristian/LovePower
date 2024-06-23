@@ -8,7 +8,7 @@ namespace LovePower
 {
     public class VideoComponent : GameFrameworkComponent
     {
-        private RenderTexture m_renderTexture;
+        public RenderTexture VideoRenderTexture { get; private set; }
 
         private VideoPlayer m_videoPlayer;
 
@@ -53,10 +53,13 @@ namespace LovePower
                 m_videoPlayer.playOnAwake = false;
                 if (m_videoPlayer.targetTexture == null)
                 {
-                    if (m_renderTexture == null)
-                        m_renderTexture = new RenderTexture(1920, 1080, 24, UnityEngine.Experimental.Rendering.DefaultFormat.Video);
-                    m_videoPlayer.targetTexture = m_renderTexture;
+                    if (VideoRenderTexture == null)
+                        VideoRenderTexture = RenderTexture.GetTemporary(1920, 1080,24);
+                    VideoRenderTexture.name = "VideoTexture";
+                    m_videoPlayer.targetTexture = VideoRenderTexture;
                 }
+
+                //m_videoPlayer.prepareCompleted+=
             }
                 
         }
@@ -94,5 +97,17 @@ namespace LovePower
 
             m_videoPlayer.time = m_videoPlayer.length * percentage;
         }
+
+        public void ChangeVideoUrl(string newUrl)
+        {
+            if (m_videoPlayer == null)
+                return;
+            if (string.IsNullOrEmpty(newUrl))
+                return;
+
+            m_videoPlayer.url = newUrl;
+        }
+
+
     }
 }

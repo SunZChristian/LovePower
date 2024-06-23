@@ -34,7 +34,7 @@ namespace LovePower
             {
                 // 单机模式
                 Log.Info("Package resource mode detected.");
-                //ChangeState<ProcedureInitResources>(procedureOwner);
+                ChangeState<ProcedureInitResources>(procedureOwner);
             }
             else
             {

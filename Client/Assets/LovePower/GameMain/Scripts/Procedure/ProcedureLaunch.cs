@@ -45,7 +45,7 @@ namespace LovePower
             //GameEntry.BuiltinData.InitDefaultDictionary();
 
             // 网络配置
-            InitNetwork();
+            //InitNetwork();
 
             Log.Info("进入Launch");
         }

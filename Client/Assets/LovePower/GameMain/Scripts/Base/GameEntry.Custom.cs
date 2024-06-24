@@ -18,10 +18,17 @@ namespace LovePower
             private set;
         }
 
+        public static FilePickerComponent FilePicker
+        {
+            get;
+            private set;
+        }
+
         private static void InitCustomComponents()
         {
             TcpClient = UnityGameFramework.Runtime.GameEntry.GetComponent<TcpClientComponent>();
             Video = UnityGameFramework.Runtime.GameEntry.GetComponent<VideoComponent>();
+            FilePicker = UnityGameFramework.Runtime.GameEntry.GetComponent<FilePickerComponent>();
         }
     }
 }

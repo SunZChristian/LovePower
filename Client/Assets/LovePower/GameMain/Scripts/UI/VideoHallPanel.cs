@@ -6,6 +6,7 @@ using UnityEngine.Video;
 using TMPro;
 using GameFramework.Event;
 using UnityGameFramework.Runtime;
+using Keiwando.NFSO;
 
 namespace LovePower
 {
@@ -89,13 +90,27 @@ namespace LovePower
 
         private void OnBtnSelectFile()
         {
-            string path = OpenDialogHelper.SelectFile("视频文件(*.mp4*.mov*.mpg*.mpeg*.avi*.asf)\0*.mp4;*.mov*.mpg*.mpeg*.avi*.asf", null, (url) =>
-            {
-                Log.Info("path:" + url);
+            Log.Info("选择文件");
 
-                //切换视频
-                GameEntry.Video.ChangeVideoUrl(url);
-            });
+            //if (Application.platform == RuntimePlatform.WindowsEditor
+            //    || Application.platform == RuntimePlatform.WindowsPlayer)
+            //{
+            //    Log.Info("当前是PC");
+            //    string path = OpenDialogHelper.SelectFile("视频文件(*.mp4*.mov*.mpg*.mpeg*.avi*.asf)\0*.mp4;*.mov*.mpg*.mpeg*.avi*.asf", null, (url) =>
+            //    {
+            //        Log.Info("path:" + url);
+
+            //        //切换视频
+            //        GameEntry.Video.ChangeVideoUrl(url);
+            //    });
+            //}
+            //else if (Application.platform == RuntimePlatform.Android)
+            //{
+            //    Log.Info("当前是安卓");
+            //NativeFileSO.shared.OpenFile(SupportedFilePreferences.supportedVideoFileTypes, OnAndroidFileSelectHandle);
+            //}
+
+            GameEntry.FilePicker.OpenFile();
         }
 
         public void SetPlayState(bool isPlay)
@@ -148,6 +163,20 @@ namespace LovePower
         {
             //重置进度条Handle的位置
             m_slider_videoProgress.handleRect.anchoredPosition = Vector2.zero;
+        }
+
+        private void OnAndroidFileSelectHandle(bool isFileOpened,OpenedFile file)
+        {
+            if (isFileOpened)
+            {
+                Log.Info("android path:" + file.Name);
+
+                
+            }
+            else
+            {
+                Log.Info("android 选择文件 取消");
+            }
         }
     }
 }

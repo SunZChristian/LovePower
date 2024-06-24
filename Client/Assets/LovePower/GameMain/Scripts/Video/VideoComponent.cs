@@ -16,6 +16,8 @@ namespace LovePower
 
         private VideoPlayer m_videoPlayer;
 
+        //private MediaPlayer m_mediaPlayer;
+
         public double TotalTime
         {
             get
@@ -58,14 +60,14 @@ namespace LovePower
                 if (m_videoPlayer.targetTexture == null)
                 {
                     if (VideoRenderTexture == null)
-                        VideoRenderTexture = RenderTexture.GetTemporary(1920, 1080,24);
+                        VideoRenderTexture = RenderTexture.GetTemporary(1920, 1080, 24);
                     VideoRenderTexture.name = "VideoTexture";
                     m_videoPlayer.targetTexture = VideoRenderTexture;
                 }
 
                 m_videoPlayer.prepareCompleted += PrepareCompleted;
             }
-                
+
         }
 
         #region 公有方法

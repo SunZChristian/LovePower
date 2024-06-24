@@ -33,6 +33,8 @@ namespace LovePower
             m_btn_play.onClick.AddListener(OnBtnPlay);
             m_btn_pause.onClick.AddListener(OnBtnPause);
             m_btn_selectfile.onClick.AddListener(OnBtnSelectFile);
+
+            
         }
 
         private void Start()
@@ -40,11 +42,13 @@ namespace LovePower
             SetPlayState(GameEntry.Video.IsPlaying);
 
             GameEntry.Event.Subscribe(VideoPlayStateEventArgs.EventId, EventVideoPlayStateChaneg);
+            GameEntry.Video.OnPrepareCompleted.AddListener(OnVideoPrepareCompleted);
         }
 
         private void OnDestroy()
         {
             GameEntry.Event.Unsubscribe(VideoPlayStateEventArgs.EventId, EventVideoPlayStateChaneg);
+            GameEntry.Video.OnPrepareCompleted.RemoveListener(OnVideoPrepareCompleted);
         }
 
         private void Update()
@@ -85,11 +89,6 @@ namespace LovePower
 
         private void OnBtnSelectFile()
         {
-            //OpenDialogHelper.SelectFile((path) =>
-            //{ 
-            //    Log.Info("path:" + path);
-            //}, "");
-
             string path = OpenDialogHelper.SelectFile("视频文件(*.mp4*.mov*.mpg*.mpeg*.avi*.asf)\0*.mp4;*.mov*.mpg*.mpeg*.avi*.asf", null, (url) =>
             {
                 Log.Info("path:" + url);
@@ -143,6 +142,12 @@ namespace LovePower
             {
                 SetPlayState(args.IsPlaying);
             }
+        }
+
+        public void OnVideoPrepareCompleted()
+        {
+            //重置进度条Handle的位置
+            m_slider_videoProgress.handleRect.anchoredPosition = Vector2.zero;
         }
     }
 }

@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityGameFramework.Runtime;
 
 namespace LovePower
 {
     public class VideoComponent : GameFrameworkComponent
     {
+        public UnityEvent OnPrepareCompleted;
+
         public RenderTexture VideoRenderTexture { get; private set; }
 
         private VideoPlayer m_videoPlayer;
@@ -59,11 +63,12 @@ namespace LovePower
                     m_videoPlayer.targetTexture = VideoRenderTexture;
                 }
 
-                //m_videoPlayer.prepareCompleted+=
+                m_videoPlayer.prepareCompleted += PrepareCompleted;
             }
                 
         }
 
+        #region 公有方法
         public void Play()
         {
             if (m_videoPlayer == null)
@@ -108,6 +113,19 @@ namespace LovePower
             m_videoPlayer.url = newUrl;
         }
 
+        #endregion
 
+
+        #region 私有方法
+        /// <summary>
+        /// 视频准备完成时被执行
+        /// </summary>
+        /// <param name="source"></param>
+        private void PrepareCompleted(VideoPlayer source)
+        {
+            Log.Info("视频准备完成：" + source.url);
+            OnPrepareCompleted?.Invoke();
+        }
+        #endregion
     }
 }

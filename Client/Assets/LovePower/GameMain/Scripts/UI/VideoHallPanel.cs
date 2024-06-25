@@ -6,7 +6,6 @@ using UnityEngine.Video;
 using TMPro;
 using GameFramework.Event;
 using UnityGameFramework.Runtime;
-using Keiwando.NFSO;
 
 namespace LovePower
 {
@@ -92,25 +91,23 @@ namespace LovePower
         {
             Log.Info("选择文件");
 
-            //if (Application.platform == RuntimePlatform.WindowsEditor
-            //    || Application.platform == RuntimePlatform.WindowsPlayer)
-            //{
-            //    Log.Info("当前是PC");
-            //    string path = OpenDialogHelper.SelectFile("视频文件(*.mp4*.mov*.mpg*.mpeg*.avi*.asf)\0*.mp4;*.mov*.mpg*.mpeg*.avi*.asf", null, (url) =>
-            //    {
-            //        Log.Info("path:" + url);
+            if (Application.platform == RuntimePlatform.WindowsEditor
+                || Application.platform == RuntimePlatform.WindowsPlayer)
+            {
+                Log.Info("当前是PC");
+                string path = OpenDialogHelper.SelectFile("视频文件(*.mp4*.mov*.mpg*.mpeg*.avi*.asf)\0*.mp4;*.mov*.mpg*.mpeg*.avi*.asf", null, (url) =>
+                {
+                    Log.Info("path:" + url);
 
-            //        //切换视频
-            //        GameEntry.Video.ChangeVideoUrl(url);
-            //    });
-            //}
-            //else if (Application.platform == RuntimePlatform.Android)
-            //{
-            //    Log.Info("当前是安卓");
-            //NativeFileSO.shared.OpenFile(SupportedFilePreferences.supportedVideoFileTypes, OnAndroidFileSelectHandle);
-            //}
-
-            GameEntry.FilePicker.OpenFile();
+                    //切换视频
+                    GameEntry.Video.ChangeVideoUrl(url);
+                });
+            }
+            else if (Application.platform == RuntimePlatform.Android)
+            {
+                Log.Info("当前是安卓");
+                NativeFilePicker.PickFile(OnPickFileHandler, new string[] { "Video files" });//视频（mp4、mov、wav、avi）
+            }
         }
 
         public void SetPlayState(bool isPlay)
@@ -165,18 +162,12 @@ namespace LovePower
             m_slider_videoProgress.handleRect.anchoredPosition = Vector2.zero;
         }
 
-        private void OnAndroidFileSelectHandle(bool isFileOpened,OpenedFile file)
+        private void OnPickFileHandler(string path)
         {
-            if (isFileOpened)
-            {
-                Log.Info("android path:" + file.Name);
+            Log.Info("path:" + path);
 
-                
-            }
-            else
-            {
-                Log.Info("android 选择文件 取消");
-            }
+            //切换视频
+            GameEntry.Video.ChangeVideoUrl(path);
         }
     }
 }

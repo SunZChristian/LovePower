@@ -1,4 +1,4 @@
-using GameFramework.Network;
+ï»¿using GameFramework.Network;
 using UnityGameFramework.Runtime;
 
 namespace LovePower
@@ -9,7 +9,7 @@ namespace LovePower
         {
             get
             {
-                return 2;
+                return 1001;
             }
         }
 
@@ -19,11 +19,11 @@ namespace LovePower
             //Log.Info("Receive packet '{0}'.", packetImpl.Id.ToString());
             if (packetImpl.IsCreateSuccess)
             {
-                //´´½¨³É¹¦
+                //åˆ›å»ºæˆåŠŸ
             }
             else
             {
-                //ÒÑ¾­ÓĞÈË´´½¨·¿¼äÀ²
+                //å·²ç»æœ‰äººåˆ›å»ºæˆ¿é—´å•¦
             }
         }
     }

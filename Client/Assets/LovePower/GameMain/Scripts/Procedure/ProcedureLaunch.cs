@@ -9,9 +9,6 @@ namespace LovePower
 {
     public class ProcedureLaunch : ProcedureBase
     {
-
-        private bool m_isNetworkConnected = false;
-
         public override bool UseNativeDialog
         {
             get
@@ -23,10 +20,6 @@ namespace LovePower
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
             base.OnEnter(procedureOwner);
-
-            m_isNetworkConnected = false;
-
-            GameEntry.Event.Subscribe(NetworkConnectedEventArgs.EventId, OnNetworkConnected);
 
             // 构建信息：发布版本时，把一些数据以 Json 的格式写入 Assets/GameMain/Configs/BuildInfo.txt，供游戏逻辑读取
             //GameEntry.BuiltinData.InitBuildInfo();
@@ -45,7 +38,7 @@ namespace LovePower
             //GameEntry.BuiltinData.InitDefaultDictionary();
 
             // 网络配置
-            //InitNetwork();
+            InitNetwork();
 
             Log.Info("进入Launch");
         }
@@ -55,29 +48,13 @@ namespace LovePower
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
 
             // 运行一帧即切换到 Splash 展示流程
-            //if(m_isNetworkConnected)
+            if(GameEntry.TcpClient.IsNetworkConnected)
                 ChangeState<ProcedureSplash>(procedureOwner);
-        }
-
-        protected override void OnLeave(ProcedureOwner procedureOwner, bool isShutdown)
-        {
-            GameEntry.Event.Unsubscribe(NetworkConnectedEventArgs.EventId, OnNetworkConnected);
-
-            base.OnLeave(procedureOwner, isShutdown);
         }
 
         private void InitNetwork()
         {
             GameEntry.TcpClient.InitNetwork();
-        }
-
-        private void OnNetworkConnected(object sender, GameEventArgs e)
-        {
-            NetworkConnectedEventArgs args = (NetworkConnectedEventArgs)e;
-            if (args.UserData != null)
-            {
-                m_isNetworkConnected = true;
-            }
         }
 
         //private void InitLanguageSettings()

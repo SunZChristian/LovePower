@@ -136,17 +136,24 @@ namespace LovePower
                 return false;
             }
 
-            m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
-            m_CachedStream.Position = 0L;
+            //m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
+            //m_CachedStream.Position = 0L;
 
-            CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
-            Serializer.Serialize(m_CachedStream, packetHeader);
-            ReferencePool.Release(packetHeader);
+            destination.Position = 8;
+            Serializer.SerializeWithLengthPrefix(destination, packet, PrefixStyle.Fixed32);
 
-            Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
             ReferencePool.Release((IReference)packet);
 
-            m_CachedStream.WriteTo(destination);
+            CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
+            packetHeader.Id = packet.Id;
+            packetHeader.PacketLength = (int)destination.Length - 8;
+
+            destination.Position = 0;
+            Serializer.SerializeWithLengthPrefix(destination, packetHeader, PrefixStyle.Fixed32);
+
+            ReferencePool.Release(packetHeader);
+
+            //m_CachedStream.WriteTo(destination);
             return true;
         }
 
@@ -160,7 +167,8 @@ namespace LovePower
         {
             // 注意：此函数并不在主线程调用！
             customErrorData = null;
-            return (IPacketHeader)RuntimeTypeModel.Default.Deserialize(source, ReferencePool.Acquire<SCPacketHeader>(), typeof(SCPacketHeader));
+            return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);
+            //return (IPacketHeader)RuntimeTypeModel.Default.Deserialize(source, ReferencePool.Acquire<SCPacketHeader>(), typeof(SCPacketHeader));
         }
 
         /// <summary>

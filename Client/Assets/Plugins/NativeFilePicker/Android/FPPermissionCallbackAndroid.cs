@@ -15,6 +15,7 @@ namespace NativeFilePickerNamespace
 			this.threadLock = threadLock;
 		}
 
+		[UnityEngine.Scripting.Preserve]
 		public void OnPermissionResult( int result )
 		{
 			Result = result;
@@ -23,6 +24,24 @@ namespace NativeFilePickerNamespace
 			{
 				Monitor.Pulse( threadLock );
 			}
+		}
+	}
+
+	public class FPPermissionCallbackAsyncAndroid : AndroidJavaProxy
+	{
+		private readonly NativeFilePicker.PermissionCallback callback;
+		private readonly FPCallbackHelper callbackHelper;
+
+		public FPPermissionCallbackAsyncAndroid( NativeFilePicker.PermissionCallback callback ) : base( "com.yasirkula.unity.NativeFilePickerPermissionReceiver" )
+		{
+			this.callback = callback;
+			callbackHelper = new GameObject( "FPCallbackHelper" ).AddComponent<FPCallbackHelper>();
+		}
+
+		[UnityEngine.Scripting.Preserve]
+		public void OnPermissionResult( int result )
+		{
+			callbackHelper.CallOnMainThread( () => callback( (NativeFilePicker.Permission) result ) );
 		}
 	}
 }

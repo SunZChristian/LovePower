@@ -4,9 +4,12 @@
 // Homepage: https://gameframework.cn/
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
+using ProtoBuf;
+using System;
 
 namespace LovePower
 {
+    [Serializable, ProtoContract(Name = @"SCPacketHeader")]
     public sealed class SCPacketHeader : PacketHeaderBase
     {
         public override PacketType PacketType
@@ -16,5 +19,11 @@ namespace LovePower
                 return PacketType.ServerToClient;
             }
         }
+
+        [ProtoMember(1)]
+        public override int Id { get; set; }
+
+        [ProtoMember(2)]
+        public override int PacketLength { get; set; }
     }
 }

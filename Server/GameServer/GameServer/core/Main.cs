@@ -7,7 +7,7 @@ namespace Serv
 		public static void Main(string[] args)
 		{
 			RoomMgr roomMgr = new RoomMgr ();
-			DataMgr dataMgr = new DataMgr ();
+			//DataMgr dataMgr = new DataMgr ();
 			ServNet servNet = new ServNet();
 			servNet.proto = new ProtocolBytes ();
 			servNet.Start("127.0.0.1",1234);

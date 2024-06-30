@@ -34,7 +34,7 @@ namespace LovePower
             m_btn_pause.onClick.AddListener(OnBtnPause);
             m_btn_selectfile.onClick.AddListener(OnBtnSelectFile);
 
-            
+
         }
 
         private void Start()
@@ -55,7 +55,7 @@ namespace LovePower
         {
             //if (GameEntry.Video.IsPlaying)
             //{
-                SetVideoSliderValueWithoutNotify((float)GameEntry.Video.CurentTime, (float)GameEntry.Video.TotalTime);
+            SetVideoSliderValueWithoutNotify((float)GameEntry.Video.CurentTime, (float)GameEntry.Video.TotalTime);
             //}
         }
 
@@ -91,23 +91,25 @@ namespace LovePower
         {
             Log.Info("选择文件");
 
-            if (Application.platform == RuntimePlatform.WindowsEditor
-                || Application.platform == RuntimePlatform.WindowsPlayer)
-            {
-                Log.Info("当前是PC");
-                string path = OpenDialogHelper.SelectFile("视频文件(*.mp4*.mov*.mpg*.mpeg*.avi*.asf)\0*.mp4;*.mov*.mpg*.mpeg*.avi*.asf", null, (url) =>
-                {
-                    Log.Info("path:" + url);
+            //if (Application.platform == RuntimePlatform.WindowsEditor
+            //    || Application.platform == RuntimePlatform.WindowsPlayer)
+            //{
+            //    Log.Info("当前是PC");
+            //    string path = OpenDialogHelper.SelectFile("视频文件(*.mp4*.mov*.mpg*.mpeg*.avi*.asf)\0*.mp4;*.mov*.mpg*.mpeg*.avi*.asf", null, (url) =>
+            //    {
+            //        Log.Info("path:" + url);
 
-                    //切换视频
-                    GameEntry.Video.ChangeVideoUrl(url);
-                });
-            }
-            else if (Application.platform == RuntimePlatform.Android)
-            {
-                Log.Info("当前是安卓");
-                NativeFilePicker.PickFile(OnPickFileHandler, new string[] { "Video files" });//视频（mp4、mov、wav、avi）
-            }
+            //        //切换视频
+            //        GameEntry.Video.ChangeVideoUrl(url);
+            //    });
+            //}
+            //else if (Application.platform == RuntimePlatform.Android)
+            //{
+            Log.Info("当前是安卓");
+            string[] fileTypes = new string[] { "video/*" };
+            var permission = NativeFilePicker.PickFile(OnPickFileHandler, fileTypes);//视频（mp4、mov、wav、avi）
+            Debug.Log("文件访问权限: " + permission);
+            //}
         }
 
         public void SetPlayState(bool isPlay)
@@ -118,7 +120,7 @@ namespace LovePower
 
         public void SetVideoSliderValueWithoutNotify(float curTime, float totalTime)
         {
-            m_slider_videoProgress.SetValueWithoutNotify(curTime/totalTime);
+            m_slider_videoProgress.SetValueWithoutNotify(curTime / totalTime);
             RefreshTime(curTime, totalTime);
         }
 
@@ -164,10 +166,18 @@ namespace LovePower
 
         private void OnPickFileHandler(string path)
         {
-            Log.Info("path:" + path);
+            if (string.IsNullOrEmpty(path))
+            {
+                Log.Info("取消了");
+            }
+            else
+            {
+                Log.Info("path:" + path);
 
-            //切换视频
-            GameEntry.Video.ChangeVideoUrl(path);
+                //切换视频
+                GameEntry.Video.ChangeVideoUrl(path);
+            }
+            
         }
     }
 }

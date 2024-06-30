@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Linq;
-using ProtoBuf;
 
 //字节流协议模型
 public class ProtocolBytes : ProtocolBase

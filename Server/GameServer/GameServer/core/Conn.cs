@@ -3,8 +3,6 @@ using System.Net;
 using System.Net.Sockets;
 using System.Collections;
 using System.Collections.Generic;
-using MySql.Data;
-using MySql.Data.MySqlClient;
 using System.Linq;
 using System.Reflection;
 using System.Threading;

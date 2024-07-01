@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Reflection;
+using System.IO;
 
 public class ServNet
 {
@@ -22,7 +23,7 @@ public class ServNet
 	//心跳时间
 	public long heartBeatTime = 180;
 	//协议
-	public ProtocolBase proto ;
+	public ProtocolBuf proto ;
 	//消息分发  
 	public HandleConnMsg handleConnMsg = new HandleConnMsg();
 	public HandlePlayerMsg handlePlayerMsg = new HandlePlayerMsg();
@@ -173,8 +174,11 @@ public class ServNet
 		{
 			return;
 		}
-		//处理消息
-		ProtocolBase protocol =  proto.Decode(conn.readBuff, sizeof(Int32), conn.msgLength);
+
+        Stream stream = new MemoryStream(conn.readBuff);
+
+        //处理消息
+        ProtocolBase protocol =  proto.Decode(conn.readBuff, sizeof(Int32), conn.msgLength);
 		HandleMsg (conn, protocol);
 		//清除已处理的消息
 		int count = conn.buffCount - conn.msgLength - sizeof(Int32);

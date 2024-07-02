@@ -13,3 +13,6 @@ C:\SunZ\LovePower\Server\GameServer\obj\Debug\net5.0\GameServer.dll
 C:\SunZ\LovePower\Server\GameServer\obj\Debug\net5.0\ref\GameServer.dll
 C:\SunZ\LovePower\Server\GameServer\obj\Debug\net5.0\GameServer.pdb
 C:\SunZ\LovePower\Server\GameServer\obj\Debug\net5.0\GameServer.genruntimeconfig.cache
+C:\SunZ\LovePower\Server\GameServer\bin\Debug\net5.0\protobuf-net.dll
+C:\SunZ\LovePower\Server\GameServer\obj\Debug\net5.0\GameServer.csproj.AssemblyReference.cache
+C:\SunZ\LovePower\Server\GameServer\obj\Debug\net5.0\GameServer.csproj.CopyComplete

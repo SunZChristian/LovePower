@@ -177,9 +177,13 @@ public class ServNet
 
         Stream stream = new MemoryStream(conn.readBuff);
 
-        //处理消息
-        ProtocolBase protocol =  proto.Decode(conn.readBuff, sizeof(Int32), conn.msgLength);
-		HandleMsg (conn, protocol);
+		var header = proto.DeserializePacketHeader(stream);
+
+		var cspacketBase = proto.DeserializePacket(header, stream);
+		//处理消息
+		//ProtocolBase protocol =  proto.Decode(conn.readBuff, sizeof(Int32), conn.msgLength);
+
+		HandleMsg (conn, header,cspacketBase);
 		//清除已处理的消息
 		int count = conn.buffCount - conn.msgLength - sizeof(Int32);
 		Array.Copy(conn.readBuff, sizeof(Int32) + conn.msgLength,  conn.readBuff, 0, count );
@@ -221,6 +225,21 @@ public class ServNet
 			mm.Invoke (handlePlayerMsg, obj);
 		}
 	}
+
+	private void HandleMsg(Conn conn,CSPacketHeader packetHeader, CSPacketBase packet)
+	{
+        switch (packetHeader.Id)
+        {
+			case 1:
+				{
+					//心跳
+					Console.WriteLine("收到心跳");
+					break;
+				}
+            default:
+                break;
+        }
+    }
 
 	//发送
 	public void Send(Conn conn, ProtocolBase protocol)

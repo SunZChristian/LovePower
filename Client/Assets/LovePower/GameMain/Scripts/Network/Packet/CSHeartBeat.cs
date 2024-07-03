@@ -25,6 +25,8 @@ namespace LovePower
             }
         }
 
+        public string Desc = "这是一个心跳包哈哈哈哈哈哈";
+
         public override void Clear()
         {
         }

@@ -23,4 +23,5 @@ public class CSHeartBeat : CSPacketBase
         }
     }
 
+    public string Desc ;
 }

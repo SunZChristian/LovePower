@@ -13,39 +13,39 @@ public class Room
 	}
 	public Status status = Status.Prepare;
 	//玩家
-	public int maxPlayers = 3;
-	public Dictionary<string,Player> list = new Dictionary<string,Player>();
-    //倒计时计时
-    public int countNum = 15;
-    //准备人数
-    public int readyNum = 0;
-    //轮到谁叫地主
-    public int landIndex = 0;
-    //此轮加倍倍数
-    public int multiple = 0;
-    //此轮基数
-    public int cardNum = 25;
-    //此轮叫地主人数
-    public int landNum = 0;
-    //此轮不叫地主人数
-    public int noLandNum = 0;
-    //目前地主在谁手上
-    public int nowLand = 0;
-    //抢地主状态
-    public bool isLandedBool = false;
-    //此轮翻倍人数
-    public int mulNum = 0;
+	public int maxPlayers = 2;
+	public Dictionary<uint,Player> list = new Dictionary<uint,Player>();
+    ////倒计时计时
+    //public int countNum = 15;
+    ////准备人数
+    //public int readyNum = 0;
+    ////轮到谁叫地主
+    //public int landIndex = 0;
+    ////此轮加倍倍数
+    //public int multiple = 0;
+    ////此轮基数
+    //public int cardNum = 25;
+    ////此轮叫地主人数
+    //public int landNum = 0;
+    ////此轮不叫地主人数
+    //public int noLandNum = 0;
+    ////目前地主在谁手上
+    //public int nowLand = 0;
+    ////抢地主状态
+    //public bool isLandedBool = false;
+    ////此轮翻倍人数
+    //public int mulNum = 0;
 
-    //轮到谁出牌
-    public int PlayCardPlayer = -1;
-    //最大牌出自谁手
-    public int maxCardTeam = -1;
-    //抢过地主的记录
-    public Dictionary<int, bool> landDic = new Dictionary<int, bool>();
-    //总共的翻倍倍数
-    public Dictionary<int, int> mulDic = new Dictionary<int, int>();
-    //剩余牌数
-    public Dictionary<int, int> pokerNumDic = new Dictionary<int, int>();
+    ////轮到谁出牌
+    //public int PlayCardPlayer = -1;
+    ////最大牌出自谁手
+    //public int maxCardTeam = -1;
+    ////抢过地主的记录
+    //public Dictionary<int, bool> landDic = new Dictionary<int, bool>();
+    ////总共的翻倍倍数
+    //public Dictionary<int, int> mulDic = new Dictionary<int, int>();
+    ////剩余牌数
+    //public Dictionary<int, int> pokerNumDic = new Dictionary<int, int>();
 
     //play_Cards = "05X06X06"
     //记录上家出的牌 前2位记录出牌类别 0单张 1对子 2三张 3三带一 4三带二 5单顺子 6双顺子 7三顺子 8飞机带翅膀 9四带二 10炸弹 11火箭（双王）05X(单顺子)
@@ -66,7 +66,7 @@ public class Room
 			tempData.status = PlayerTempData.Status.Room;
             if (list.Count == 0)
 				tempData.isOwner = true;
-			string id = player.id;
+			var id = player.id;
 			list.Add(id, player);
 		}
 		return true;
@@ -94,7 +94,7 @@ public class Room
     }
 
 	//删除玩家
-	public void DelPlayer(string id)
+	public void DelPlayer(uint id)
 	{
 		lock (list) 
 		{
@@ -139,19 +139,19 @@ public class Room
 	public ProtocolBytes GetRoomInfo()
 	{
 		ProtocolBytes protocol = new ProtocolBytes ();
-		protocol.AddString ("GetRoomInfo");
-		//房间信息
-		protocol.AddInt (list.Count);
-		//每个玩家信息
-		foreach(Player p in list.Values)
-		{
-			protocol.AddString(p.id);
-			protocol.AddInt(p.tempData.team);
-			protocol.AddInt(p.data.win);
-			protocol.AddInt(p.data.fail);
-			int isOwner = p.tempData.isOwner? 1: 0;
-			protocol.AddInt(isOwner);
-		}
+		//protocol.AddString ("GetRoomInfo");
+		////房间信息
+		//protocol.AddInt (list.Count);
+		////每个玩家信息
+		//foreach(Player p in list.Values)
+		//{
+		//	protocol.AddString(p.id);
+		//	protocol.AddInt(p.tempData.team);
+		//	protocol.AddInt(p.data.win);
+		//	protocol.AddInt(p.data.fail);
+		//	int isOwner = p.tempData.isOwner? 1: 0;
+		//	protocol.AddInt(isOwner);
+		//}
 		return protocol;
 	}
 
@@ -183,35 +183,35 @@ public class Room
 
 	public void StartFight()
 	{
-		ProtocolBytes protocol = new ProtocolBytes ();
-		protocol.AddString ("Fight");
-		status = Status.Fight;
-		int teamPos1 = 1;
-		int teamPos2 = 1;
-        int teamPos3 = 1;
-        lock (list) 
-		{
-			protocol.AddInt(list.Count);
-			foreach(Player p in list.Values)
-			{
-				p.tempData.hp = 200;
-				protocol.AddString(p.id);
-				protocol.AddInt(p.tempData.team);
-				if(p.tempData.team == 1)
-					protocol.AddInt(teamPos1++);
-				else if(p.tempData.team == 2)
-                    protocol.AddInt(teamPos2++);
-                else if (p.tempData.team == 3)
-                    protocol.AddInt(teamPos3++);
-                else
-                {
-                    Console.WriteLine("-----");
-                }
+		//ProtocolBytes protocol = new ProtocolBytes ();
+		//protocol.AddString ("Fight");
+		//status = Status.Fight;
+		//int teamPos1 = 1;
+		//int teamPos2 = 1;
+  //      int teamPos3 = 1;
+  //      lock (list) 
+		//{
+		//	protocol.AddInt(list.Count);
+		//	foreach(Player p in list.Values)
+		//	{
+		//		p.tempData.hp = 200;
+		//		protocol.AddString(p.id);
+		//		protocol.AddInt(p.tempData.team);
+		//		if(p.tempData.team == 1)
+		//			protocol.AddInt(teamPos1++);
+		//		else if(p.tempData.team == 2)
+  //                  protocol.AddInt(teamPos2++);
+  //              else if (p.tempData.team == 3)
+  //                  protocol.AddInt(teamPos3++);
+  //              else
+  //              {
+  //                  Console.WriteLine("-----");
+  //              }
 
-                p.tempData.status = PlayerTempData.Status.Fight;
-            }
-			Broadcast(protocol);
-		}
+  //              p.tempData.status = PlayerTempData.Status.Fight;
+  //          }
+		//	Broadcast(protocol);
+		//}
 	}
 
     //胜负判断
@@ -267,20 +267,20 @@ public class Room
 	//中途退出战斗
 	public void ExitFight(Player player)
 	{
-		//摧毁坦克
-		if (list [player.id] != null)
-			list [player.id].tempData.hp = -1;
-		//广播消息
-		ProtocolBytes protocolRet = new ProtocolBytes();
-		protocolRet.AddString ("Hit");
-		protocolRet.AddString (player.id);
-		protocolRet.AddString (player.id);
-		protocolRet.AddFloat (999);
-		Broadcast (protocolRet);
-		//增加失败次数
-		if (IsWin () == 0)
-			player.data.fail++;
-		//胜负判断
-		UpdateWin();
+		////摧毁坦克
+		//if (list [player.id] != null)
+		//	list [player.id].tempData.hp = -1;
+		////广播消息
+		//ProtocolBytes protocolRet = new ProtocolBytes();
+		//protocolRet.AddString ("Hit");
+		//protocolRet.AddString (player.id);
+		//protocolRet.AddString (player.id);
+		//protocolRet.AddFloat (999);
+		//Broadcast (protocolRet);
+		////增加失败次数
+		//if (IsWin () == 0)
+		//	player.data.fail++;
+		////胜负判断
+		//UpdateWin();
 	}
 }

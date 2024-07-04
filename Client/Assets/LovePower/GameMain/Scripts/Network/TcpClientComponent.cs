@@ -1,3 +1,4 @@
+using GameFramework;
 using GameFramework.Event;
 using System.Collections;
 using System.Collections.Generic;
@@ -75,7 +76,7 @@ namespace LovePower
 
         public void CreateRoom()
         {
-            m_Channel.Send<CSCreateRoom>(new CSCreateRoom());
+            m_Channel.Send<CSCreateRoom>(ReferencePool.Acquire<CSCreateRoom>());
         }
 
         public void JoinRoom()

@@ -12,20 +12,22 @@ public partial class HandlePlayerMsg
 	//创建房间
 	public void MsgCreateRoom(Player player, ProtocolBase protoBase)
 	{
-		ProtocolBytes protocol = new ProtocolBytes ();
-		protocol.AddString ("CreateRoom");
-		//条件检测
-		if (player.tempData.status != PlayerTempData.Status.None) 
-		{
-			Console.WriteLine ("MsgCreateRoom Fail " + player.id);
-			protocol.AddInt(-1);
-			player.Send (protocol);
-			return;
-		}
-		RoomMgr.instance.CreateRoom (player);
-		protocol.AddInt(0);
-		player.Send (protocol);
-		Console.WriteLine ("MsgCreateRoom Ok " + player.id);
+		//ProtocolBytes protocol = new ProtocolBytes ();
+		//protocol.AddString ("CreateRoom");
+		////条件检测
+		//if (player.tempData.status != PlayerTempData.Status.None) 
+		//{
+		//	Console.WriteLine ("MsgCreateRoom Fail " + player.id);
+		//	protocol.AddInt(-1);
+		//	player.Send (protocol);
+		//	return;
+		//}
+		//RoomMgr.instance.CreateRoom (player);
+		//protocol.AddInt(0);
+		//player.Send (protocol);
+		//Console.WriteLine ("MsgCreateRoom Ok " + player.id);
+
+		
 	}
 
 	//加入房间

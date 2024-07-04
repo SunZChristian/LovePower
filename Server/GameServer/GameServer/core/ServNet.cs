@@ -238,6 +238,14 @@ public class ServNet
                     count++;
                     //心跳
                     Console.WriteLine("收到心跳"+count);
+                    handleConnMsg.MsgHeatBeat(conn);
+                    break;
+                }
+            case 1001:
+                {
+                    //创建房间
+                    
+                    
                     break;
                 }
             default:

@@ -1,13 +1,19 @@
 using System;
+using System.IO;
 
 public partial class HandleConnMsg
 {
 	//心跳
 	//协议参数：无
-	public void MsgHeatBeat(Conn conn, ProtocolBase protoBase)
+	public void MsgHeatBeat(Conn conn)
 	{
 		conn.lastTickTime = Sys.GetTimeStamp();
 		Console.WriteLine("[更新心跳时间]" + conn.GetAdress());
+
+		ProtocolBuf protocol = new ProtocolBuf();
+		Stream stream = new MemoryStream(conn.readBuff);
+		protocol.Serialize<SCHeartBeat>(new SCHeartBeat());
+		conn.Send(protocol);
 	}
 
 	//注册

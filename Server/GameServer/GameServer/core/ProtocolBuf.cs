@@ -9,6 +9,8 @@ using System.Text;
 
 public class ProtocolBuf : ProtocolBase
 {
+    private byte[] waitToSendBytes;
+
     private readonly Dictionary<int, Type> m_ServerToClientPacketTypes = new Dictionary<int, Type>();
     public void Initialize()
     {
@@ -39,11 +41,22 @@ public class ProtocolBuf : ProtocolBase
         }
     }
 
+    /// <summary>
+    /// 反序列化包头
+    /// </summary>
+    /// <param name="source"></param>
+    /// <returns></returns>
     public CSPacketHeader DeserializePacketHeader(Stream source)
     {
         return Serializer.DeserializeWithLengthPrefix<CSPacketHeader>(source, PrefixStyle.Fixed32);    
     }
 
+    /// <summary>
+    /// 反序列化包体
+    /// </summary>
+    /// <param name="csPacketHeader"></param>
+    /// <param name="source"></param>
+    /// <returns></returns>
     public CSPacketBase DeserializePacket(CSPacketHeader csPacketHeader, Stream source)
     {
         if (csPacketHeader == null)
@@ -84,5 +97,48 @@ public class ProtocolBuf : ProtocolBase
         }
 
         return null;
+    }
+
+    public bool Serialize<T>(T packet) where T : PacketBase
+    {
+        //m_CachedStream.WriteTo(destination);
+
+        using (MemoryStream destination = new MemoryStream())
+        {
+            PacketBase packetImpl = packet as PacketBase;
+            if (packetImpl == null)
+            {
+                Console.WriteLine("Packet is invalid.");
+                return false;
+            }
+
+            if (packetImpl.PacketType != PacketType.ServerToClient)
+            {
+                Console.WriteLine("Send packet invalid.");
+                return false;
+            }
+
+            //m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
+            //m_CachedStream.Position = 0L;
+
+            destination.Position = 8;
+            Serializer.SerializeWithLengthPrefix(destination, packet, PrefixStyle.Fixed32);
+
+            CSPacketHeader packetHeader = new CSPacketHeader();
+            packetHeader.Id = packet.Id;
+            packetHeader.PacketLength = (int)destination.Length - 8;
+
+            destination.Position = 0;
+            Serializer.SerializeWithLengthPrefix(destination, packetHeader, PrefixStyle.Fixed32);
+
+            waitToSendBytes = destination.ToArray();
+        }
+
+        return true;
+    }
+
+    public override byte[] Encode()
+    {
+        return waitToSendBytes;
     }
 }

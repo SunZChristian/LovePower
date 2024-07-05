@@ -261,7 +261,9 @@ public class ServNet
         byte[] sendbuff = length.Concat(bytes).ToArray();
         try
         {
-            conn.socket.BeginSend(sendbuff, 0, sendbuff.Length, SocketFlags.None, null, null);
+            conn.socket.BeginSend(sendbuff, 0, sendbuff.Length, SocketFlags.None, (ar) =>{
+                Console.WriteLine("发送到客户端的消息状态：" + ar.IsCompleted);
+            }, null);
         }
         catch (Exception e)
         {

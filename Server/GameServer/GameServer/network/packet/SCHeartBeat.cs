@@ -23,5 +23,4 @@ public class SCHeartBeat : SCPacketBase
             return 2;
         }
     }
-
 }

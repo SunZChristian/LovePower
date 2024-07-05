@@ -124,7 +124,7 @@ public class ProtocolBuf : ProtocolBase
             destination.Position = 8;
             Serializer.SerializeWithLengthPrefix(destination, packet, PrefixStyle.Fixed32);
 
-            CSPacketHeader packetHeader = new CSPacketHeader();
+            SCPacketHeader packetHeader = new SCPacketHeader();
             packetHeader.Id = packet.Id;
             packetHeader.PacketLength = (int)destination.Length - 8;
 

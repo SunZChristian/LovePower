@@ -31,7 +31,7 @@ namespace LovePower
         {
             get
             {
-                return sizeof(int);
+                return sizeof(int)*2;
             }
         }
 
@@ -165,6 +165,11 @@ namespace LovePower
         /// <returns>反序列化后的消息包头。</returns>
         public IPacketHeader DeserializePacketHeader(Stream source, out object customErrorData)
         {
+            //using (BinaryReader reader = new BinaryReader(source))
+            //{
+            //    byte[] data = reader.ReadBytes((int)source.Length);
+            //}
+
             // 注意：此函数并不在主线程调用！
             customErrorData = null;
             return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);

@@ -244,8 +244,6 @@ public class ServNet
             case 1001:
                 {
                     //创建房间
-                    
-                    
                     break;
                 }
             default:
@@ -257,11 +255,11 @@ public class ServNet
     public void Send(Conn conn, ProtocolBase protocol)
     {
         byte[] bytes = protocol.Encode();
-        byte[] length = BitConverter.GetBytes(bytes.Length);
-        byte[] sendbuff = length.Concat(bytes).ToArray();
+        //byte[] length = BitConverter.GetBytes(bytes.Length);
+        //byte[] sendbuff = length.Concat(bytes).ToArray();
         try
         {
-            conn.socket.BeginSend(sendbuff, 0, sendbuff.Length, SocketFlags.None, (ar) =>{
+            conn.socket.BeginSend(bytes, 0, bytes.Length, SocketFlags.None, (ar) =>{
                 Console.WriteLine("发送到客户端的消息状态：" + ar.IsCompleted);
             }, null);
         }

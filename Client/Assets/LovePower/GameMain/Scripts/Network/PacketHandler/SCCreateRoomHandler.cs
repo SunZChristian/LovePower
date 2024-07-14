@@ -15,9 +15,11 @@ namespace LovePower
 
         public override void Handle(object sender, Packet packet)
         {
+            GameEntry.Event.FireNow(UILoadingStateEventArgs.EventId, UILoadingStateEventArgs.Create(false));
+
             SCCreateRoom packetImpl = (SCCreateRoom)packet;
             //Log.Info("Receive packet '{0}'.", packetImpl.Id.ToString());
-            if (packetImpl.IsCreateSuccess)
+            if (packetImpl.Code == 200)
             {
                 //创建成功
             }

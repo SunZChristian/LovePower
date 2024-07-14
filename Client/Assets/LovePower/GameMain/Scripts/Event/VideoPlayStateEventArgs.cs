@@ -1,4 +1,4 @@
-using GameFramework;
+ï»¿using GameFramework;
 using GameFramework.Event;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ namespace LovePower
     public class VideoPlayStateEventArgs : GameEventArgs
     {
         /// <summary>
-        /// ÊÓÆµ²¥·Å×´Ì¬¸Ä±äÊÂ¼ş±àºÅ¡£
+        /// è§†é¢‘æ’­æ”¾çŠ¶æ€æ”¹å˜äº‹ä»¶ç¼–å·ã€‚
         /// </summary>
         public static readonly int EventId = typeof(VideoPlayStateEventArgs).GetHashCode();
 
@@ -18,9 +18,9 @@ namespace LovePower
         public bool IsPlaying { get; private set; }
 
         /// <summary>
-        /// ÊÓÆµ²¥·Å×´Ì¬¸Ä±äÊÂ¼ş¡£
+        /// è§†é¢‘æ’­æ”¾çŠ¶æ€æ”¹å˜äº‹ä»¶ã€‚
         /// </summary>
-        /// <returns>´´½¨µÄÊÓÆµ²¥·Å×´Ì¬¸Ä±äÊÂ¼ş¡£</returns>
+        /// <returns>åˆ›å»ºçš„è§†é¢‘æ’­æ”¾çŠ¶æ€æ”¹å˜äº‹ä»¶ã€‚</returns>
         public static VideoPlayStateEventArgs Create(bool isPlaying)
         {
             VideoPlayStateEventArgs loadDataTableSuccessEventArgs = ReferencePool.Acquire<VideoPlayStateEventArgs>();

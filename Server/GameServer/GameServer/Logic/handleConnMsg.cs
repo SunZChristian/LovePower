@@ -11,7 +11,6 @@ public partial class HandleConnMsg
 		Console.WriteLine("[更新心跳时间]" + conn.GetAdress());
 
 		ProtocolBuf protocol = new ProtocolBuf();
-		Stream stream = new MemoryStream(conn.readBuff);
 		protocol.Serialize<SCHeartBeat>(new SCHeartBeat());
 		conn.Send(protocol);
 	}

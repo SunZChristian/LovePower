@@ -244,6 +244,12 @@ public class ServNet
             case 1001:
                 {
                     //创建房间
+
+                    //先创建角色
+                    var player = handlePlayerMsg.MsgCreatePlayer(conn);
+                    //后创建房间
+                    handlePlayerMsg.MsgCreateRoom(player, null);
+
                     break;
                 }
             default:

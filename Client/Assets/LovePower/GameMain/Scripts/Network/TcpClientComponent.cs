@@ -69,13 +69,9 @@ namespace LovePower
             }
         }
 
-        //public void HeatBeat()
-        //{
-        //    m_Channel.Send<CSHeartBeat>(new CSHeartBeat());
-        //}
-
         public void CreateRoom()
         {
+            GameEntry.Event.FireNow(UILoadingStateEventArgs.EventId, UILoadingStateEventArgs.Create(true));
             m_Channel.Send<CSCreateRoom>(ReferencePool.Acquire<CSCreateRoom>());
         }
 

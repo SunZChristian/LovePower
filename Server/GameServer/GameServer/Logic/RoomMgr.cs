@@ -15,13 +15,21 @@ public class RoomMgr
 	public List<Room> list = new List<Room>();
 
 	//创建房间
-	public void CreateRoom(Player player)
+	public void CreateRoom(Player player,out int resultCode)
 	{
+        if (list.Count > 0)
+        {
+            //房间已存在
+            resultCode = 101;
+            return;
+        }
+
 		Room room = new Room ();
 		lock (list) 
 		{
 			list.Add(room);
 			room.AddPlayer(player);
+            resultCode = 200;
 		}
 	}
 

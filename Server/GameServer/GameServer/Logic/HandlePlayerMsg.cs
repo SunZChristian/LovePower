@@ -67,9 +67,9 @@ public partial class HandlePlayerMsg
 	//	Console.WriteLine ("MsgGetScore " + player.id + player.data.win);
 	//}
 
-	public Player MsgCreatePlayer(Conn conn)
+	public Player MsgCreatePlayer(uint id, Conn conn)
 	{
-		Player player = new Player(1, conn);
+		Player player = new Player(id, conn);
 
 		return player;
 	}

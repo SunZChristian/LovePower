@@ -5,7 +5,10 @@ using System;
 public class SCCreateRoom : SCPacketBase
 {
     [ProtoMember(1)]
-    public bool IsCreateSuccess;
+    public int Code;
+
+    [ProtoMember(2)]
+    public string Message;
 
     public SCCreateRoom()
     {

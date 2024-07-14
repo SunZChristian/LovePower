@@ -11,6 +11,9 @@ public class PlayerTempData
 	public enum Status
 	{
 		None,
+        /// <summary>
+        /// 在房间里面
+        /// </summary>
 		Room,
 		Fight,
 	}
@@ -19,11 +22,11 @@ public class PlayerTempData
 	public Room room;
 	public int team = 1;
 	public bool isOwner = false;
-	//战场相关
-	public long lastUpdateTime;
-	public float posX;
-	public float posY;
-	public float posZ;
-	public long lastShootTime;
-	public float hp = 200;
+    //战场相关
+    public long lastUpdateTime;
+    public float posX;
+    public float posY;
+    public float posZ;
+    public long lastShootTime;
+    public float hp = 200;
 }

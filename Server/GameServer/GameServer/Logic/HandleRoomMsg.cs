@@ -12,23 +12,48 @@ public partial class HandlePlayerMsg
 	//创建房间
 	public void MsgCreateRoom(Player player, ProtocolBase protoBase)
 	{
-		//ProtocolBytes protocol = new ProtocolBytes ();
-		//protocol.AddString ("CreateRoom");
-		////条件检测
-		//if (player.tempData.status != PlayerTempData.Status.None) 
-		//{
-		//	Console.WriteLine ("MsgCreateRoom Fail " + player.id);
-		//	protocol.AddInt(-1);
-		//	player.Send (protocol);
-		//	return;
-		//}
-		//RoomMgr.instance.CreateRoom (player);
-		//protocol.AddInt(0);
-		//player.Send (protocol);
-		//Console.WriteLine ("MsgCreateRoom Ok " + player.id);
+        //ProtocolBytes protocol = new ProtocolBytes ();
+        //protocol.AddString ("CreateRoom");
+        ////条件检测
+        //if (player.tempData.status != PlayerTempData.Status.None) 
+        //{
+        //	Console.WriteLine ("MsgCreateRoom Fail " + player.id);
+        //	protocol.AddInt(-1);
+        //	player.Send (protocol);
+        //	return;
+        //}
+        //RoomMgr.instance.CreateRoom (player);
+        //protocol.AddInt(0);
+        //player.Send (protocol);
+        //Console.WriteLine ("MsgCreateRoom Ok " + player.id);
 
-		
-	}
+        ProtocolBuf protocol = new ProtocolBuf();
+        
+        SCCreateRoom msg = new SCCreateRoom();
+
+        if (player.tempData.status != PlayerTempData.Status.None)
+        {
+            //已经在房间中
+            msg.Code = 101;
+            msg.Message = "已经在房间中了";
+        }
+        else 
+        {
+            RoomMgr.instance.CreateRoom(player,out var resultCode);
+            if (resultCode == 200)
+            {
+                msg.Code = 200;
+                msg.Message = "创建成功";
+            }
+            else if(resultCode == 101)
+            {
+                msg.Code = 101;
+                msg.Message = "房间已存在,创建失败";
+            }
+        }
+        protocol.Serialize<SCCreateRoom>(msg);
+        player.Send(protocol);
+    }
 
 	//加入房间
 	public void MsgEnterRoom(Player player, ProtocolBase protoBase)

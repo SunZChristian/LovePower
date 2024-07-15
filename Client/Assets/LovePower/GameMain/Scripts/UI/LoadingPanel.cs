@@ -16,6 +16,8 @@ namespace LovePower
 
         public Image m_img_loading;
 
+        private Tween m_tween;
+
         protected override void OnOpen(object userData)
         {
             base.OnOpen(userData);
@@ -42,18 +44,28 @@ namespace LovePower
             else
                 StopLoading();
         }
-
+          
         private void ShowLoading()
-        {            
-            DOTween.Kill(m_img_loading,false);
+        {
             m_img_loading.rectTransform.Rotate(Vector3.zero);
-            m_img_loading.rectTransform.DORotate(new Vector3(0, 0, -360), 5, RotateMode.FastBeyond360);
+
+            if (m_tween != null)
+            {
+                m_tween.Restart();               
+            }else
+            {
+                
+                m_tween = m_img_loading.rectTransform.DORotate(new Vector3(0, 0, -360), 3, RotateMode.FastBeyond360)
+                    .SetEase(Ease.Linear)
+                    .SetLoops(-1);
+            }
+
             m_content.SetActive(true);
         }
 
         private void StopLoading()
         {
-            DOTween.Kill(m_img_loading, false);
+            m_tween.Pause();
             m_content.SetActive(false);
         }
     }

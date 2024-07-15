@@ -36,7 +36,12 @@ namespace LovePower
 
         //    if (Input.GetKeyDown(KeyCode.A))
         //    {
-        //        GameEntry.UI.ShowAlert("≤‚ ‘≤‚ ‘" + count++);
+        //        GameEntry.Event.FireNow(UILoadingStateEventArgs.EventId, UILoadingStateEventArgs.Create(true));
+        //    }
+
+        //    if (Input.GetKeyDown(KeyCode.D))
+        //    {
+        //        GameEntry.Event.FireNow(UILoadingStateEventArgs.EventId, UILoadingStateEventArgs.Create(false));
         //    }
         //}
 

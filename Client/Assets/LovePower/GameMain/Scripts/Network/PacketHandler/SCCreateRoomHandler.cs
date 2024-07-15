@@ -22,10 +22,12 @@ namespace LovePower
             if (packetImpl.Code == 200)
             {
                 //创建成功
+                GameEntry.UI.ShowAlert("创建房间成功~");
             }
             else
             {
                 //已经有人创建房间啦
+                GameEntry.UI.ShowAlert("你的宝儿已经把房间建好啦~");
             }
         }
     }

@@ -246,7 +246,7 @@ public class ServNet
                     //创建房间
 
                     //先创建角色
-                    var player = handlePlayerMsg.MsgCreatePlayer(conn);
+                    var player = handlePlayerMsg.MsgCreatePlayer(1,conn);
                     //后创建房间
                     handlePlayerMsg.MsgCreateRoom(player, null);
 
@@ -299,7 +299,7 @@ public class ServNet
     //心跳
     public void HeartBeat()
     {
-        //Console.WriteLine ("[主定时器执行]");
+        Console.WriteLine ("[主定时器执行]");
         long timeNow = Sys.GetTimeStamp();
 
         for (int i = 0; i < conns.Length; i++)

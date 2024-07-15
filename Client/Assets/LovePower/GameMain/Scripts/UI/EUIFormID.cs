@@ -11,6 +11,10 @@ namespace LovePower
         CreateOrJoinRoomPanel = 1,
 
         VideoHallPanel = 2,
+
+        LoadingPanel = 3,
+
+        MessageAlertPanel = 4
     }
 }
 

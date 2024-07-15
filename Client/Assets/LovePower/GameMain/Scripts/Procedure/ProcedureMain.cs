@@ -21,6 +21,8 @@ namespace LovePower
         {
             base.OnEnter(procedureOwner);
 
+            GameEntry.UI.OpenUIForm(EUIFormID.LoadingPanel);
+            GameEntry.UI.OpenUIForm(EUIFormID.MessageAlertPanel);
             GameEntry.UI.OpenUIForm(EUIFormID.CreateOrJoinRoomPanel, this);
 
         }

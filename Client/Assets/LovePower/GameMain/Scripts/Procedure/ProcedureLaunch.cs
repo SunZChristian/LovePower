@@ -48,7 +48,7 @@ namespace LovePower
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
 
             // 运行一帧即切换到 Splash 展示流程
-            if(GameEntry.TcpClient.IsNetworkConnected)
+            //if(GameEntry.TcpClient.IsNetworkConnected)
                 ChangeState<ProcedureSplash>(procedureOwner);
         }
 

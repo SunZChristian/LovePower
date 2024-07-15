@@ -59,6 +59,34 @@ namespace LovePower
         {
             uiComponent.CloseUIForm(uiForm.UIForm);
         }
+
+        public static void ShowAlert(this UIComponent uiComponent, string content)
+        {
+            IDataTable<DRUIForm> dtUIForm = GameEntry.DataTable.GetDataTable<DRUIForm>();
+            DRUIForm drUIForm = dtUIForm.GetDataRow((int)EUIFormID.MessageAlertPanel);
+            if (drUIForm == null)
+            {
+                Log.Warning("Can not load UI form '{0}' from data table.", EUIFormID.MessageAlertPanel.ToString());
+            }
+
+            string assetName = AssetUtility.GetUIFormAsset(drUIForm.AssetName);
+            if (!drUIForm.AllowMultiInstance)
+            {
+                if (uiComponent.IsLoadingUIForm(assetName))
+                {
+                    return;
+                }
+
+                if (uiComponent.HasUIForm(assetName))
+                {
+                    var ui = (MessageAlertPanel)(uiComponent.GetUIForm(assetName).Logic);
+                    ui.ShowAlert(content);
+                }else
+                {
+                    uiComponent.OpenUIForm(EUIFormID.MessageAlertPanel,content);
+                }
+            }
+        }
     }
 }
 

@@ -77,7 +77,8 @@ namespace LovePower
 
         public void JoinRoom()
         {
-
+            GameEntry.Event.FireNow(UILoadingStateEventArgs.EventId, UILoadingStateEventArgs.Create(true));
+            m_Channel.Send<CSJoinRoom>(ReferencePool.Acquire<CSJoinRoom>());
         }
 
         private void OnNetworkConnected(object sender, GameEventArgs e)

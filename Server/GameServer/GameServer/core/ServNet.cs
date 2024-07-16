@@ -249,7 +249,16 @@ public class ServNet
                     var player = handlePlayerMsg.MsgCreatePlayer(1,conn);
                     //后创建房间
                     handlePlayerMsg.MsgCreateRoom(player, null);
+                    break;
+                }
+            case 1002:
+                {
+                    //加入房间
 
+                    //先创建角色
+                    var player = handlePlayerMsg.MsgCreatePlayer(2, conn);
+                    //后尝试进入房间
+                    handlePlayerMsg.MsgEnterRoom(player, null);
                     break;
                 }
             default:

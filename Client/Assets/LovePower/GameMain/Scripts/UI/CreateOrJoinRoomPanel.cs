@@ -1,3 +1,4 @@
+﻿using GameFramework.Event;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,7 @@ using UnityGameFramework.Runtime;
 namespace LovePower
 {
     /// <summary>
-    /// UI - ��������뷿��
+    /// UI - 创建或加入房间
     /// </summary>
     public class CreateOrJoinRoomPanel : PanelBase
     {
@@ -20,15 +21,38 @@ namespace LovePower
             m_btnJoinRoom.onClick.AddListener(OnJoinRoom);
         }
 
+        protected override void OnOpen(object userData)
+        {
+            base.OnOpen(userData);
+
+            GameEntry.Event.Subscribe(CreateRoomSuccessArgs.EventId, OnCreateRoomSuccess);
+        }
+
+        protected override void OnClose(bool isShutdown, object userData)
+        {
+            GameEntry.Event.Unsubscribe(CreateRoomSuccessArgs.EventId, OnCreateRoomSuccess);
+
+            base.OnClose(isShutdown, userData);
+        }
+
         private void OnCreateRoom()
         {
-            Log.Info("���󴴽�����");
+            Log.Info("请求创建房间");
             GameEntry.TcpClient.CreateRoom();
         }
 
         private void OnJoinRoom()
         {
-            
+            Log.Info("请求加入房间");
+        }
+
+        private void OnCreateRoomSuccess(object sender, GameEventArgs e)
+        {
+            //收到这个消息就判定创建房间成功了
+
+            //跳转播放界面
+            GameEntry.UI.OpenUIForm(EUIFormID.VideoHallPanel);
+            GameEntry.UI.CloseUIForm(this);
         }
     }
 }

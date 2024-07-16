@@ -23,6 +23,8 @@ namespace LovePower
             {
                 //创建成功
                 GameEntry.UI.ShowAlert("创建房间成功~");
+                //发消息
+                GameEntry.Event.FireNow(CreateRoomSuccessArgs.EventId, CreateRoomSuccessArgs.Create());
             }
             else
             {

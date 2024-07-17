@@ -26,12 +26,13 @@ namespace LovePower
             base.OnOpen(userData);
 
             GameEntry.Event.Subscribe(CreateRoomSuccessArgs.EventId, OnCreateRoomSuccess);
+            GameEntry.Event.Subscribe(JoinRoomSuccessArgs.EventId, OnJoinRoomSuccess);
         }
 
         protected override void OnClose(bool isShutdown, object userData)
         {
             GameEntry.Event.Unsubscribe(CreateRoomSuccessArgs.EventId, OnCreateRoomSuccess);
-
+            GameEntry.Event.Unsubscribe(JoinRoomSuccessArgs.EventId, OnJoinRoomSuccess);
             base.OnClose(isShutdown, userData);
         }
 
@@ -49,7 +50,17 @@ namespace LovePower
         private void OnCreateRoomSuccess(object sender, GameEventArgs e)
         {
             //收到这个消息就判定创建房间成功了
+            PlayerRuntimeData.IsOwner = true;
+            
+            //跳转播放界面
+            GameEntry.UI.OpenUIForm(EUIFormID.VideoHallPanel);
+            GameEntry.UI.CloseUIForm(this);
+        }
 
+        private void OnJoinRoomSuccess(object sender, GameEventArgs e)
+        {
+            //收到这个消息就判定进入房间成功了
+            PlayerRuntimeData.IsOwner = false;
             //跳转播放界面
             GameEntry.UI.OpenUIForm(EUIFormID.VideoHallPanel);
             GameEntry.UI.CloseUIForm(this);

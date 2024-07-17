@@ -58,48 +58,49 @@ public partial class HandlePlayerMsg
 	//加入房间
 	public void MsgEnterRoom(Player player, ProtocolBase protoBase)
 	{
-		////获取数值
-		//int start = 0;
-		//ProtocolBytes protocol = (ProtocolBytes)protoBase;
-		//string protoName = protocol.GetString (start, ref start);
-		//int index = protocol.GetInt (start, ref start);
-		//Console.WriteLine ("[收到MsgEnterRoom]" + player.id + " " + index);
-  //      //
-  //      protocol = new ProtocolBytes ();
-		//protocol.AddString ("EnterRoom");
-		////判断房间是否存在
-		//if (index < 0 || index >= RoomMgr.instance.list.Count) 
-		//{
-		//	Console.WriteLine ("MsgEnterRoom index err " + player.id);
-		//	protocol.AddInt(-1);
-		//	player.Send (protocol);
-		//	return;
-		//}
-		//Room room = RoomMgr.instance.list[index];
-        /*
-		//判断房间是状态
-		if(room.status != Room.Status.Prepare)
-		{
-			Console.WriteLine ("MsgEnterRoom status err " + player.id);
-			protocol.AddInt(-1);
-			player.Send (protocol);
-			return;
-		}*/
+		ProtocolBuf protocol = new ProtocolBuf();
 
-		//添加玩家
-		//if (room.AddPlayer (player))
-		//{
-		//	room.Broadcast(room.GetRoomInfo());
-		//	protocol.AddInt(0);
-		//	player.Send (protocol);
-		//}
-		//else 
-		//{
-		//	Console.WriteLine ("MsgEnterRoom maxPlayer err " + player.id);
-		//	protocol.AddInt(-1);
-		//	player.Send (protocol);
-		//}
-	}
+		SCJoinRoom msg = new SCJoinRoom();
+
+		//判断房间是否存在
+		if (RoomMgr.instance.list.Count <= 0)
+		{
+			//还没有创建房间
+			msg.Code = 1001;
+			msg.Message = "还没有创建房间";
+		}
+		else
+		{
+			//房间存在
+			var room = RoomMgr.instance.list[0];
+			if (room.status == Room.Status.Prepare)
+			{
+				//还在准备
+			}
+			else if (room.status == Room.Status.Playing)
+			{ 
+				//正在播放，同步下目前的时间
+			}
+
+			//添加玩家
+			if (room.AddPlayer(player))
+			{
+				msg.Code = 200;
+				msg.Message = "进入成功";
+
+				//给房主发条消息，有人成功进入了
+				MsgOtherPlayerEnter();
+			}
+			else
+			{
+				msg.Code = 1002;
+				msg.Message = "房间人数已满？这不可能！";
+			}
+        }
+
+		protocol.Serialize<SCJoinRoom>(msg);
+		player.Send(protocol);
+    }
 
     //获取房间信息
     public void MsgGetRoomInfo(Player player, ProtocolBase protoBase)
@@ -141,4 +142,11 @@ public partial class HandlePlayerMsg
 		if(room != null)
 			room.Broadcast(room.GetRoomInfo());
 	}
+
+    public void MsgOtherPlayerEnter()
+    {
+        ProtocolBuf protocol = new ProtocolBuf();
+
+        
+    }
 }

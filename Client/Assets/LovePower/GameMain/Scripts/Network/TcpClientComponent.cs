@@ -81,6 +81,28 @@ namespace LovePower
             m_Channel.Send<CSJoinRoom>(ReferencePool.Acquire<CSJoinRoom>());
         }
 
+        public void PlayVideo()
+        {
+            var msg = ReferencePool.Acquire<CSVideoOperation>();
+            msg.OperationCode = (int)EVideoOperation.Play;
+            m_Channel.Send<CSVideoOperation>(msg);
+        }
+
+        public void PauseVideo()
+        {
+            var msg = ReferencePool.Acquire<CSVideoOperation>();
+            msg.OperationCode = (int)EVideoOperation.Pause;
+            m_Channel.Send<CSVideoOperation>(msg);
+        }
+
+        public void ChangeVideoProgress(float value)
+        {
+            var msg = ReferencePool.Acquire<CSVideoOperation>();
+            msg.OperationCode = (int)EVideoOperation.ChangeProgress;
+            msg.VideoProgressValue = (int)(value * 100);
+            m_Channel.Send<CSVideoOperation>(msg);
+        }
+
         private void OnNetworkConnected(object sender, GameEventArgs e)
         {
             NetworkConnectedEventArgs args = (NetworkConnectedEventArgs)e;

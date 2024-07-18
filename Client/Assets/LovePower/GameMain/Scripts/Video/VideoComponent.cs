@@ -97,6 +97,10 @@ namespace LovePower
             GameEntry.Event.FireNow(this, VideoPlayStateEventArgs.Create(false));
         }
 
+        /// <summary>
+        /// 设置播放进度
+        /// </summary>
+        /// <param name="percentage">0-1的值</param>
         public void SetPlayProgress(float percentage)
         {
             if (m_videoPlayer == null)

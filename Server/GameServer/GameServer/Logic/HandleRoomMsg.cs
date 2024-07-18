@@ -58,6 +58,48 @@ public partial class HandlePlayerMsg
 	//加入房间
 	public void MsgEnterRoom(Player player, ProtocolBase protoBase)
 	{
+		////获取数值
+		//int start = 0;
+		//ProtocolBytes protocol = (ProtocolBytes)protoBase;
+		//string protoName = protocol.GetString (start, ref start);
+		//int index = protocol.GetInt (start, ref start);
+		//Console.WriteLine ("[收到MsgEnterRoom]" + player.id + " " + index);
+		//      //
+		//      protocol = new ProtocolBytes ();
+		//protocol.AddString ("EnterRoom");
+		////判断房间是否存在
+		//if (index < 0 || index >= RoomMgr.instance.list.Count) 
+		//{
+		//	Console.WriteLine ("MsgEnterRoom index err " + player.id);
+		//	protocol.AddInt(-1);
+		//	player.Send (protocol);
+		//	return;
+		//}
+		//Room room = RoomMgr.instance.list[index];
+		/*
+		//判断房间是状态
+		if(room.status != Room.Status.Prepare)
+		{
+			Console.WriteLine ("MsgEnterRoom status err " + player.id);
+			protocol.AddInt(-1);
+			player.Send (protocol);
+			return;
+		}*/
+
+		//添加玩家
+		//if (room.AddPlayer (player))
+		//{
+		//	room.Broadcast(room.GetRoomInfo());
+		//	protocol.AddInt(0);
+		//	player.Send (protocol);
+		//}
+		//else 
+		//{
+		//	Console.WriteLine ("MsgEnterRoom maxPlayer err " + player.id);
+		//	protocol.AddInt(-1);
+		//	player.Send (protocol);
+		//}
+
 		ProtocolBuf protocol = new ProtocolBuf();
 
 		SCJoinRoom msg = new SCJoinRoom();
@@ -88,8 +130,10 @@ public partial class HandlePlayerMsg
 				msg.Code = 200;
 				msg.Message = "进入成功";
 
+				room.AddPlayer(player);
+
 				//给房主发条消息，有人成功进入了
-				MsgOtherPlayerEnter();
+				MsgOtherPlayerEnter();		
 			}
 			else
 			{

@@ -95,6 +95,11 @@ namespace LovePower
             m_Channel.Send<CSVideoOperation>(msg);
         }
 
+        public void GetRoomStatus()
+        { 
+            
+        }
+
         public void ChangeVideoProgress(float value)
         {
             var msg = ReferencePool.Acquire<CSVideoOperation>();

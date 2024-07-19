@@ -261,6 +261,12 @@ public class ServNet
                     handlePlayerMsg.MsgEnterRoom(player, null);
                     break;
                 }
+            case 1004:
+                {
+                    //视频操作
+                    handlePlayerMsg.MsgVideoOperation(packet);
+                    break;
+                }
             default:
                 break;
         }

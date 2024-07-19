@@ -10,6 +10,7 @@ public class Room
     {
         Prepare = 1,
         Playing = 2,
+        Pause = 3
     }
     public Status status = Status.Prepare;
     //玩家
@@ -53,6 +54,8 @@ public class Room
     //后两位 出牌的个数 06(最后得出 6 7 8 9 10 J)
     public string play_Cards = "0";
 
+    public int currentVideoTime;
+
     //添加玩家
     public bool AddPlayer(Player player)
     {
@@ -62,7 +65,7 @@ public class Room
                 return false;
             PlayerTempData tempData = player.tempData;
             tempData.room = this;
-            tempData.team = SwichTeam();
+            //tempData.team = SwichTeam();
             tempData.status = PlayerTempData.Status.Room;
             if (list.Count == 0)
                 tempData.isOwner = true;
@@ -140,6 +143,18 @@ public class Room
         foreach (Player player in list.Values)
         {
             if (player.tempData.isOwner)
+            {
+                player.Send(protocol);
+                return;
+            }
+        }
+    }
+
+    public void BroadcastToOther(ProtocolBase protocol)
+    {
+        foreach (Player player in list.Values)
+        {
+            if (!player.tempData.isOwner)
             {
                 player.Send(protocol);
                 return;
@@ -294,5 +309,11 @@ public class Room
         //	player.data.fail++;
         ////胜负判断
         //UpdateWin();
+    }
+
+    //更新视频时间
+    public void UpdateVideoTime(int time)
+    {
+        currentVideoTime = time;
     }
 }

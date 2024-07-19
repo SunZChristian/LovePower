@@ -30,6 +30,7 @@ public class RoomMgr
 			list.Add(room);
 			room.AddPlayer(player);
             resultCode = 200;
+			room.UpdateVideoTime(0);
 		}
 	}
 

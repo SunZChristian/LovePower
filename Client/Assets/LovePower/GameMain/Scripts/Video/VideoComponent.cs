@@ -105,7 +105,7 @@ namespace LovePower
         {
             if (m_videoPlayer == null)
                 return;
-
+            
             m_videoPlayer.time = m_videoPlayer.length * percentage;
         }
 

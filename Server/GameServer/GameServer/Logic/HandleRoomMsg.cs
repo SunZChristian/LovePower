@@ -58,48 +58,6 @@ public partial class HandlePlayerMsg
 	//加入房间
 	public void MsgEnterRoom(Player player, ProtocolBase protoBase)
 	{
-		////获取数值
-		//int start = 0;
-		//ProtocolBytes protocol = (ProtocolBytes)protoBase;
-		//string protoName = protocol.GetString (start, ref start);
-		//int index = protocol.GetInt (start, ref start);
-		//Console.WriteLine ("[收到MsgEnterRoom]" + player.id + " " + index);
-		//      //
-		//      protocol = new ProtocolBytes ();
-		//protocol.AddString ("EnterRoom");
-		////判断房间是否存在
-		//if (index < 0 || index >= RoomMgr.instance.list.Count) 
-		//{
-		//	Console.WriteLine ("MsgEnterRoom index err " + player.id);
-		//	protocol.AddInt(-1);
-		//	player.Send (protocol);
-		//	return;
-		//}
-		//Room room = RoomMgr.instance.list[index];
-		/*
-		//判断房间是状态
-		if(room.status != Room.Status.Prepare)
-		{
-			Console.WriteLine ("MsgEnterRoom status err " + player.id);
-			protocol.AddInt(-1);
-			player.Send (protocol);
-			return;
-		}*/
-
-		//添加玩家
-		//if (room.AddPlayer (player))
-		//{
-		//	room.Broadcast(room.GetRoomInfo());
-		//	protocol.AddInt(0);
-		//	player.Send (protocol);
-		//}
-		//else 
-		//{
-		//	Console.WriteLine ("MsgEnterRoom maxPlayer err " + player.id);
-		//	protocol.AddInt(-1);
-		//	player.Send (protocol);
-		//}
-
 		ProtocolBuf protocol = new ProtocolBuf();
 
 		SCJoinRoom msg = new SCJoinRoom();
@@ -115,17 +73,27 @@ public partial class HandlePlayerMsg
 		{
 			//房间存在
 			var room = RoomMgr.instance.list[0];
-			if (room.status == Room.Status.Prepare)
-			{
-				//还在准备
-			}
-			else if (room.status == Room.Status.Playing)
-			{ 
-				//正在播放，同步下目前的时间
-			}
+			//var operationCode = EVideoOperation.Play;
+			//if (room.status == Room.Status.Prepare)
+			//{
+			//	//还在准备
+			//	operationCode = EVideoOperation.Pause;
+			//}
+			//else if (room.status == Room.Status.Playing)
+			//{
+			//	//正在播放，同步下目前的时间
+			//	operationCode = EVideoOperation.Play;
 
-			//添加玩家
-			if (room.AddPlayer(player))
+			//}
+   //         else if (room.status == Room.Status.Pause)
+   //         {
+			//	//正在暂停，同步下目前的时间
+			//	operationCode = EVideoOperation.Pause;
+   //         }
+
+
+            //添加玩家
+            if (room.AddPlayer(player))
 			{
 				msg.Code = 200;
 				msg.Message = "进入成功";
@@ -133,7 +101,7 @@ public partial class HandlePlayerMsg
 				room.AddPlayer(player);
 
 				//给房主发条消息，有人成功进入了
-				MsgOtherPlayerEnter();		
+				//MsgOtherPlayerEnter(room);
 			}
 			else
 			{
@@ -186,11 +154,41 @@ public partial class HandlePlayerMsg
 		if(room != null)
 			room.Broadcast(room.GetRoomInfo());
 	}
-
-    public void MsgOtherPlayerEnter()
+	
+	//有其他玩家进来了
+    public void MsgOtherPlayerEnter(Room room)
     {
         ProtocolBuf protocol = new ProtocolBuf();
+		SCOtherPlayerEnterRoom msg = new SCOtherPlayerEnterRoom();
+		protocol.Serialize<SCOtherPlayerEnterRoom>(msg);
+		room.Broadcast(protocol);
 
-        
+	}
+
+	public void MsgVideoOperation(CSPacketBase packet)
+	{
+        if (RoomMgr.instance.list.Count <= 0)
+        {
+            //还没有创建房间
+            //这里直接返回
+			return;
+        }
+
+		var csPacket = (CSVideoOperation)packet;
+		var room = RoomMgr.instance.list[0];
+		SyncVideoStatus(room, csPacket.OperationCode, csPacket.VideoProgressValue,false);
+	}
+
+	private void SyncVideoStatus(Room room, int operationCode, int progressValue,bool isForce)
+	{
+        ProtocolBuf protocol = new ProtocolBuf();
+        SCVideoOperation msg = new SCVideoOperation();
+        msg.OperationCode = operationCode;
+        msg.VideoProgressValue = progressValue;//这里都是*100的整数
+		msg.IsForce = isForce;
+        room.UpdateVideoTime(progressValue);
+
+        protocol.Serialize<SCVideoOperation>(msg);
+        room.BroadcastToOther(protocol);
     }
 }

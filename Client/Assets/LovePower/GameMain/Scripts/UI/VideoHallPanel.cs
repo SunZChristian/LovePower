@@ -35,6 +35,10 @@ namespace LovePower
             m_btn_selectfile.onClick.AddListener(OnBtnSelectFile);
 
 
+            var canInteractable = PlayerRuntimeData.IsOwner;
+            m_slider_videoProgress.interactable = canInteractable;
+            m_btn_play.interactable = canInteractable;
+            m_btn_pause.interactable = canInteractable;            
         }
 
         private void Start()
@@ -43,6 +47,11 @@ namespace LovePower
 
             GameEntry.Event.Subscribe(VideoPlayStateEventArgs.EventId, EventVideoPlayStateChaneg);
             GameEntry.Video.OnPrepareCompleted.AddListener(OnVideoPrepareCompleted);
+
+            if (!PlayerRuntimeData.IsOwner)
+            { 
+                GameEntry.TcpClient.
+            }
         }
 
         private void OnDestroy()
@@ -75,16 +84,20 @@ namespace LovePower
         {
             if (isPlayingWhenPrePointDown)
                 GameEntry.Video.Play();
+
+            GameEntry.TcpClient.ChangeVideoProgress(m_slider_videoProgress.value);
         }
 
         private void OnBtnPlay()
         {
             GameEntry.Video.Play();
+            GameEntry.TcpClient.PlayVideo();
         }
 
         private void OnBtnPause()
         {
             GameEntry.Video.Pause();
+            GameEntry.TcpClient.PauseVideo();
         }
 
         private void OnBtnSelectFile()

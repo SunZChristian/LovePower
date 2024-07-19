@@ -13,8 +13,8 @@ namespace LovePower
         {
             SCVideoOperation msg = (SCVideoOperation)packet;
             if (msg.Code == 200)
-            {                 
-                if(!PlayerRuntimeData.IsOwner)
+            {
+                if (!PlayerRuntimeData.IsOwner)
                 {
                     switch (msg.OperationCode)
                     {
@@ -22,19 +22,26 @@ namespace LovePower
                             {
                                 //播放
                                 GameEntry.Video.Play();
+                                if (msg.IsForce)
+                                {
+                                    SetPlayProgress(msg.VideoProgressValue);
+                                }
                                 break;
                             }
                         case 2:
                             {
                                 //暂停
                                 GameEntry.Video.Pause();
+                                if (msg.IsForce)
+                                {
+                                    SetPlayProgress(msg.VideoProgressValue);
+                                }
                                 break;
                             }
                         case 3:
                             {
                                 //修改进度
-                                var value = msg.VideoProgressValue * 1f / 100f;
-                                GameEntry.Video.SetPlayProgress(value);
+                                SetPlayProgress(msg.VideoProgressValue);
                                 break;
                             }
                         default:
@@ -42,6 +49,12 @@ namespace LovePower
                     }
                 }
             }
+        }
+
+        private void SetPlayProgress(int serverPlayProgress)
+        {
+            var value = serverPlayProgress * 1f / 100f;
+            GameEntry.Video.SetPlayProgress(value);
         }
     }
 }

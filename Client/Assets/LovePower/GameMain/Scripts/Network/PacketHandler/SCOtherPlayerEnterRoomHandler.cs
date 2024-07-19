@@ -11,7 +11,7 @@ namespace LovePower
 
         public override void Handle(object sender, Packet packet)
         {
-            
+            GameEntry.UI.ShowAlert("欢迎宝宝进入房间~");
         }
     }
 }

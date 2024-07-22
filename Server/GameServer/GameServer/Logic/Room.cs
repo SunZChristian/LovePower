@@ -54,7 +54,7 @@ public class Room
     //后两位 出牌的个数 06(最后得出 6 7 8 9 10 J)
     public string play_Cards = "0";
 
-    public int currentVideoTime;
+    public int CurrentVideoTime { get; private set; }
 
     //添加玩家
     public bool AddPlayer(Player player)
@@ -314,6 +314,18 @@ public class Room
     //更新视频时间
     public void UpdateVideoTime(int time)
     {
-        currentVideoTime = time;
+        CurrentVideoTime = time;
+    }
+
+    public void UpdateVideoStatus(EVideoOperation eVideoOperation)
+    {
+        if (eVideoOperation == EVideoOperation.Play)
+        {
+            status = Status.Playing;
+        }
+        else if (eVideoOperation == EVideoOperation.Pause)
+        {
+            status = Status.Pause;
+        }
     }
 }

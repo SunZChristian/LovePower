@@ -1,18 +1,20 @@
+using ProtoBuf;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CSGetRoomStatus : MonoBehaviour
+namespace LovePower
 {
-    // Start is called before the first frame update
-    void Start()
+    [Serializable, ProtoContract(Name = @"CSGetRoomStatus")]
+    public class CSGetRoomStatus : CSPacketBase
     {
-        
+        public override int Id => PacketID.CSGetRoomStatus;
+
+        public override void Clear()
+        {
+            
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

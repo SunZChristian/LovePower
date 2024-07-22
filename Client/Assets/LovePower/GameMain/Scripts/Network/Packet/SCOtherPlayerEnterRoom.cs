@@ -6,7 +6,7 @@ namespace LovePower
 {
     public class SCOtherPlayerEnterRoom : SCPacketBase
     {
-        public override int Id => 1003;
+        public override int Id => PacketID.SCOtherPlayerEnterRoom;
 
         public override void Clear()
         {

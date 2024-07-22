@@ -21,7 +21,7 @@ namespace LovePower
         {
             get
             {
-                return 1;
+                return PacketID.CSHeartBeat;
             }
         }
 

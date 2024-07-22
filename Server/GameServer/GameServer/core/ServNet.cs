@@ -172,13 +172,17 @@ public class ServNet
         Stream stream = new MemoryStream(conn.readBuff);
         var header = proto.DeserializePacketHeader(stream);
 
+        if (header.Id == 1001)
+        {
+            Console.WriteLine("收到了1001");
+        }
 
         conn.msgLength = header.PacketLength; //BitConverter.ToInt32(conn.lenBytes, 0);
         if (conn.buffCount < conn.msgLength + sizeof(Int32) * 2)
         {
             return;
         }
-        stream.Position = 8;
+        stream.Position = 0;
         var cspacketBase = proto.DeserializePacket(header, stream);
         //处理消息
         //ProtocolBase protocol =  proto.Decode(conn.readBuff, sizeof(Int32), conn.msgLength);
@@ -244,7 +248,7 @@ public class ServNet
             case 1001:
                 {
                     //创建房间
-
+                    Console.WriteLine("请求创建房间");
                     //先创建角色
                     var player = handlePlayerMsg.MsgCreatePlayer(1,conn);
                     //后创建房间
@@ -265,6 +269,12 @@ public class ServNet
                 {
                     //视频操作
                     handlePlayerMsg.MsgVideoOperation(packet);
+                    break;
+                }
+            case 1005:
+                {
+                    //获取当前房间状态
+                    handlePlayerMsg.MsgGetRoomStatus(conn);
                     break;
                 }
             default:
@@ -314,7 +324,7 @@ public class ServNet
     //心跳
     public void HeartBeat()
     {
-        Console.WriteLine ("[主定时器执行]");
+        //Console.WriteLine ("[主定时器执行]");
         long timeNow = Sys.GetTimeStamp();
 
         for (int i = 0; i < conns.Length; i++)

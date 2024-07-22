@@ -7,7 +7,7 @@ namespace LovePower
 {
     public class SCVideoOperationHandler : PacketHandlerBase
     {
-        public override int Id => 1004;
+        public override int Id => PacketID.SCVideoOperation;
 
         public override void Handle(object sender, Packet packet)
         {

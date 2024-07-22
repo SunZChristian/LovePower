@@ -49,8 +49,8 @@ namespace LovePower
             GameEntry.Video.OnPrepareCompleted.AddListener(OnVideoPrepareCompleted);
 
             if (!PlayerRuntimeData.IsOwner)
-            { 
-                GameEntry.TcpClient.
+            {
+                GameEntry.TcpClient.GetRoomStatus();
             }
         }
 

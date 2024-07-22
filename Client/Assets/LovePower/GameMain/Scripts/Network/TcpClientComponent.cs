@@ -61,7 +61,6 @@ namespace LovePower
                 if (m_heatbeatTimer <= 0)
                 {
                     m_NetworkChannelHelper.SendHeartBeat();
-
                     m_heatbeatTimer = m_heatbeatInterval;
 
                     Log.Info("发送一次心跳");
@@ -72,13 +71,13 @@ namespace LovePower
         public void CreateRoom()
         {
             GameEntry.Event.FireNow(UILoadingStateEventArgs.EventId, UILoadingStateEventArgs.Create(true));
-            m_Channel.Send<CSCreateRoom>(ReferencePool.Acquire<CSCreateRoom>());
+            m_Channel.Send(ReferencePool.Acquire<CSCreateRoom>());
         }
 
         public void JoinRoom()
         {
             GameEntry.Event.FireNow(UILoadingStateEventArgs.EventId, UILoadingStateEventArgs.Create(true));
-            m_Channel.Send<CSJoinRoom>(ReferencePool.Acquire<CSJoinRoom>());
+            m_Channel.Send(ReferencePool.Acquire<CSJoinRoom>());
         }
 
         public void PlayVideo()
@@ -96,8 +95,9 @@ namespace LovePower
         }
 
         public void GetRoomStatus()
-        { 
-            
+        {
+            var msg = ReferencePool.Acquire<CSGetRoomStatus>();
+            m_Channel.Send<CSGetRoomStatus>(msg);
         }
 
         public void ChangeVideoProgress(float value)

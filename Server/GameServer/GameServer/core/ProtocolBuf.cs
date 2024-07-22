@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.Json;
 
 public class ProtocolBuf : ProtocolBase
 {
@@ -103,6 +104,12 @@ public class ProtocolBuf : ProtocolBase
     {
         //m_CachedStream.WriteTo(destination);
 
+        //using (MemoryStream ms = new MemoryStream())
+        //{
+        //    Serializer.SerializeWithLengthPrefix(ms, packet, PrefixStyle.Fixed32);
+        //    var length = ms.ToArray().Length;
+        //}
+
         using (MemoryStream destination = new MemoryStream())
         {
             PacketBase packetImpl = packet as PacketBase;
@@ -126,6 +133,7 @@ public class ProtocolBuf : ProtocolBase
 
             SCPacketHeader packetHeader = new SCPacketHeader();
             packetHeader.Id = packet.Id;
+
             packetHeader.PacketLength = (int)destination.Length - 8;
 
             destination.Position = 0;

@@ -7,7 +7,7 @@ namespace LovePower
 {
     public class SCOtherPlayerEnterRoomHandler : PacketHandlerBase
     {
-        public override int Id => 1003;
+        public override int Id => PacketID.SCOtherPlayerEnterRoom;
 
         public override void Handle(object sender, Packet packet)
         {

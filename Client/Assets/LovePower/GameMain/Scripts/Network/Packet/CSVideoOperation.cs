@@ -22,7 +22,7 @@ namespace LovePower
         [ProtoMember(2)]
         public int VideoProgressValue;
 
-        public override int Id => 1004;
+        public override int Id => PacketID.CSVideoOperation;
 
         public override void Clear()
         {

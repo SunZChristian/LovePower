@@ -9,7 +9,7 @@ namespace LovePower
         {
             get
             {
-                return 1001;
+                return PacketID.SCCreateRoom;
             }
         }
 

@@ -1,4 +1,4 @@
-using ProtoBuf;
+﻿using ProtoBuf;
 using System;
 
 [Serializable, ProtoContract(Name = @"SCCreateRoom")]
@@ -7,8 +7,8 @@ public class SCCreateRoom : SCPacketBase
     [ProtoMember(1)]
     public int Code;
 
-    [ProtoMember(2)]
-    public string Message;
+    //[ProtoMember(2)]
+    //public string Message;
 
     public SCCreateRoom()
     {
@@ -18,7 +18,7 @@ public class SCCreateRoom : SCPacketBase
     {
         get
         {
-            return 1001;
+            return 1002;
         }
     }
 

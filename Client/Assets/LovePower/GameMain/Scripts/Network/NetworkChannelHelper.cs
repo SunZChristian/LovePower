@@ -143,8 +143,8 @@ namespace LovePower
             Serializer.SerializeWithLengthPrefix(destination, packet, PrefixStyle.Fixed32);
 
             ReferencePool.Release((IReference)packet);
-
             CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
+            
             packetHeader.Id = packet.Id;
             packetHeader.PacketLength = (int)destination.Length - 8;
 
@@ -165,11 +165,6 @@ namespace LovePower
         /// <returns>反序列化后的消息包头。</returns>
         public IPacketHeader DeserializePacketHeader(Stream source, out object customErrorData)
         {
-            //using (BinaryReader reader = new BinaryReader(source))
-            //{
-            //    byte[] data = reader.ReadBytes((int)source.Length);
-            //}
-
             // 注意：此函数并不在主线程调用！
             customErrorData = null;
             return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);
@@ -188,6 +183,7 @@ namespace LovePower
             // 注意：此函数并不在主线程调用！
             customErrorData = null;
 
+            source.Position = 0;
             SCPacketHeader scPacketHeader = packetHeader as SCPacketHeader;
             if (scPacketHeader == null)
             {

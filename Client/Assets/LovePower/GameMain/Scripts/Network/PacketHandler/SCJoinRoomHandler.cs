@@ -7,7 +7,7 @@ namespace LovePower
 {
     public class SCJoinRoomHandler : PacketHandlerBase
     {
-        public override int Id => 1002;
+        public override int Id => PacketID.SCJoinRoom;
 
         public override void Handle(object sender, Packet packet)
         {

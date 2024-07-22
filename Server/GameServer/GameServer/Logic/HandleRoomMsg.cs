@@ -35,7 +35,7 @@ public partial class HandlePlayerMsg
         {
             //已经在房间中
             msg.Code = 101;
-            msg.Message = "已经在房间中了";
+            //msg.Message = "已经在房间中了";
         }
         else 
         {
@@ -43,15 +43,15 @@ public partial class HandlePlayerMsg
             if (resultCode == 200)
             {
                 msg.Code = 200;
-                msg.Message = "创建成功";
+                //msg.Message = "创建成功";
             }
             else if(resultCode == 101)
             {
                 msg.Code = 101;
-                msg.Message = "房间已存在,创建失败";
+                //msg.Message = "房间已存在,创建失败";
             }
         }
-        protocol.Serialize<SCCreateRoom>(msg);
+        protocol.Serialize(msg);
         player.Send(protocol);
     }
 
@@ -187,8 +187,39 @@ public partial class HandlePlayerMsg
         msg.VideoProgressValue = progressValue;//这里都是*100的整数
 		msg.IsForce = isForce;
         room.UpdateVideoTime(progressValue);
-
+		room.UpdateVideoStatus((EVideoOperation)operationCode);
         protocol.Serialize<SCVideoOperation>(msg);
         room.BroadcastToOther(protocol);
     }
+
+    public void MsgGetRoomStatus(Conn conn)
+    {
+        ProtocolBuf protocol = new ProtocolBuf();
+		SCGetRoomStatus msg = new SCGetRoomStatus();
+		if (RoomMgr.instance.list.Count <= 0)
+		{
+			msg.Code = 1001;
+			msg.Message = "房间未创建";
+		}
+		else
+		{
+			msg.Code = 200;
+			msg.Message = "获取房间状态";
+			var room = RoomMgr.instance.list[0];
+
+			if (room.status == Room.Status.Playing)
+			{
+				msg.OperationCode = (int)EVideoOperation.Play;
+			}
+			else
+			{
+				msg.OperationCode = (int)EVideoOperation.Pause;
+			}
+
+			msg.VideoProgress = room.CurrentVideoTime;
+		}
+
+		protocol.Serialize<SCGetRoomStatus>(msg);
+		conn.Send(protocol);
+	}
 }

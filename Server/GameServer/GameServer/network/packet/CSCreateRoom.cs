@@ -1,7 +1,10 @@
+﻿// Copyright © 2013-2021 Jiang Yin. All rights reserved.
+// Homepage: https://gameframework.cn/
+// Feedback: mailto:ellan@gameframework.cn
+//------------------------------------------------------------
+
 using ProtoBuf;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 
 [Serializable, ProtoContract(Name = @"CSCreateRoom")]
 public class CSCreateRoom : CSPacketBase
@@ -17,6 +20,5 @@ public class CSCreateRoom : CSPacketBase
             return 1001;
         }
     }
-
 
 }

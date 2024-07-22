@@ -1,4 +1,4 @@
-using ProtoBuf;
+﻿using ProtoBuf;
 using System;
 
 namespace LovePower
@@ -9,8 +9,8 @@ namespace LovePower
         [ProtoMember(1)]
         public int Code;
 
-        [ProtoMember(2)]
-        public string Message;
+        //[ProtoMember(2)]
+        //public string Message;
 
         public SCCreateRoom()
         {
@@ -20,7 +20,7 @@ namespace LovePower
         {
             get
             {
-                return 1001;
+                return PacketID.SCCreateRoom;
             }
         }
 

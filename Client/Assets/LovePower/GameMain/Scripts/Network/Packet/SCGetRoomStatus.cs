@@ -1,18 +1,32 @@
+using ProtoBuf;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SCGetRoomStatus : MonoBehaviour
+namespace LovePower
 {
-    // Start is called before the first frame update
-    void Start()
+    [Serializable, ProtoContract(Name = @"SCGetRoomStatus")]
+    public class SCGetRoomStatus : SCPacketBase
     {
-        
+        [ProtoMember(1)]
+        public int Code;
+
+        [ProtoMember(2)]
+        public string Message;
+
+        [ProtoMember(3)]
+        public int OperationCode;
+
+        [ProtoMember(4)]
+        public int VideoProgress;
+
+        public override int Id => PacketID.SCGetRoomStatus;
+
+        public override void Clear()
+        {
+            
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

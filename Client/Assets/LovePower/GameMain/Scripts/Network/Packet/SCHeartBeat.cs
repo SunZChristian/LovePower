@@ -21,7 +21,7 @@ namespace LovePower
         {
             get
             {
-                return 2;
+                return PacketID.SCHeartBeat;
             }
         }
 

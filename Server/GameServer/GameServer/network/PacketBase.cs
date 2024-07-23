@@ -7,7 +7,7 @@
 
 using ProtoBuf;
 
-public abstract class PacketBase 
+public abstract class PacketBase : Packet
 {
 
     public PacketBase()
@@ -15,10 +15,6 @@ public abstract class PacketBase
        
     }
 
-    public abstract int Id
-    {
-        get;
-    }
 
     public abstract PacketType PacketType
     {

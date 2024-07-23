@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 public partial class HandlePlayerMsg
 {
@@ -10,26 +11,10 @@ public partial class HandlePlayerMsg
 	}
 
 	//创建房间
-	public void MsgCreateRoom(Player player, ProtocolBase protoBase)
+	public void MsgCreateRoom(Conn conn,Player player, ProtocolBase protoBase)
 	{
-        //ProtocolBytes protocol = new ProtocolBytes ();
-        //protocol.AddString ("CreateRoom");
-        ////条件检测
-        //if (player.tempData.status != PlayerTempData.Status.None) 
-        //{
-        //	Console.WriteLine ("MsgCreateRoom Fail " + player.id);
-        //	protocol.AddInt(-1);
-        //	player.Send (protocol);
-        //	return;
-        //}
-        //RoomMgr.instance.CreateRoom (player);
-        //protocol.AddInt(0);
-        //player.Send (protocol);
-        //Console.WriteLine ("MsgCreateRoom Ok " + player.id);
-
         ProtocolBuf protocol = new ProtocolBuf();
-        
-        SCCreateRoom msg = new SCCreateRoom();
+        var msg = new SCCreateRoom();
 
         if (player.tempData.status != PlayerTempData.Status.None)
         {
@@ -51,8 +36,17 @@ public partial class HandlePlayerMsg
                 //msg.Message = "房间已存在,创建失败";
             }
         }
-        protocol.Serialize(msg);
-        player.Send(protocol);
+        protocol.Serialize<SCCreateRoom>(msg);
+
+		//var bytes = protocol.Encode();
+
+		//using (var memoryStream = new MemoryStream(bytes))
+		//{
+		//    var header = protocol.DeserializePacketHeader2(memoryStream);
+		//    var body = protocol.DeserializePacket2(header, memoryStream);
+		//}
+
+		conn.Send(protocol);
     }
 
 	//加入房间
@@ -111,6 +105,7 @@ public partial class HandlePlayerMsg
         }
 
 		protocol.Serialize<SCJoinRoom>(msg);
+
 		player.Send(protocol);
     }
 

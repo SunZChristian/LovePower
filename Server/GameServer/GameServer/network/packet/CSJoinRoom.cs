@@ -6,7 +6,7 @@ using System.Collections.Generic;
 [Serializable, ProtoContract(Name = @"CSJoinRoom")]
 public class CSJoinRoom : CSPacketBase
 {
-    public override int Id => 1002;
+    public override int Id => PacketID.CSJoinRoom;
 
 }
 

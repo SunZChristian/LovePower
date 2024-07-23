@@ -6,7 +6,7 @@
 //------------------------------------------------------------
 
 
-public abstract class PacketHeaderBase
+public abstract class PacketHeaderBase: IPacketHeader
 {
     public abstract PacketType PacketType
     {
@@ -32,6 +32,8 @@ public abstract class PacketHeaderBase
             return PacketType != PacketType.Undefined && Id > 0 && PacketLength >= 0;
         }
     }
+
+
 
     public void Clear()
     {

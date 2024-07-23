@@ -8,7 +8,7 @@ using ProtoBuf;
 
 namespace LovePower
 {
-    [ProtoContract]
+    //[ProtoContract]
     public sealed class CSPacketHeader : PacketHeaderBase
     {
         [ProtoMember(1)]

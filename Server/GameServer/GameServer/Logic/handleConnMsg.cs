@@ -8,10 +8,13 @@ public partial class HandleConnMsg
 	public void MsgHeatBeat(Conn conn)
 	{
 		conn.lastTickTime = Sys.GetTimeStamp();
-		Console.WriteLine("[更新心跳时间]" + conn.GetAdress());
+		//Console.WriteLine("[更新心跳时间]" + conn.GetAdress());
 
 		ProtocolBuf protocol = new ProtocolBuf();
-		protocol.Serialize<SCHeartBeat>(new SCHeartBeat());
+
+		var msg = new SCHeartBeat();
+		//msg.Code = 200;
+		protocol.Serialize<SCHeartBeat>(msg);
 		conn.Send(protocol);
 	}
 

@@ -9,9 +9,6 @@ namespace LovePower
         [ProtoMember(1)]
         public int Code;
 
-        //[ProtoMember(2)]
-        //public string Message;
-
         public SCCreateRoom()
         {
         }

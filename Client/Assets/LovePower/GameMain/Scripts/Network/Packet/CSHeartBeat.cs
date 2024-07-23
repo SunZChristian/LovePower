@@ -10,7 +10,7 @@ using System;
 
 namespace LovePower
 {
-    [Serializable, ProtoContract(Name = @"CSHeartBeat")]
+    //[Serializable, ProtoContract(Name = @"CSHeartBeat")]
     public class CSHeartBeat : CSPacketBase
     {
         public CSHeartBeat()

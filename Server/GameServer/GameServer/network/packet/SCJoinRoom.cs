@@ -12,7 +12,7 @@ public class SCJoinRoom : SCPacketBase
     [ProtoMember(2)]
     public string Message;
 
-    public override int Id => 1002;
+    public override int Id => PacketID.SCJoinRoom;
 
 }
 

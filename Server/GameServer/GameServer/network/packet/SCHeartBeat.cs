@@ -9,9 +9,13 @@ using ProtoBuf;
 using System;
 
 
-[Serializable, ProtoContract(Name = @"SCHeartBeat")]
+//[Serializable, ProtoContract(Name = @"SCHeartBeat")]
 public class SCHeartBeat : SCPacketBase
 {
+
+    //[ProtoMember(1)]
+    //public int Code;
+
     public SCHeartBeat()
     {
     }
@@ -20,7 +24,7 @@ public class SCHeartBeat : SCPacketBase
     {
         get
         {
-            return 2;
+            return PacketID.SCHeartBeat;
         }
     }
 }

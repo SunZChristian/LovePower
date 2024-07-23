@@ -45,6 +45,7 @@ namespace LovePower
         private void OnJoinRoom()
         {
             Log.Info("请求加入房间");
+            GameEntry.TcpClient.JoinRoom();
         }
 
         private void OnCreateRoomSuccess(object sender, GameEventArgs e)

@@ -18,6 +18,6 @@ public class SCGetRoomStatus : SCPacketBase
     [ProtoMember(4)]
     public int VideoProgress;
 
-    public override int Id => 1005;
+    public override int Id => PacketID.SCGetRoomStatus;
 
 }

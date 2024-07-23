@@ -18,7 +18,7 @@ public class SCCreateRoom : SCPacketBase
     {
         get
         {
-            return 1002;
+            return PacketID.SCCreateRoom;
         }
     }
 

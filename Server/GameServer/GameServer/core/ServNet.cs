@@ -146,7 +146,7 @@ public class ServNet
                     return;
                 }
                 conn.buffCount += count;
-                ProcessData (conn);
+                ProcessData(conn);
                 //继续接收	
                 conn.socket.BeginReceive(conn.readBuff,
                                          conn.buffCount, conn.BuffRemain(),
@@ -163,12 +163,12 @@ public class ServNet
     private void ProcessData(Conn conn)
     {
         //小于长度字节
-        if (conn.buffCount < sizeof(Int32) * 2)
+        if (conn.buffCount < 8)
         {
             return;
         }
         //消息长度
-        Array.Copy(conn.readBuff, conn.lenBytes, sizeof(Int32) * 2);
+        //Array.Copy(conn.readBuff, conn.lenBytes, 8);
         Stream stream = new MemoryStream(conn.readBuff);
         var header = proto.DeserializePacketHeader(stream);
 
@@ -189,8 +189,8 @@ public class ServNet
 
         HandleMsg(conn, header, cspacketBase);
         //清除已处理的消息
-        int count = conn.buffCount - conn.msgLength - sizeof(Int32)*2;
-        Array.Copy(conn.readBuff, sizeof(Int32)*2 + conn.msgLength, conn.readBuff, 0, count);
+        int count = conn.buffCount - conn.msgLength - sizeof(Int32) * 2;
+        Array.Copy(conn.readBuff, sizeof(Int32) * 2 + conn.msgLength, conn.readBuff, 0, count);
         conn.buffCount = count;
         if (conn.buffCount > 0)
         {
@@ -241,21 +241,21 @@ public class ServNet
                 {
                     count++;
                     //心跳
-                    Console.WriteLine("收到心跳"+count);
+                    Console.WriteLine("收到心跳" + count);
                     handleConnMsg.MsgHeatBeat(conn);
                     break;
                 }
-            case 1001:
+            case PacketID.CSCreateRoom:
                 {
                     //创建房间
                     Console.WriteLine("请求创建房间");
                     //先创建角色
-                    var player = handlePlayerMsg.MsgCreatePlayer(1,conn);
+                    var player = handlePlayerMsg.MsgCreatePlayer(1, conn);
                     //后创建房间
-                    handlePlayerMsg.MsgCreateRoom(player, null);
+                    handlePlayerMsg.MsgCreateRoom(conn, player, null);
                     break;
                 }
-            case 1002:
+            case PacketID.CSJoinRoom:
                 {
                     //加入房间
 
@@ -265,13 +265,13 @@ public class ServNet
                     handlePlayerMsg.MsgEnterRoom(player, null);
                     break;
                 }
-            case 1004:
+            case PacketID.CSVideoOperation:
                 {
                     //视频操作
                     handlePlayerMsg.MsgVideoOperation(packet);
                     break;
                 }
-            case 1005:
+            case PacketID.CSGetRoomStatus:
                 {
                     //获取当前房间状态
                     handlePlayerMsg.MsgGetRoomStatus(conn);
@@ -290,8 +290,9 @@ public class ServNet
         //byte[] sendbuff = length.Concat(bytes).ToArray();
         try
         {
-            conn.socket.BeginSend(bytes, 0, bytes.Length, SocketFlags.None, (ar) =>{
-                Console.WriteLine("发送到客户端的消息状态：" + ar.IsCompleted);
+            conn.socket.BeginSend(bytes, 0, bytes.Length, SocketFlags.None, (ar) =>
+            {
+                //Console.WriteLine("发送到客户端的消息状态：" + ar.IsCompleted);
             }, null);
         }
         catch (Exception e)

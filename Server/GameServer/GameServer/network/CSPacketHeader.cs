@@ -7,7 +7,7 @@
 using ProtoBuf;
 using System;
 
-[Serializable, ProtoContract(Name = @"CSPacketHeader")]
+[ProtoContract]
 public sealed class CSPacketHeader : PacketHeaderBase
 {
     [ProtoMember(1)]

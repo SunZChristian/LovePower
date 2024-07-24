@@ -51,7 +51,22 @@ public class ProtocolBuf : ProtocolBase
     /// <returns></returns>
     public CSPacketHeader DeserializePacketHeader(Stream source)
     {
+        CSPacketHeader header = new CSPacketHeader();
+        header.Id = 1;
+        header.PacketLength = 6;
+        var len = GetSerializedLengthWithPrefix(header);
+        Console.WriteLine("客户端发来的包头长度 ：" + len);
+
         return Serializer.DeserializeWithLengthPrefix<CSPacketHeader>(source, PrefixStyle.Fixed32);    
+    }
+
+    public long GetSerializedLengthWithPrefix<T>(T obj)
+    {
+        using (var memoryStream = new MemoryStream())
+        {
+            Serializer.SerializeWithLengthPrefix(memoryStream, obj, PrefixStyle.Fixed32);
+            return memoryStream.Length;
+        }
     }
 
     /// <summary>
@@ -124,7 +139,7 @@ public class ProtocolBuf : ProtocolBase
                 var typeInfo = packetType.GetTypeInfo();
                 var constructor = typeInfo.GetConstructor(Type.EmptyTypes);
 
-                source.Position = 8;
+                source.Position = 9;
                 packet = (SCPacketBase)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(source, constructor.Invoke(null), packetType, PrefixStyle.Fixed32, 0);
 
                 //packet = Serializer.DeserializeWithLengthPrefix<SCPacketBase>(source, PrefixStyle.Fixed32);
@@ -177,7 +192,8 @@ public class ProtocolBuf : ProtocolBase
         packetHeader.Id = packet.Id;
         packetHeader.PacketLength = (int)m_CachedStream.Length - 8;
         m_CachedStream.Position = 0;
-        Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
+        //Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
+        RuntimeTypeModel.Default.SerializeWithLengthPrefix(m_CachedStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);
 
         waitToSendBytes = m_CachedStream.ToArray();
 

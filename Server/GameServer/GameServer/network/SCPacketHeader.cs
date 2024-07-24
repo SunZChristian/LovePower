@@ -7,7 +7,7 @@
 using ProtoBuf;
 using System;
 
-[Serializable, ProtoContract(Name = @"SCPacketHeader")]
+[ProtoContract]
 public sealed class SCPacketHeader : PacketHeaderBase
 {
 

@@ -60,7 +60,7 @@ namespace LovePower
                 m_heatbeatTimer -= Time.deltaTime;
                 if (m_heatbeatTimer <= 0)
                 {
-                    //m_NetworkChannelHelper.SendHeartBeat();                    
+                    m_NetworkChannelHelper.SendHeartBeat();                    
                     m_heatbeatTimer = m_heatbeatInterval;
 
                     Log.Info("发送一次心跳");
@@ -116,7 +116,7 @@ namespace LovePower
                 IsNetworkConnected = true;
                 Log.Info("连接服务器成功~");
 
-                CreateRoom();
+                //CreateRoom();
             }
         }
     }

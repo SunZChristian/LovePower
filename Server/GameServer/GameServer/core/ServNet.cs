@@ -172,17 +172,24 @@ public class ServNet
         Stream stream = new MemoryStream(conn.readBuff);
         var header = proto.DeserializePacketHeader(stream);
 
-        if (header.Id == 1001)
-        {
-            Console.WriteLine("收到了1001");
-        }
+        //if (header.Id == 1001)
+        //{
+        Console.WriteLine("收到了1001,刚刚反序列化包头，当前Stream的Position位置为：" + stream.Position);
+        //}
 
         conn.msgLength = header.PacketLength; //BitConverter.ToInt32(conn.lenBytes, 0);
         if (conn.buffCount < conn.msgLength + sizeof(Int32) * 2)
         {
             return;
         }
-        stream.Position = 0;
+        //stream.Position = 9;
+        if (header.Id == 1001)
+        {
+            Console.WriteLine("收到了1001,当前Stream的Position位置为：" + stream.Position);
+            //stream.Position = 8;
+        }
+
+        stream.Seek(8, SeekOrigin.Current);        
         var cspacketBase = proto.DeserializePacket(header, stream);
         //处理消息
         //ProtocolBase protocol =  proto.Decode(conn.readBuff, sizeof(Int32), conn.msgLength);

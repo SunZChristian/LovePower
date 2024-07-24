@@ -159,12 +159,15 @@ namespace LovePower
             Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
 
 
-
             CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
             packetHeader.Id = packet.Id;
             packetHeader.PacketLength = (int)m_CachedStream.Length - PacketHeaderLength;
+
+            var len = GetSerializedLengthWithPrefix(packetHeader);
+            Log.Info("包头长度：" + len);
+
             m_CachedStream.Position = 0;
-            Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
+            RuntimeTypeModel.Default.SerializeWithLengthPrefix(m_CachedStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);
 
             ReferencePool.Release(packetHeader);
             ReferencePool.Release((IReference)packet);
@@ -183,15 +186,21 @@ namespace LovePower
         /// <returns>反序列化后的消息包头。</returns>
         public IPacketHeader DeserializePacketHeader(Stream source, out object customErrorData)
         {
-            SCPacketHeader header = new SCPacketHeader();
-            header.Id = 2;
-            header.PacketLength = 4;
+            //SCPacketHeader header = new SCPacketHeader();
+            //header.Id = 2;
+            //header.PacketLength = 4;
 
-            var len = GetSerializedLengthWithPrefix(header);
+            //var len = GetSerializedLengthWithPrefix(header);
+            //Log.Info("服务器返回的包头长度：" + len);
 
             // 注意：此函数并不在主线程调用！
+
+            Log.Info("流的长度：" + source.Length);
+
             customErrorData = null;
-            return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);
+            var obj = ReferencePool.Acquire<SCPacketHeader>();
+            source.Seek(0, SeekOrigin.Begin);
+            return (IPacketHeader)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(source, ReferencePool.Acquire<SCPacketHeader>(), obj.GetType(), PrefixStyle.Fixed32, 0);
 
         }
 
@@ -241,7 +250,7 @@ namespace LovePower
         {
             using (var memoryStream = new MemoryStream())
             {
-                Serializer.SerializeWithLengthPrefix(memoryStream, obj, PrefixStyle.Base128);
+                Serializer.SerializeWithLengthPrefix(memoryStream, obj, PrefixStyle.Fixed32);
                 return memoryStream.Length;
             }
         }

@@ -9,7 +9,7 @@ using System;
 
 namespace LovePower
 {
-    [Serializable, ProtoContract(Name = @"SCPacketHeader")]
+    [ProtoContract]
     public sealed class SCPacketHeader : PacketHeaderBase
     {
         [ProtoMember(1)]

@@ -19,7 +19,7 @@ public class CSHeartBeat : CSPacketBase
     {
         get
         {
-            return PacketID.SCHeartBeat;
+            return PacketID.CSHeartBeat;
         }
     }
 

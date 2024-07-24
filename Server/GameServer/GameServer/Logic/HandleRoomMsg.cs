@@ -38,15 +38,15 @@ public partial class HandlePlayerMsg
         }
         protocol.Serialize<SCCreateRoom>(msg);
 
-        //var bytes = protocol.Encode();
+        var bytes = protocol.Encode();
 
-        //using (var memoryStream = new MemoryStream(bytes))
-        //{
-        //    var header = protocol.DeserializePacketHeader2(memoryStream);
-        //    var body = protocol.DeserializePacket2(header, memoryStream);
-        //}
+        using (var memoryStream = new MemoryStream(bytes))
+        {
+            var header = protocol.DeserializePacketHeader2(memoryStream);
+            var body = protocol.DeserializePacket2(header, memoryStream);
+        }
 
-        conn.Send(protocol);
+        //conn.Send(protocol);
     }
 
 	//加入房间

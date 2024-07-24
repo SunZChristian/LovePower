@@ -31,7 +31,7 @@ namespace LovePower
         {
             get
             {
-                return sizeof(int);
+                return sizeof(int) * 2;
             }
         }
 
@@ -102,7 +102,7 @@ namespace LovePower
         {
             m_NetworkChannel.Socket.ReceiveBufferSize = 1024 * 64;
             m_NetworkChannel.Socket.SendBufferSize = 1024 * 64;
-           
+
         }
 
         /// <summary>
@@ -137,9 +137,8 @@ namespace LovePower
                 return false;
             }
 
-            m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
-            m_CachedStream.Position = 0L;
-
+            //m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
+            //m_CachedStream.Position = 0L;
             //destination.Position = 8L;
             //Serializer.SerializeWithLengthPrefix(destination, packet, PrefixStyle.Fixed32);
 
@@ -155,13 +154,19 @@ namespace LovePower
 
             //m_CachedStream.WriteTo(destination);
 
+            m_CachedStream.Seek(PacketHeaderLength, SeekOrigin.Begin);
+            m_CachedStream.SetLength(PacketHeaderLength);
+            Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
+
+
 
             CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
             packetHeader.Id = packet.Id;
-            Serializer.Serialize(m_CachedStream, packetHeader);
-            ReferencePool.Release(packetHeader);
+            packetHeader.PacketLength = (int)m_CachedStream.Length - PacketHeaderLength;
+            m_CachedStream.Position = 0;
+            Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
 
-            Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
+            ReferencePool.Release(packetHeader);
             ReferencePool.Release((IReference)packet);
 
             m_CachedStream.WriteTo(destination);
@@ -178,9 +183,14 @@ namespace LovePower
         /// <returns>反序列化后的消息包头。</returns>
         public IPacketHeader DeserializePacketHeader(Stream source, out object customErrorData)
         {
+            SCPacketHeader header = new SCPacketHeader();
+            header.Id = 2;
+            header.PacketLength = 4;
+
+            var len = GetSerializedLengthWithPrefix(header);
+
             // 注意：此函数并不在主线程调用！
             customErrorData = null;
-            source.Position = 0;
             return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);
 
         }
@@ -226,6 +236,16 @@ namespace LovePower
             ReferencePool.Release(scPacketHeader);
             return packet;
         }
+
+        public long GetSerializedLengthWithPrefix<T>(T obj)
+        {
+            using (var memoryStream = new MemoryStream())
+            {
+                Serializer.SerializeWithLengthPrefix(memoryStream, obj, PrefixStyle.Base128);
+                return memoryStream.Length;
+            }
+        }
+
 
         private Type GetServerToClientPacketType(int id)
         {

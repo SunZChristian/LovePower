@@ -10,12 +10,9 @@ using System;
 
 namespace LovePower
 {
-    //[Serializable, ProtoContract(Name = @"SCHeartBeat")]
+    [Serializable, ProtoContract(Name = @"SCHeartBeat")]
     public class SCHeartBeat : SCPacketBase
     {
-        //[ProtoMember(1)]
-        //public int Code;
-
         public SCHeartBeat()
         {
         }

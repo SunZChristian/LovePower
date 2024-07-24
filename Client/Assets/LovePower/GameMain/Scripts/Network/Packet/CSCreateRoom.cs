@@ -27,6 +27,7 @@ namespace LovePower
 
         public override void Clear()
         {
+
         }
     }
 }

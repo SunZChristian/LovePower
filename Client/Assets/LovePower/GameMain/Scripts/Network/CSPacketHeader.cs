@@ -5,10 +5,11 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 using ProtoBuf;
+using System;
 
 namespace LovePower
 {
-    //[ProtoContract]
+    [Serializable, ProtoContract(Name = @"CSPacketHeader")]
     public sealed class CSPacketHeader : PacketHeaderBase
     {
         [ProtoMember(1)]

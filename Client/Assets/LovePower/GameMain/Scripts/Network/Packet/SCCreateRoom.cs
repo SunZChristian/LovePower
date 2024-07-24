@@ -6,8 +6,8 @@ namespace LovePower
     [Serializable, ProtoContract(Name = @"SCCreateRoom")]
     public class SCCreateRoom : SCPacketBase
     {
-        [ProtoMember(1)]
-        public int Code;
+        //[ProtoMember(1)]
+        //public int Code;
 
         public SCCreateRoom()
         {

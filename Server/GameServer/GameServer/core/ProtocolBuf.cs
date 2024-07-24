@@ -13,6 +13,8 @@ public class ProtocolBuf : ProtocolBase
     private byte[] waitToSendBytes;
 
     private static Dictionary<int, Type> m_ServerToClientPacketTypes = new Dictionary<int, Type>();
+
+    private static MemoryStream m_CachedStream = new MemoryStream(1024 * 8);
     public void Initialize()
     {
         Type packetBaseType = typeof(CSPacketBase);
@@ -154,44 +156,30 @@ public class ProtocolBuf : ProtocolBase
 
     public bool Serialize<T>(T packet) where T : Packet
     {
-        //m_CachedStream.WriteTo(destination);
-
-        //using (MemoryStream ms = new MemoryStream())
-        //{
-        //    Serializer.SerializeWithLengthPrefix(ms, packet, PrefixStyle.Fixed32);
-        //    var length = ms.ToArray().Length;
-        //}
-
-        using (MemoryStream destination = new MemoryStream())
+       PacketBase packetImpl = packet as PacketBase;
+        if (packetImpl == null)
         {
-            PacketBase packetImpl = packet as PacketBase;
-            if (packetImpl == null)
-            {
-                Console.WriteLine("Packet is invalid.");
-                return false;
-            }
-
-            if (packetImpl.PacketType != PacketType.ServerToClient)
-            {
-                Console.WriteLine("Send packet invalid.");
-                return false;
-            }
-
-            //m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
-            //m_CachedStream.Position = 0L;
-
-            destination.Position = 8L;
-            Serializer.SerializeWithLengthPrefix(destination, packet, PrefixStyle.Fixed32);
-            //RuntimeTypeModel.Default.SerializeWithLengthPrefix(destination, packet, packet.GetType(), PrefixStyle.Fixed32, 0);
-
-            SCPacketHeader packetHeader = new SCPacketHeader();
-            packetHeader.Id = packet.Id;
-            packetHeader.PacketLength = (int)destination.Length - 8;
-            destination.Position = 0;
-            Serializer.SerializeWithLengthPrefix(destination, packetHeader, PrefixStyle.Fixed32);
-
-            waitToSendBytes = destination.ToArray();
+            Console.WriteLine("Packet is invalid.");
+            return false;
         }
+
+        if (packetImpl.PacketType != PacketType.ServerToClient)
+        {
+            Console.WriteLine("Send packet invalid.");
+            return false;
+        }
+
+        m_CachedStream.Seek(8, SeekOrigin.Begin);
+        m_CachedStream.SetLength(8);
+        Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
+
+        SCPacketHeader packetHeader = new SCPacketHeader();
+        packetHeader.Id = packet.Id;
+        packetHeader.PacketLength = (int)m_CachedStream.Length - 8;
+        m_CachedStream.Position = 0;
+        Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
+
+        waitToSendBytes = m_CachedStream.ToArray();
 
         return true;
     }

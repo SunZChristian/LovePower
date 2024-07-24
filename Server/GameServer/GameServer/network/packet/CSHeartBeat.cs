@@ -8,7 +8,7 @@
 using ProtoBuf;
 using System;
 
-//[Serializable, ProtoContract(Name = @"CSHeartBeat")]
+[Serializable, ProtoContract(Name = @"CSHeartBeat")]
 public class CSHeartBeat : CSPacketBase
 {
     public CSHeartBeat()
@@ -19,7 +19,7 @@ public class CSHeartBeat : CSPacketBase
     {
         get
         {
-            return PacketID.CSHeartBeat;
+            return PacketID.SCHeartBeat;
         }
     }
 

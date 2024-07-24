@@ -19,7 +19,7 @@ public partial class HandlePlayerMsg
         if (player.tempData.status != PlayerTempData.Status.None)
         {
             //已经在房间中
-            msg.Code = 101;
+            //msg.Code = 101;
             //msg.Message = "已经在房间中了";
         }
         else 
@@ -27,26 +27,26 @@ public partial class HandlePlayerMsg
             RoomMgr.instance.CreateRoom(player,out var resultCode);
             if (resultCode == 200)
             {
-                msg.Code = 200;
+                //msg.Code = 200;
                 //msg.Message = "创建成功";
             }
             else if(resultCode == 101)
             {
-                msg.Code = 101;
+                //msg.Code = 101;
                 //msg.Message = "房间已存在,创建失败";
             }
         }
         protocol.Serialize<SCCreateRoom>(msg);
 
-		//var bytes = protocol.Encode();
+        //var bytes = protocol.Encode();
 
-		//using (var memoryStream = new MemoryStream(bytes))
-		//{
-		//    var header = protocol.DeserializePacketHeader2(memoryStream);
-		//    var body = protocol.DeserializePacket2(header, memoryStream);
-		//}
+        //using (var memoryStream = new MemoryStream(bytes))
+        //{
+        //    var header = protocol.DeserializePacketHeader2(memoryStream);
+        //    var body = protocol.DeserializePacket2(header, memoryStream);
+        //}
 
-		conn.Send(protocol);
+        conn.Send(protocol);
     }
 
 	//加入房间

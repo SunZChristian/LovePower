@@ -31,7 +31,7 @@ namespace LovePower
         {
             get
             {
-                return sizeof(int) * 2;
+                return 8;
             }
         }
 
@@ -168,6 +168,7 @@ namespace LovePower
 
             m_CachedStream.Position = 0;
             RuntimeTypeModel.Default.SerializeWithLengthPrefix(m_CachedStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);
+            //Serializer.SerializeWithLengthPrefix(destination, packetHeader, PrefixStyle.Fixed32);
 
             ReferencePool.Release(packetHeader);
             ReferencePool.Release((IReference)packet);
@@ -186,21 +187,22 @@ namespace LovePower
         /// <returns>反序列化后的消息包头。</returns>
         public IPacketHeader DeserializePacketHeader(Stream source, out object customErrorData)
         {
-            //SCPacketHeader header = new SCPacketHeader();
-            //header.Id = 2;
-            //header.PacketLength = 4;
+            SCPacketHeader header = new SCPacketHeader();
+            header.Id = 5;
+            header.PacketLength = 6;
 
-            //var len = GetSerializedLengthWithPrefix(header);
-            //Log.Info("服务器返回的包头长度：" + len);
+            var len = GetSerializedLengthWithPrefix(header);
+            Log.Info("服务器返回的包头长度：" + len);
 
             // 注意：此函数并不在主线程调用！
 
-            Log.Info("流的长度：" + source.Length);
+            Log.Info("收到服务器的包头流的长度：" + source.Length);
 
             customErrorData = null;
             var obj = ReferencePool.Acquire<SCPacketHeader>();
             source.Seek(0, SeekOrigin.Begin);
-            return (IPacketHeader)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(source, ReferencePool.Acquire<SCPacketHeader>(), obj.GetType(), PrefixStyle.Fixed32, 0);
+            return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);
+            //return (IPacketHeader)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(source, ReferencePool.Acquire<SCPacketHeader>(), obj.GetType(), PrefixStyle.Fixed32, 0);
 
         }
 
@@ -230,7 +232,8 @@ namespace LovePower
                 if (packetType != null)
                 {
                     source.Position = 0;
-                    packet = (Packet)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(source, ReferencePool.Acquire(packetType), packetType, PrefixStyle.Fixed32, 0);
+                    packet = (Packet)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(
+                        source, ReferencePool.Acquire(packetType), packetType, PrefixStyle.Fixed32, 0);
                 }
                 else
                 {

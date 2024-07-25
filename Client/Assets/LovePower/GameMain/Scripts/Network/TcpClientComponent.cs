@@ -1,4 +1,4 @@
-using GameFramework;
+ï»¿using GameFramework;
 using GameFramework.Event;
 using System.Collections;
 using System.Collections.Generic;
@@ -41,16 +41,16 @@ namespace LovePower
 
         public void InitNetwork()
         {
-            // ´´½¨ÆµµÀ
+            // åˆ›å»ºé¢‘é“
             m_NetworkChannelHelper = new NetworkChannelHelper();
            
             m_Channel = GameEntry.Network.CreateNetworkChannel("LovePower", GameFramework.Network.ServiceType.Tcp, m_NetworkChannelHelper);
             //m_NetworkChannelHelper.Initialize(m_Channel);
 
-            // Á¬½Ó·şÎñÆ÷
+            // è¿æ¥æœåŠ¡å™¨
             m_Channel.Connect(IPAddress.Parse("127.0.0.1"), 1234);
 
-            Log.Info("¿ªÊ¼Á¬½Ó·şÎñÆ÷");
+            Log.Info("å¼€å§‹è¿æ¥æœåŠ¡å™¨");
         }
 
         private void Update()
@@ -63,7 +63,7 @@ namespace LovePower
                     m_NetworkChannelHelper.SendHeartBeat();                    
                     m_heatbeatTimer = m_heatbeatInterval;
 
-                    Log.Info("·¢ËÍÒ»´ÎĞÄÌø");
+                    Log.Info("å‘é€ä¸€æ¬¡å¿ƒè·³");
                 }
             }
         }
@@ -114,7 +114,7 @@ namespace LovePower
             if (args!= null&& args.NetworkChannel.Connected)
             {
                 IsNetworkConnected = true;
-                Log.Info("Á¬½Ó·şÎñÆ÷³É¹¦~");
+                Log.Info("è¿æ¥æœåŠ¡å™¨æˆåŠŸ~");
 
                 //CreateRoom();
             }

@@ -91,7 +91,6 @@ public class ProtocolBuf : ProtocolBase
             {
                 var typeInfo = packetType.GetTypeInfo();
                 var constructor = typeInfo.GetConstructor(Type.EmptyTypes);
-
                 packet = (CSPacketBase)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(source, constructor.Invoke(null), packetType, PrefixStyle.Fixed32, 0);
             }
             else

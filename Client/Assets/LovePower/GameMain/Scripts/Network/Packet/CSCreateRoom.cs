@@ -21,7 +21,7 @@ namespace LovePower
         {
             get
             {
-                return PacketID.CSCreateRoom;
+                return 1001;
             }
         }
 

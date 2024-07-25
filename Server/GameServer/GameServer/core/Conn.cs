@@ -10,7 +10,7 @@ using System.Threading;
 public class Conn
 {
     //常量
-    public const int BUFFER_SIZE = 1024;
+    public const int BUFFER_SIZE = 1024*1024;
     //Socket
     public Socket socket;
     //是否使用
@@ -20,7 +20,7 @@ public class Conn
     public int buffCount = 0;
     //沾包分包
     public byte[] lenBytes = new byte[sizeof(UInt32) * 2];
-    public Int32 msgLength = 0;
+    public int msgLength = 0;
     //心跳时间
     public long lastTickTime = long.MinValue;
     //对应的Player

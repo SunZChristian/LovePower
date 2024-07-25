@@ -178,7 +178,7 @@ public class ServNet
         //}
 
         conn.msgLength = header.PacketLength; //BitConverter.ToInt32(conn.lenBytes, 0);
-        if (conn.buffCount < conn.msgLength + sizeof(Int32) * 2)
+        if (conn.buffCount < conn.msgLength + 8)
         {
             return;
         }
@@ -205,40 +205,6 @@ public class ServNet
         }
     }
 
-    private void HandleMsg(Conn conn, ProtocolBase protoBase)
-    {
-        string name = protoBase.GetName();
-        string methodName = "Msg" + name;
-        //连接协议分发
-        if (conn.player == null || name == "HeatBeat" || name == "Logout")
-        {
-            MethodInfo mm = handleConnMsg.GetType().GetMethod(methodName);
-            if (mm == null)
-            {
-                string str = "[警告]HandleMsg没有处理连接方法 ";
-                Console.WriteLine(str + methodName);
-                return;
-            }
-            Object[] obj = new object[] { conn, protoBase };
-            Console.WriteLine("[处理链接消息]" + conn.GetAdress() + " :" + name);
-            mm.Invoke(handleConnMsg, obj);
-        }
-        //角色协议分发
-        else
-        {
-            MethodInfo mm = handlePlayerMsg.GetType().GetMethod(methodName);
-            if (mm == null)
-            {
-                string str = "[警告]HandleMsg没有处理玩家方法 ";
-                Console.WriteLine(str + methodName);
-                return;
-            }
-            Object[] obj = new object[] { conn.player, protoBase };
-            Console.WriteLine("[处理玩家消息]" + conn.player.id + " :" + name);
-            mm.Invoke(handlePlayerMsg, obj);
-        }
-    }
-
     private int count = 0;
     private void HandleMsg(Conn conn, CSPacketHeader packetHeader, CSPacketBase packet)
     {
@@ -252,7 +218,7 @@ public class ServNet
                     handleConnMsg.MsgHeatBeat(conn);
                     break;
                 }
-            case PacketID.CSCreateRoom:
+            case 1001:
                 {
                     //创建房间
                     Console.WriteLine("请求创建房间");

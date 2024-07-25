@@ -43,6 +43,7 @@ public partial class HandlePlayerMsg
         using (var memoryStream = new MemoryStream(bytes))
         {
             var header = protocol.DeserializePacketHeader2(memoryStream);
+			memoryStream.Seek(8, SeekOrigin.Begin);
             var body = protocol.DeserializePacket2(header, memoryStream);
         }
 

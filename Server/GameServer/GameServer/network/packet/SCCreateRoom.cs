@@ -4,8 +4,8 @@ using System;
 [Serializable, ProtoContract(Name = @"SCCreateRoom")]
 public class SCCreateRoom : SCPacketBase
 {
-    //[ProtoMember(1)]
-    //public int Code;
+    [ProtoMember(1, DataFormat = DataFormat.FixedSize)]
+    public int Code;
 
     //[ProtoMember(2)]
     //public string Message;

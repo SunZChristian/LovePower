@@ -23,7 +23,7 @@ namespace LovePower
         public override void Handle(object sender, Packet packet)
         {
             SCHeartBeat packetImpl = (SCHeartBeat)packet;
-            Log.Info("Receive packet '{0}'.", packetImpl.Id.ToString());
+            Log.Info("小心脏扑通扑通~");
         }
     }
 }

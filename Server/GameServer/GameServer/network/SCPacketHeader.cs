@@ -11,10 +11,10 @@ using System;
 public sealed class SCPacketHeader : PacketHeaderBase
 {
 
-    [ProtoMember(1)]
+    [ProtoMember(1, DataFormat = DataFormat.FixedSize)]
     public override int Id { get; set; }
 
-    [ProtoMember(2)]
+    [ProtoMember(2, DataFormat = DataFormat.FixedSize)]
     public override int PacketLength { get; set; }
 
     public override PacketType PacketType

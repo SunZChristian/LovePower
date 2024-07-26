@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,19 +7,19 @@ using UnityGameFramework.Runtime;
 namespace LovePower
 {
     /// <summary>
-    /// uGUI ½çÃæ×é¸¨ÖúÆ÷¡£
+    /// uGUI ç•Œé¢ç»„è¾…åŠ©å™¨ã€‚
     /// </summary>
     public class UGuiGroupHelper : UIGroupHelperBase
     {
-        public const int DepthFactor = 10000;
+        public const int DepthFactor = 100;
 
         private int m_Depth = 0;
         private Canvas m_CachedCanvas = null;
 
         /// <summary>
-        /// ÉèÖÃ½çÃæ×éÉî¶È¡£
+        /// è®¾ç½®ç•Œé¢ç»„æ·±åº¦ã€‚
         /// </summary>
-        /// <param name="depth">½çÃæ×éÉî¶È¡£</param>
+        /// <param name="depth">ç•Œé¢ç»„æ·±åº¦ã€‚</param>
         public override void SetDepth(int depth)
         {
             m_Depth = depth;

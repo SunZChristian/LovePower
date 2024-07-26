@@ -17,7 +17,7 @@ public class CSCreateRoom : CSPacketBase
     {
         get
         {
-            return 1001;
+            return PacketID.CSCreateRoom;
         }
     }
 

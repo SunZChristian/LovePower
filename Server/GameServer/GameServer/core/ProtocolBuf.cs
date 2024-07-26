@@ -183,13 +183,13 @@ public class ProtocolBuf : ProtocolBase
             return false;
         }
 
-        m_CachedStream.Seek(8, SeekOrigin.Begin);
-        m_CachedStream.SetLength(8);
+        m_CachedStream.Seek(14, SeekOrigin.Begin);
+        m_CachedStream.SetLength(14);
         Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
 
         SCPacketHeader packetHeader = new SCPacketHeader();
         packetHeader.Id = packet.Id;
-        packetHeader.PacketLength = (int)m_CachedStream.Length - 8;
+        packetHeader.PacketLength = (int)m_CachedStream.Length - 14;
         m_CachedStream.Position = 0;
         //Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
         RuntimeTypeModel.Default.SerializeWithLengthPrefix(m_CachedStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);

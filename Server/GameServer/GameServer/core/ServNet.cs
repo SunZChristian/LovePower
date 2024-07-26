@@ -163,7 +163,7 @@ public class ServNet
     private void ProcessData(Conn conn)
     {
         //小于长度字节
-        if (conn.buffCount < 8)
+        if (conn.buffCount < 14)
         {
             return;
         }
@@ -172,32 +172,19 @@ public class ServNet
         Stream stream = new MemoryStream(conn.readBuff);
         var header = proto.DeserializePacketHeader(stream);
 
-        //if (header.Id == 1001)
-        //{
-        Console.WriteLine("收到了1001,刚刚反序列化包头，当前Stream的Position位置为：" + stream.Position);
-        //}
-
         conn.msgLength = header.PacketLength; //BitConverter.ToInt32(conn.lenBytes, 0);
-        if (conn.buffCount < conn.msgLength + 8)
+        if (conn.buffCount < conn.msgLength + 14)
         {
             return;
         }
-        //stream.Position = 9;
-        if (header.Id == 1001)
-        {
-            Console.WriteLine("收到了1001,当前Stream的Position位置为：" + stream.Position);
-            //stream.Position = 8;
-        }
 
-        stream.Seek(8, SeekOrigin.Current);        
+        stream.Seek(14, SeekOrigin.Current);        
         var cspacketBase = proto.DeserializePacket(header, stream);
-        //处理消息
-        //ProtocolBase protocol =  proto.Decode(conn.readBuff, sizeof(Int32), conn.msgLength);
 
         HandleMsg(conn, header, cspacketBase);
         //清除已处理的消息
-        int count = conn.buffCount - conn.msgLength - sizeof(Int32) * 2;
-        Array.Copy(conn.readBuff, sizeof(Int32) * 2 + conn.msgLength, conn.readBuff, 0, count);
+        int count = conn.buffCount - conn.msgLength - 14;
+        Array.Copy(conn.readBuff, 14 + conn.msgLength, conn.readBuff, 0, count);
         conn.buffCount = count;
         if (conn.buffCount > 0)
         {

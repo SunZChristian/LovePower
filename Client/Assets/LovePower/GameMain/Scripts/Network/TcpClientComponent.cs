@@ -43,7 +43,7 @@ namespace LovePower
         {
             // 创建频道
             m_NetworkChannelHelper = new NetworkChannelHelper();
-           
+
             m_Channel = GameEntry.Network.CreateNetworkChannel("LovePower", GameFramework.Network.ServiceType.Tcp, m_NetworkChannelHelper);
             //m_NetworkChannelHelper.Initialize(m_Channel);
 
@@ -60,7 +60,7 @@ namespace LovePower
                 m_heatbeatTimer -= Time.deltaTime;
                 if (m_heatbeatTimer <= 0)
                 {
-                    m_NetworkChannelHelper.SendHeartBeat();                    
+                    m_NetworkChannelHelper.SendHeartBeat();
                     m_heatbeatTimer = m_heatbeatInterval;
 
                     Log.Info("发送一次心跳");
@@ -98,6 +98,14 @@ namespace LovePower
         {
             var msg = ReferencePool.Acquire<CSGetRoomStatus>();
             m_Channel.Send<CSGetRoomStatus>(msg);
+        }
+
+        public void SyncRoomStatus(int operationCode,int progress)
+        {
+            var msg = ReferencePool.Acquire<CSSyncRoomStatus>();
+            msg.OperationCode = operationCode;
+            msg.VideoProgress = progress;
+            m_Channel.Send<CSSyncRoomStatus>(msg);
         }
 
         public void ChangeVideoProgress(float value)

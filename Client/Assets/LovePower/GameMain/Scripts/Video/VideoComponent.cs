@@ -5,6 +5,7 @@ using UnityEngine.Video;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityGameFramework.Runtime;
+using System.IO;
 
 namespace LovePower
 {
@@ -70,6 +71,23 @@ namespace LovePower
 
         }
 
+        private float timer = 0;
+
+        private void Update()
+        {
+            if (GameEntry.TcpClient.IsNetworkConnected)
+            {
+                timer -= Time.deltaTime;
+                if (timer <= 0)
+                {
+                    timer = 1;
+                    var operationCode = IsPlaying ? EVideoOperation.Play : EVideoOperation.Pause;
+                    var progress = (int)(CurentTime / TotalTime * 10000);
+                    GameEntry.TcpClient.SyncRoomStatus((int)operationCode, progress);
+                }
+            }
+        }
+
         #region 公有方法
         public void Play()
         {
@@ -79,6 +97,11 @@ namespace LovePower
                 return;
             if (m_videoPlayer.isPlaying)
                 return;
+            if (!IsVideoFile(m_videoPlayer.url))
+            {
+                GameEntry.UI.ShowAlert("这个貌似不是视频文件哦~");
+                return;
+            }
 
             m_videoPlayer.Play();
             GameEntry.Event.FireNow(this, VideoPlayStateEventArgs.Create(true));
@@ -132,6 +155,29 @@ namespace LovePower
             Log.Info("视频准备完成：" + source.url);
             OnPrepareCompleted?.Invoke();
         }
+
+
+        private bool IsVideoFile(string filePath)
+        {
+            if (string.IsNullOrEmpty(filePath))
+            {
+                return false;
+            }
+
+            string extension = Path.GetExtension(filePath).ToLower();
+            string[] videoExtensions = { ".mp4", ".avi", ".mov", ".wmv", ".flv", ".mkv", ".webm" };
+
+            foreach (string videoExtension in videoExtensions)
+            {
+                if (extension == videoExtension)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
         #endregion
     }
 }

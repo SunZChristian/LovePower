@@ -23,7 +23,7 @@ namespace LovePower
                     GameEntry.Video.Pause();
                 }
 
-                var value = msg.VideoProgress * 1f / 100f;
+                var value = msg.VideoProgress * 1f / 10000f;
                 GameEntry.Video.SetPlayProgress(value);
             }
         }

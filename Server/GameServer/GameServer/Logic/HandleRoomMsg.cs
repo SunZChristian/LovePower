@@ -171,7 +171,7 @@ public partial class HandlePlayerMsg
         ProtocolBuf protocol = new ProtocolBuf();
         SCVideoOperation msg = new SCVideoOperation();
         msg.OperationCode = operationCode;
-        msg.VideoProgressValue = progressValue;//这里都是*100的整数
+        msg.VideoProgressValue = progressValue;//这里都是*10000的整数
 		msg.IsForce = isForce;
         room.UpdateVideoTime(progressValue);
 		room.UpdateVideoStatus((EVideoOperation)operationCode);
@@ -208,5 +208,22 @@ public partial class HandlePlayerMsg
 
 		protocol.Serialize<SCGetRoomStatus>(msg);
 		conn.Send(protocol);
+	}
+
+	public void MsgSyncRoomStatus(Conn conn, CSPacketBase packet)
+	{
+		if (RoomMgr.instance.list.Count <= 0)
+		{
+			//还没有创建房间
+			//这里直接返回
+			return;
+		}
+
+		var room = RoomMgr.instance.list[0];
+		var clientMsg = (CSSyncRoomStatus)packet;
+		room.UpdateVideoStatus((EVideoOperation)clientMsg.OperationCode);
+		room.UpdateVideoTime(clientMsg.VideoProgress);
+
+		Console.WriteLine("当前房间状态{0}，进度{1}", room.status, room.CurrentVideoTime);
 	}
 }

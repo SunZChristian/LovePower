@@ -51,11 +51,11 @@ public class ProtocolBuf : ProtocolBase
     /// <returns></returns>
     public CSPacketHeader DeserializePacketHeader(Stream source)
     {
-        CSPacketHeader header = new CSPacketHeader();
-        header.Id = 1;
-        header.PacketLength = 6;
-        var len = GetSerializedLengthWithPrefix(header);
-        Console.WriteLine("客户端发来的包头长度 ：" + len);
+        //CSPacketHeader header = new CSPacketHeader();
+        //header.Id = 1;
+        //header.PacketLength = 6;
+        //var len = GetSerializedLengthWithPrefix(header);
+        //Console.WriteLine("客户端发来的包头长度 ：" + len);
 
         return Serializer.DeserializeWithLengthPrefix<CSPacketHeader>(source, PrefixStyle.Fixed32);    
     }

@@ -53,7 +53,7 @@ namespace LovePower
 
         private void SetPlayProgress(int serverPlayProgress)
         {
-            var value = serverPlayProgress * 1f / 100f;
+            var value = serverPlayProgress * 1f / 10000f;
             GameEntry.Video.SetPlayProgress(value);
         }
     }

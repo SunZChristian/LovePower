@@ -67,6 +67,7 @@ public class Conn
         Console.WriteLine("[断开链接]" + GetAdress());
         socket.Shutdown(SocketShutdown.Both);
         socket.Close();
+        readBuff = new byte[BUFFER_SIZE];
         isUse = false;
     }
 

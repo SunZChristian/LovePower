@@ -22,4 +22,6 @@ public class PacketID
 
     public const int CSGetRoomStatus = 1009;
     public const int SCGetRoomStatus = 1010;
+
+    public const int CSSyncRoomStatus = 1011;
 }

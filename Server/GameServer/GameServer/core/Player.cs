@@ -14,6 +14,7 @@ public class Player
 	{
 		this.id = id;
 		this.conn = conn;
+		this.conn.player = this;
 		tempData = new PlayerTempData();
 	}
 	

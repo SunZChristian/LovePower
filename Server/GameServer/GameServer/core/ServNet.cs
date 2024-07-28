@@ -237,6 +237,12 @@ public class ServNet
                     handlePlayerMsg.MsgGetRoomStatus(conn);
                     break;
                 }
+            case PacketID.CSSyncRoomStatus:
+                {
+                    //同步房间状态
+                    handlePlayerMsg.MsgSyncRoomStatus(conn, packet);
+                    break;
+                }
             default:
                 break;
         }

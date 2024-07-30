@@ -137,23 +137,6 @@ namespace LovePower
                 return false;
             }
 
-            //m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
-            //m_CachedStream.Position = 0L;
-            //destination.Position = 8L;
-            //Serializer.SerializeWithLengthPrefix(destination, packet, PrefixStyle.Fixed32);
-
-
-            //CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();          
-            //packetHeader.Id = packet.Id;
-            //packetHeader.PacketLength = (int)destination.Length - 8;
-            //destination.Position = 0L;
-            //Serializer.SerializeWithLengthPrefix(destination, packetHeader, PrefixStyle.Fixed32);
-
-            //ReferencePool.Release((IReference)packet);
-            //ReferencePool.Release(packetHeader);
-
-            //m_CachedStream.WriteTo(destination);
-
             m_CachedStream.Seek(PacketHeaderLength, SeekOrigin.Begin);
             m_CachedStream.SetLength(PacketHeaderLength);
             Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
@@ -163,18 +146,38 @@ namespace LovePower
             packetHeader.Id = packet.Id;
             packetHeader.PacketLength = (int)m_CachedStream.Length - PacketHeaderLength;
 
-            //var len = GetSerializedLengthWithPrefix(packetHeader);
-            //Log.Info("包头长度：" + len);
+            if (packetHeader.Id == PacketID.CSSyncRoomStatus)
+            {
+                Log.Info("包头ID：" + packetHeader.Id);
+            }
+            var len = GetSerializedLengthWithPrefix(packetHeader);
+            Log.Info("包头长度：" + len);
 
             m_CachedStream.Position = 0;
             RuntimeTypeModel.Default.SerializeWithLengthPrefix(m_CachedStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);
             //Serializer.SerializeWithLengthPrefix(destination, packetHeader, PrefixStyle.Fixed32);
 
+            if (packetHeader.Id == PacketID.CSSyncRoomStatus)
+            {
+                var cccc = packet as CSSyncRoomStatus;
+                var code = cccc.OperationCode;
+                var progress = cccc.VideoProgress;
+                Log.Info("同步房间状态 code:{0}， progress: {1},包的长度：{2}", code, progress, packetHeader.PacketLength);
+
+                //var bytes = m_CachedStream.ToArray();
+                //for (int i = 0; i < bytes.Length; i++)
+                //{
+                //    Log.Info(bytes[i]);
+                //}
+                Log.Info("同步房间状态完成");
+            }
+
             ReferencePool.Release(packetHeader);
             ReferencePool.Release((IReference)packet);
 
             m_CachedStream.WriteTo(destination);
-
+            m_CachedStream.SetLength(0);
+            m_CachedStream.Position = 0;
             return true;
 
         }
@@ -188,7 +191,7 @@ namespace LovePower
         public IPacketHeader DeserializePacketHeader(Stream source, out object customErrorData)
         {
             customErrorData = null;
-            var obj = ReferencePool.Acquire<SCPacketHeader>();
+            //var obj = ReferencePool.Acquire<SCPacketHeader>();
             source.Seek(0, SeekOrigin.Begin);
             return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);
             //return (IPacketHeader)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(source, ReferencePool.Acquire<SCPacketHeader>(), obj.GetType(), PrefixStyle.Fixed32, 0);

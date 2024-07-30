@@ -1,6 +1,11 @@
-﻿using GameFramework.Event;
+﻿using GameFramework;
+using GameFramework.Event;
+using GameFramework.Network;
+using ProtoBuf;
+using ProtoBuf.Meta;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
@@ -41,6 +46,33 @@ namespace LovePower
             InitNetwork();
 
             Log.Info("进入Launch");
+
+
+            //var cs = ReferencePool.Acquire<CSSyncRoomStatus>();
+            //cs.OperationCode = 2;
+            //cs.VideoProgress = 335;
+
+            //using (MemoryStream memoryStream = new MemoryStream())
+            //{
+            //    memoryStream.Seek(14, SeekOrigin.Begin);
+            //    memoryStream.SetLength(14);
+            //    Serializer.SerializeWithLengthPrefix(memoryStream, cs, PrefixStyle.Fixed32);
+
+            //    CSPacketHeader packetHeader = new CSPacketHeader();
+            //    packetHeader.Id = cs.Id;
+            //    packetHeader.PacketLength = (int)memoryStream.Length - 14;
+            //    memoryStream.Position = 0;
+            //    //Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
+            //    RuntimeTypeModel.Default.SerializeWithLengthPrefix(memoryStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);
+
+            //    byte[] waitToSendBytes = memoryStream.ToArray();
+
+            //    memoryStream.Position = 0; // 重置位置指针（可选）
+
+            //    CSSyncRoomStatus roomStatus = new CSSyncRoomStatus();
+            //    var serverRecHeader = Serializer.DeserializeWithLengthPrefix<CSPacketHeader>(memoryStream, PrefixStyle.Fixed32);
+            //    var serverPacket = (Packet)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(memoryStream, roomStatus, roomStatus.GetType(), PrefixStyle.Fixed32, 0);
+            //}
         }
 
         protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)

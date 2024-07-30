@@ -75,7 +75,7 @@ namespace LovePower
 
         private void Update()
         {
-            if (GameEntry.TcpClient.IsNetworkConnected)
+            if (GameEntry.TcpClient.IsNetworkConnected && PlayerRuntimeData.IsOwner)
             {
                 timer -= Time.deltaTime;
                 if (timer <= 0)

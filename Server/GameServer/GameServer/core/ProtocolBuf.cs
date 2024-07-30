@@ -156,7 +156,6 @@ public class ProtocolBuf : ProtocolBase
     }
 
 
-
     private Type GetServerToClientPacketType(int id)
     {
         Type type = null;
@@ -195,6 +194,9 @@ public class ProtocolBuf : ProtocolBase
         RuntimeTypeModel.Default.SerializeWithLengthPrefix(m_CachedStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);
 
         waitToSendBytes = m_CachedStream.ToArray();
+
+        m_CachedStream.SetLength(0);
+        m_CachedStream.Position = 0; // 重置位置指针（可选）
 
         return true;
     }

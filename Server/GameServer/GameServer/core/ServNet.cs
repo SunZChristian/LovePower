@@ -168,7 +168,6 @@ public class ServNet
             return;
         }
         //消息长度
-        //Array.Copy(conn.readBuff, conn.lenBytes, 8);
         Stream stream = new MemoryStream(conn.readBuff);
         var header = proto.DeserializePacketHeader(stream);
 
@@ -176,6 +175,17 @@ public class ServNet
         if (conn.buffCount < conn.msgLength + 14)
         {
             return;
+        }
+
+        if (header.Id == PacketID.CSSyncRoomStatus)
+        {
+            Console.WriteLine("开始同步消息，包的长度："+ conn.msgLength);
+
+            //for (int i = 0; i < conn.msgLength + 14; i++)
+            //{
+            //    Console.WriteLine(conn.readBuff[i]);
+            //}
+            //Console.WriteLine("开始同步消息完成");
         }
 
         stream.Seek(14, SeekOrigin.Current);        
@@ -240,6 +250,7 @@ public class ServNet
             case PacketID.CSSyncRoomStatus:
                 {
                     //同步房间状态
+                    Console.WriteLine("开始处理同步消息");
                     handlePlayerMsg.MsgSyncRoomStatus(conn, packet);
                     break;
                 }

@@ -124,7 +124,6 @@ namespace LovePower
                 IsNetworkConnected = true;
                 Log.Info("连接服务器成功~");
 
-                //CreateRoom();
             }
         }
     }

@@ -224,6 +224,6 @@ public partial class HandlePlayerMsg
 		room.UpdateVideoStatus((EVideoOperation)clientMsg.OperationCode);
 		room.UpdateVideoTime(clientMsg.VideoProgress);
 
-		Console.WriteLine("当前房间状态{0}，进度{1}", room.status, room.CurrentVideoTime);
+		Console.WriteLine("当前房间状态{0}，进度{1}", room.status.ToString(), room.CurrentVideoTime);
 	}
 }

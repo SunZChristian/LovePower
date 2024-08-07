@@ -1,0 +1,55 @@
+2024-08-06 11:01:21.1614 (KChannel.cs:87) channel create: 2147483650 368896571 127.0.0.1:53596 Accept
+2024-08-06 11:01:21.1614 (Session.cs:51) session create: zone: 1 id: 2147483650 1722913281176 
+2024-08-06 11:01:21.1614 (KService.cs:322) kservice syn: 2147483650 368896571 2147483650 127.0.0.1:53596
+2024-08-06 11:01:21.1773 (NetComponentSystem.cs:77) { "_t" : "C2G_LoginGate", "RpcId" : 1, "Key" : NumberLong("2830172064081823583"), "GateId" : NumberLong(3) }
+2024-08-06 11:01:21.1773 (LocationProxyComponentSystem.cs:15) location proxy add 1211797240545281, 1:3:351835478846079062 1722913281186
+2024-08-06 11:01:21.1773 (LocationProxyComponentSystem.cs:15) location proxy add 1211797240545281, 1:3:351835478846079061 1722913281191
+2024-08-06 11:01:21.1934 (Session.cs:153) { "_t" : "G2C_LoginGate", "RpcId" : 1, "Error" : 0, "Message" : null, "PlayerId" : NumberLong("1211797240545281") }
+2024-08-06 11:01:22.0980 (NetComponentSystem.cs:77) { "_t" : "C2G_EnterMap", "RpcId" : 2 }
+2024-08-06 11:01:22.0991 (Scene.cs:36) scene create: Map 1211797240545281 351835483141046371
+2024-08-06 11:01:22.0991 (Session.cs:153) { "_t" : "G2C_EnterMap", "RpcId" : 2, "Error" : 0, "Message" : null, "MyId" : NumberLong("1211797240545281") }
+2024-08-06 11:01:22.1170 (LocationProxyComponentSystem.cs:26) location proxy lock 1211797240545281, 1:3:351835483141046376 1722913282117
+2024-08-06 11:01:22.1377 (Session.cs:153) { "_t" : "M2C_StartSceneChange", "SceneInstanceId" : NumberLong(1), "SceneName" : "Map1" }
+2024-08-06 11:01:22.1457 (Session.cs:153) { "_t" : "M2C_CreateMyUnit", "Unit" : { "UnitId" : NumberLong("1211797240545281"), "ConfigId" : 1001, "Type" : 1, "Position" : { "x" : -10.0, "y" : 0.0, "z" : -10.0 }, "Forward" : { "x" : 0.0, "y" : 0.0, "z" : 1.0 }, "KV" : [[1000, NumberLong(60000)], [1003, NumberLong(15000)]], "MoveInfo" : null } }
+2024-08-06 11:01:23.3752 (NetComponentSystem.cs:77) { "_t" : "C2M_PathfindingResult", "RpcId" : 0, "Position" : { "x" : -19.940971374511719, "y" : 0.010000000707805157, "z" : -14.411571502685547 } }
+2024-08-06 11:01:23.3910 (Session.cs:153) { "_t" : "M2C_PathfindingResult", "_id" : NumberLong("1211797240545281"), "Position" : { "x" : 0.0, "y" : 0.0, "z" : 0.0 }, "Points" : [{ "x" : -10.0, "y" : 0.091531991958618164, "z" : -10.0 }, { "x" : -19.940971374511719, "y" : 0.091531991958618164, "z" : -14.411571502685547 }] }
+2024-08-06 11:01:24.1525 (NetComponentSystem.cs:77) { "_t" : "C2M_PathfindingResult", "RpcId" : 0, "Position" : { "x" : 9.0903091430664062, "y" : 1.3999996185302734, "z" : -14.81910514831543 } }
+2024-08-06 11:01:24.1525 (Session.cs:153) { "_t" : "M2C_PathfindingResult", "_id" : NumberLong("1211797240545281"), "Position" : { "x" : 0.0, "y" : 0.0, "z" : 0.0 }, "Points" : [{ "x" : -13.856789588928223, "y" : 0.091531991958618164, "z" : -11.711553573608398 }, { "x" : -8.5000038146972656, "y" : 0.091531991958618164, "z" : -9.1999969482421875 }, { "x" : -2.5000038146972656, "y" : 0.091531991958618164, "z" : -9.1999969482421875 }, { "x" : 4.0999984741210938, "y" : 0.091531991958618164, "z" : -9.1999969482421875 }, { "x" : 10.399997711181641, "y" : 0.091531991958618164, "z" : -9.1999969482421875 }, { "x" : 14.581954002380371, "y" : 0.091531991958618164, "z" : -11.523305892944336 }, { "x" : 15.799999237060547, "y" : 0.091531991958618164, "z" : -12.199996948242188 }, { "x" : 16.099998474121094, "y" : 0.69153213500976562, "z" : -13.399997711181641 }, { "x" : 13.699996948242188, "y" : 1.0915319919586182, "z" : -13.885876655578613 }, { "x" : 9.0903091430664062, "y" : 1.5952553749084473, "z" : -14.81910514831543 }] }
+2024-08-06 11:01:30.3706 (KService.cs:376) kservice recv fin: 2147483650 368896571 0
+2024-08-06 11:01:30.3706 (KService.cs:455) kservice remove channel: 2147483650 2147483650 368896571 100208
+2024-08-06 11:01:30.3706 (KChannel.cs:107) channel dispose: 2147483650 368896571 100208
+2024-08-06 11:01:30.3706 (Session.cs:64) session dispose: 127.0.0.1:58632 id: 2147483650 ErrorCode: 100208, please see ErrorCode.cs! 1722913290373
+2024-08-06 11:02:33.3801 (MessageLocationSenderSystem.cs:19) actor location remove: 1211797240545281
+2024-08-06 11:15:18.3933 (KChannel.cs:87) channel create: 2147483652 759964958 127.0.0.1:53594 Accept
+2024-08-06 11:15:18.3933 (Session.cs:51) session create: zone: 1 id: 2147483652 1722914118395 
+2024-08-06 11:15:18.3933 (KService.cs:322) kservice syn: 2147483652 759964958 2147483652 127.0.0.1:53594
+2024-08-06 11:15:18.3933 (NetComponentSystem.cs:77) { "_t" : "C2G_LoginGate", "RpcId" : 1, "Key" : NumberLong("5938317806449294414"), "GateId" : NumberLong(3) }
+2024-08-06 11:15:18.4070 (MessageSessionHandler.cs:68) System.NullReferenceException: Object reference not set to an instance of an object.
+   at ET.Server.C2G_LoginGateHandler.Run(Session session, C2G_LoginGate request, G2C_LoginGate response) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Server\Demo\Gate\C2G_LoginGateHandler.cs:line 42
+   at ET.ETTask.GetResult() in C:\SunZ\ET\Unity\Assets\Scripts\ThirdParty\ETTask\ETTask.cs:line 126
+   at ET.MessageSessionHandler`2.HandleAsync(Session session, Object message) in C:\SunZ\ET\Unity\Assets\Scripts\Model\Share\Module\Message\MessageSessionHandler.cs:line 68
+   at ET.MessageSessionHandler`2.HandleAsync(Session session, Object message) in C:\SunZ\ET\Unity\Assets\Scripts\Model\Share\Module\Message\MessageSessionHandler.cs:line 68
+   at ET.MessageSessionHandler`2.HandleAsync(Session session, Object message)
+   at ET.MessageSessionHandler`2.Handle(Session session, Object message) in C:\SunZ\ET\Unity\Assets\Scripts\Model\Share\Module\Message\MessageSessionHandler.cs:line 48
+   at ET.MessageSessionDispatcher.Handle(Session session, Object message) in C:\SunZ\ET\Unity\Assets\Scripts\Model\Share\Module\Message\MessageSessionDispatcher.cs:line 87
+   at ET.Server.NetComponentOnReadInvoker_Gate.HandleAsync(NetComponentOnRead args) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Server\Demo\Gate\NetComponentOnReadInvoker_Gate.cs:line 23
+   at ET.Server.NetComponentOnReadInvoker_Gate.HandleAsync(NetComponentOnRead args)
+   at ET.Server.NetComponentOnReadInvoker_Gate.Handle(NetComponentOnRead args) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Server\Demo\Gate\NetComponentOnReadInvoker_Gate.cs:line 10
+   at ET.EventSystem.Invoke[A](Int64 type, A args) in C:\SunZ\ET\Unity\Assets\Scripts\Core\World\Module\EventSystem\EventSystem.cs:line 171
+   at ET.NetComponentSystem.OnRead(NetComponent self, Int64 channelId, MemoryBuffer memoryBuffer) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Share\Module\Message\NetComponentSystem.cs:line 79
+   at ET.KChannel.OnRead(MemoryBuffer memoryStream) in C:\SunZ\ET\Unity\Assets\Scripts\Core\Network\KChannel.cs:line 440
+   at ET.KChannel.HandleRecv(Byte[] date, Int32 offset, Int32 length) in C:\SunZ\ET\Unity\Assets\Scripts\Core\Network\KChannel.cs:line 326
+   at ET.KService.Recv() in C:\SunZ\ET\Unity\Assets\Scripts\Core\Network\KService.cs:line 408
+   at ET.KService.Update() in C:\SunZ\ET\Unity\Assets\Scripts\Core\Network\KService.cs:line 514
+   at ET.NetComponentSystem.Update(NetComponent self) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Share\Module\Message\NetComponentSystem.cs:line 30
+   at ET.NetComponentSystem.ET_NetComponent_UpdateSystem.Update(NetComponent self) in C:\SunZ\ET\DotNet\Hotfix\obj\Debug\Share.SourceGenerator\ET.Generator.ETSystemGenerator\ET.NetComponentSystem.Update.ET_NetComponent.g.cs:line 10
+   at ET.UpdateSystem`1.ET.IUpdateSystem.Run(Entity o) in C:\SunZ\ET\Unity\Assets\Scripts\Core\Entity\IUpdateSystem.cs:line 19
+   at ET.EntitySystem.Update() in C:\SunZ\ET\Unity\Assets\Scripts\Core\Fiber\EntitySystem.cs:line 74
+   at ET.Fiber.Update() in C:\SunZ\ET\Unity\Assets\Scripts\Core\Fiber\Fiber.cs:line 73
+   at ET.ThreadPoolScheduler.Loop() in C:\SunZ\ET\Unity\Assets\Scripts\Core\World\Module\Fiber\ThreadPoolScheduler.cs:line 68
+
+2024-08-06 11:15:18.4070 (Session.cs:153) { "_t" : "G2C_LoginGate", "RpcId" : 1, "Error" : 110307, "Message" : null, "PlayerId" : NumberLong(0) }
+2024-08-06 11:15:22.8861 (KService.cs:376) kservice recv fin: 2147483652 759964958 0
+2024-08-06 11:15:22.8861 (KService.cs:455) kservice remove channel: 2147483652 2147483652 759964958 100208
+2024-08-06 11:15:22.8861 (KChannel.cs:107) channel dispose: 2147483652 759964958 100208
+2024-08-06 11:15:22.8861 (Session.cs:64) session dispose: 127.0.0.1:61963 id: 2147483652 ErrorCode: 100208, please see ErrorCode.cs! 1722914122888

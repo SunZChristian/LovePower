@@ -1,0 +1,14 @@
+C:\SunZ\ET\Bin\Hotfix.deps.json
+C:\SunZ\ET\Bin\Hotfix.dll
+C:\SunZ\ET\Bin\Hotfix.pdb
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.csproj.AssemblyReference.cache
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.GeneratedMSBuildEditorConfig.editorconfig
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.AssemblyInfoInputs.cache
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.AssemblyInfo.cs
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.csproj.CoreCompileInputs.cache
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.sourcelink.json
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\DotNet.H.534EEE23.Up2Date
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\Hotfix.dll
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\refint\Hotfix.dll
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\Hotfix.pdb
+C:\SunZ\ET\DotNet\Hotfix\obj\Debug\ref\Hotfix.dll

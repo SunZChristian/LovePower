@@ -1,0 +1,11 @@
+C:\SunZ\ET\Share\Share.SourceGenerator\bin\Debug\Share.SourceGenerator.deps.json
+C:\SunZ\ET\Share\Share.SourceGenerator\bin\Debug\Share.SourceGenerator.dll
+C:\SunZ\ET\Share\Share.SourceGenerator\bin\Debug\Share.SourceGenerator.pdb
+C:\SunZ\ET\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.csproj.AssemblyReference.cache
+C:\SunZ\ET\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\SunZ\ET\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.AssemblyInfoInputs.cache
+C:\SunZ\ET\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.AssemblyInfo.cs
+C:\SunZ\ET\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.csproj.CoreCompileInputs.cache
+C:\SunZ\ET\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.sourcelink.json
+C:\SunZ\ET\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.dll
+C:\SunZ\ET\Share\Share.SourceGenerator\obj\Debug\Share.SourceGenerator.pdb

@@ -1,0 +1,21276 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+
+
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct InterfaceActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct InterfaceFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct InterfaceFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
+struct InterfaceFuncInvoker11
+{
+	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6, T7 p7, T8 p8, T9 p9, T10 p10, T11 p11)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, invokeData.method);
+	}
+};
+
+struct Dictionary_2_t5546A942E543AC52FA6B6892F9DD18291456A793;
+struct Dictionary_2_tC4DB475680DF2B2FC6E727EB0206F870872CB840;
+struct IComparer_1_tEEA7DD65A5FA4BE5ECA877BBCB00348CC8826D33;
+struct IComparer_1_tC0A12A847AF97F369A5CE9A0CCE71CE18EE1440E;
+struct IEnumerable_1_t42073EA80BB566492E736931ECB281F61C34401C;
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+struct IList_1_tB866EB8462C8C46B0BA0C3775C7E21D4A447B9A8;
+struct LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F;
+struct LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C;
+struct LinkedList_1_t4C89E839AB04F1855CD9D13F5EC17DDADE98F54C;
+struct LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18;
+struct LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76;
+struct List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5;
+struct List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5;
+struct List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F;
+struct List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4;
+struct List_1_tF9D88C946600C782EE786A252258C0AA97BD019A;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF;
+struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918;
+struct List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD;
+struct RcSortedQueue_1_t63A2B4CDC7E1CEA413B8D2446DBD26814E0A3C3C;
+struct Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E;
+struct BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3;
+struct DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196;
+struct DtLinkU5BU5D_tC6DE40666DCF6863648707ECB6701BE7C96BB66C;
+struct DtMeshTileU5BU5D_tC7C258F84F0B8528C83E5230F3F0C69A4438E805;
+struct DtNodeU5BU5D_t20932CE1829FFDB0A1ABC18D814EA16E469567A0;
+struct DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36;
+struct DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C;
+struct DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59;
+struct DtSegIntervalU5BU5D_tC26F26918A2CBAA0BEEB029DE7E89E8FB53CC052;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct RcSegmentVertU5BU5D_t3A794A33919160356DCE71A7CEA8004D92A94F21;
+struct RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StraightPathItemU5BU5D_tEDFD81118951FCCF45AAC6EBF8AD23CF8C5774B2;
+struct BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9;
+struct DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3;
+struct DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF;
+struct DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697;
+struct DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591;
+struct DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1;
+struct DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED;
+struct DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED;
+struct DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11;
+struct DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201;
+struct DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54;
+struct DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6;
+struct DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508;
+struct DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA;
+struct DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6;
+struct DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281;
+struct DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4;
+struct IDtPolyQuery_t0174CAB35DF49A50CA3549447F3E8B72C70D43E4;
+struct IDtPolygonByCircleConstraint_t1C0F29A821648FE1EFB403AEA596356D425F9723;
+struct IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019;
+struct IQueryHeuristic_t95046F6CA9DE6BFE7C34CE1ABE3EB31043A4007C;
+struct IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6;
+struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
+struct String_t;
+
+IL2CPP_EXTERN_C RuntimeClass* BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BVItemXComparer_t2520B6A97582A58C293289DD9C957862F79F70E8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BVItemYComparer_tDBEED02EC870F42868D74FF8D124D2C6CA51D1C0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BVItemZComparer_tBEC411D001694A041D4AD0FE85EDE718FC1BE431_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtNoOpDtPolygonByCircleConstraint_tC8DDEF2B890A61D87D5A6DB21078237C8F283DA5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtStrictDtPolygonByCircleConstraint_t43EA1A011A2CC98089AA7502FEF1B7B98D0E11C0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDtPolyQuery_t0174CAB35DF49A50CA3549447F3E8B72C70D43E4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDtPolygonByCircleConstraint_t1C0F29A821648FE1EFB403AEA596356D425F9723_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerable_1_t42073EA80BB566492E736931ECB281F61C34401C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t04D2000F978FFB55E02AFE66A21DB1963C283443_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IQueryHeuristic_t95046F6CA9DE6BFE7C34CE1ABE3EB31043A4007C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Sort_TisBVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_m3534D2531103729642653AF06DD7044E2129EADB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m36984B707F4293BB109240274397E9FC06E022AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mA70655BE6FEA1E96B913190354DE9F44095F5DF0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m19964B2DEFD9D3AECE1FAC38800B75E2C58A9ADD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LinkedListNode_1_get_Value_m0002CA07B9FA0EA9B184224D7575DF46D5E5972F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LinkedList_1_RemoveFirst_m8783AF0585C84EE3173FB8E608A29914A1DA66BD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LinkedList_1__ctor_m2CEDDD9094DEB3DE022EA06DAD156C5A2027E4F4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LinkedList_1_get_Count_mDE2A5DE9F82166C43C5C12058737ECB5AC137D9F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LinkedList_1_get_First_mE50B3E3FC2A783CAC5738E6718C9C788BB43D6D9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_AddRange_mE6F1B5804B619A7336E62EA922B7BC45A1490883_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m5FE8C52EA660FBFE92FB3442EBC5B6E109A904D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m157ABCFF323F55D2C1465A55FE432AE8E90B902F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m6D127683440E1798FFBB04AFB6CC1C60CEFAF9A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m967D78079FECCFF6C8F55513E76D9F5B2D473588_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m08AAB3C7A33557EF731CBD2A752CE4ABC76278FA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Insert_mD5799815B3D2003C43AB7F3A4BCB6DEA39B5CB4C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Reverse_mFA4816FEB2014002AD0277DD3B1F250818F2838E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m8CA456DFA19E8E6D1EDBFD576DB353E6AED5A97D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m977B44FD6299EE94A50FF862FDE20D663F3EFBDE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m59C47AA5B633FAFCADF124B66A27CA957A235A0B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m72031E09DAD93D10A3DD0EF4C0EDB42531A85BFC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_mE9EB4FBECBC288BEC2FEBFA0A1DDD70CE4F20026_RuntimeMethod_var;
+
+struct Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E;
+struct BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3;
+struct DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196;
+struct DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36;
+struct DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C;
+struct DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D;
+struct RcSegmentVertU5BU5D_t3A794A33919160356DCE71A7CEA8004D92A94F21;
+struct RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StraightPathItemU5BU5D_tEDFD81118951FCCF45AAC6EBF8AD23CF8C5774B2;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F  : public RuntimeObject
+{
+	LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* ___list;
+	LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* ___next;
+	LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* ___prev;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___item;
+};
+struct LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C  : public RuntimeObject
+{
+	LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* ___list;
+	LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* ___next;
+	LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* ___prev;
+	RuntimeObject* ___item;
+};
+struct LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18  : public RuntimeObject
+{
+	LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* ___head;
+	int32_t ___count;
+	int32_t ___version;
+	RuntimeObject* ____syncRoot;
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____siInfo;
+};
+struct LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76  : public RuntimeObject
+{
+	LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* ___head;
+	int32_t ___count;
+	int32_t ___version;
+	RuntimeObject* ____syncRoot;
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____siInfo;
+};
+struct List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5  : public RuntimeObject
+{
+	DtLinkU5BU5D_tC6DE40666DCF6863648707ECB6701BE7C96BB66C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5  : public RuntimeObject
+{
+	DtMeshTileU5BU5D_tC7C258F84F0B8528C83E5230F3F0C69A4438E805* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F  : public RuntimeObject
+{
+	DtNodeU5BU5D_t20932CE1829FFDB0A1ABC18D814EA16E469567A0* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4  : public RuntimeObject
+{
+	DtSegIntervalU5BU5D_tC26F26918A2CBAA0BEEB029DE7E89E8FB53CC052* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tF9D88C946600C782EE786A252258C0AA97BD019A  : public RuntimeObject
+{
+	Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF  : public RuntimeObject
+{
+	RcSegmentVertU5BU5D_t3A794A33919160356DCE71A7CEA8004D92A94F21* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918  : public RuntimeObject
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD  : public RuntimeObject
+{
+	StraightPathItemU5BU5D_tEDFD81118951FCCF45AAC6EBF8AD23CF8C5774B2* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___bmin;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___bmax;
+	int32_t ___i;
+};
+struct BVItemXComparer_t2520B6A97582A58C293289DD9C957862F79F70E8  : public RuntimeObject
+{
+};
+struct BVItemYComparer_tDBEED02EC870F42868D74FF8D124D2C6CA51D1C0  : public RuntimeObject
+{
+};
+struct BVItemZComparer_tBEC411D001694A041D4AD0FE85EDE718FC1BE431  : public RuntimeObject
+{
+};
+struct DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55  : public RuntimeObject
+{
+	float ___scale;
+};
+struct DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___bmin;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___bmax;
+	int32_t ___i;
+};
+struct DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697  : public RuntimeObject
+{
+	int64_t ___refs;
+	int32_t ___next;
+	int32_t ___edge;
+	int32_t ___side;
+	int32_t ___bmin;
+	int32_t ___bmax;
+};
+struct DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591  : public RuntimeObject
+{
+	DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* ___header;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___verts;
+	DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* ___polys;
+	DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59* ___detailMeshes;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___detailVerts;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___detailTris;
+	DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* ___bvTree;
+	DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36* ___offMeshCons;
+};
+struct DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED  : public RuntimeObject
+{
+	int32_t ___index;
+	int32_t ___salt;
+	DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* ___data;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___polyLinks;
+	List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* ___links;
+	int32_t ___linksFreeList;
+	int32_t ___flags;
+};
+struct DtNavMeshBuilder_t0FB7518B7DB72F20138505AAF361524267FFF5F2  : public RuntimeObject
+{
+};
+struct DtNoOpDtPolygonByCircleConstraint_tC8DDEF2B890A61D87D5A6DB21078237C8F283DA5  : public RuntimeObject
+{
+};
+struct DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6  : public RuntimeObject
+{
+	Dictionary_2_tC4DB475680DF2B2FC6E727EB0206F870872CB840* ___m_map;
+	List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* ___m_nodes;
+};
+struct DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508  : public RuntimeObject
+{
+	RcSortedQueue_1_t63A2B4CDC7E1CEA413B8D2446DBD26814E0A3C3C* ___m_heap;
+};
+struct DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA  : public RuntimeObject
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___pos;
+	float ___rad;
+	int32_t ___poly;
+	int32_t ___flags;
+	int32_t ___side;
+	int32_t ___userId;
+};
+struct DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6  : public RuntimeObject
+{
+	int32_t ___index;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___verts;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___neis;
+	int32_t ___flags;
+	int32_t ___vertCount;
+	int32_t ___areaAndtype;
+};
+struct DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281  : public RuntimeObject
+{
+	int32_t ___vertBase;
+	int32_t ___triBase;
+	int32_t ___vertCount;
+	int32_t ___triCount;
+};
+struct DtStrictDtPolygonByCircleConstraint_t43EA1A011A2CC98089AA7502FEF1B7B98D0E11C0  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C 
+{
+	List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ____current;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406 
+{
+	DtMeshTileU5BU5D_tC7C258F84F0B8528C83E5230F3F0C69A4438E805* ____array;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378 
+{
+	RuntimeObject* ___heuristic;
+	int32_t ___options;
+	float ___raycastLimit;
+};
+struct DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378_marshaled_pinvoke
+{
+	RuntimeObject* ___heuristic;
+	int32_t ___options;
+	float ___raycastLimit;
+};
+struct DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378_marshaled_com
+{
+	RuntimeObject* ___heuristic;
+	int32_t ___options;
+	float ___raycastLimit;
+};
+struct DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D 
+{
+	int64_t ___refs;
+	int32_t ___tmin;
+	int32_t ___tmax;
+};
+struct DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 
+{
+	uint32_t ___Value;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF  : public RuntimeObject
+{
+	DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* ____query;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ____center;
+	int64_t ____nearestRef;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ____nearestPt;
+	bool ____overPoly;
+	float ____nearestDistanceSqr;
+};
+struct DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1  : public RuntimeObject
+{
+	int32_t ___magic;
+	int32_t ___version;
+	int32_t ___x;
+	int32_t ___y;
+	int32_t ___layer;
+	int32_t ___userId;
+	int32_t ___polyCount;
+	int32_t ___vertCount;
+	int32_t ___maxLinkCount;
+	int32_t ___detailMeshCount;
+	int32_t ___detailVertCount;
+	int32_t ___detailTriCount;
+	int32_t ___bvNodeCount;
+	int32_t ___offMeshConCount;
+	int32_t ___offMeshBase;
+	float ___walkableHeight;
+	float ___walkableRadius;
+	float ___walkableClimb;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmin;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmax;
+	float ___bvQuantFactor;
+};
+struct DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___verts;
+	int32_t ___vertCount;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___polys;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___polyFlags;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___polyAreas;
+	int32_t ___polyCount;
+	int32_t ___nvp;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___detailMeshes;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___detailVerts;
+	int32_t ___detailVertsCount;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___detailTris;
+	int32_t ___detailTriCount;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___offMeshConVerts;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___offMeshConRad;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___offMeshConFlags;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___offMeshConAreas;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___offMeshConDir;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___offMeshConUserID;
+	int32_t ___offMeshConCount;
+	int32_t ___userId;
+	int32_t ___tileX;
+	int32_t ___tileZ;
+	int32_t ___tileLayer;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmin;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___bmax;
+	float ___walkableHeight;
+	float ___walkableRadius;
+	float ___walkableClimb;
+	float ___cs;
+	float ___ch;
+	bool ___buildBvTree;
+};
+struct DtNavMeshParams_t481FE8D854BF70067F56C4D561B60905C262BB61 
+{
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___orig;
+	float ___tileWidth;
+	float ___tileHeight;
+	int32_t ___maxTiles;
+	int32_t ___maxPolys;
+};
+struct DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54  : public RuntimeObject
+{
+	int32_t ___index;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___pos;
+	float ___cost;
+	float ___total;
+	int32_t ___pidx;
+	int32_t ___state;
+	int32_t ___flags;
+	int64_t ___id;
+	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___shortcut;
+};
+struct DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D 
+{
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___status;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___lastBestNode;
+	float ___lastBestNodeCost;
+	int64_t ___startRef;
+	int64_t ___endRef;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___startPos;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___endPos;
+	RuntimeObject* ___filter;
+	int32_t ___options;
+	float ___raycastLimitSqr;
+	RuntimeObject* ___heuristic;
+};
+struct DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D_marshaled_pinvoke
+{
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___status;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___lastBestNode;
+	float ___lastBestNodeCost;
+	int64_t ___startRef;
+	int64_t ___endRef;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___startPos;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___endPos;
+	RuntimeObject* ___filter;
+	int32_t ___options;
+	float ___raycastLimitSqr;
+	RuntimeObject* ___heuristic;
+};
+struct DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D_marshaled_com
+{
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___status;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___lastBestNode;
+	float ___lastBestNodeCost;
+	int64_t ___startRef;
+	int64_t ___endRef;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___startPos;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___endPos;
+	RuntimeObject* ___filter;
+	int32_t ___options;
+	float ___raycastLimitSqr;
+	RuntimeObject* ___heuristic;
+};
+struct DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4  : public RuntimeObject
+{
+	float ___t;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___hitNormal;
+	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___path;
+	float ___pathCost;
+	int32_t ___hitEdgeIndex;
+};
+struct RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 
+{
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___vmin;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___vmax;
+};
+struct StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE 
+{
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___pos;
+	int32_t ___flags;
+	int64_t ___refs;
+};
+struct DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED  : public RuntimeObject
+{
+	DtNavMeshParams_t481FE8D854BF70067F56C4D561B60905C262BB61 ___m_params;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___m_orig;
+	float ___m_tileWidth;
+	float ___m_tileHeight;
+	int32_t ___m_maxTiles;
+	int32_t ___m_tileLutMask;
+	Dictionary_2_t5546A942E543AC52FA6B6892F9DD18291456A793* ___posLookup;
+	LinkedList_1_t4C89E839AB04F1855CD9D13F5EC17DDADE98F54C* ___availableTiles;
+	DtMeshTileU5BU5D_tC7C258F84F0B8528C83E5230F3F0C69A4438E805* ___m_tiles;
+	int32_t ___m_maxVertPerPoly;
+	int32_t ___m_tileCount;
+};
+struct DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201  : public RuntimeObject
+{
+	DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* ___m_nav;
+	DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* ___m_nodePool;
+	DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* ___m_openList;
+	DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D ___m_query;
+};
+struct List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5_StaticFields
+{
+	DtLinkU5BU5D_tC6DE40666DCF6863648707ECB6701BE7C96BB66C* ___s_emptyArray;
+};
+struct List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5_StaticFields
+{
+	DtMeshTileU5BU5D_tC7C258F84F0B8528C83E5230F3F0C69A4438E805* ___s_emptyArray;
+};
+struct List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F_StaticFields
+{
+	DtNodeU5BU5D_t20932CE1829FFDB0A1ABC18D814EA16E469567A0* ___s_emptyArray;
+};
+struct List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4_StaticFields
+{
+	DtSegIntervalU5BU5D_tC26F26918A2CBAA0BEEB029DE7E89E8FB53CC052* ___s_emptyArray;
+};
+struct List_1_tF9D88C946600C782EE786A252258C0AA97BD019A_StaticFields
+{
+	Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF_StaticFields
+{
+	RcSegmentVertU5BU5D_t3A794A33919160356DCE71A7CEA8004D92A94F21* ___s_emptyArray;
+};
+struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_StaticFields
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___s_emptyArray;
+};
+struct List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD_StaticFields
+{
+	StraightPathItemU5BU5D_tEDFD81118951FCCF45AAC6EBF8AD23CF8C5774B2* ___s_emptyArray;
+};
+struct BVItemXComparer_t2520B6A97582A58C293289DD9C957862F79F70E8_StaticFields
+{
+	BVItemXComparer_t2520B6A97582A58C293289DD9C957862F79F70E8* ___Shared;
+};
+struct BVItemYComparer_tDBEED02EC870F42868D74FF8D124D2C6CA51D1C0_StaticFields
+{
+	BVItemYComparer_tDBEED02EC870F42868D74FF8D124D2C6CA51D1C0* ___Shared;
+};
+struct BVItemZComparer_tBEC411D001694A041D4AD0FE85EDE718FC1BE431_StaticFields
+{
+	BVItemZComparer_tBEC411D001694A041D4AD0FE85EDE718FC1BE431* ___Shared;
+};
+struct DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_StaticFields
+{
+	DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55* ___Default;
+};
+struct DtNoOpDtPolygonByCircleConstraint_tC8DDEF2B890A61D87D5A6DB21078237C8F283DA5_StaticFields
+{
+	DtNoOpDtPolygonByCircleConstraint_tC8DDEF2B890A61D87D5A6DB21078237C8F283DA5* ___Shared;
+};
+struct DtStrictDtPolygonByCircleConstraint_t43EA1A011A2CC98089AA7502FEF1B7B98D0E11C0_StaticFields
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___UnitCircle;
+	RuntimeObject* ___Shared;
+};
+struct RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406_StaticFields
+{
+	RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406 ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378_StaticFields
+{
+	DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378 ___NoOption;
+	DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378 ___AnyAngle;
+	DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378 ___ZeroScale;
+};
+struct DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields
+{
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_FAILURE;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_SUCCSESS;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_IN_PROGRESS;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_STATUS_DETAIL_MASK;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_STATUS_NOTHING;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_WRONG_MAGIC;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_WRONG_VERSION;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_OUT_OF_MEMORY;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_INVALID_PARAM;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_BUFFER_TOO_SMALL;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_OUT_OF_NODES;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_PARTIAL_RESULT;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___DT_ALREADY_OCCUPIED;
+};
+struct RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_StaticFields
+{
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___U3CZeroU3Ek__BackingField;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___U3COneU3Ek__BackingField;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___U3CUnitXU3Ek__BackingField;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___U3CUnitYU3Ek__BackingField;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___U3CUnitZU3Ek__BackingField;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* m_Items[1];
+
+	inline Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3  : public RuntimeArray
+{
+	ALIGN_FIELD (8) BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* m_Items[1];
+
+	inline BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196  : public RuntimeArray
+{
+	ALIGN_FIELD (8) DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* m_Items[1];
+
+	inline DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* m_Items[1];
+
+	inline DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59  : public RuntimeArray
+{
+	ALIGN_FIELD (8) DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* m_Items[1];
+
+	inline DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36  : public RuntimeArray
+{
+	ALIGN_FIELD (8) DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* m_Items[1];
+
+	inline DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int64_t m_Items[1];
+
+	inline int64_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int64_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int64_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int64_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int64_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int64_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 m_Items[1];
+
+	inline RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct StraightPathItemU5BU5D_tEDFD81118951FCCF45AAC6EBF8AD23CF8C5774B2  : public RuntimeArray
+{
+	ALIGN_FIELD (8) StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE m_Items[1];
+
+	inline StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct RcSegmentVertU5BU5D_t3A794A33919160356DCE71A7CEA8004D92A94F21  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 m_Items[1];
+
+	inline RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Sort_TisRuntimeObject_mF8C07FB088390BE91CF3D4F9C8C4AC052B3FBCBA_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___0_array, int32_t ___1_index, int32_t ___2_length, RuntimeObject* ___3_comparer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_gshared_inline (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_gshared_inline (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, int64_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_gshared_inline (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_gshared (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_gshared_inline (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5_gshared (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Item_mE9EB4FBECBC288BEC2FEBFA0A1DDD70CE4F20026_gshared (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, int32_t ___0_index, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m5FE8C52EA660FBFE92FB3442EBC5B6E109A904D0_gshared_inline (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m967D78079FECCFF6C8F55513E76D9F5B2D473588_gshared_inline (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedList_1__ctor_m2732A2EC5597469086D48C79A12B3563DEA501C5_gshared (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* LinkedList_1_AddLast_mF5239C871EADC44D51C6B621592A9CAC43449A2E_gshared (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* LinkedList_1_get_First_mF743AE65DDD0324290E33D3F433F37AC83216E18_gshared_inline (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* LinkedListNode_1_get_Value_m8F67264DC98EF442B34CE4947044BCE18BF26053_gshared_inline (LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedList_1_RemoveFirst_m225E1E99245052D8FC3C27D63679A1ABC10DCBBB_gshared (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LinkedList_1_get_Count_mBFF1AE23B10EDF501026201C0427AA5820AECD82_gshared_inline (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_gshared (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_gshared_inline (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Insert_mD5799815B3D2003C43AB7F3A4BCB6DEA39B5CB4C_gshared (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, int32_t ___0_index, DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D ___1_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m157ABCFF323F55D2C1465A55FE432AE8E90B902F_gshared_inline (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m8CA456DFA19E8E6D1EDBFD576DB353E6AED5A97D_gshared (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m6D127683440E1798FFBB04AFB6CC1C60CEFAF9A6_gshared_inline (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_gshared_inline (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* __this, RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Reverse_mFA4816FEB2014002AD0277DD3B1F250818F2838E_gshared (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_mAE92ED7C1F3B1E0BB409F462197C47FD982345E1_gshared (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, int64_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m4B78611159AAF06A3465FABCB48B6D3051D363DF_gshared (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m446487BF7F55E757E7D552B2436AD74AC354EA99_gshared (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m0FCA4D79F5FAAB756C56A4458E2F17F071F21082_gshared (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* __this, RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtBVNode__ctor_m200844A53768AEE2CB16C05AEFE04F7450241C07 (DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* DtNavMeshBuilder_CalcExtends_m629AF21AA1D2D88A8A16C4E41BA3DA2F810A274A (BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* ___0_items, int32_t ___1_nitems, int32_t ___2_imin, int32_t ___3_imax, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMeshBuilder_LongestAxis_mB999B217679736C74449DF035EDA8570F728825F (int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, const RuntimeMethod* method) ;
+inline void Array_Sort_TisBVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_m3534D2531103729642653AF06DD7044E2129EADB (BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* ___0_array, int32_t ___1_index, int32_t ___2_length, RuntimeObject* ___3_comparer, const RuntimeMethod* method)
+{
+	((  void (*) (BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3*, int32_t, int32_t, RuntimeObject*, const RuntimeMethod*))Array_Sort_TisRuntimeObject_mF8C07FB088390BE91CF3D4F9C8C4AC052B3FBCBA_gshared)(___0_array, ___1_index, ___2_length, ___3_comparer, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMeshBuilder_Subdivide_m209F7276BCF89B99018935FC81E0D076765C7088 (BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* ___0_items, int32_t ___1_nitems, int32_t ___2_imin, int32_t ___3_imax, int32_t ___4_curNode, DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* ___5_nodes, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BVItem__ctor_m45FB114E2FBA86634DFC34C1205474BE099E37CA (BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f_Set_m5C78CDD63E5C55E4CF131B7BAA60388164AB89B8_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_in, int32_t ___1_i, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f_Min_mA4F1906CF520358BD3E62A5D9B040BD0D19890C1_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_in, int32_t ___1_i, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f_Max_m6D5395D0F4CC1CA03FD492DDF2CD4E55C0F969D4_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_in, int32_t ___1_i, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t RcMath_Clamp_mCF21FED747DCE42814A247F784061FC31B57EC7B_inline (int32_t ___0_v, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Math_Min_mE913811A2F7566294BF4649A434282634E7254B3 (float ___0_val1, float ___1_val2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA (float ___0_val1, float ___1_val2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Of_m2B898424BC446DEBFE40214EAA1428F7B3612373 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_f, int32_t ___1_idx, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMeshBuilder_ClassifyOffMeshPoint_mAC0CB1DD65F894DB5E7A6F5F3D905F1F382ED543 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pt, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_bmin, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_bmax, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtMeshHeader__ctor_mFCA7FD528AB77E8987172F5C352647BA13CA5EF2 (DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41 (RuntimeArray* ___0_sourceArray, int32_t ___1_sourceIndex, RuntimeArray* ___2_destinationArray, int32_t ___3_destinationIndex, int32_t ___4_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtPoly__ctor_mB0CE1973568267D906CE4F11180393F101681B02 (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* __this, int32_t ___0_index, int32_t ___1_maxVertsPerPoly, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtPoly_SetArea_m9D3CBBBE97113C24D667E88EBC926B6C3AE1C461 (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* __this, int32_t ___0_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtPoly_SetPolyType_m89704FBB9B87F63729DE00145479DAC9775BDFFB (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* __this, int32_t ___0_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtPolyDetail__ctor_mD414D83E235AEF75E92327C35C5FE334745A6D60 (DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMeshBuilder_CreateBVTree_m8B2F3E40472633738ACD367AF89065DB9D5CA78A (DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* ___0_option, DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* ___1_nodes, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtOffMeshConnection__ctor_mC0E40675D7EA96FCFC4FF3DDCF4A9AEC6CAEFB0A (DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtMeshData__ctor_mA468D2753C36F0D3438579F7C84FE07E68167E48 (DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNodePool__ctor_m564949C90A7CA1D036F9B8E23DC6A33967228A04 (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNodeQueue__ctor_mBC5DC25AC0B19CEEE4C0F328171628A590C9E241 (DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___0_left, DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___1_right, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* DtNavMesh_GetTile_m6B8B1A7E6191B2AF68E18D7EF6DE1D59B675ADA5 (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, int32_t ___0_i, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMesh_GetMaxTiles_mCE8A92A8595FFCE17D81AD431E03E0744A9C8DEE (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DtNavMesh_GetPolyRefBase_m9D29DD1BCB8EDC4B851204A12ED7D5701AE60646 (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___0_tile, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284 (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DtUtils_TriArea2D_m8954C4019C78B6502FFC271AD5C881E3CD4D9C51 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_verts, int32_t ___1_a, int32_t ___2_b, int32_t ___3_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 DtUtils_RandomPointInConvexPoly_mCB0AD74AEEEA5D9B912647B8DC6F5A0F7A0885FA (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_pts, int32_t ___1_npts, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___2_areas, float ___3_s, float ___4_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_ClosestPointOnPoly_mDB1783AFC9A3F42BE17F0C09246DF6E68C7766FB (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_refs, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_pos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___2_closest, bool* ___3_posOverPoly, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindRandomPointAroundCircle_mF21056B345E1B32F3314C340BCBA2A72722436F1 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_centerPos, float ___2_maxRadius, RuntimeObject* ___3_filter, RuntimeObject* ___4_frand, RuntimeObject* ___5_constraint, int64_t* ___6_randomRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___7_randomPt, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7 (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, int64_t ___0_refs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, int64_t ___0_refs, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED** ___1_tile, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6** ___2_poly, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNodePool_Clear_m4682D89F1BB534CA29B32127C54A0B6239075575 (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNodeQueue_Clear_m9FAB097BAD2439457DAE7C38948A62B33D4A13D1 (DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2 (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* __this, int64_t ___0_refs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF (DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* __this, DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___0_node, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* DtNodeQueue_Pop_m4569866ACFC4A645DD3D1A7BB7761CC4222AD145 (DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318 (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* __this, int32_t ___0_idx, const RuntimeMethod* method) ;
+inline DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13 (List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* (*) (List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_from, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___1_fromPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___2_fromTile, int64_t ___3_to, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___4_toPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___5_toTile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___6_left, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___7_right, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DtUtils_DistancePtSegSqr2D_m3B2F9369BB74F64FECCEE1D276A1819EDAF7EEB2 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pt, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_p, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_q, float* ___3_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Lerp_m070D7E7D50CF96AB1F9C0DCDE50F9456B499C91A_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v1, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_v2, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RcVec3f_Distance_m6DE6551F4AA9A4CAAF49C6BB2B053FD8DE8C89C8_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v1, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_v2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07 (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* __this, DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___0_node, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNodeQueue_Modify_m9528E2A6C335DEADAB9B5DF835691EACBEF3E308 (DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* __this, DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___0_node, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtNodeQueue_IsEmpty_m6FA5A282449EA550AB66A5852500B70CBBC4F99E (DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNavMesh_ClosestPointOnPoly_mA54B15DA85FBD0EF73B3187F4B5176AE37B71B42 (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, int64_t ___0_refs, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_pos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___2_closest, bool* ___3_posOverPoly, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, int64_t ___0_refs, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED** ___1_tile, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6** ___2_poly, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtUtils_DistancePtPolyEdgesSqr_m5820387E9ED08ECDB0552609138AD521D5660046 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pt, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_verts, int32_t ___2_nverts, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___3_ed, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___4_et, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_verts, int32_t ___1_v1, int32_t ___2_v2, float ___3_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RcVec3f_IsFinite2D_mAFBB29B6431013778DA303C9D0BCC1C8CC9242BE_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtNavMesh_GetPolyHeight_mDBEA9D99A9574C917F45B065D32950AF890570DE (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___0_tile, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___1_poly, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_pos, float* ___3_height, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtFindNearestPolyQuery__ctor_m3AF80BC1A6D97E5E8DA38C0F704B00F4C6A3C745 (DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* __this, DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* ___0_query, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_center, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_QueryPolygons_mB53EFCB5460CAC291CDBD854E2CFDB45A9A4F87B (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_center, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_halfExtents, RuntimeObject* ___2_filter, RuntimeObject* ___3_query, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DtFindNearestPolyQuery_NearestRef_mC600A513C219B68066596A7DC28F56B56E8DBE54 (DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 DtFindNearestPolyQuery_NearestPt_mA3FE0747D4501F92BFC6BBB3312B97FD930530E0 (DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtFindNearestPolyQuery_OverPoly_m1569622B04688A0E9FDC6B4AAC94C2709CF174A0 (DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RcMath_Clamp_m6C5D95FBE921D3B36D345EB78253F0FBEA6E7742_inline (float ___0_v, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtUtils_OverlapQuantBounds_m8ECB99609C6CE79C01710A216B7877B98551EBA3 (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_amin, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_amax, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_bmin, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_bmax, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtUtils_OverlapBounds_m72D20362D6621C2DB0477D07EEE375677E995DD2 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_amin, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_amax, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_bmin, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___3_bmax, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Subtract_m22DB9ABD128201BAF869053154F8C16AC2C5135F_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_right, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Add_mF7F8BD57B1C48137508C664D9CE2D08ECE162554_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DtNavMeshQuery_QueryTiles_mC3046B807C051769D91CDC30470507FCED443C43 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_center, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_halfExtents, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNavMeshQuery_QueryPolygonsInTile_m79D433D5582099640920C4EA9ADD24865206A70D (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___0_tile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_qmin, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_qmax, RuntimeObject* ___3_filter, RuntimeObject* ___4_query, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNavMesh_CalcTileLoc_mF9372BF66BD54F8B432AD7845F60007405C21EEF (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pos, int32_t* ___1_tx, int32_t* ___2_ty, const RuntimeMethod* method) ;
+inline void List_1__ctor_m977B44FD6299EE94A50FF862FDE20D663F3EFBDE (List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5* DtNavMesh_GetTilesAt_m2A638D16E9352A71D72FA1B49952823BD28CF05F (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) ;
+inline void List_1_AddRange_mE6F1B5804B619A7336E62EA922B7BC45A1490883 (List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5*, RuntimeObject*, const RuntimeMethod*))List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared)(__this, ___0_collection, method);
+}
+inline void List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*, const RuntimeMethod*))List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_gshared_inline)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* DtNavMesh_GetTileByRef_mFCFBB2E629D6B582AAA9281DEBC16BBE6485DEA6 (DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* __this, int64_t ___0_refs, const RuntimeMethod* method) ;
+inline void List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, int64_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*, int64_t, const RuntimeMethod*))List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RcVec3f_DistSqr_m6A83CC6DB483F8A7C964476E6153BECA4C5FA155_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v1, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_v2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* DtNodePool_GetNode_mEA8F2B97716EC8F080DBAB4D2EA9CAC562E37611 (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* __this, int64_t ___0_id, int32_t ___1_state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetEdgeMidPoint_m64BD2A68D1AE02A9B99F178B423EC0F4C52ECD89 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_from, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___1_fromPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___2_fromTile, int64_t ___3_to, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___4_toPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___5_toTile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___6_mid, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetEdgeIntersectionPoint_m34708E49CF97F36AD1C789EF05C796E281DED84B (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_fromPos, int64_t ___1_from, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___2_fromPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___3_fromTile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___4_toPos, int64_t ___5_to, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___6_toPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___7_toTile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___8_pt, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_Raycast_m6C9F06842972111B5822278399DE9A58A8FA6DB1 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_startPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_endPos, RuntimeObject* ___3_filter, int32_t ___4_options, int64_t ___5_prevRef, DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** ___6_hit, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DtStatus_Succeeded_mCF8E76C4EE7CD0DBF56B06210B09AE9D2E899D0C_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetPathToNode_m3340B0041D42D4CE8F83EB367601F5C9DED38300 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___0_endNode, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___1_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_InitSlicedFindPath_mCB70DBA5B6CC28AC507626AE224D8BC0398A2C2C (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, int64_t ___1_endRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_startPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___3_endPos, RuntimeObject* ___4_filter, int32_t ___5_options, RuntimeObject* ___6_heuristic, float ___7_raycastLimit, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtStatus_op_BitwiseAnd_m6E15D2E12EE1D096BE1189835099EE3D3815159A_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___0_left, DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___1_right, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*, const RuntimeMethod*))List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_gshared_inline)(__this, method);
+}
+inline int64_t List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  int64_t (*) (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*, int32_t, const RuntimeMethod*))List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* DtNodePool_FindNode_mF8152D1483A4B9AFF73BDDB57E69ADB2F37FF64C (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* __this, int64_t ___0_id, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD*, const RuntimeMethod*))List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_gshared_inline)(__this, method);
+}
+inline StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5 (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE (*) (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD*, int32_t, const RuntimeMethod*))List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtUtils_VEqual_m98522C380BAAB27E9882C500E61001F3CD1350E4 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_p0, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_p1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StraightPathItem__ctor_mFA90DE3B777790B8CF43C0C9689FFE292B48A242 (StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pos, int32_t ___1_flags, int64_t ___2_refs, const RuntimeMethod* method) ;
+inline void List_1_set_Item_mE9EB4FBECBC288BEC2FEBFA0A1DDD70CE4F20026 (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, int32_t ___0_index, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD*, int32_t, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE, const RuntimeMethod*))List_1_set_Item_mE9EB4FBECBC288BEC2FEBFA0A1DDD70CE4F20026_gshared)(__this, ___0_index, ___1_value, method);
+}
+inline void List_1_Add_m5FE8C52EA660FBFE92FB3442EBC5B6E109A904D0_inline (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD*, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE, const RuntimeMethod*))List_1_Add_m5FE8C52EA660FBFE92FB3442EBC5B6E109A904D0_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtPoly_GetArea_m23C9196C4675E64E9247ACA4B8342A91F679BA93 (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtUtils_IntersectSegSeg2D_m3796779E2988BEEB7295D0165C683E8BE796ED32 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_ap, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_aq, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_bp, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___3_bq, float* ___4_s, float* ___5_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_AppendVertex_mCEDF7D53618ABFCA7BE18F364DF26F6635EF3A57 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pos, int32_t ___1_flags, int64_t ___2_refs, List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** ___3_straightPath, int32_t ___4_maxStraightPath, const RuntimeMethod* method) ;
+inline void List_1_Clear_m967D78079FECCFF6C8F55513E76D9F5B2D473588_inline (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD*, const RuntimeMethod*))List_1_Clear_m967D78079FECCFF6C8F55513E76D9F5B2D473588_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_ClosestPointOnPolyBoundary_m20919D28E35692760FD1A11D6C15958F6334D1A3 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_refs, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_pos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___2_closest, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetPortalPoints_mED6CC99E0F09571932FF6B2CD891D6FC07ACDE74 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_from, int64_t ___1_to, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___2_left, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___3_right, int32_t* ___4_fromType, int32_t* ___5_toType, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_AppendPortals_mD3E89C8FD90EEDB850637DDC0AA53A1B088F3FFF (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int32_t ___0_startIdx, int32_t ___1_endIdx, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_endPos, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___3_path, List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** ___4_straightPath, int32_t ___5_maxStraightPath, int32_t ___6_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DtUtils_TriArea2D_m9A37D8C0CD9EC6A4BC1E8A44001CFDEE31F63242 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_a, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_b, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_c, const RuntimeMethod* method) ;
+inline void LinkedList_1__ctor_m2CEDDD9094DEB3DE022EA06DAD156C5A2027E4F4 (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* __this, const RuntimeMethod* method)
+{
+	((  void (*) (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18*, const RuntimeMethod*))LinkedList_1__ctor_m2732A2EC5597469086D48C79A12B3563DEA501C5_gshared)(__this, method);
+}
+inline LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* __this, DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___0_value, const RuntimeMethod* method)
+{
+	return ((  LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* (*) (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18*, DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*, const RuntimeMethod*))LinkedList_1_AddLast_mF5239C871EADC44D51C6B621592A9CAC43449A2E_gshared)(__this, ___0_value, method);
+}
+inline LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* LinkedList_1_get_First_mE50B3E3FC2A783CAC5738E6718C9C788BB43D6D9_inline (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* __this, const RuntimeMethod* method)
+{
+	return ((  LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* (*) (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18*, const RuntimeMethod*))LinkedList_1_get_First_mF743AE65DDD0324290E33D3F433F37AC83216E18_gshared_inline)(__this, method);
+}
+inline DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* LinkedListNode_1_get_Value_m0002CA07B9FA0EA9B184224D7575DF46D5E5972F_inline (LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* __this, const RuntimeMethod* method)
+{
+	return ((  DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* (*) (LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F*, const RuntimeMethod*))LinkedListNode_1_get_Value_m8F67264DC98EF442B34CE4947044BCE18BF26053_gshared_inline)(__this, method);
+}
+inline void LinkedList_1_RemoveFirst_m8783AF0585C84EE3173FB8E608A29914A1DA66BD (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* __this, const RuntimeMethod* method)
+{
+	((  void (*) (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18*, const RuntimeMethod*))LinkedList_1_RemoveFirst_m225E1E99245052D8FC3C27D63679A1ABC10DCBBB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtUtils_PointInPolygon_m3BE6C56AA5D90A5DF9A0C3B071DC08C283E7F367 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pt, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_verts, int32_t ___2_nverts, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DtUtils_DistancePtSegSqr2D_m50C51FCA6D90441C2A8BC0059FF1E585FEFCCB27 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pt, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_verts, int32_t ___2_p, int32_t ___3_q, float* ___4_t, const RuntimeMethod* method) ;
+inline int32_t LinkedList_1_get_Count_mDE2A5DE9F82166C43C5C12058737ECB5AC137D9F_inline (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18*, const RuntimeMethod*))LinkedList_1_get_Count_mBFF1AE23B10EDF501026201C0427AA5820AECD82_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtRaycastHit__ctor_m33D892911751C4259ED94785149EA9DDDE327922 (DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtUtils_IntersectSegmentPoly2D_mBE858F977771D4A3B45BDE68651C560F9E444C9E (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_p0, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_p1, RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* ___2_verts, int32_t ___3_nverts, float* ___4_tmin, float* ___5_tmax, int32_t* ___6_segMin, int32_t* ___7_segMax, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Mad_m39874CE2B7229F1131DDBF955E07620CA9DCC5B4_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v1, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_v2, float ___2_s, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f_Normalize_mB704E1A1336A29792D75A1683E4AAC0894D68E72_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, const RuntimeMethod* method) ;
+inline void List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, const RuntimeMethod*))List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_gshared_inline)(__this, method);
+}
+inline void List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, float, const RuntimeMethod*))List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_op_Addition_m54DDDEF534B73C8AEA3B4019CFC41ECA48D63D66_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_left, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_right, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtUtils_OverlapPolyPoly2D_m766579A5A2D491ADE6543F6B32F0380C2D7FC871 (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_polya, int32_t ___1_npolya, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___2_polyb, int32_t ___3_npolyb, const RuntimeMethod* method) ;
+inline DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948 (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D (*) (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4*, int32_t, const RuntimeMethod*))List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_gshared)(__this, ___0_index, method);
+}
+inline int32_t List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_inline (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4*, const RuntimeMethod*))List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtSegInterval__ctor_mB96FA5F99CB6169D7503A1505C43420CC422BC90 (DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D* __this, int64_t ___0_refs, int32_t ___1_tmin, int32_t ___2_tmax, const RuntimeMethod* method) ;
+inline void List_1_Insert_mD5799815B3D2003C43AB7F3A4BCB6DEA39B5CB4C (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, int32_t ___0_index, DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D ___1_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4*, int32_t, DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D, const RuntimeMethod*))List_1_Insert_mD5799815B3D2003C43AB7F3A4BCB6DEA39B5CB4C_gshared)(__this, ___0_index, ___1_item, method);
+}
+inline void List_1_Clear_m157ABCFF323F55D2C1465A55FE432AE8E90B902F_inline (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF*, const RuntimeMethod*))List_1_Clear_m157ABCFF323F55D2C1465A55FE432AE8E90B902F_gshared_inline)(__this, method);
+}
+inline void List_1__ctor_m8CA456DFA19E8E6D1EDBFD576DB353E6AED5A97D (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, int32_t ___0_capacity, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4*, int32_t, const RuntimeMethod*))List_1__ctor_m8CA456DFA19E8E6D1EDBFD576DB353E6AED5A97D_gshared)(__this, ___0_capacity, method);
+}
+inline void List_1_Clear_m6D127683440E1798FFBB04AFB6CC1C60CEFAF9A6_inline (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4*, const RuntimeMethod*))List_1_Clear_m6D127683440E1798FFBB04AFB6CC1C60CEFAF9A6_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNavMeshQuery_InsertInterval_m5A9617D1960A9D90B66C5A4C01C0C8DF2210FAF0 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* ___0_ints, int32_t ___1_tmin, int32_t ___2_tmax, int64_t ___3_refs, const RuntimeMethod* method) ;
+inline void List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_inline (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* __this, RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF*, RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775, const RuntimeMethod*))List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* DtNodePool_FindNodes_m62F2E5F81A4AEA0D6F1E07F4247953C220408019 (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* __this, int64_t ___0_id, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m59C47AA5B633FAFCADF124B66A27CA957A235A0B_inline (List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* List_1_get_Item_m72031E09DAD93D10A3DD0EF4C0EDB42531A85BFC (List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* (*) (List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+inline void List_1_Reverse_mFA4816FEB2014002AD0277DD3B1F250818F2838E (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*, const RuntimeMethod*))List_1_Reverse_mFA4816FEB2014002AD0277DD3B1F250818F2838E_gshared)(__this, method);
+}
+inline Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C List_1_GetEnumerator_m08AAB3C7A33557EF731CBD2A752CE4ABC76278FA (List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C (*) (List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m36984B707F4293BB109240274397E9FC06E022AF (Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* Enumerator_get_Current_m19964B2DEFD9D3AECE1FAC38800B75E2C58A9ADD_inline (Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C* __this, const RuntimeMethod* method)
+{
+	return ((  DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* (*) (Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_mA70655BE6FEA1E96B913190354DE9F44095F5DF0 (Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52 (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtStatus__ctor_m61ECEE8576AFFA35F1C0076989C40A681DCA5898 (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* __this, uint32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f__ctor_mB8F23E2507B7F9D20C6C470599E0135F1D97A304_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_mAE92ED7C1F3B1E0BB409F462197C47FD982345E1 (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, int64_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*, int64_t, const RuntimeMethod*))List_1_AddWithResize_mAE92ED7C1F3B1E0BB409F462197C47FD982345E1_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m4B78611159AAF06A3465FABCB48B6D3051D363DF (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD*, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE, const RuntimeMethod*))List_1_AddWithResize_m4B78611159AAF06A3465FABCB48B6D3051D363DF_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m446487BF7F55E757E7D552B2436AD74AC354EA99 (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, float, const RuntimeMethod*))List_1_AddWithResize_m446487BF7F55E757E7D552B2436AD74AC354EA99_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m0FCA4D79F5FAAB756C56A4458E2F17F071F21082 (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* __this, RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF*, RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775, const RuntimeMethod*))List_1_AddWithResize_m0FCA4D79F5FAAB756C56A4458E2F17F071F21082_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* DtNavMeshBuilder_CalcExtends_m629AF21AA1D2D88A8A16C4E41BA3DA2F810A274A (BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* ___0_items, int32_t ___1_nitems, int32_t ___2_imin, int32_t ___3_imax, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_1 = NULL;
+	int32_t V_2 = 0;
+	BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* V_3 = NULL;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* V_11 = NULL;
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)3);
+		V_0 = L_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)3);
+		V_1 = L_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = V_0;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_3 = ___0_items;
+		int32_t L_4 = ___2_imin;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_6);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = L_6->___bmin;
+		NullCheck(L_7);
+		int32_t L_8 = 0;
+		int32_t L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_9);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = V_0;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_11 = ___0_items;
+		int32_t L_12 = ___2_imin;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		NullCheck(L_14);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = L_14->___bmin;
+		NullCheck(L_15);
+		int32_t L_16 = 1;
+		int32_t L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_17);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_18 = V_0;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_19 = ___0_items;
+		int32_t L_20 = ___2_imin;
+		NullCheck(L_19);
+		int32_t L_21 = L_20;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		NullCheck(L_22);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_23 = L_22->___bmin;
+		NullCheck(L_23);
+		int32_t L_24 = 2;
+		int32_t L_25 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_25);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = V_1;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_27 = ___0_items;
+		int32_t L_28 = ___2_imin;
+		NullCheck(L_27);
+		int32_t L_29 = L_28;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NullCheck(L_30);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_31 = L_30->___bmax;
+		NullCheck(L_31);
+		int32_t L_32 = 0;
+		int32_t L_33 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		NullCheck(L_26);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_33);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_34 = V_1;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_35 = ___0_items;
+		int32_t L_36 = ___2_imin;
+		NullCheck(L_35);
+		int32_t L_37 = L_36;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_38 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		NullCheck(L_38);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_39 = L_38->___bmax;
+		NullCheck(L_39);
+		int32_t L_40 = 1;
+		int32_t L_41 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_41);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_42 = V_1;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_43 = ___0_items;
+		int32_t L_44 = ___2_imin;
+		NullCheck(L_43);
+		int32_t L_45 = L_44;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_46 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		NullCheck(L_46);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = L_46->___bmax;
+		NullCheck(L_47);
+		int32_t L_48 = 2;
+		int32_t L_49 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		NullCheck(L_42);
+		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_49);
+		int32_t L_50 = ___2_imin;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_50, 1));
+		goto IL_0124;
+	}
+
+IL_0066:
+	{
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_51 = ___0_items;
+		int32_t L_52 = V_2;
+		NullCheck(L_51);
+		int32_t L_53 = L_52;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_54 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		V_3 = L_54;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_55 = V_3;
+		NullCheck(L_55);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_56 = L_55->___bmin;
+		NullCheck(L_56);
+		int32_t L_57 = 0;
+		int32_t L_58 = (L_56)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_59 = V_0;
+		NullCheck(L_59);
+		int32_t L_60 = 0;
+		int32_t L_61 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		V_4 = (bool)((((int32_t)L_58) < ((int32_t)L_61))? 1 : 0);
+		bool L_62 = V_4;
+		if (!L_62)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_63 = V_0;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_64 = V_3;
+		NullCheck(L_64);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_65 = L_64->___bmin;
+		NullCheck(L_65);
+		int32_t L_66 = 0;
+		int32_t L_67 = (L_65)->GetAt(static_cast<il2cpp_array_size_t>(L_66));
+		NullCheck(L_63);
+		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_67);
+	}
+
+IL_0089:
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_68 = V_3;
+		NullCheck(L_68);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_69 = L_68->___bmin;
+		NullCheck(L_69);
+		int32_t L_70 = 1;
+		int32_t L_71 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_70));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_72 = V_0;
+		NullCheck(L_72);
+		int32_t L_73 = 1;
+		int32_t L_74 = (L_72)->GetAt(static_cast<il2cpp_array_size_t>(L_73));
+		V_5 = (bool)((((int32_t)L_71) < ((int32_t)L_74))? 1 : 0);
+		bool L_75 = V_5;
+		if (!L_75)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_76 = V_0;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_77 = V_3;
+		NullCheck(L_77);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_78 = L_77->___bmin;
+		NullCheck(L_78);
+		int32_t L_79 = 1;
+		int32_t L_80 = (L_78)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
+		NullCheck(L_76);
+		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_80);
+	}
+
+IL_00a7:
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_81 = V_3;
+		NullCheck(L_81);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_82 = L_81->___bmin;
+		NullCheck(L_82);
+		int32_t L_83 = 2;
+		int32_t L_84 = (L_82)->GetAt(static_cast<il2cpp_array_size_t>(L_83));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_85 = V_0;
+		NullCheck(L_85);
+		int32_t L_86 = 2;
+		int32_t L_87 = (L_85)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		V_6 = (bool)((((int32_t)L_84) < ((int32_t)L_87))? 1 : 0);
+		bool L_88 = V_6;
+		if (!L_88)
+		{
+			goto IL_00c5;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_89 = V_0;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_90 = V_3;
+		NullCheck(L_90);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_91 = L_90->___bmin;
+		NullCheck(L_91);
+		int32_t L_92 = 2;
+		int32_t L_93 = (L_91)->GetAt(static_cast<il2cpp_array_size_t>(L_92));
+		NullCheck(L_89);
+		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_93);
+	}
+
+IL_00c5:
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_94 = V_3;
+		NullCheck(L_94);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_95 = L_94->___bmax;
+		NullCheck(L_95);
+		int32_t L_96 = 0;
+		int32_t L_97 = (L_95)->GetAt(static_cast<il2cpp_array_size_t>(L_96));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_98 = V_1;
+		NullCheck(L_98);
+		int32_t L_99 = 0;
+		int32_t L_100 = (L_98)->GetAt(static_cast<il2cpp_array_size_t>(L_99));
+		V_7 = (bool)((((int32_t)L_97) > ((int32_t)L_100))? 1 : 0);
+		bool L_101 = V_7;
+		if (!L_101)
+		{
+			goto IL_00e3;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_102 = V_1;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_103 = V_3;
+		NullCheck(L_103);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_104 = L_103->___bmax;
+		NullCheck(L_104);
+		int32_t L_105 = 0;
+		int32_t L_106 = (L_104)->GetAt(static_cast<il2cpp_array_size_t>(L_105));
+		NullCheck(L_102);
+		(L_102)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_106);
+	}
+
+IL_00e3:
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_107 = V_3;
+		NullCheck(L_107);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_108 = L_107->___bmax;
+		NullCheck(L_108);
+		int32_t L_109 = 1;
+		int32_t L_110 = (L_108)->GetAt(static_cast<il2cpp_array_size_t>(L_109));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_111 = V_1;
+		NullCheck(L_111);
+		int32_t L_112 = 1;
+		int32_t L_113 = (L_111)->GetAt(static_cast<il2cpp_array_size_t>(L_112));
+		V_8 = (bool)((((int32_t)L_110) > ((int32_t)L_113))? 1 : 0);
+		bool L_114 = V_8;
+		if (!L_114)
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_115 = V_1;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_116 = V_3;
+		NullCheck(L_116);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_117 = L_116->___bmax;
+		NullCheck(L_117);
+		int32_t L_118 = 1;
+		int32_t L_119 = (L_117)->GetAt(static_cast<il2cpp_array_size_t>(L_118));
+		NullCheck(L_115);
+		(L_115)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_119);
+	}
+
+IL_0101:
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_120 = V_3;
+		NullCheck(L_120);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_121 = L_120->___bmax;
+		NullCheck(L_121);
+		int32_t L_122 = 2;
+		int32_t L_123 = (L_121)->GetAt(static_cast<il2cpp_array_size_t>(L_122));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_124 = V_1;
+		NullCheck(L_124);
+		int32_t L_125 = 2;
+		int32_t L_126 = (L_124)->GetAt(static_cast<il2cpp_array_size_t>(L_125));
+		V_9 = (bool)((((int32_t)L_123) > ((int32_t)L_126))? 1 : 0);
+		bool L_127 = V_9;
+		if (!L_127)
+		{
+			goto IL_011f;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_128 = V_1;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_129 = V_3;
+		NullCheck(L_129);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_130 = L_129->___bmax;
+		NullCheck(L_130);
+		int32_t L_131 = 2;
+		int32_t L_132 = (L_130)->GetAt(static_cast<il2cpp_array_size_t>(L_131));
+		NullCheck(L_128);
+		(L_128)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_132);
+	}
+
+IL_011f:
+	{
+		int32_t L_133 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_133, 1));
+	}
+
+IL_0124:
+	{
+		int32_t L_134 = V_2;
+		int32_t L_135 = ___3_imax;
+		V_10 = (bool)((((int32_t)L_134) < ((int32_t)L_135))? 1 : 0);
+		bool L_136 = V_10;
+		if (L_136)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* L_137 = (Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E*)(Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E*)SZArrayNew(Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E_il2cpp_TypeInfo_var, (uint32_t)2);
+		Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* L_138 = L_137;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_139 = V_0;
+		NullCheck(L_138);
+		(L_138)->SetAt(static_cast<il2cpp_array_size_t>(0), (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_139);
+		Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* L_140 = L_138;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_141 = V_1;
+		NullCheck(L_140);
+		(L_140)->SetAt(static_cast<il2cpp_array_size_t>(1), (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_141);
+		V_11 = L_140;
+		goto IL_0143;
+	}
+
+IL_0143:
+	{
+		Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* L_142 = V_11;
+		return L_142;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMeshBuilder_LongestAxis_mB999B217679736C74449DF035EDA8570F728825F (int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	bool V_3 = false;
+	int32_t V_4 = 0;
+	{
+		V_0 = 0;
+		int32_t L_0 = ___0_x;
+		V_1 = L_0;
+		int32_t L_1 = ___1_y;
+		int32_t L_2 = V_1;
+		V_2 = (bool)((((int32_t)L_1) > ((int32_t)L_2))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		V_0 = 1;
+		int32_t L_4 = ___1_y;
+		V_1 = L_4;
+	}
+
+IL_0013:
+	{
+		int32_t L_5 = ___2_z;
+		int32_t L_6 = V_1;
+		V_3 = (bool)((((int32_t)L_5) > ((int32_t)L_6))? 1 : 0);
+		bool L_7 = V_3;
+		if (!L_7)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		V_0 = 2;
+		int32_t L_8 = ___2_z;
+		V_1 = L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_0;
+		V_4 = L_9;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		int32_t L_10 = V_4;
+		return L_10;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMeshBuilder_Subdivide_m209F7276BCF89B99018935FC81E0D076765C7088 (BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* ___0_items, int32_t ___1_nitems, int32_t ___2_imin, int32_t ___3_imax, int32_t ___4_curNode, DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* ___5_nodes, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Sort_TisBVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_m3534D2531103729642653AF06DD7044E2129EADB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BVItemXComparer_t2520B6A97582A58C293289DD9C957862F79F70E8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BVItemYComparer_tDBEED02EC870F42868D74FF8D124D2C6CA51D1C0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BVItemZComparer_tBEC411D001694A041D4AD0FE85EDE718FC1BE431_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* V_2 = NULL;
+	bool V_3 = false;
+	Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	{
+		int32_t L_0 = ___3_imax;
+		int32_t L_1 = ___2_imin;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_0, L_1));
+		int32_t L_2 = ___4_curNode;
+		V_1 = L_2;
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_3 = (DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3*)il2cpp_codegen_object_new(DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3_il2cpp_TypeInfo_var);
+		DtBVNode__ctor_m200844A53768AEE2CB16C05AEFE04F7450241C07(L_3, NULL);
+		V_2 = L_3;
+		DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* L_4 = ___5_nodes;
+		int32_t L_5 = ___4_curNode;
+		int32_t L_6 = L_5;
+		___4_curNode = ((int32_t)il2cpp_codegen_add(L_6, 1));
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_7 = V_2;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3*)L_7);
+		int32_t L_8 = V_0;
+		V_3 = (bool)((((int32_t)L_8) == ((int32_t)1))? 1 : 0);
+		bool L_9 = V_3;
+		if (!L_9)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_10 = V_2;
+		NullCheck(L_10);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = L_10->___bmin;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_12 = ___0_items;
+		int32_t L_13 = ___2_imin;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		NullCheck(L_15);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = L_15->___bmin;
+		NullCheck(L_16);
+		int32_t L_17 = 0;
+		int32_t L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_18);
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_19 = V_2;
+		NullCheck(L_19);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = L_19->___bmin;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_21 = ___0_items;
+		int32_t L_22 = ___2_imin;
+		NullCheck(L_21);
+		int32_t L_23 = L_22;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		NullCheck(L_24);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = L_24->___bmin;
+		NullCheck(L_25);
+		int32_t L_26 = 1;
+		int32_t L_27 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		NullCheck(L_20);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_27);
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_28 = V_2;
+		NullCheck(L_28);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_29 = L_28->___bmin;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_30 = ___0_items;
+		int32_t L_31 = ___2_imin;
+		NullCheck(L_30);
+		int32_t L_32 = L_31;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		NullCheck(L_33);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_34 = L_33->___bmin;
+		NullCheck(L_34);
+		int32_t L_35 = 2;
+		int32_t L_36 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		NullCheck(L_29);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_36);
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_37 = V_2;
+		NullCheck(L_37);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_38 = L_37->___bmax;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_39 = ___0_items;
+		int32_t L_40 = ___2_imin;
+		NullCheck(L_39);
+		int32_t L_41 = L_40;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_42 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_41));
+		NullCheck(L_42);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_43 = L_42->___bmax;
+		NullCheck(L_43);
+		int32_t L_44 = 0;
+		int32_t L_45 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_44));
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_45);
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_46 = V_2;
+		NullCheck(L_46);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = L_46->___bmax;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_48 = ___0_items;
+		int32_t L_49 = ___2_imin;
+		NullCheck(L_48);
+		int32_t L_50 = L_49;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_51 = (L_48)->GetAt(static_cast<il2cpp_array_size_t>(L_50));
+		NullCheck(L_51);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_52 = L_51->___bmax;
+		NullCheck(L_52);
+		int32_t L_53 = 1;
+		int32_t L_54 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		NullCheck(L_47);
+		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_54);
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_55 = V_2;
+		NullCheck(L_55);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_56 = L_55->___bmax;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_57 = ___0_items;
+		int32_t L_58 = ___2_imin;
+		NullCheck(L_57);
+		int32_t L_59 = L_58;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_60 = (L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_59));
+		NullCheck(L_60);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_61 = L_60->___bmax;
+		NullCheck(L_61);
+		int32_t L_62 = 2;
+		int32_t L_63 = (L_61)->GetAt(static_cast<il2cpp_array_size_t>(L_62));
+		NullCheck(L_56);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_63);
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_64 = V_2;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_65 = ___0_items;
+		int32_t L_66 = ___2_imin;
+		NullCheck(L_65);
+		int32_t L_67 = L_66;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_68 = (L_65)->GetAt(static_cast<il2cpp_array_size_t>(L_67));
+		NullCheck(L_68);
+		int32_t L_69 = L_68->___i;
+		NullCheck(L_64);
+		L_64->___i = L_69;
+		goto IL_0180;
+	}
+
+IL_00a5:
+	{
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_70 = ___0_items;
+		int32_t L_71 = ___1_nitems;
+		int32_t L_72 = ___2_imin;
+		int32_t L_73 = ___3_imax;
+		Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* L_74;
+		L_74 = DtNavMeshBuilder_CalcExtends_m629AF21AA1D2D88A8A16C4E41BA3DA2F810A274A(L_70, L_71, L_72, L_73, NULL);
+		V_4 = L_74;
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_75 = V_2;
+		Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* L_76 = V_4;
+		NullCheck(L_76);
+		int32_t L_77 = 0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_78 = (L_76)->GetAt(static_cast<il2cpp_array_size_t>(L_77));
+		NullCheck(L_75);
+		L_75->___bmin = L_78;
+		Il2CppCodeGenWriteBarrier((void**)(&L_75->___bmin), (void*)L_78);
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_79 = V_2;
+		Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* L_80 = V_4;
+		NullCheck(L_80);
+		int32_t L_81 = 1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_82 = (L_80)->GetAt(static_cast<il2cpp_array_size_t>(L_81));
+		NullCheck(L_79);
+		L_79->___bmax = L_82;
+		Il2CppCodeGenWriteBarrier((void**)(&L_79->___bmax), (void*)L_82);
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_83 = V_2;
+		NullCheck(L_83);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_84 = L_83->___bmax;
+		NullCheck(L_84);
+		int32_t L_85 = 0;
+		int32_t L_86 = (L_84)->GetAt(static_cast<il2cpp_array_size_t>(L_85));
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_87 = V_2;
+		NullCheck(L_87);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_88 = L_87->___bmin;
+		NullCheck(L_88);
+		int32_t L_89 = 0;
+		int32_t L_90 = (L_88)->GetAt(static_cast<il2cpp_array_size_t>(L_89));
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_91 = V_2;
+		NullCheck(L_91);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_92 = L_91->___bmax;
+		NullCheck(L_92);
+		int32_t L_93 = 1;
+		int32_t L_94 = (L_92)->GetAt(static_cast<il2cpp_array_size_t>(L_93));
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_95 = V_2;
+		NullCheck(L_95);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_96 = L_95->___bmin;
+		NullCheck(L_96);
+		int32_t L_97 = 1;
+		int32_t L_98 = (L_96)->GetAt(static_cast<il2cpp_array_size_t>(L_97));
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_99 = V_2;
+		NullCheck(L_99);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_100 = L_99->___bmax;
+		NullCheck(L_100);
+		int32_t L_101 = 2;
+		int32_t L_102 = (L_100)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_103 = V_2;
+		NullCheck(L_103);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_104 = L_103->___bmin;
+		NullCheck(L_104);
+		int32_t L_105 = 2;
+		int32_t L_106 = (L_104)->GetAt(static_cast<il2cpp_array_size_t>(L_105));
+		int32_t L_107;
+		L_107 = DtNavMeshBuilder_LongestAxis_mB999B217679736C74449DF035EDA8570F728825F(((int32_t)il2cpp_codegen_subtract(L_86, L_90)), ((int32_t)il2cpp_codegen_subtract(L_94, L_98)), ((int32_t)il2cpp_codegen_subtract(L_102, L_106)), NULL);
+		V_5 = L_107;
+		int32_t L_108 = V_5;
+		V_8 = (bool)((((int32_t)L_108) == ((int32_t)0))? 1 : 0);
+		bool L_109 = V_8;
+		if (!L_109)
+		{
+			goto IL_011c;
+		}
+	}
+	{
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_110 = ___0_items;
+		int32_t L_111 = ___2_imin;
+		int32_t L_112 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(BVItemXComparer_t2520B6A97582A58C293289DD9C957862F79F70E8_il2cpp_TypeInfo_var);
+		BVItemXComparer_t2520B6A97582A58C293289DD9C957862F79F70E8* L_113 = ((BVItemXComparer_t2520B6A97582A58C293289DD9C957862F79F70E8_StaticFields*)il2cpp_codegen_static_fields_for(BVItemXComparer_t2520B6A97582A58C293289DD9C957862F79F70E8_il2cpp_TypeInfo_var))->___Shared;
+		Array_Sort_TisBVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_m3534D2531103729642653AF06DD7044E2129EADB(L_110, L_111, L_112, L_113, Array_Sort_TisBVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_m3534D2531103729642653AF06DD7044E2129EADB_RuntimeMethod_var);
+		goto IL_0149;
+	}
+
+IL_011c:
+	{
+		int32_t L_114 = V_5;
+		V_9 = (bool)((((int32_t)L_114) == ((int32_t)1))? 1 : 0);
+		bool L_115 = V_9;
+		if (!L_115)
+		{
+			goto IL_0139;
+		}
+	}
+	{
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_116 = ___0_items;
+		int32_t L_117 = ___2_imin;
+		int32_t L_118 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(BVItemYComparer_tDBEED02EC870F42868D74FF8D124D2C6CA51D1C0_il2cpp_TypeInfo_var);
+		BVItemYComparer_tDBEED02EC870F42868D74FF8D124D2C6CA51D1C0* L_119 = ((BVItemYComparer_tDBEED02EC870F42868D74FF8D124D2C6CA51D1C0_StaticFields*)il2cpp_codegen_static_fields_for(BVItemYComparer_tDBEED02EC870F42868D74FF8D124D2C6CA51D1C0_il2cpp_TypeInfo_var))->___Shared;
+		Array_Sort_TisBVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_m3534D2531103729642653AF06DD7044E2129EADB(L_116, L_117, L_118, L_119, Array_Sort_TisBVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_m3534D2531103729642653AF06DD7044E2129EADB_RuntimeMethod_var);
+		goto IL_0149;
+	}
+
+IL_0139:
+	{
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_120 = ___0_items;
+		int32_t L_121 = ___2_imin;
+		int32_t L_122 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(BVItemZComparer_tBEC411D001694A041D4AD0FE85EDE718FC1BE431_il2cpp_TypeInfo_var);
+		BVItemZComparer_tBEC411D001694A041D4AD0FE85EDE718FC1BE431* L_123 = ((BVItemZComparer_tBEC411D001694A041D4AD0FE85EDE718FC1BE431_StaticFields*)il2cpp_codegen_static_fields_for(BVItemZComparer_tBEC411D001694A041D4AD0FE85EDE718FC1BE431_il2cpp_TypeInfo_var))->___Shared;
+		Array_Sort_TisBVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_m3534D2531103729642653AF06DD7044E2129EADB(L_120, L_121, L_122, L_123, Array_Sort_TisBVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_m3534D2531103729642653AF06DD7044E2129EADB_RuntimeMethod_var);
+	}
+
+IL_0149:
+	{
+		int32_t L_124 = ___2_imin;
+		int32_t L_125 = V_0;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_124, ((int32_t)(L_125/2))));
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_126 = ___0_items;
+		int32_t L_127 = ___1_nitems;
+		int32_t L_128 = ___2_imin;
+		int32_t L_129 = V_6;
+		int32_t L_130 = ___4_curNode;
+		DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* L_131 = ___5_nodes;
+		int32_t L_132;
+		L_132 = DtNavMeshBuilder_Subdivide_m209F7276BCF89B99018935FC81E0D076765C7088(L_126, L_127, L_128, L_129, L_130, L_131, NULL);
+		___4_curNode = L_132;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_133 = ___0_items;
+		int32_t L_134 = ___1_nitems;
+		int32_t L_135 = V_6;
+		int32_t L_136 = ___3_imax;
+		int32_t L_137 = ___4_curNode;
+		DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* L_138 = ___5_nodes;
+		int32_t L_139;
+		L_139 = DtNavMeshBuilder_Subdivide_m209F7276BCF89B99018935FC81E0D076765C7088(L_133, L_134, L_135, L_136, L_137, L_138, NULL);
+		___4_curNode = L_139;
+		int32_t L_140 = ___4_curNode;
+		int32_t L_141 = V_1;
+		V_7 = ((int32_t)il2cpp_codegen_subtract(L_140, L_141));
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_142 = V_2;
+		int32_t L_143 = V_7;
+		NullCheck(L_142);
+		L_142->___i = ((-L_143));
+	}
+
+IL_0180:
+	{
+		int32_t L_144 = ___4_curNode;
+		V_10 = L_144;
+		goto IL_0186;
+	}
+
+IL_0186:
+	{
+		int32_t L_145 = V_10;
+		return L_145;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMeshBuilder_CreateBVTree_m8B2F3E40472633738ACD367AF89065DB9D5CA78A (DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* ___0_option, DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* ___1_nodes, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* V_1 = NULL;
+	int32_t V_2 = 0;
+	BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* V_3 = NULL;
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	bool V_23 = false;
+	bool V_24 = false;
+	bool V_25 = false;
+	bool V_26 = false;
+	int32_t V_27 = 0;
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_0 = ___0_option;
+		NullCheck(L_0);
+		float L_1 = L_0->___cs;
+		V_0 = ((float)((1.0f)/L_1));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_2 = ___0_option;
+		NullCheck(L_2);
+		int32_t L_3 = L_2->___polyCount;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_4 = (BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3*)(BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3*)SZArrayNew(BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3_il2cpp_TypeInfo_var, (uint32_t)L_3);
+		V_1 = L_4;
+		V_2 = 0;
+		goto IL_03d5;
+	}
+
+IL_0021:
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_5 = (BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9*)il2cpp_codegen_object_new(BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9_il2cpp_TypeInfo_var);
+		BVItem__ctor_m45FB114E2FBA86634DFC34C1205474BE099E37CA(L_5, NULL);
+		V_3 = L_5;
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_6 = V_1;
+		int32_t L_7 = V_2;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_8 = V_3;
+		NullCheck(L_6);
+		ArrayElementTypeCheck (L_6, L_8);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9*)L_8);
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_9 = V_3;
+		int32_t L_10 = V_2;
+		NullCheck(L_9);
+		L_9->___i = L_10;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_11 = ___0_option;
+		NullCheck(L_11);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = L_11->___detailMeshes;
+		V_4 = (bool)((!(((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_12) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_13 = V_4;
+		if (!L_13)
+		{
+			goto IL_01d5;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_14 = ___0_option;
+		NullCheck(L_14);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = L_14->___detailMeshes;
+		int32_t L_16 = V_2;
+		NullCheck(L_15);
+		int32_t L_17 = ((int32_t)il2cpp_codegen_multiply(L_16, 4));
+		int32_t L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		V_5 = L_18;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_19 = ___0_option;
+		NullCheck(L_19);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = L_19->___detailMeshes;
+		int32_t L_21 = V_2;
+		NullCheck(L_20);
+		int32_t L_22 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_21, 4)), 1));
+		int32_t L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		V_6 = L_23;
+		il2cpp_codegen_initobj((&V_7), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		il2cpp_codegen_initobj((&V_8), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		int32_t L_24 = V_5;
+		V_9 = ((int32_t)il2cpp_codegen_multiply(L_24, 3));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_25 = ___0_option;
+		NullCheck(L_25);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_26 = L_25->___detailVerts;
+		int32_t L_27 = V_9;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_Set_m5C78CDD63E5C55E4CF131B7BAA60388164AB89B8_inline((&V_7), L_26, L_27, NULL);
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_28 = ___0_option;
+		NullCheck(L_28);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_29 = L_28->___detailVerts;
+		int32_t L_30 = V_9;
+		RcVec3f_Set_m5C78CDD63E5C55E4CF131B7BAA60388164AB89B8_inline((&V_8), L_29, L_30, NULL);
+		V_10 = 1;
+		goto IL_00cd;
+	}
+
+IL_009b:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_31 = ___0_option;
+		NullCheck(L_31);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_32 = L_31->___detailVerts;
+		int32_t L_33 = V_9;
+		int32_t L_34 = V_10;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_Min_mA4F1906CF520358BD3E62A5D9B040BD0D19890C1_inline((&V_7), L_32, ((int32_t)il2cpp_codegen_add(L_33, ((int32_t)il2cpp_codegen_multiply(L_34, 3)))), NULL);
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_35 = ___0_option;
+		NullCheck(L_35);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_36 = L_35->___detailVerts;
+		int32_t L_37 = V_9;
+		int32_t L_38 = V_10;
+		RcVec3f_Max_m6D5395D0F4CC1CA03FD492DDF2CD4E55C0F969D4_inline((&V_8), L_36, ((int32_t)il2cpp_codegen_add(L_37, ((int32_t)il2cpp_codegen_multiply(L_38, 3)))), NULL);
+		int32_t L_39 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_39, 1));
+	}
+
+IL_00cd:
+	{
+		int32_t L_40 = V_10;
+		int32_t L_41 = V_6;
+		V_11 = (bool)((((int32_t)L_40) < ((int32_t)L_41))? 1 : 0);
+		bool L_42 = V_11;
+		if (L_42)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_43 = V_3;
+		NullCheck(L_43);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_44 = L_43->___bmin;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_45 = V_7;
+		float L_46 = L_45.___x;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_47 = ___0_option;
+		NullCheck(L_47);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_48 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_47->___bmin);
+		float L_49 = L_48->___x;
+		float L_50 = V_0;
+		int32_t L_51;
+		L_51 = RcMath_Clamp_mCF21FED747DCE42814A247F784061FC31B57EC7B_inline(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_46, L_49)), L_50))), 0, ((int32_t)2147483647LL), NULL);
+		NullCheck(L_44);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_51);
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_52 = V_3;
+		NullCheck(L_52);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = L_52->___bmin;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_54 = V_7;
+		float L_55 = L_54.___y;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_56 = ___0_option;
+		NullCheck(L_56);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_57 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_56->___bmin);
+		float L_58 = L_57->___y;
+		float L_59 = V_0;
+		int32_t L_60;
+		L_60 = RcMath_Clamp_mCF21FED747DCE42814A247F784061FC31B57EC7B_inline(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_55, L_58)), L_59))), 0, ((int32_t)2147483647LL), NULL);
+		NullCheck(L_53);
+		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_60);
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_61 = V_3;
+		NullCheck(L_61);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_62 = L_61->___bmin;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_63 = V_7;
+		float L_64 = L_63.___z;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_65 = ___0_option;
+		NullCheck(L_65);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_66 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_65->___bmin);
+		float L_67 = L_66->___z;
+		float L_68 = V_0;
+		int32_t L_69;
+		L_69 = RcMath_Clamp_mCF21FED747DCE42814A247F784061FC31B57EC7B_inline(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_64, L_67)), L_68))), 0, ((int32_t)2147483647LL), NULL);
+		NullCheck(L_62);
+		(L_62)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_69);
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_70 = V_3;
+		NullCheck(L_70);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_71 = L_70->___bmax;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_72 = V_8;
+		float L_73 = L_72.___x;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_74 = ___0_option;
+		NullCheck(L_74);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_75 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_74->___bmin);
+		float L_76 = L_75->___x;
+		float L_77 = V_0;
+		int32_t L_78;
+		L_78 = RcMath_Clamp_mCF21FED747DCE42814A247F784061FC31B57EC7B_inline(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_73, L_76)), L_77))), 0, ((int32_t)2147483647LL), NULL);
+		NullCheck(L_71);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_78);
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_79 = V_3;
+		NullCheck(L_79);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_80 = L_79->___bmax;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_81 = V_8;
+		float L_82 = L_81.___y;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_83 = ___0_option;
+		NullCheck(L_83);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_84 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_83->___bmin);
+		float L_85 = L_84->___y;
+		float L_86 = V_0;
+		int32_t L_87;
+		L_87 = RcMath_Clamp_mCF21FED747DCE42814A247F784061FC31B57EC7B_inline(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_82, L_85)), L_86))), 0, ((int32_t)2147483647LL), NULL);
+		NullCheck(L_80);
+		(L_80)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_87);
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_88 = V_3;
+		NullCheck(L_88);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_89 = L_88->___bmax;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_90 = V_8;
+		float L_91 = L_90.___z;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_92 = ___0_option;
+		NullCheck(L_92);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_93 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_92->___bmin);
+		float L_94 = L_93->___z;
+		float L_95 = V_0;
+		int32_t L_96;
+		L_96 = RcMath_Clamp_mCF21FED747DCE42814A247F784061FC31B57EC7B_inline(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_91, L_94)), L_95))), 0, ((int32_t)2147483647LL), NULL);
+		NullCheck(L_89);
+		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_96);
+		goto IL_03d0;
+	}
+
+IL_01d5:
+	{
+		int32_t L_97 = V_2;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_98 = ___0_option;
+		NullCheck(L_98);
+		int32_t L_99 = L_98->___nvp;
+		V_12 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_97, L_99)), 2));
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_100 = V_3;
+		NullCheck(L_100);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_101 = L_100->___bmin;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_102 = V_3;
+		NullCheck(L_102);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_103 = L_102->___bmax;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_104 = ___0_option;
+		NullCheck(L_104);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_105 = L_104->___verts;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_106 = ___0_option;
+		NullCheck(L_106);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_107 = L_106->___polys;
+		int32_t L_108 = V_12;
+		NullCheck(L_107);
+		int32_t L_109 = L_108;
+		int32_t L_110 = (L_107)->GetAt(static_cast<il2cpp_array_size_t>(L_109));
+		NullCheck(L_105);
+		int32_t L_111 = ((int32_t)il2cpp_codegen_multiply(L_110, 3));
+		int32_t L_112 = (L_105)->GetAt(static_cast<il2cpp_array_size_t>(L_111));
+		int32_t L_113 = L_112;
+		V_13 = L_113;
+		NullCheck(L_103);
+		(L_103)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_113);
+		int32_t L_114 = V_13;
+		NullCheck(L_101);
+		(L_101)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_114);
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_115 = V_3;
+		NullCheck(L_115);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_116 = L_115->___bmin;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_117 = V_3;
+		NullCheck(L_117);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_118 = L_117->___bmax;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_119 = ___0_option;
+		NullCheck(L_119);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_120 = L_119->___verts;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_121 = ___0_option;
+		NullCheck(L_121);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_122 = L_121->___polys;
+		int32_t L_123 = V_12;
+		NullCheck(L_122);
+		int32_t L_124 = L_123;
+		int32_t L_125 = (L_122)->GetAt(static_cast<il2cpp_array_size_t>(L_124));
+		NullCheck(L_120);
+		int32_t L_126 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_125, 3)), 1));
+		int32_t L_127 = (L_120)->GetAt(static_cast<il2cpp_array_size_t>(L_126));
+		int32_t L_128 = L_127;
+		V_13 = L_128;
+		NullCheck(L_118);
+		(L_118)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_128);
+		int32_t L_129 = V_13;
+		NullCheck(L_116);
+		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_129);
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_130 = V_3;
+		NullCheck(L_130);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_131 = L_130->___bmin;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_132 = V_3;
+		NullCheck(L_132);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_133 = L_132->___bmax;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_134 = ___0_option;
+		NullCheck(L_134);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_135 = L_134->___verts;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_136 = ___0_option;
+		NullCheck(L_136);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_137 = L_136->___polys;
+		int32_t L_138 = V_12;
+		NullCheck(L_137);
+		int32_t L_139 = L_138;
+		int32_t L_140 = (L_137)->GetAt(static_cast<il2cpp_array_size_t>(L_139));
+		NullCheck(L_135);
+		int32_t L_141 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_140, 3)), 2));
+		int32_t L_142 = (L_135)->GetAt(static_cast<il2cpp_array_size_t>(L_141));
+		int32_t L_143 = L_142;
+		V_13 = L_143;
+		NullCheck(L_133);
+		(L_133)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_143);
+		int32_t L_144 = V_13;
+		NullCheck(L_131);
+		(L_131)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_144);
+		V_14 = 1;
+		goto IL_037a;
+	}
+
+IL_0263:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_145 = ___0_option;
+		NullCheck(L_145);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_146 = L_145->___polys;
+		int32_t L_147 = V_12;
+		int32_t L_148 = V_14;
+		NullCheck(L_146);
+		int32_t L_149 = ((int32_t)il2cpp_codegen_add(L_147, L_148));
+		int32_t L_150 = (L_146)->GetAt(static_cast<il2cpp_array_size_t>(L_149));
+		V_18 = (bool)((((int32_t)L_150) == ((int32_t)((int32_t)65535)))? 1 : 0);
+		bool L_151 = V_18;
+		if (!L_151)
+		{
+			goto IL_0282;
+		}
+	}
+	{
+		goto IL_038d;
+	}
+
+IL_0282:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_152 = ___0_option;
+		NullCheck(L_152);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_153 = L_152->___verts;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_154 = ___0_option;
+		NullCheck(L_154);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_155 = L_154->___polys;
+		int32_t L_156 = V_12;
+		int32_t L_157 = V_14;
+		NullCheck(L_155);
+		int32_t L_158 = ((int32_t)il2cpp_codegen_add(L_156, L_157));
+		int32_t L_159 = (L_155)->GetAt(static_cast<il2cpp_array_size_t>(L_158));
+		NullCheck(L_153);
+		int32_t L_160 = ((int32_t)il2cpp_codegen_multiply(L_159, 3));
+		int32_t L_161 = (L_153)->GetAt(static_cast<il2cpp_array_size_t>(L_160));
+		V_15 = L_161;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_162 = ___0_option;
+		NullCheck(L_162);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_163 = L_162->___verts;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_164 = ___0_option;
+		NullCheck(L_164);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_165 = L_164->___polys;
+		int32_t L_166 = V_12;
+		int32_t L_167 = V_14;
+		NullCheck(L_165);
+		int32_t L_168 = ((int32_t)il2cpp_codegen_add(L_166, L_167));
+		int32_t L_169 = (L_165)->GetAt(static_cast<il2cpp_array_size_t>(L_168));
+		NullCheck(L_163);
+		int32_t L_170 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_169, 3)), 1));
+		int32_t L_171 = (L_163)->GetAt(static_cast<il2cpp_array_size_t>(L_170));
+		V_16 = L_171;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_172 = ___0_option;
+		NullCheck(L_172);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_173 = L_172->___verts;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_174 = ___0_option;
+		NullCheck(L_174);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_175 = L_174->___polys;
+		int32_t L_176 = V_12;
+		int32_t L_177 = V_14;
+		NullCheck(L_175);
+		int32_t L_178 = ((int32_t)il2cpp_codegen_add(L_176, L_177));
+		int32_t L_179 = (L_175)->GetAt(static_cast<il2cpp_array_size_t>(L_178));
+		NullCheck(L_173);
+		int32_t L_180 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_179, 3)), 2));
+		int32_t L_181 = (L_173)->GetAt(static_cast<il2cpp_array_size_t>(L_180));
+		V_17 = L_181;
+		int32_t L_182 = V_15;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_183 = V_3;
+		NullCheck(L_183);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_184 = L_183->___bmin;
+		NullCheck(L_184);
+		int32_t L_185 = 0;
+		int32_t L_186 = (L_184)->GetAt(static_cast<il2cpp_array_size_t>(L_185));
+		V_19 = (bool)((((int32_t)L_182) < ((int32_t)L_186))? 1 : 0);
+		bool L_187 = V_19;
+		if (!L_187)
+		{
+			goto IL_02e7;
+		}
+	}
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_188 = V_3;
+		NullCheck(L_188);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_189 = L_188->___bmin;
+		int32_t L_190 = V_15;
+		NullCheck(L_189);
+		(L_189)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_190);
+	}
+
+IL_02e7:
+	{
+		int32_t L_191 = V_16;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_192 = V_3;
+		NullCheck(L_192);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_193 = L_192->___bmin;
+		NullCheck(L_193);
+		int32_t L_194 = 1;
+		int32_t L_195 = (L_193)->GetAt(static_cast<il2cpp_array_size_t>(L_194));
+		V_20 = (bool)((((int32_t)L_191) < ((int32_t)L_195))? 1 : 0);
+		bool L_196 = V_20;
+		if (!L_196)
+		{
+			goto IL_0303;
+		}
+	}
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_197 = V_3;
+		NullCheck(L_197);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_198 = L_197->___bmin;
+		int32_t L_199 = V_16;
+		NullCheck(L_198);
+		(L_198)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_199);
+	}
+
+IL_0303:
+	{
+		int32_t L_200 = V_17;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_201 = V_3;
+		NullCheck(L_201);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_202 = L_201->___bmin;
+		NullCheck(L_202);
+		int32_t L_203 = 2;
+		int32_t L_204 = (L_202)->GetAt(static_cast<il2cpp_array_size_t>(L_203));
+		V_21 = (bool)((((int32_t)L_200) < ((int32_t)L_204))? 1 : 0);
+		bool L_205 = V_21;
+		if (!L_205)
+		{
+			goto IL_031f;
+		}
+	}
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_206 = V_3;
+		NullCheck(L_206);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_207 = L_206->___bmin;
+		int32_t L_208 = V_17;
+		NullCheck(L_207);
+		(L_207)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_208);
+	}
+
+IL_031f:
+	{
+		int32_t L_209 = V_15;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_210 = V_3;
+		NullCheck(L_210);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_211 = L_210->___bmax;
+		NullCheck(L_211);
+		int32_t L_212 = 0;
+		int32_t L_213 = (L_211)->GetAt(static_cast<il2cpp_array_size_t>(L_212));
+		V_22 = (bool)((((int32_t)L_209) > ((int32_t)L_213))? 1 : 0);
+		bool L_214 = V_22;
+		if (!L_214)
+		{
+			goto IL_033b;
+		}
+	}
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_215 = V_3;
+		NullCheck(L_215);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_216 = L_215->___bmax;
+		int32_t L_217 = V_15;
+		NullCheck(L_216);
+		(L_216)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_217);
+	}
+
+IL_033b:
+	{
+		int32_t L_218 = V_16;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_219 = V_3;
+		NullCheck(L_219);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_220 = L_219->___bmax;
+		NullCheck(L_220);
+		int32_t L_221 = 1;
+		int32_t L_222 = (L_220)->GetAt(static_cast<il2cpp_array_size_t>(L_221));
+		V_23 = (bool)((((int32_t)L_218) > ((int32_t)L_222))? 1 : 0);
+		bool L_223 = V_23;
+		if (!L_223)
+		{
+			goto IL_0357;
+		}
+	}
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_224 = V_3;
+		NullCheck(L_224);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_225 = L_224->___bmax;
+		int32_t L_226 = V_16;
+		NullCheck(L_225);
+		(L_225)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_226);
+	}
+
+IL_0357:
+	{
+		int32_t L_227 = V_17;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_228 = V_3;
+		NullCheck(L_228);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_229 = L_228->___bmax;
+		NullCheck(L_229);
+		int32_t L_230 = 2;
+		int32_t L_231 = (L_229)->GetAt(static_cast<il2cpp_array_size_t>(L_230));
+		V_24 = (bool)((((int32_t)L_227) > ((int32_t)L_231))? 1 : 0);
+		bool L_232 = V_24;
+		if (!L_232)
+		{
+			goto IL_0373;
+		}
+	}
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_233 = V_3;
+		NullCheck(L_233);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_234 = L_233->___bmax;
+		int32_t L_235 = V_17;
+		NullCheck(L_234);
+		(L_234)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_235);
+	}
+
+IL_0373:
+	{
+		int32_t L_236 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_236, 1));
+	}
+
+IL_037a:
+	{
+		int32_t L_237 = V_14;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_238 = ___0_option;
+		NullCheck(L_238);
+		int32_t L_239 = L_238->___nvp;
+		V_25 = (bool)((((int32_t)L_237) < ((int32_t)L_239))? 1 : 0);
+		bool L_240 = V_25;
+		if (L_240)
+		{
+			goto IL_0263;
+		}
+	}
+
+IL_038d:
+	{
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_241 = V_3;
+		NullCheck(L_241);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_242 = L_241->___bmin;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_243 = V_3;
+		NullCheck(L_243);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_244 = L_243->___bmin;
+		NullCheck(L_244);
+		int32_t L_245 = 1;
+		int32_t L_246 = (L_244)->GetAt(static_cast<il2cpp_array_size_t>(L_245));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_247 = ___0_option;
+		NullCheck(L_247);
+		float L_248 = L_247->___ch;
+		float L_249 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_250;
+		L_250 = floor(((double)((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)L_246), L_248)), L_249))));
+		NullCheck(L_242);
+		(L_242)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(L_250));
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_251 = V_3;
+		NullCheck(L_251);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_252 = L_251->___bmax;
+		BVItem_t1A85B159CFAFC113F05F5D4EAF892CCA1143BAF9* L_253 = V_3;
+		NullCheck(L_253);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_254 = L_253->___bmax;
+		NullCheck(L_254);
+		int32_t L_255 = 1;
+		int32_t L_256 = (L_254)->GetAt(static_cast<il2cpp_array_size_t>(L_255));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_257 = ___0_option;
+		NullCheck(L_257);
+		float L_258 = L_257->___ch;
+		float L_259 = V_0;
+		double L_260;
+		L_260 = ceil(((double)((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)L_256), L_258)), L_259))));
+		NullCheck(L_252);
+		(L_252)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(L_260));
+	}
+
+IL_03d0:
+	{
+		int32_t L_261 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_261, 1));
+	}
+
+IL_03d5:
+	{
+		int32_t L_262 = V_2;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_263 = ___0_option;
+		NullCheck(L_263);
+		int32_t L_264 = L_263->___polyCount;
+		V_26 = (bool)((((int32_t)L_262) < ((int32_t)L_264))? 1 : 0);
+		bool L_265 = V_26;
+		if (L_265)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		BVItemU5BU5D_tAA5036F06D774EBCC577EC87ED15221B44DB0FA3* L_266 = V_1;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_267 = ___0_option;
+		NullCheck(L_267);
+		int32_t L_268 = L_267->___polyCount;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_269 = ___0_option;
+		NullCheck(L_269);
+		int32_t L_270 = L_269->___polyCount;
+		DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* L_271 = ___1_nodes;
+		int32_t L_272;
+		L_272 = DtNavMeshBuilder_Subdivide_m209F7276BCF89B99018935FC81E0D076765C7088(L_266, L_268, 0, L_270, 0, L_271, NULL);
+		V_27 = L_272;
+		goto IL_0400;
+	}
+
+IL_0400:
+	{
+		int32_t L_273 = V_27;
+		return L_273;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DtNavMeshBuilder_ClassifyOffMeshPoint_mAC0CB1DD65F894DB5E7A6F5F3D905F1F382ED543 (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pt, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_bmin, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_bmax, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t G_B2_0 = 0;
+	int32_t G_B1_0 = 0;
+	int32_t G_B3_0 = 0;
+	int32_t G_B3_1 = 0;
+	int32_t G_B5_0 = 0;
+	int32_t G_B4_0 = 0;
+	int32_t G_B6_0 = 0;
+	int32_t G_B6_1 = 0;
+	int32_t G_B8_0 = 0;
+	int32_t G_B7_0 = 0;
+	int32_t G_B9_0 = 0;
+	int32_t G_B9_1 = 0;
+	int32_t G_B11_0 = 0;
+	int32_t G_B10_0 = 0;
+	int32_t G_B12_0 = 0;
+	int32_t G_B12_1 = 0;
+	{
+		V_0 = 0;
+		int32_t L_0 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1 = ___0_pt;
+		float L_2 = L_1.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_3 = ___2_bmax;
+		float L_4 = L_3.___x;
+		if ((((float)L_2) >= ((float)L_4)))
+		{
+			G_B2_0 = L_0;
+			goto IL_0015;
+		}
+		G_B1_0 = L_0;
+	}
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B1_0;
+		goto IL_0016;
+	}
+
+IL_0015:
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0016:
+	{
+		V_0 = ((int32_t)(G_B3_1|G_B3_0));
+		int32_t L_5 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_6 = ___0_pt;
+		float L_7 = L_6.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_8 = ___2_bmax;
+		float L_9 = L_8.___z;
+		if ((((float)L_7) >= ((float)L_9)))
+		{
+			G_B5_0 = L_5;
+			goto IL_002a;
+		}
+		G_B4_0 = L_5;
+	}
+	{
+		G_B6_0 = 0;
+		G_B6_1 = G_B4_0;
+		goto IL_002b;
+	}
+
+IL_002a:
+	{
+		G_B6_0 = 2;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_002b:
+	{
+		V_0 = ((int32_t)(G_B6_1|G_B6_0));
+		int32_t L_10 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_11 = ___0_pt;
+		float L_12 = L_11.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_13 = ___1_bmin;
+		float L_14 = L_13.___x;
+		if ((((float)L_12) < ((float)L_14)))
+		{
+			G_B8_0 = L_10;
+			goto IL_003f;
+		}
+		G_B7_0 = L_10;
+	}
+	{
+		G_B9_0 = 0;
+		G_B9_1 = G_B7_0;
+		goto IL_0040;
+	}
+
+IL_003f:
+	{
+		G_B9_0 = 4;
+		G_B9_1 = G_B8_0;
+	}
+
+IL_0040:
+	{
+		V_0 = ((int32_t)(G_B9_1|G_B9_0));
+		int32_t L_15 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_16 = ___0_pt;
+		float L_17 = L_16.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_18 = ___1_bmin;
+		float L_19 = L_18.___z;
+		if ((((float)L_17) < ((float)L_19)))
+		{
+			G_B11_0 = L_15;
+			goto IL_0054;
+		}
+		G_B10_0 = L_15;
+	}
+	{
+		G_B12_0 = 0;
+		G_B12_1 = G_B10_0;
+		goto IL_0055;
+	}
+
+IL_0054:
+	{
+		G_B12_0 = 8;
+		G_B12_1 = G_B11_0;
+	}
+
+IL_0055:
+	{
+		V_0 = ((int32_t)(G_B12_1|G_B12_0));
+		int32_t L_20 = V_0;
+		V_2 = L_20;
+		int32_t L_21 = V_2;
+		V_1 = L_21;
+		int32_t L_22 = V_1;
+		switch (((int32_t)il2cpp_codegen_subtract(L_22, 1)))
+		{
+			case 0:
+			{
+				goto IL_0095;
+			}
+			case 1:
+			{
+				goto IL_009d;
+			}
+			case 2:
+			{
+				goto IL_0099;
+			}
+			case 3:
+			{
+				goto IL_00a5;
+			}
+			case 4:
+			{
+				goto IL_00b5;
+			}
+			case 5:
+			{
+				goto IL_00a1;
+			}
+			case 6:
+			{
+				goto IL_00b5;
+			}
+			case 7:
+			{
+				goto IL_00ad;
+			}
+			case 8:
+			{
+				goto IL_00b1;
+			}
+			case 9:
+			{
+				goto IL_00b5;
+			}
+			case 10:
+			{
+				goto IL_00b5;
+			}
+			case 11:
+			{
+				goto IL_00a9;
+			}
+		}
+	}
+	{
+		goto IL_00b5;
+	}
+
+IL_0095:
+	{
+		V_3 = 0;
+		goto IL_00bd;
+	}
+
+IL_0099:
+	{
+		V_3 = 1;
+		goto IL_00bd;
+	}
+
+IL_009d:
+	{
+		V_3 = 2;
+		goto IL_00bd;
+	}
+
+IL_00a1:
+	{
+		V_3 = 3;
+		goto IL_00bd;
+	}
+
+IL_00a5:
+	{
+		V_3 = 4;
+		goto IL_00bd;
+	}
+
+IL_00a9:
+	{
+		V_3 = 5;
+		goto IL_00bd;
+	}
+
+IL_00ad:
+	{
+		V_3 = 6;
+		goto IL_00bd;
+	}
+
+IL_00b1:
+	{
+		V_3 = 7;
+		goto IL_00bd;
+	}
+
+IL_00b5:
+	{
+		V_3 = ((int32_t)255);
+		goto IL_00bd;
+	}
+
+IL_00bd:
+	{
+		int32_t L_23 = V_3;
+		return L_23;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* DtNavMeshBuilder_CreateNavMeshData_m04E1579486EF6C701EFF498D949D5D9162DEA96F (DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* ___0_option, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* V_12 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_13 = NULL;
+	DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* V_14 = NULL;
+	DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59* V_15 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_16 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_17 = NULL;
+	DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* V_18 = NULL;
+	DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36* V_19 = NULL;
+	int32_t V_20 = 0;
+	int32_t V_21 = 0;
+	int32_t V_22 = 0;
+	int32_t V_23 = 0;
+	DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* V_24 = NULL;
+	bool V_25 = false;
+	DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* V_26 = NULL;
+	bool V_27 = false;
+	bool V_28 = false;
+	bool V_29 = false;
+	float V_30 = 0.0f;
+	float V_31 = 0.0f;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_32;
+	memset((&V_32), 0, sizeof(V_32));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_33;
+	memset((&V_33), 0, sizeof(V_33));
+	bool V_34 = false;
+	int32_t V_35 = 0;
+	float V_36 = 0.0f;
+	bool V_37 = false;
+	int32_t V_38 = 0;
+	int32_t V_39 = 0;
+	float V_40 = 0.0f;
+	bool V_41 = false;
+	int32_t V_42 = 0;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_43;
+	memset((&V_43), 0, sizeof(V_43));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_44;
+	memset((&V_44), 0, sizeof(V_44));
+	bool V_45 = false;
+	bool V_46 = false;
+	bool V_47 = false;
+	bool V_48 = false;
+	bool V_49 = false;
+	bool V_50 = false;
+	int32_t V_51 = 0;
+	int32_t V_52 = 0;
+	int32_t V_53 = 0;
+	bool V_54 = false;
+	bool V_55 = false;
+	int32_t V_56 = 0;
+	bool V_57 = false;
+	bool V_58 = false;
+	bool V_59 = false;
+	bool V_60 = false;
+	int32_t V_61 = 0;
+	int32_t V_62 = 0;
+	int32_t V_63 = 0;
+	int32_t V_64 = 0;
+	int32_t V_65 = 0;
+	bool V_66 = false;
+	bool V_67 = false;
+	bool V_68 = false;
+	int32_t V_69 = 0;
+	int32_t V_70 = 0;
+	int32_t V_71 = 0;
+	int32_t V_72 = 0;
+	bool V_73 = false;
+	bool V_74 = false;
+	bool V_75 = false;
+	int32_t V_76 = 0;
+	int32_t V_77 = 0;
+	int32_t V_78 = 0;
+	bool V_79 = false;
+	int32_t V_80 = 0;
+	bool V_81 = false;
+	int32_t V_82 = 0;
+	int32_t V_83 = 0;
+	bool V_84 = false;
+	int32_t V_85 = 0;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_86 = NULL;
+	int32_t V_87 = 0;
+	bool V_88 = false;
+	bool V_89 = false;
+	int32_t V_90 = 0;
+	bool V_91 = false;
+	bool V_92 = false;
+	bool V_93 = false;
+	bool V_94 = false;
+	bool V_95 = false;
+	bool V_96 = false;
+	bool V_97 = false;
+	int32_t V_98 = 0;
+	bool V_99 = false;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_100 = NULL;
+	bool V_101 = false;
+	bool V_102 = false;
+	int32_t V_103 = 0;
+	int32_t V_104 = 0;
+	DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* V_105 = NULL;
+	int32_t V_106 = 0;
+	int32_t V_107 = 0;
+	int32_t V_108 = 0;
+	bool V_109 = false;
+	bool V_110 = false;
+	int32_t V_111 = 0;
+	int32_t V_112 = 0;
+	DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* V_113 = NULL;
+	int32_t V_114 = 0;
+	int32_t V_115 = 0;
+	int32_t V_116 = 0;
+	bool V_117 = false;
+	bool V_118 = false;
+	bool V_119 = false;
+	bool V_120 = false;
+	bool V_121 = false;
+	int32_t V_122 = 0;
+	bool V_123 = false;
+	DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* V_124 = NULL;
+	int32_t V_125 = 0;
+	bool V_126 = false;
+	bool V_127 = false;
+	int32_t G_B5_0 = 0;
+	int32_t G_B10_0 = 0;
+	int32_t G_B16_0 = 0;
+	int32_t G_B30_0 = 0;
+	int32_t G_B76_0 = 0;
+	DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* G_B134_0 = NULL;
+	DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* G_B133_0 = NULL;
+	int32_t G_B135_0 = 0;
+	DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* G_B135_1 = NULL;
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_0 = ___0_option;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___vertCount;
+		V_25 = (bool)((((int32_t)((((int32_t)L_1) < ((int32_t)((int32_t)65535)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_25;
+		if (!L_2)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		V_26 = (DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591*)NULL;
+		goto IL_0c73;
+	}
+
+IL_001f:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_3 = ___0_option;
+		NullCheck(L_3);
+		int32_t L_4 = L_3->___vertCount;
+		if (!L_4)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_5 = ___0_option;
+		NullCheck(L_5);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = L_5->___verts;
+		G_B5_0 = ((((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_6) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0033;
+	}
+
+IL_0032:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_0033:
+	{
+		V_27 = (bool)G_B5_0;
+		bool L_7 = V_27;
+		if (!L_7)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		V_26 = (DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591*)NULL;
+		goto IL_0c73;
+	}
+
+IL_0041:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_8 = ___0_option;
+		NullCheck(L_8);
+		int32_t L_9 = L_8->___polyCount;
+		if (!L_9)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_10 = ___0_option;
+		NullCheck(L_10);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = L_10->___polys;
+		G_B10_0 = ((((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_11) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0055;
+	}
+
+IL_0054:
+	{
+		G_B10_0 = 1;
+	}
+
+IL_0055:
+	{
+		V_28 = (bool)G_B10_0;
+		bool L_12 = V_28;
+		if (!L_12)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		V_26 = (DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591*)NULL;
+		goto IL_0c73;
+	}
+
+IL_0063:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_13 = ___0_option;
+		NullCheck(L_13);
+		int32_t L_14 = L_13->___nvp;
+		V_0 = L_14;
+		V_1 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)NULL;
+		V_2 = 0;
+		V_3 = 0;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_15 = ___0_option;
+		NullCheck(L_15);
+		int32_t L_16 = L_15->___offMeshConCount;
+		V_29 = (bool)((((int32_t)L_16) > ((int32_t)0))? 1 : 0);
+		bool L_17 = V_29;
+		if (!L_17)
+		{
+			goto IL_029f;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_18 = ___0_option;
+		NullCheck(L_18);
+		int32_t L_19 = L_18->___offMeshConCount;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_19, 2)));
+		V_1 = L_20;
+		V_30 = ((std::numeric_limits<float>::max)());
+		V_31 = (-(std::numeric_limits<float>::max)());
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_21 = ___0_option;
+		NullCheck(L_21);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_22 = L_21->___detailVerts;
+		if (!L_22)
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_23 = ___0_option;
+		NullCheck(L_23);
+		int32_t L_24 = L_23->___detailVertsCount;
+		G_B16_0 = ((!(((uint32_t)L_24) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_00b3;
+	}
+
+IL_00b2:
+	{
+		G_B16_0 = 0;
+	}
+
+IL_00b3:
+	{
+		V_34 = (bool)G_B16_0;
+		bool L_25 = V_34;
+		if (!L_25)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		V_35 = 0;
+		goto IL_00ec;
+	}
+
+IL_00bf:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_26 = ___0_option;
+		NullCheck(L_26);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_27 = L_26->___detailVerts;
+		int32_t L_28 = V_35;
+		NullCheck(L_27);
+		int32_t L_29 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_28, 3)), 1));
+		float L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		V_36 = L_30;
+		float L_31 = V_30;
+		float L_32 = V_36;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_33;
+		L_33 = Math_Min_mE913811A2F7566294BF4649A434282634E7254B3(L_31, L_32, NULL);
+		V_30 = L_33;
+		float L_34 = V_31;
+		float L_35 = V_36;
+		float L_36;
+		L_36 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_34, L_35, NULL);
+		V_31 = L_36;
+		int32_t L_37 = V_35;
+		V_35 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00ec:
+	{
+		int32_t L_38 = V_35;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_39 = ___0_option;
+		NullCheck(L_39);
+		int32_t L_40 = L_39->___detailVertsCount;
+		V_37 = (bool)((((int32_t)L_38) < ((int32_t)L_40))? 1 : 0);
+		bool L_41 = V_37;
+		if (L_41)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		goto IL_015b;
+	}
+
+IL_00ff:
+	{
+		V_38 = 0;
+		goto IL_014a;
+	}
+
+IL_0105:
+	{
+		int32_t L_42 = V_38;
+		V_39 = ((int32_t)il2cpp_codegen_multiply(L_42, 3));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_43 = ___0_option;
+		NullCheck(L_43);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_44 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_43->___bmin);
+		float L_45 = L_44->___y;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_46 = ___0_option;
+		NullCheck(L_46);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = L_46->___verts;
+		int32_t L_48 = V_39;
+		NullCheck(L_47);
+		int32_t L_49 = ((int32_t)il2cpp_codegen_add(L_48, 1));
+		int32_t L_50 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_51 = ___0_option;
+		NullCheck(L_51);
+		float L_52 = L_51->___ch;
+		V_40 = ((float)il2cpp_codegen_add(L_45, ((float)il2cpp_codegen_multiply(((float)L_50), L_52))));
+		float L_53 = V_30;
+		float L_54 = V_40;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_55;
+		L_55 = Math_Min_mE913811A2F7566294BF4649A434282634E7254B3(L_53, L_54, NULL);
+		V_30 = L_55;
+		float L_56 = V_31;
+		float L_57 = V_40;
+		float L_58;
+		L_58 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_56, L_57, NULL);
+		V_31 = L_58;
+		int32_t L_59 = V_38;
+		V_38 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_014a:
+	{
+		int32_t L_60 = V_38;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_61 = ___0_option;
+		NullCheck(L_61);
+		int32_t L_62 = L_61->___vertCount;
+		V_41 = (bool)((((int32_t)L_60) < ((int32_t)L_62))? 1 : 0);
+		bool L_63 = V_41;
+		if (L_63)
+		{
+			goto IL_0105;
+		}
+	}
+	{
+	}
+
+IL_015b:
+	{
+		float L_64 = V_30;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_65 = ___0_option;
+		NullCheck(L_65);
+		float L_66 = L_65->___walkableClimb;
+		V_30 = ((float)il2cpp_codegen_subtract(L_64, L_66));
+		float L_67 = V_31;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_68 = ___0_option;
+		NullCheck(L_68);
+		float L_69 = L_68->___walkableClimb;
+		V_31 = ((float)il2cpp_codegen_add(L_67, L_69));
+		il2cpp_codegen_initobj((&V_32), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		il2cpp_codegen_initobj((&V_33), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_70 = ___0_option;
+		NullCheck(L_70);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_71 = L_70->___bmin;
+		V_32 = L_71;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_72 = ___0_option;
+		NullCheck(L_72);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_73 = L_72->___bmax;
+		V_33 = L_73;
+		float L_74 = V_30;
+		(&V_32)->___y = L_74;
+		float L_75 = V_31;
+		(&V_33)->___y = L_75;
+		V_42 = 0;
+		goto IL_028b;
+	}
+
+IL_01ab:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_76 = ___0_option;
+		NullCheck(L_76);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_77 = L_76->___offMeshConVerts;
+		int32_t L_78 = V_42;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_79;
+		L_79 = RcVec3f_Of_m2B898424BC446DEBFE40214EAA1428F7B3612373(L_77, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_78, 2)), 3)), NULL);
+		V_43 = L_79;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_80 = ___0_option;
+		NullCheck(L_80);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_81 = L_80->___offMeshConVerts;
+		int32_t L_82 = V_42;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_83;
+		L_83 = RcVec3f_Of_m2B898424BC446DEBFE40214EAA1428F7B3612373(L_81, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_82, 2)), 1)), 3)), NULL);
+		V_44 = L_83;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_84 = V_1;
+		int32_t L_85 = V_42;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_86 = V_43;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_87 = V_32;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_88 = V_33;
+		int32_t L_89;
+		L_89 = DtNavMeshBuilder_ClassifyOffMeshPoint_mAC0CB1DD65F894DB5E7A6F5F3D905F1F382ED543(L_86, L_87, L_88, NULL);
+		NullCheck(L_84);
+		(L_84)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_multiply(L_85, 2))), (int32_t)L_89);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_90 = V_1;
+		int32_t L_91 = V_42;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_92 = V_44;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_93 = V_32;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_94 = V_33;
+		int32_t L_95;
+		L_95 = DtNavMeshBuilder_ClassifyOffMeshPoint_mAC0CB1DD65F894DB5E7A6F5F3D905F1F382ED543(L_92, L_93, L_94, NULL);
+		NullCheck(L_90);
+		(L_90)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_91, 2)), 1))), (int32_t)L_95);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_96 = V_1;
+		int32_t L_97 = V_42;
+		NullCheck(L_96);
+		int32_t L_98 = ((int32_t)il2cpp_codegen_multiply(L_97, 2));
+		int32_t L_99 = (L_96)->GetAt(static_cast<il2cpp_array_size_t>(L_98));
+		V_45 = (bool)((((int32_t)L_99) == ((int32_t)((int32_t)255)))? 1 : 0);
+		bool L_100 = V_45;
+		if (!L_100)
+		{
+			goto IL_023d;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_101 = V_43;
+		float L_102 = L_101.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_103 = V_32;
+		float L_104 = L_103.___y;
+		if ((((float)L_102) < ((float)L_104)))
+		{
+			goto IL_022e;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_105 = V_43;
+		float L_106 = L_105.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_107 = V_33;
+		float L_108 = L_107.___y;
+		G_B30_0 = ((((float)L_106) > ((float)L_108))? 1 : 0);
+		goto IL_022f;
+	}
+
+IL_022e:
+	{
+		G_B30_0 = 1;
+	}
+
+IL_022f:
+	{
+		V_46 = (bool)G_B30_0;
+		bool L_109 = V_46;
+		if (!L_109)
+		{
+			goto IL_023c;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = V_1;
+		int32_t L_111 = V_42;
+		NullCheck(L_110);
+		(L_110)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_multiply(L_111, 2))), (int32_t)0);
+	}
+
+IL_023c:
+	{
+	}
+
+IL_023d:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_112 = V_1;
+		int32_t L_113 = V_42;
+		NullCheck(L_112);
+		int32_t L_114 = ((int32_t)il2cpp_codegen_multiply(L_113, 2));
+		int32_t L_115 = (L_112)->GetAt(static_cast<il2cpp_array_size_t>(L_114));
+		V_47 = (bool)((((int32_t)L_115) == ((int32_t)((int32_t)255)))? 1 : 0);
+		bool L_116 = V_47;
+		if (!L_116)
+		{
+			goto IL_0254;
+		}
+	}
+	{
+		int32_t L_117 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_117, 1));
+	}
+
+IL_0254:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_118 = V_1;
+		int32_t L_119 = V_42;
+		NullCheck(L_118);
+		int32_t L_120 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_119, 2)), 1));
+		int32_t L_121 = (L_118)->GetAt(static_cast<il2cpp_array_size_t>(L_120));
+		V_48 = (bool)((((int32_t)L_121) == ((int32_t)((int32_t)255)))? 1 : 0);
+		bool L_122 = V_48;
+		if (!L_122)
+		{
+			goto IL_026d;
+		}
+	}
+	{
+		int32_t L_123 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_123, 1));
+	}
+
+IL_026d:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_124 = V_1;
+		int32_t L_125 = V_42;
+		NullCheck(L_124);
+		int32_t L_126 = ((int32_t)il2cpp_codegen_multiply(L_125, 2));
+		int32_t L_127 = (L_124)->GetAt(static_cast<il2cpp_array_size_t>(L_126));
+		V_49 = (bool)((((int32_t)L_127) == ((int32_t)((int32_t)255)))? 1 : 0);
+		bool L_128 = V_49;
+		if (!L_128)
+		{
+			goto IL_0284;
+		}
+	}
+	{
+		int32_t L_129 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_129, 1));
+	}
+
+IL_0284:
+	{
+		int32_t L_130 = V_42;
+		V_42 = ((int32_t)il2cpp_codegen_add(L_130, 1));
+	}
+
+IL_028b:
+	{
+		int32_t L_131 = V_42;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_132 = ___0_option;
+		NullCheck(L_132);
+		int32_t L_133 = L_132->___offMeshConCount;
+		V_50 = (bool)((((int32_t)L_131) < ((int32_t)L_133))? 1 : 0);
+		bool L_134 = V_50;
+		if (L_134)
+		{
+			goto IL_01ab;
+		}
+	}
+	{
+	}
+
+IL_029f:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_135 = ___0_option;
+		NullCheck(L_135);
+		int32_t L_136 = L_135->___polyCount;
+		int32_t L_137 = V_2;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_136, L_137));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_138 = ___0_option;
+		NullCheck(L_138);
+		int32_t L_139 = L_138->___vertCount;
+		int32_t L_140 = V_2;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_139, ((int32_t)il2cpp_codegen_multiply(L_140, 2))));
+		V_6 = 0;
+		V_7 = 0;
+		V_51 = 0;
+		goto IL_0353;
+	}
+
+IL_02c3:
+	{
+		int32_t L_141 = V_51;
+		int32_t L_142 = V_0;
+		V_52 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_141, 2)), L_142));
+		V_53 = 0;
+		goto IL_0341;
+	}
+
+IL_02d1:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_143 = ___0_option;
+		NullCheck(L_143);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_144 = L_143->___polys;
+		int32_t L_145 = V_52;
+		int32_t L_146 = V_53;
+		NullCheck(L_144);
+		int32_t L_147 = ((int32_t)il2cpp_codegen_add(L_145, L_146));
+		int32_t L_148 = (L_144)->GetAt(static_cast<il2cpp_array_size_t>(L_147));
+		V_54 = (bool)((((int32_t)L_148) == ((int32_t)((int32_t)65535)))? 1 : 0);
+		bool L_149 = V_54;
+		if (!L_149)
+		{
+			goto IL_02ed;
+		}
+	}
+	{
+		goto IL_034c;
+	}
+
+IL_02ed:
+	{
+		int32_t L_150 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_150, 1));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_151 = ___0_option;
+		NullCheck(L_151);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_152 = L_151->___polys;
+		int32_t L_153 = V_52;
+		int32_t L_154 = V_0;
+		int32_t L_155 = V_53;
+		NullCheck(L_152);
+		int32_t L_156 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_153, L_154)), L_155));
+		int32_t L_157 = (L_152)->GetAt(static_cast<il2cpp_array_size_t>(L_156));
+		V_55 = (bool)((!(((uint32_t)((int32_t)(L_157&((int32_t)32768)))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_158 = V_55;
+		if (!L_158)
+		{
+			goto IL_033a;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_159 = ___0_option;
+		NullCheck(L_159);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_160 = L_159->___polys;
+		int32_t L_161 = V_52;
+		int32_t L_162 = V_0;
+		int32_t L_163 = V_53;
+		NullCheck(L_160);
+		int32_t L_164 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_161, L_162)), L_163));
+		int32_t L_165 = (L_160)->GetAt(static_cast<il2cpp_array_size_t>(L_164));
+		V_56 = ((int32_t)(L_165&((int32_t)15)));
+		int32_t L_166 = V_56;
+		V_57 = (bool)((((int32_t)((((int32_t)L_166) == ((int32_t)((int32_t)15)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_167 = V_57;
+		if (!L_167)
+		{
+			goto IL_0339;
+		}
+	}
+	{
+		int32_t L_168 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_168, 1));
+	}
+
+IL_0339:
+	{
+	}
+
+IL_033a:
+	{
+		int32_t L_169 = V_53;
+		V_53 = ((int32_t)il2cpp_codegen_add(L_169, 1));
+	}
+
+IL_0341:
+	{
+		int32_t L_170 = V_53;
+		int32_t L_171 = V_0;
+		V_58 = (bool)((((int32_t)L_170) < ((int32_t)L_171))? 1 : 0);
+		bool L_172 = V_58;
+		if (L_172)
+		{
+			goto IL_02d1;
+		}
+	}
+
+IL_034c:
+	{
+		int32_t L_173 = V_51;
+		V_51 = ((int32_t)il2cpp_codegen_add(L_173, 1));
+	}
+
+IL_0353:
+	{
+		int32_t L_174 = V_51;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_175 = ___0_option;
+		NullCheck(L_175);
+		int32_t L_176 = L_175->___polyCount;
+		V_59 = (bool)((((int32_t)L_174) < ((int32_t)L_176))? 1 : 0);
+		bool L_177 = V_59;
+		if (L_177)
+		{
+			goto IL_02c3;
+		}
+	}
+	{
+		int32_t L_178 = V_6;
+		int32_t L_179 = V_7;
+		int32_t L_180 = V_3;
+		V_8 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_178, ((int32_t)il2cpp_codegen_multiply(L_179, 2)))), ((int32_t)il2cpp_codegen_multiply(L_180, 2))));
+		V_9 = 0;
+		V_10 = 0;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_181 = ___0_option;
+		NullCheck(L_181);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_182 = L_181->___detailMeshes;
+		V_60 = (bool)((!(((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_182) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_183 = V_60;
+		if (!L_183)
+		{
+			goto IL_0415;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_184 = ___0_option;
+		NullCheck(L_184);
+		int32_t L_185 = L_184->___detailTriCount;
+		V_10 = L_185;
+		V_61 = 0;
+		goto IL_0402;
+	}
+
+IL_0399:
+	{
+		int32_t L_186 = V_61;
+		int32_t L_187 = V_0;
+		V_62 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_186, L_187)), 2));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_188 = ___0_option;
+		NullCheck(L_188);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_189 = L_188->___detailMeshes;
+		int32_t L_190 = V_61;
+		NullCheck(L_189);
+		int32_t L_191 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_190, 4)), 1));
+		int32_t L_192 = (L_189)->GetAt(static_cast<il2cpp_array_size_t>(L_191));
+		V_63 = L_192;
+		V_64 = 0;
+		V_65 = 0;
+		goto IL_03e2;
+	}
+
+IL_03b9:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_193 = ___0_option;
+		NullCheck(L_193);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_194 = L_193->___polys;
+		int32_t L_195 = V_62;
+		int32_t L_196 = V_65;
+		NullCheck(L_194);
+		int32_t L_197 = ((int32_t)il2cpp_codegen_add(L_195, L_196));
+		int32_t L_198 = (L_194)->GetAt(static_cast<il2cpp_array_size_t>(L_197));
+		V_66 = (bool)((((int32_t)L_198) == ((int32_t)((int32_t)65535)))? 1 : 0);
+		bool L_199 = V_66;
+		if (!L_199)
+		{
+			goto IL_03d5;
+		}
+	}
+	{
+		goto IL_03ed;
+	}
+
+IL_03d5:
+	{
+		int32_t L_200 = V_64;
+		V_64 = ((int32_t)il2cpp_codegen_add(L_200, 1));
+		int32_t L_201 = V_65;
+		V_65 = ((int32_t)il2cpp_codegen_add(L_201, 1));
+	}
+
+IL_03e2:
+	{
+		int32_t L_202 = V_65;
+		int32_t L_203 = V_0;
+		V_67 = (bool)((((int32_t)L_202) < ((int32_t)L_203))? 1 : 0);
+		bool L_204 = V_67;
+		if (L_204)
+		{
+			goto IL_03b9;
+		}
+	}
+
+IL_03ed:
+	{
+		int32_t L_205 = V_63;
+		int32_t L_206 = V_64;
+		V_63 = ((int32_t)il2cpp_codegen_subtract(L_205, L_206));
+		int32_t L_207 = V_9;
+		int32_t L_208 = V_63;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_207, L_208));
+		int32_t L_209 = V_61;
+		V_61 = ((int32_t)il2cpp_codegen_add(L_209, 1));
+	}
+
+IL_0402:
+	{
+		int32_t L_210 = V_61;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_211 = ___0_option;
+		NullCheck(L_211);
+		int32_t L_212 = L_211->___polyCount;
+		V_68 = (bool)((((int32_t)L_210) < ((int32_t)L_212))? 1 : 0);
+		bool L_213 = V_68;
+		if (L_213)
+		{
+			goto IL_0399;
+		}
+	}
+	{
+		goto IL_0487;
+	}
+
+IL_0415:
+	{
+		V_9 = 0;
+		V_10 = 0;
+		V_69 = 0;
+		goto IL_0476;
+	}
+
+IL_0421:
+	{
+		int32_t L_214 = V_69;
+		int32_t L_215 = V_0;
+		V_70 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_214, L_215)), 2));
+		V_71 = 0;
+		V_72 = 0;
+		goto IL_045b;
+	}
+
+IL_0432:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_216 = ___0_option;
+		NullCheck(L_216);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_217 = L_216->___polys;
+		int32_t L_218 = V_70;
+		int32_t L_219 = V_72;
+		NullCheck(L_217);
+		int32_t L_220 = ((int32_t)il2cpp_codegen_add(L_218, L_219));
+		int32_t L_221 = (L_217)->GetAt(static_cast<il2cpp_array_size_t>(L_220));
+		V_73 = (bool)((((int32_t)L_221) == ((int32_t)((int32_t)65535)))? 1 : 0);
+		bool L_222 = V_73;
+		if (!L_222)
+		{
+			goto IL_044e;
+		}
+	}
+	{
+		goto IL_0466;
+	}
+
+IL_044e:
+	{
+		int32_t L_223 = V_71;
+		V_71 = ((int32_t)il2cpp_codegen_add(L_223, 1));
+		int32_t L_224 = V_72;
+		V_72 = ((int32_t)il2cpp_codegen_add(L_224, 1));
+	}
+
+IL_045b:
+	{
+		int32_t L_225 = V_72;
+		int32_t L_226 = V_0;
+		V_74 = (bool)((((int32_t)L_225) < ((int32_t)L_226))? 1 : 0);
+		bool L_227 = V_74;
+		if (L_227)
+		{
+			goto IL_0432;
+		}
+	}
+
+IL_0466:
+	{
+		int32_t L_228 = V_10;
+		int32_t L_229 = V_71;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_228, ((int32_t)il2cpp_codegen_subtract(L_229, 2))));
+		int32_t L_230 = V_69;
+		V_69 = ((int32_t)il2cpp_codegen_add(L_230, 1));
+	}
+
+IL_0476:
+	{
+		int32_t L_231 = V_69;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_232 = ___0_option;
+		NullCheck(L_232);
+		int32_t L_233 = L_232->___polyCount;
+		V_75 = (bool)((((int32_t)L_231) < ((int32_t)L_233))? 1 : 0);
+		bool L_234 = V_75;
+		if (L_234)
+		{
+			goto IL_0421;
+		}
+	}
+	{
+	}
+
+IL_0487:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_235 = ___0_option;
+		NullCheck(L_235);
+		bool L_236 = L_235->___buildBvTree;
+		if (L_236)
+		{
+			goto IL_0492;
+		}
+	}
+	{
+		G_B76_0 = 0;
+		goto IL_049a;
+	}
+
+IL_0492:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_237 = ___0_option;
+		NullCheck(L_237);
+		int32_t L_238 = L_237->___polyCount;
+		G_B76_0 = ((int32_t)il2cpp_codegen_multiply(L_238, 2));
+	}
+
+IL_049a:
+	{
+		V_11 = G_B76_0;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_239 = (DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1*)il2cpp_codegen_object_new(DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1_il2cpp_TypeInfo_var);
+		DtMeshHeader__ctor_mFCA7FD528AB77E8987172F5C352647BA13CA5EF2(L_239, NULL);
+		V_12 = L_239;
+		int32_t L_240 = V_5;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_241 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(3, L_240)));
+		V_13 = L_241;
+		int32_t L_242 = V_4;
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_243 = (DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C*)(DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C*)SZArrayNew(DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C_il2cpp_TypeInfo_var, (uint32_t)L_242);
+		V_14 = L_243;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_244 = ___0_option;
+		NullCheck(L_244);
+		int32_t L_245 = L_244->___polyCount;
+		DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59* L_246 = (DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59*)(DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59*)SZArrayNew(DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59_il2cpp_TypeInfo_var, (uint32_t)L_245);
+		V_15 = L_246;
+		int32_t L_247 = V_9;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_248 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(3, L_247)));
+		V_16 = L_248;
+		int32_t L_249 = V_10;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_250 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(4, L_249)));
+		V_17 = L_250;
+		int32_t L_251 = V_11;
+		DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* L_252 = (DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196*)(DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196*)SZArrayNew(DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196_il2cpp_TypeInfo_var, (uint32_t)L_251);
+		V_18 = L_252;
+		int32_t L_253 = V_2;
+		DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36* L_254 = (DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36*)(DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36*)SZArrayNew(DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36_il2cpp_TypeInfo_var, (uint32_t)L_253);
+		V_19 = L_254;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_255 = V_12;
+		NullCheck(L_255);
+		L_255->___magic = ((int32_t)1145979222);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_256 = V_12;
+		NullCheck(L_256);
+		L_256->___version = 7;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_257 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_258 = ___0_option;
+		NullCheck(L_258);
+		int32_t L_259 = L_258->___tileX;
+		NullCheck(L_257);
+		L_257->___x = L_259;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_260 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_261 = ___0_option;
+		NullCheck(L_261);
+		int32_t L_262 = L_261->___tileZ;
+		NullCheck(L_260);
+		L_260->___y = L_262;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_263 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_264 = ___0_option;
+		NullCheck(L_264);
+		int32_t L_265 = L_264->___tileLayer;
+		NullCheck(L_263);
+		L_263->___layer = L_265;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_266 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_267 = ___0_option;
+		NullCheck(L_267);
+		int32_t L_268 = L_267->___userId;
+		NullCheck(L_266);
+		L_266->___userId = L_268;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_269 = V_12;
+		int32_t L_270 = V_4;
+		NullCheck(L_269);
+		L_269->___polyCount = L_270;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_271 = V_12;
+		int32_t L_272 = V_5;
+		NullCheck(L_271);
+		L_271->___vertCount = L_272;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_273 = V_12;
+		int32_t L_274 = V_8;
+		NullCheck(L_273);
+		L_273->___maxLinkCount = L_274;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_275 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_276 = ___0_option;
+		NullCheck(L_276);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_277 = L_276->___bmin;
+		NullCheck(L_275);
+		L_275->___bmin = L_277;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_278 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_279 = ___0_option;
+		NullCheck(L_279);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_280 = L_279->___bmax;
+		NullCheck(L_278);
+		L_278->___bmax = L_280;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_281 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_282 = ___0_option;
+		NullCheck(L_282);
+		int32_t L_283 = L_282->___polyCount;
+		NullCheck(L_281);
+		L_281->___detailMeshCount = L_283;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_284 = V_12;
+		int32_t L_285 = V_9;
+		NullCheck(L_284);
+		L_284->___detailVertCount = L_285;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_286 = V_12;
+		int32_t L_287 = V_10;
+		NullCheck(L_286);
+		L_286->___detailTriCount = L_287;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_288 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_289 = ___0_option;
+		NullCheck(L_289);
+		float L_290 = L_289->___cs;
+		NullCheck(L_288);
+		L_288->___bvQuantFactor = ((float)((1.0f)/L_290));
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_291 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_292 = ___0_option;
+		NullCheck(L_292);
+		int32_t L_293 = L_292->___polyCount;
+		NullCheck(L_291);
+		L_291->___offMeshBase = L_293;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_294 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_295 = ___0_option;
+		NullCheck(L_295);
+		float L_296 = L_295->___walkableHeight;
+		NullCheck(L_294);
+		L_294->___walkableHeight = L_296;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_297 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_298 = ___0_option;
+		NullCheck(L_298);
+		float L_299 = L_298->___walkableRadius;
+		NullCheck(L_297);
+		L_297->___walkableRadius = L_299;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_300 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_301 = ___0_option;
+		NullCheck(L_301);
+		float L_302 = L_301->___walkableClimb;
+		NullCheck(L_300);
+		L_300->___walkableClimb = L_302;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_303 = V_12;
+		int32_t L_304 = V_2;
+		NullCheck(L_303);
+		L_303->___offMeshConCount = L_304;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_305 = V_12;
+		int32_t L_306 = V_11;
+		NullCheck(L_305);
+		L_305->___bvNodeCount = L_306;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_307 = ___0_option;
+		NullCheck(L_307);
+		int32_t L_308 = L_307->___vertCount;
+		V_20 = L_308;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_309 = ___0_option;
+		NullCheck(L_309);
+		int32_t L_310 = L_309->___polyCount;
+		V_21 = L_310;
+		V_76 = 0;
+		goto IL_0679;
+	}
+
+IL_05f7:
+	{
+		int32_t L_311 = V_76;
+		V_77 = ((int32_t)il2cpp_codegen_multiply(L_311, 3));
+		int32_t L_312 = V_76;
+		V_78 = ((int32_t)il2cpp_codegen_multiply(L_312, 3));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_313 = V_13;
+		int32_t L_314 = V_78;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_315 = ___0_option;
+		NullCheck(L_315);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_316 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_315->___bmin);
+		float L_317 = L_316->___x;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_318 = ___0_option;
+		NullCheck(L_318);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_319 = L_318->___verts;
+		int32_t L_320 = V_77;
+		NullCheck(L_319);
+		int32_t L_321 = L_320;
+		int32_t L_322 = (L_319)->GetAt(static_cast<il2cpp_array_size_t>(L_321));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_323 = ___0_option;
+		NullCheck(L_323);
+		float L_324 = L_323->___cs;
+		NullCheck(L_313);
+		(L_313)->SetAt(static_cast<il2cpp_array_size_t>(L_314), (float)((float)il2cpp_codegen_add(L_317, ((float)il2cpp_codegen_multiply(((float)L_322), L_324)))));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_325 = V_13;
+		int32_t L_326 = V_78;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_327 = ___0_option;
+		NullCheck(L_327);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_328 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_327->___bmin);
+		float L_329 = L_328->___y;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_330 = ___0_option;
+		NullCheck(L_330);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_331 = L_330->___verts;
+		int32_t L_332 = V_77;
+		NullCheck(L_331);
+		int32_t L_333 = ((int32_t)il2cpp_codegen_add(L_332, 1));
+		int32_t L_334 = (L_331)->GetAt(static_cast<il2cpp_array_size_t>(L_333));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_335 = ___0_option;
+		NullCheck(L_335);
+		float L_336 = L_335->___ch;
+		NullCheck(L_325);
+		(L_325)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_326, 1))), (float)((float)il2cpp_codegen_add(L_329, ((float)il2cpp_codegen_multiply(((float)L_334), L_336)))));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_337 = V_13;
+		int32_t L_338 = V_78;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_339 = ___0_option;
+		NullCheck(L_339);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_340 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_339->___bmin);
+		float L_341 = L_340->___z;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_342 = ___0_option;
+		NullCheck(L_342);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_343 = L_342->___verts;
+		int32_t L_344 = V_77;
+		NullCheck(L_343);
+		int32_t L_345 = ((int32_t)il2cpp_codegen_add(L_344, 2));
+		int32_t L_346 = (L_343)->GetAt(static_cast<il2cpp_array_size_t>(L_345));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_347 = ___0_option;
+		NullCheck(L_347);
+		float L_348 = L_347->___cs;
+		NullCheck(L_337);
+		(L_337)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_338, 2))), (float)((float)il2cpp_codegen_add(L_341, ((float)il2cpp_codegen_multiply(((float)L_346), L_348)))));
+		int32_t L_349 = V_76;
+		V_76 = ((int32_t)il2cpp_codegen_add(L_349, 1));
+	}
+
+IL_0679:
+	{
+		int32_t L_350 = V_76;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_351 = ___0_option;
+		NullCheck(L_351);
+		int32_t L_352 = L_351->___vertCount;
+		V_79 = (bool)((((int32_t)L_350) < ((int32_t)L_352))? 1 : 0);
+		bool L_353 = V_79;
+		if (L_353)
+		{
+			goto IL_05f7;
+		}
+	}
+	{
+		V_22 = 0;
+		V_80 = 0;
+		goto IL_06dd;
+	}
+
+IL_0694:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_354 = V_1;
+		int32_t L_355 = V_80;
+		NullCheck(L_354);
+		int32_t L_356 = ((int32_t)il2cpp_codegen_multiply(L_355, 2));
+		int32_t L_357 = (L_354)->GetAt(static_cast<il2cpp_array_size_t>(L_356));
+		V_81 = (bool)((((int32_t)L_357) == ((int32_t)((int32_t)255)))? 1 : 0);
+		bool L_358 = V_81;
+		if (!L_358)
+		{
+			goto IL_06d6;
+		}
+	}
+	{
+		int32_t L_359 = V_80;
+		V_82 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_359, 2)), 3));
+		int32_t L_360 = V_20;
+		int32_t L_361 = V_22;
+		V_83 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_add(L_360, ((int32_t)il2cpp_codegen_multiply(L_361, 2)))), 3));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_362 = ___0_option;
+		NullCheck(L_362);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_363 = L_362->___offMeshConVerts;
+		int32_t L_364 = V_82;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_365 = V_13;
+		int32_t L_366 = V_83;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_363, L_364, (RuntimeArray*)L_365, L_366, 6, NULL);
+		int32_t L_367 = V_22;
+		V_22 = ((int32_t)il2cpp_codegen_add(L_367, 1));
+	}
+
+IL_06d6:
+	{
+		int32_t L_368 = V_80;
+		V_80 = ((int32_t)il2cpp_codegen_add(L_368, 1));
+	}
+
+IL_06dd:
+	{
+		int32_t L_369 = V_80;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_370 = ___0_option;
+		NullCheck(L_370);
+		int32_t L_371 = L_370->___offMeshConCount;
+		V_84 = (bool)((((int32_t)L_369) < ((int32_t)L_371))? 1 : 0);
+		bool L_372 = V_84;
+		if (L_372)
+		{
+			goto IL_0694;
+		}
+	}
+	{
+		V_23 = 0;
+		V_85 = 0;
+		goto IL_0886;
+	}
+
+IL_06f8:
+	{
+		int32_t L_373 = V_85;
+		int32_t L_374 = V_0;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_375 = (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)il2cpp_codegen_object_new(DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6_il2cpp_TypeInfo_var);
+		DtPoly__ctor_mB0CE1973568267D906CE4F11180393F101681B02(L_375, L_373, L_374, NULL);
+		V_86 = L_375;
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_376 = V_14;
+		int32_t L_377 = V_85;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_378 = V_86;
+		NullCheck(L_376);
+		ArrayElementTypeCheck (L_376, L_378);
+		(L_376)->SetAt(static_cast<il2cpp_array_size_t>(L_377), (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)L_378);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_379 = V_86;
+		NullCheck(L_379);
+		L_379->___vertCount = 0;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_380 = V_86;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_381 = ___0_option;
+		NullCheck(L_381);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_382 = L_381->___polyFlags;
+		int32_t L_383 = V_85;
+		NullCheck(L_382);
+		int32_t L_384 = L_383;
+		int32_t L_385 = (L_382)->GetAt(static_cast<il2cpp_array_size_t>(L_384));
+		NullCheck(L_380);
+		L_380->___flags = L_385;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_386 = V_86;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_387 = ___0_option;
+		NullCheck(L_387);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_388 = L_387->___polyAreas;
+		int32_t L_389 = V_85;
+		NullCheck(L_388);
+		int32_t L_390 = L_389;
+		int32_t L_391 = (L_388)->GetAt(static_cast<il2cpp_array_size_t>(L_390));
+		NullCheck(L_386);
+		DtPoly_SetArea_m9D3CBBBE97113C24D667E88EBC926B6C3AE1C461(L_386, L_391, NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_392 = V_86;
+		NullCheck(L_392);
+		DtPoly_SetPolyType_m89704FBB9B87F63729DE00145479DAC9775BDFFB(L_392, 0, NULL);
+		V_87 = 0;
+		goto IL_0869;
+	}
+
+IL_0744:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_393 = ___0_option;
+		NullCheck(L_393);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_394 = L_393->___polys;
+		int32_t L_395 = V_23;
+		int32_t L_396 = V_87;
+		NullCheck(L_394);
+		int32_t L_397 = ((int32_t)il2cpp_codegen_add(L_395, L_396));
+		int32_t L_398 = (L_394)->GetAt(static_cast<il2cpp_array_size_t>(L_397));
+		V_88 = (bool)((((int32_t)L_398) == ((int32_t)((int32_t)65535)))? 1 : 0);
+		bool L_399 = V_88;
+		if (!L_399)
+		{
+			goto IL_0763;
+		}
+	}
+	{
+		goto IL_0877;
+	}
+
+IL_0763:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_400 = V_86;
+		NullCheck(L_400);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_401 = L_400->___verts;
+		int32_t L_402 = V_87;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_403 = ___0_option;
+		NullCheck(L_403);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_404 = L_403->___polys;
+		int32_t L_405 = V_23;
+		int32_t L_406 = V_87;
+		NullCheck(L_404);
+		int32_t L_407 = ((int32_t)il2cpp_codegen_add(L_405, L_406));
+		int32_t L_408 = (L_404)->GetAt(static_cast<il2cpp_array_size_t>(L_407));
+		NullCheck(L_401);
+		(L_401)->SetAt(static_cast<il2cpp_array_size_t>(L_402), (int32_t)L_408);
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_409 = ___0_option;
+		NullCheck(L_409);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_410 = L_409->___polys;
+		int32_t L_411 = V_23;
+		int32_t L_412 = V_0;
+		int32_t L_413 = V_87;
+		NullCheck(L_410);
+		int32_t L_414 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_411, L_412)), L_413));
+		int32_t L_415 = (L_410)->GetAt(static_cast<il2cpp_array_size_t>(L_414));
+		V_89 = (bool)((!(((uint32_t)((int32_t)(L_415&((int32_t)32768)))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_416 = V_89;
+		if (!L_416)
+		{
+			goto IL_0837;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_417 = ___0_option;
+		NullCheck(L_417);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_418 = L_417->___polys;
+		int32_t L_419 = V_23;
+		int32_t L_420 = V_0;
+		int32_t L_421 = V_87;
+		NullCheck(L_418);
+		int32_t L_422 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_419, L_420)), L_421));
+		int32_t L_423 = (L_418)->GetAt(static_cast<il2cpp_array_size_t>(L_422));
+		V_90 = ((int32_t)(L_423&((int32_t)15)));
+		int32_t L_424 = V_90;
+		V_91 = (bool)((((int32_t)L_424) == ((int32_t)((int32_t)15)))? 1 : 0);
+		bool L_425 = V_91;
+		if (!L_425)
+		{
+			goto IL_07c6;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_426 = V_86;
+		NullCheck(L_426);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_427 = L_426->___neis;
+		int32_t L_428 = V_87;
+		NullCheck(L_427);
+		(L_427)->SetAt(static_cast<il2cpp_array_size_t>(L_428), (int32_t)0);
+		goto IL_0834;
+	}
+
+IL_07c6:
+	{
+		int32_t L_429 = V_90;
+		V_92 = (bool)((((int32_t)L_429) == ((int32_t)0))? 1 : 0);
+		bool L_430 = V_92;
+		if (!L_430)
+		{
+			goto IL_07e2;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_431 = V_86;
+		NullCheck(L_431);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_432 = L_431->___neis;
+		int32_t L_433 = V_87;
+		NullCheck(L_432);
+		(L_432)->SetAt(static_cast<il2cpp_array_size_t>(L_433), (int32_t)((int32_t)32772));
+		goto IL_0834;
+	}
+
+IL_07e2:
+	{
+		int32_t L_434 = V_90;
+		V_93 = (bool)((((int32_t)L_434) == ((int32_t)1))? 1 : 0);
+		bool L_435 = V_93;
+		if (!L_435)
+		{
+			goto IL_07fe;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_436 = V_86;
+		NullCheck(L_436);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_437 = L_436->___neis;
+		int32_t L_438 = V_87;
+		NullCheck(L_437);
+		(L_437)->SetAt(static_cast<il2cpp_array_size_t>(L_438), (int32_t)((int32_t)32770));
+		goto IL_0834;
+	}
+
+IL_07fe:
+	{
+		int32_t L_439 = V_90;
+		V_94 = (bool)((((int32_t)L_439) == ((int32_t)2))? 1 : 0);
+		bool L_440 = V_94;
+		if (!L_440)
+		{
+			goto IL_081a;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_441 = V_86;
+		NullCheck(L_441);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_442 = L_441->___neis;
+		int32_t L_443 = V_87;
+		NullCheck(L_442);
+		(L_442)->SetAt(static_cast<il2cpp_array_size_t>(L_443), (int32_t)((int32_t)32768));
+		goto IL_0834;
+	}
+
+IL_081a:
+	{
+		int32_t L_444 = V_90;
+		V_95 = (bool)((((int32_t)L_444) == ((int32_t)3))? 1 : 0);
+		bool L_445 = V_95;
+		if (!L_445)
+		{
+			goto IL_0834;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_446 = V_86;
+		NullCheck(L_446);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_447 = L_446->___neis;
+		int32_t L_448 = V_87;
+		NullCheck(L_447);
+		(L_447)->SetAt(static_cast<il2cpp_array_size_t>(L_448), (int32_t)((int32_t)32774));
+	}
+
+IL_0834:
+	{
+		goto IL_0853;
+	}
+
+IL_0837:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_449 = V_86;
+		NullCheck(L_449);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_450 = L_449->___neis;
+		int32_t L_451 = V_87;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_452 = ___0_option;
+		NullCheck(L_452);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_453 = L_452->___polys;
+		int32_t L_454 = V_23;
+		int32_t L_455 = V_0;
+		int32_t L_456 = V_87;
+		NullCheck(L_453);
+		int32_t L_457 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_454, L_455)), L_456));
+		int32_t L_458 = (L_453)->GetAt(static_cast<il2cpp_array_size_t>(L_457));
+		NullCheck(L_450);
+		(L_450)->SetAt(static_cast<il2cpp_array_size_t>(L_451), (int32_t)((int32_t)il2cpp_codegen_add(L_458, 1)));
+	}
+
+IL_0853:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_459 = V_86;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_460 = L_459;
+		NullCheck(L_460);
+		int32_t L_461 = L_460->___vertCount;
+		NullCheck(L_460);
+		L_460->___vertCount = ((int32_t)il2cpp_codegen_add(L_461, 1));
+		int32_t L_462 = V_87;
+		V_87 = ((int32_t)il2cpp_codegen_add(L_462, 1));
+	}
+
+IL_0869:
+	{
+		int32_t L_463 = V_87;
+		int32_t L_464 = V_0;
+		V_96 = (bool)((((int32_t)L_463) < ((int32_t)L_464))? 1 : 0);
+		bool L_465 = V_96;
+		if (L_465)
+		{
+			goto IL_0744;
+		}
+	}
+
+IL_0877:
+	{
+		int32_t L_466 = V_23;
+		int32_t L_467 = V_0;
+		V_23 = ((int32_t)il2cpp_codegen_add(L_466, ((int32_t)il2cpp_codegen_multiply(L_467, 2))));
+		int32_t L_468 = V_85;
+		V_85 = ((int32_t)il2cpp_codegen_add(L_468, 1));
+	}
+
+IL_0886:
+	{
+		int32_t L_469 = V_85;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_470 = ___0_option;
+		NullCheck(L_470);
+		int32_t L_471 = L_470->___polyCount;
+		V_97 = (bool)((((int32_t)L_469) < ((int32_t)L_471))? 1 : 0);
+		bool L_472 = V_97;
+		if (L_472)
+		{
+			goto IL_06f8;
+		}
+	}
+	{
+		V_22 = 0;
+		V_98 = 0;
+		goto IL_0932;
+	}
+
+IL_08a4:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_473 = V_1;
+		int32_t L_474 = V_98;
+		NullCheck(L_473);
+		int32_t L_475 = ((int32_t)il2cpp_codegen_multiply(L_474, 2));
+		int32_t L_476 = (L_473)->GetAt(static_cast<il2cpp_array_size_t>(L_475));
+		V_99 = (bool)((((int32_t)L_476) == ((int32_t)((int32_t)255)))? 1 : 0);
+		bool L_477 = V_99;
+		if (!L_477)
+		{
+			goto IL_092b;
+		}
+	}
+	{
+		int32_t L_478 = V_21;
+		int32_t L_479 = V_22;
+		int32_t L_480 = V_0;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_481 = (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)il2cpp_codegen_object_new(DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6_il2cpp_TypeInfo_var);
+		DtPoly__ctor_mB0CE1973568267D906CE4F11180393F101681B02(L_481, ((int32_t)il2cpp_codegen_add(L_478, L_479)), L_480, NULL);
+		V_100 = L_481;
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_482 = V_14;
+		int32_t L_483 = V_21;
+		int32_t L_484 = V_22;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_485 = V_100;
+		NullCheck(L_482);
+		ArrayElementTypeCheck (L_482, L_485);
+		(L_482)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_483, L_484))), (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)L_485);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_486 = V_100;
+		NullCheck(L_486);
+		L_486->___vertCount = 2;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_487 = V_100;
+		NullCheck(L_487);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_488 = L_487->___verts;
+		int32_t L_489 = V_20;
+		int32_t L_490 = V_22;
+		NullCheck(L_488);
+		(L_488)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)((int32_t)il2cpp_codegen_add(L_489, ((int32_t)il2cpp_codegen_multiply(L_490, 2)))));
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_491 = V_100;
+		NullCheck(L_491);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_492 = L_491->___verts;
+		int32_t L_493 = V_20;
+		int32_t L_494 = V_22;
+		NullCheck(L_492);
+		(L_492)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_493, ((int32_t)il2cpp_codegen_multiply(L_494, 2)))), 1)));
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_495 = V_100;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_496 = ___0_option;
+		NullCheck(L_496);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_497 = L_496->___offMeshConFlags;
+		int32_t L_498 = V_98;
+		NullCheck(L_497);
+		int32_t L_499 = L_498;
+		int32_t L_500 = (L_497)->GetAt(static_cast<il2cpp_array_size_t>(L_499));
+		NullCheck(L_495);
+		L_495->___flags = L_500;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_501 = V_100;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_502 = ___0_option;
+		NullCheck(L_502);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_503 = L_502->___offMeshConAreas;
+		int32_t L_504 = V_98;
+		NullCheck(L_503);
+		int32_t L_505 = L_504;
+		int32_t L_506 = (L_503)->GetAt(static_cast<il2cpp_array_size_t>(L_505));
+		NullCheck(L_501);
+		DtPoly_SetArea_m9D3CBBBE97113C24D667E88EBC926B6C3AE1C461(L_501, L_506, NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_507 = V_100;
+		NullCheck(L_507);
+		DtPoly_SetPolyType_m89704FBB9B87F63729DE00145479DAC9775BDFFB(L_507, 1, NULL);
+		int32_t L_508 = V_22;
+		V_22 = ((int32_t)il2cpp_codegen_add(L_508, 1));
+	}
+
+IL_092b:
+	{
+		int32_t L_509 = V_98;
+		V_98 = ((int32_t)il2cpp_codegen_add(L_509, 1));
+	}
+
+IL_0932:
+	{
+		int32_t L_510 = V_98;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_511 = ___0_option;
+		NullCheck(L_511);
+		int32_t L_512 = L_511->___offMeshConCount;
+		V_101 = (bool)((((int32_t)L_510) < ((int32_t)L_512))? 1 : 0);
+		bool L_513 = V_101;
+		if (L_513)
+		{
+			goto IL_08a4;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_514 = ___0_option;
+		NullCheck(L_514);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_515 = L_514->___detailMeshes;
+		V_102 = (bool)((!(((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_515) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_516 = V_102;
+		if (!L_516)
+		{
+			goto IL_0a49;
+		}
+	}
+	{
+		V_103 = 0;
+		V_104 = 0;
+		goto IL_0a18;
+	}
+
+IL_0963:
+	{
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_517 = (DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281*)il2cpp_codegen_object_new(DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281_il2cpp_TypeInfo_var);
+		DtPolyDetail__ctor_mD414D83E235AEF75E92327C35C5FE334745A6D60(L_517, NULL);
+		V_105 = L_517;
+		DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59* L_518 = V_15;
+		int32_t L_519 = V_104;
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_520 = V_105;
+		NullCheck(L_518);
+		ArrayElementTypeCheck (L_518, L_520);
+		(L_518)->SetAt(static_cast<il2cpp_array_size_t>(L_519), (DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281*)L_520);
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_521 = ___0_option;
+		NullCheck(L_521);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_522 = L_521->___detailMeshes;
+		int32_t L_523 = V_104;
+		NullCheck(L_522);
+		int32_t L_524 = ((int32_t)il2cpp_codegen_multiply(L_523, 4));
+		int32_t L_525 = (L_522)->GetAt(static_cast<il2cpp_array_size_t>(L_524));
+		V_106 = L_525;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_526 = ___0_option;
+		NullCheck(L_526);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_527 = L_526->___detailMeshes;
+		int32_t L_528 = V_104;
+		NullCheck(L_527);
+		int32_t L_529 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_528, 4)), 1));
+		int32_t L_530 = (L_527)->GetAt(static_cast<il2cpp_array_size_t>(L_529));
+		V_107 = L_530;
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_531 = V_14;
+		int32_t L_532 = V_104;
+		NullCheck(L_531);
+		int32_t L_533 = L_532;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_534 = (L_531)->GetAt(static_cast<il2cpp_array_size_t>(L_533));
+		NullCheck(L_534);
+		int32_t L_535 = L_534->___vertCount;
+		V_108 = L_535;
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_536 = V_105;
+		int32_t L_537 = V_103;
+		NullCheck(L_536);
+		L_536->___vertBase = L_537;
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_538 = V_105;
+		int32_t L_539 = V_107;
+		int32_t L_540 = V_108;
+		NullCheck(L_538);
+		L_538->___vertCount = ((int32_t)il2cpp_codegen_subtract(L_539, L_540));
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_541 = V_105;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_542 = ___0_option;
+		NullCheck(L_542);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_543 = L_542->___detailMeshes;
+		int32_t L_544 = V_104;
+		NullCheck(L_543);
+		int32_t L_545 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_544, 4)), 2));
+		int32_t L_546 = (L_543)->GetAt(static_cast<il2cpp_array_size_t>(L_545));
+		NullCheck(L_541);
+		L_541->___triBase = L_546;
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_547 = V_105;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_548 = ___0_option;
+		NullCheck(L_548);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_549 = L_548->___detailMeshes;
+		int32_t L_550 = V_104;
+		NullCheck(L_549);
+		int32_t L_551 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_550, 4)), 3));
+		int32_t L_552 = (L_549)->GetAt(static_cast<il2cpp_array_size_t>(L_551));
+		NullCheck(L_547);
+		L_547->___triCount = L_552;
+		int32_t L_553 = V_107;
+		int32_t L_554 = V_108;
+		V_109 = (bool)((!(((uint32_t)((int32_t)il2cpp_codegen_subtract(L_553, L_554))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_555 = V_109;
+		if (!L_555)
+		{
+			goto IL_0a11;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_556 = ___0_option;
+		NullCheck(L_556);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_557 = L_556->___detailVerts;
+		int32_t L_558 = V_106;
+		int32_t L_559 = V_108;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_560 = V_16;
+		int32_t L_561 = V_103;
+		int32_t L_562 = V_107;
+		int32_t L_563 = V_108;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_557, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_add(L_558, L_559)), 3)), (RuntimeArray*)L_560, ((int32_t)il2cpp_codegen_multiply(L_561, 3)), ((int32_t)il2cpp_codegen_multiply(3, ((int32_t)il2cpp_codegen_subtract(L_562, L_563)))), NULL);
+		int32_t L_564 = V_103;
+		int32_t L_565 = V_107;
+		int32_t L_566 = V_108;
+		V_103 = ((int32_t)il2cpp_codegen_add(L_564, ((int32_t)il2cpp_codegen_subtract(L_565, L_566))));
+	}
+
+IL_0a11:
+	{
+		int32_t L_567 = V_104;
+		V_104 = ((int32_t)il2cpp_codegen_add(L_567, 1));
+	}
+
+IL_0a18:
+	{
+		int32_t L_568 = V_104;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_569 = ___0_option;
+		NullCheck(L_569);
+		int32_t L_570 = L_569->___polyCount;
+		V_110 = (bool)((((int32_t)L_568) < ((int32_t)L_570))? 1 : 0);
+		bool L_571 = V_110;
+		if (L_571)
+		{
+			goto IL_0963;
+		}
+	}
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_572 = ___0_option;
+		NullCheck(L_572);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_573 = L_572->___detailTris;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_574 = V_17;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_575 = ___0_option;
+		NullCheck(L_575);
+		int32_t L_576 = L_575->___detailTriCount;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_573, 0, (RuntimeArray*)L_574, 0, ((int32_t)il2cpp_codegen_multiply(4, L_576)), NULL);
+		goto IL_0b30;
+	}
+
+IL_0a49:
+	{
+		V_111 = 0;
+		V_112 = 0;
+		goto IL_0b1c;
+	}
+
+IL_0a55:
+	{
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_577 = (DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281*)il2cpp_codegen_object_new(DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281_il2cpp_TypeInfo_var);
+		DtPolyDetail__ctor_mD414D83E235AEF75E92327C35C5FE334745A6D60(L_577, NULL);
+		V_113 = L_577;
+		DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59* L_578 = V_15;
+		int32_t L_579 = V_112;
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_580 = V_113;
+		NullCheck(L_578);
+		ArrayElementTypeCheck (L_578, L_580);
+		(L_578)->SetAt(static_cast<il2cpp_array_size_t>(L_579), (DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281*)L_580);
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_581 = V_14;
+		int32_t L_582 = V_112;
+		NullCheck(L_581);
+		int32_t L_583 = L_582;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_584 = (L_581)->GetAt(static_cast<il2cpp_array_size_t>(L_583));
+		NullCheck(L_584);
+		int32_t L_585 = L_584->___vertCount;
+		V_114 = L_585;
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_586 = V_113;
+		NullCheck(L_586);
+		L_586->___vertBase = 0;
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_587 = V_113;
+		NullCheck(L_587);
+		L_587->___vertCount = 0;
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_588 = V_113;
+		int32_t L_589 = V_111;
+		NullCheck(L_588);
+		L_588->___triBase = L_589;
+		DtPolyDetail_t28CD1CE8BC23146C1027BF17F38603916993A281* L_590 = V_113;
+		int32_t L_591 = V_114;
+		NullCheck(L_590);
+		L_590->___triCount = ((int32_t)il2cpp_codegen_subtract(L_591, 2));
+		V_115 = 2;
+		goto IL_0b09;
+	}
+
+IL_0a99:
+	{
+		int32_t L_592 = V_111;
+		V_116 = ((int32_t)il2cpp_codegen_multiply(L_592, 4));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_593 = V_17;
+		int32_t L_594 = V_116;
+		NullCheck(L_593);
+		(L_593)->SetAt(static_cast<il2cpp_array_size_t>(L_594), (int32_t)0);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_595 = V_17;
+		int32_t L_596 = V_116;
+		int32_t L_597 = V_115;
+		NullCheck(L_595);
+		(L_595)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_596, 1))), (int32_t)((int32_t)il2cpp_codegen_subtract(L_597, 1)));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_598 = V_17;
+		int32_t L_599 = V_116;
+		int32_t L_600 = V_115;
+		NullCheck(L_598);
+		(L_598)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_599, 2))), (int32_t)L_600);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_601 = V_17;
+		int32_t L_602 = V_116;
+		NullCheck(L_601);
+		(L_601)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_602, 3))), (int32_t)4);
+		int32_t L_603 = V_115;
+		V_117 = (bool)((((int32_t)L_603) == ((int32_t)2))? 1 : 0);
+		bool L_604 = V_117;
+		if (!L_604)
+		{
+			goto IL_0add;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_605 = V_17;
+		int32_t L_606 = V_116;
+		NullCheck(L_605);
+		int32_t* L_607 = ((L_605)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_606, 3)))));
+		int32_t L_608 = *((int32_t*)L_607);
+		*((int32_t*)L_607) = (int32_t)((int32_t)(L_608|1));
+	}
+
+IL_0add:
+	{
+		int32_t L_609 = V_115;
+		int32_t L_610 = V_114;
+		V_118 = (bool)((((int32_t)L_609) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_610, 1))))? 1 : 0);
+		bool L_611 = V_118;
+		if (!L_611)
+		{
+			goto IL_0afc;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_612 = V_17;
+		int32_t L_613 = V_116;
+		NullCheck(L_612);
+		int32_t* L_614 = ((L_612)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_613, 3)))));
+		int32_t L_615 = *((int32_t*)L_614);
+		*((int32_t*)L_614) = (int32_t)((int32_t)(L_615|((int32_t)16)));
+	}
+
+IL_0afc:
+	{
+		int32_t L_616 = V_111;
+		V_111 = ((int32_t)il2cpp_codegen_add(L_616, 1));
+		int32_t L_617 = V_115;
+		V_115 = ((int32_t)il2cpp_codegen_add(L_617, 1));
+	}
+
+IL_0b09:
+	{
+		int32_t L_618 = V_115;
+		int32_t L_619 = V_114;
+		V_119 = (bool)((((int32_t)L_618) < ((int32_t)L_619))? 1 : 0);
+		bool L_620 = V_119;
+		if (L_620)
+		{
+			goto IL_0a99;
+		}
+	}
+	{
+		int32_t L_621 = V_112;
+		V_112 = ((int32_t)il2cpp_codegen_add(L_621, 1));
+	}
+
+IL_0b1c:
+	{
+		int32_t L_622 = V_112;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_623 = ___0_option;
+		NullCheck(L_623);
+		int32_t L_624 = L_623->___polyCount;
+		V_120 = (bool)((((int32_t)L_622) < ((int32_t)L_624))? 1 : 0);
+		bool L_625 = V_120;
+		if (L_625)
+		{
+			goto IL_0a55;
+		}
+	}
+	{
+	}
+
+IL_0b30:
+	{
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_626 = ___0_option;
+		NullCheck(L_626);
+		bool L_627 = L_626->___buildBvTree;
+		V_121 = L_627;
+		bool L_628 = V_121;
+		if (!L_628)
+		{
+			goto IL_0b4d;
+		}
+	}
+	{
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_629 = V_12;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_630 = ___0_option;
+		DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* L_631 = V_18;
+		int32_t L_632;
+		L_632 = DtNavMeshBuilder_CreateBVTree_m8B2F3E40472633738ACD367AF89065DB9D5CA78A(L_630, L_631, NULL);
+		NullCheck(L_629);
+		L_629->___bvNodeCount = L_632;
+	}
+
+IL_0b4d:
+	{
+		V_22 = 0;
+		V_122 = 0;
+		goto IL_0c0b;
+	}
+
+IL_0b58:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_633 = V_1;
+		int32_t L_634 = V_122;
+		NullCheck(L_633);
+		int32_t L_635 = ((int32_t)il2cpp_codegen_multiply(L_634, 2));
+		int32_t L_636 = (L_633)->GetAt(static_cast<il2cpp_array_size_t>(L_635));
+		V_123 = (bool)((((int32_t)L_636) == ((int32_t)((int32_t)255)))? 1 : 0);
+		bool L_637 = V_123;
+		if (!L_637)
+		{
+			goto IL_0c04;
+		}
+	}
+	{
+		DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* L_638 = (DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA*)il2cpp_codegen_object_new(DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA_il2cpp_TypeInfo_var);
+		DtOffMeshConnection__ctor_mC0E40675D7EA96FCFC4FF3DDCF4A9AEC6CAEFB0A(L_638, NULL);
+		V_124 = L_638;
+		DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36* L_639 = V_19;
+		int32_t L_640 = V_22;
+		DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* L_641 = V_124;
+		NullCheck(L_639);
+		ArrayElementTypeCheck (L_639, L_641);
+		(L_639)->SetAt(static_cast<il2cpp_array_size_t>(L_640), (DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA*)L_641);
+		DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* L_642 = V_124;
+		int32_t L_643 = V_21;
+		int32_t L_644 = V_22;
+		NullCheck(L_642);
+		L_642->___poly = ((int32_t)il2cpp_codegen_add(L_643, L_644));
+		int32_t L_645 = V_122;
+		V_125 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_645, 2)), 3));
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_646 = ___0_option;
+		NullCheck(L_646);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_647 = L_646->___offMeshConVerts;
+		int32_t L_648 = V_125;
+		DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* L_649 = V_124;
+		NullCheck(L_649);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_650 = L_649->___pos;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_647, L_648, (RuntimeArray*)L_650, 0, 6, NULL);
+		DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* L_651 = V_124;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_652 = ___0_option;
+		NullCheck(L_652);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_653 = L_652->___offMeshConRad;
+		int32_t L_654 = V_122;
+		NullCheck(L_653);
+		int32_t L_655 = L_654;
+		float L_656 = (L_653)->GetAt(static_cast<il2cpp_array_size_t>(L_655));
+		NullCheck(L_651);
+		L_651->___rad = L_656;
+		DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* L_657 = V_124;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_658 = ___0_option;
+		NullCheck(L_658);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_659 = L_658->___offMeshConDir;
+		int32_t L_660 = V_122;
+		NullCheck(L_659);
+		int32_t L_661 = L_660;
+		int32_t L_662 = (L_659)->GetAt(static_cast<il2cpp_array_size_t>(L_661));
+		if (L_662)
+		{
+			G_B134_0 = L_657;
+			goto IL_0bc9;
+		}
+		G_B133_0 = L_657;
+	}
+	{
+		G_B135_0 = 0;
+		G_B135_1 = G_B133_0;
+		goto IL_0bca;
+	}
+
+IL_0bc9:
+	{
+		G_B135_0 = 1;
+		G_B135_1 = G_B134_0;
+	}
+
+IL_0bca:
+	{
+		NullCheck(G_B135_1);
+		G_B135_1->___flags = G_B135_0;
+		DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* L_663 = V_124;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_664 = V_1;
+		int32_t L_665 = V_122;
+		NullCheck(L_664);
+		int32_t L_666 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_665, 2)), 1));
+		int32_t L_667 = (L_664)->GetAt(static_cast<il2cpp_array_size_t>(L_666));
+		NullCheck(L_663);
+		L_663->___side = L_667;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_668 = ___0_option;
+		NullCheck(L_668);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_669 = L_668->___offMeshConUserID;
+		V_126 = (bool)((!(((RuntimeObject*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)L_669) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_670 = V_126;
+		if (!L_670)
+		{
+			goto IL_0bfd;
+		}
+	}
+	{
+		DtOffMeshConnection_t8F536CBE941D39DF5B72A017511E761C8DE826AA* L_671 = V_124;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_672 = ___0_option;
+		NullCheck(L_672);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_673 = L_672->___offMeshConUserID;
+		int32_t L_674 = V_122;
+		NullCheck(L_673);
+		int32_t L_675 = L_674;
+		int32_t L_676 = (L_673)->GetAt(static_cast<il2cpp_array_size_t>(L_675));
+		NullCheck(L_671);
+		L_671->___userId = L_676;
+	}
+
+IL_0bfd:
+	{
+		int32_t L_677 = V_22;
+		V_22 = ((int32_t)il2cpp_codegen_add(L_677, 1));
+	}
+
+IL_0c04:
+	{
+		int32_t L_678 = V_122;
+		V_122 = ((int32_t)il2cpp_codegen_add(L_678, 1));
+	}
+
+IL_0c0b:
+	{
+		int32_t L_679 = V_122;
+		DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* L_680 = ___0_option;
+		NullCheck(L_680);
+		int32_t L_681 = L_680->___offMeshConCount;
+		V_127 = (bool)((((int32_t)L_679) < ((int32_t)L_681))? 1 : 0);
+		bool L_682 = V_127;
+		if (L_682)
+		{
+			goto IL_0b58;
+		}
+	}
+	{
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_683 = (DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591*)il2cpp_codegen_object_new(DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591_il2cpp_TypeInfo_var);
+		DtMeshData__ctor_mA468D2753C36F0D3438579F7C84FE07E68167E48(L_683, NULL);
+		V_24 = L_683;
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_684 = V_24;
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_685 = V_12;
+		NullCheck(L_684);
+		L_684->___header = L_685;
+		Il2CppCodeGenWriteBarrier((void**)(&L_684->___header), (void*)L_685);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_686 = V_24;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_687 = V_13;
+		NullCheck(L_686);
+		L_686->___verts = L_687;
+		Il2CppCodeGenWriteBarrier((void**)(&L_686->___verts), (void*)L_687);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_688 = V_24;
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_689 = V_14;
+		NullCheck(L_688);
+		L_688->___polys = L_689;
+		Il2CppCodeGenWriteBarrier((void**)(&L_688->___polys), (void*)L_689);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_690 = V_24;
+		DtPolyDetailU5BU5D_t9549E0BC6B7F4767F4B334A0DE189D41E337AE59* L_691 = V_15;
+		NullCheck(L_690);
+		L_690->___detailMeshes = L_691;
+		Il2CppCodeGenWriteBarrier((void**)(&L_690->___detailMeshes), (void*)L_691);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_692 = V_24;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_693 = V_16;
+		NullCheck(L_692);
+		L_692->___detailVerts = L_693;
+		Il2CppCodeGenWriteBarrier((void**)(&L_692->___detailVerts), (void*)L_693);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_694 = V_24;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_695 = V_17;
+		NullCheck(L_694);
+		L_694->___detailTris = L_695;
+		Il2CppCodeGenWriteBarrier((void**)(&L_694->___detailTris), (void*)L_695);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_696 = V_24;
+		DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* L_697 = V_18;
+		NullCheck(L_696);
+		L_696->___bvTree = L_697;
+		Il2CppCodeGenWriteBarrier((void**)(&L_696->___bvTree), (void*)L_697);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_698 = V_24;
+		DtOffMeshConnectionU5BU5D_t676B4B8A8B673A892E5C9FF928AAC0C2976E1A36* L_699 = V_19;
+		NullCheck(L_698);
+		L_698->___offMeshCons = L_699;
+		Il2CppCodeGenWriteBarrier((void**)(&L_698->___offMeshCons), (void*)L_699);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_700 = V_24;
+		V_26 = L_700;
+		goto IL_0c73;
+	}
+
+IL_0c73:
+	{
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_701 = V_26;
+		return L_701;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNavMeshCreateParams__ctor_m5D5672DF39EF59F509C361586F42CAEF77E05FEA (DtNavMeshCreateParams_tED079BB2F6AF6AE82B50D87AEA369BB744C78F11* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNavMeshQuery__ctor_mDA46432FA26B05FB877B89B534EA88E5E409F437 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* ___0_nav, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_0 = ___0_nav;
+		__this->___m_nav = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_nav), (void*)L_0);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_1 = (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6*)il2cpp_codegen_object_new(DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6_il2cpp_TypeInfo_var);
+		DtNodePool__ctor_m564949C90A7CA1D036F9B8E23DC6A33967228A04(L_1, NULL);
+		__this->___m_nodePool = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_nodePool), (void*)L_1);
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_2 = (DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508*)il2cpp_codegen_object_new(DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508_il2cpp_TypeInfo_var);
+		DtNodeQueue__ctor_mBC5DC25AC0B19CEEE4C0F328171628A590C9E241(L_2, NULL);
+		__this->___m_openList = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_openList), (void*)L_2);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindRandomPoint_mCA398716042A9917F6B2386C4021D62DF82DDED4 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RuntimeObject* ___0_filter, RuntimeObject* ___1_frand, int64_t* ___2_randomRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___3_randomPt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_0 = NULL;
+	float V_1 = 0.0f;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_2 = NULL;
+	int64_t V_3 = 0;
+	int64_t V_4 = 0;
+	float V_5 = 0.0f;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_6 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_7 = NULL;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	bool V_12 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	int32_t V_14 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_15 = NULL;
+	float V_16 = 0.0f;
+	float V_17 = 0.0f;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	int32_t V_22 = 0;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_23 = NULL;
+	int64_t V_24 = 0;
+	float V_25 = 0.0f;
+	float V_26 = 0.0f;
+	bool V_27 = false;
+	bool V_28 = false;
+	int32_t V_29 = 0;
+	int32_t V_30 = 0;
+	int32_t V_31 = 0;
+	int32_t V_32 = 0;
+	bool V_33 = false;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	int32_t V_37 = 0;
+	bool V_38 = false;
+	bool V_39 = false;
+	int32_t G_B3_0 = 0;
+	int32_t G_B10_0 = 0;
+	{
+		int64_t* L_0 = ___2_randomRef;
+		*((int64_t*)L_0) = (int64_t)((int64_t)0);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_1 = ___3_randomPt;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2;
+		L_2 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_1 = L_2;
+		RuntimeObject* L_3 = ___0_filter;
+		if (!L_3)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		RuntimeObject* L_4 = ___1_frand;
+		G_B3_0 = ((((RuntimeObject*)(RuntimeObject*)L_4) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_001b;
+	}
+
+IL_001a:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_001b:
+	{
+		V_12 = (bool)G_B3_0;
+		bool L_5 = V_12;
+		if (!L_5)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_6 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_7 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_8;
+		L_8 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_6, L_7, NULL);
+		V_13 = L_8;
+		goto IL_02e1;
+	}
+
+IL_0038:
+	{
+		V_0 = (DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*)NULL;
+		V_1 = (0.0f);
+		V_14 = 0;
+		goto IL_00ae;
+	}
+
+IL_0045:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_9 = __this->___m_nav;
+		int32_t L_10 = V_14;
+		NullCheck(L_9);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_11;
+		L_11 = DtNavMesh_GetTile_m6B8B1A7E6191B2AF68E18D7EF6DE1D59B675ADA5(L_9, L_10, NULL);
+		V_15 = L_11;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_12 = V_15;
+		if (!L_12)
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_13 = V_15;
+		NullCheck(L_13);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_14 = L_13->___data;
+		if (!L_14)
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_15 = V_15;
+		NullCheck(L_15);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_16 = L_15->___data;
+		NullCheck(L_16);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_17 = L_16->___header;
+		G_B10_0 = ((((RuntimeObject*)(DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1*)L_17) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0074;
+	}
+
+IL_0073:
+	{
+		G_B10_0 = 1;
+	}
+
+IL_0074:
+	{
+		V_18 = (bool)G_B10_0;
+		bool L_18 = V_18;
+		if (!L_18)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		goto IL_00a8;
+	}
+
+IL_007d:
+	{
+		V_16 = (1.0f);
+		float L_19 = V_1;
+		float L_20 = V_16;
+		V_1 = ((float)il2cpp_codegen_add(L_19, L_20));
+		RuntimeObject* L_21 = ___1_frand;
+		NullCheck(L_21);
+		float L_22;
+		L_22 = InterfaceFuncInvoker0< float >::Invoke(0, IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var, L_21);
+		V_17 = L_22;
+		float L_23 = V_17;
+		float L_24 = V_1;
+		float L_25 = V_16;
+		V_19 = (bool)((((int32_t)((!(((float)((float)il2cpp_codegen_multiply(L_23, L_24))) <= ((float)L_25)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_26 = V_19;
+		if (!L_26)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_27 = V_15;
+		V_0 = L_27;
+	}
+
+IL_00a7:
+	{
+	}
+
+IL_00a8:
+	{
+		int32_t L_28 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+	}
+
+IL_00ae:
+	{
+		int32_t L_29 = V_14;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_30 = __this->___m_nav;
+		NullCheck(L_30);
+		int32_t L_31;
+		L_31 = DtNavMesh_GetMaxTiles_mCE8A92A8595FFCE17D81AD431E03E0744A9C8DEE(L_30, NULL);
+		V_20 = (bool)((((int32_t)L_29) < ((int32_t)L_31))? 1 : 0);
+		bool L_32 = V_20;
+		if (L_32)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_33 = V_0;
+		V_21 = (bool)((((RuntimeObject*)(DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*)L_33) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_34 = V_21;
+		if (!L_34)
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_35 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		V_13 = L_35;
+		goto IL_02e1;
+	}
+
+IL_00da:
+	{
+		V_2 = (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)NULL;
+		V_3 = ((int64_t)0);
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_36 = __this->___m_nav;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_37 = V_0;
+		NullCheck(L_36);
+		int64_t L_38;
+		L_38 = DtNavMesh_GetPolyRefBase_m9D29DD1BCB8EDC4B851204A12ED7D5701AE60646(L_36, L_37, NULL);
+		V_4 = L_38;
+		V_5 = (0.0f);
+		V_22 = 0;
+		goto IL_01e0;
+	}
+
+IL_00fc:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_39 = V_0;
+		NullCheck(L_39);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_40 = L_39->___data;
+		NullCheck(L_40);
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_41 = L_40->___polys;
+		int32_t L_42 = V_22;
+		NullCheck(L_41);
+		int32_t L_43 = L_42;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_44 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		V_23 = L_44;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_45 = V_23;
+		NullCheck(L_45);
+		int32_t L_46;
+		L_46 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_45, NULL);
+		V_27 = (bool)((!(((uint32_t)L_46) <= ((uint32_t)0)))? 1 : 0);
+		bool L_47 = V_27;
+		if (!L_47)
+		{
+			goto IL_0123;
+		}
+	}
+	{
+		goto IL_01da;
+	}
+
+IL_0123:
+	{
+		int64_t L_48 = V_4;
+		int32_t L_49 = V_22;
+		V_24 = ((int64_t)(L_48|((int64_t)L_49)));
+		RuntimeObject* L_50 = ___0_filter;
+		int64_t L_51 = V_24;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_52 = V_0;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_53 = V_23;
+		NullCheck(L_50);
+		bool L_54;
+		L_54 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_50, L_51, L_52, L_53);
+		V_28 = (bool)((((int32_t)L_54) == ((int32_t)0))? 1 : 0);
+		bool L_55 = V_28;
+		if (!L_55)
+		{
+			goto IL_0145;
+		}
+	}
+	{
+		goto IL_01da;
+	}
+
+IL_0145:
+	{
+		V_25 = (0.0f);
+		V_29 = 2;
+		goto IL_019f;
+	}
+
+IL_0151:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_56 = V_23;
+		NullCheck(L_56);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_57 = L_56->___verts;
+		NullCheck(L_57);
+		int32_t L_58 = 0;
+		int32_t L_59 = (L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_58));
+		V_30 = ((int32_t)il2cpp_codegen_multiply(L_59, 3));
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_60 = V_23;
+		NullCheck(L_60);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_61 = L_60->___verts;
+		int32_t L_62 = V_29;
+		NullCheck(L_61);
+		int32_t L_63 = ((int32_t)il2cpp_codegen_subtract(L_62, 1));
+		int32_t L_64 = (L_61)->GetAt(static_cast<il2cpp_array_size_t>(L_63));
+		V_31 = ((int32_t)il2cpp_codegen_multiply(L_64, 3));
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_65 = V_23;
+		NullCheck(L_65);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_66 = L_65->___verts;
+		int32_t L_67 = V_29;
+		NullCheck(L_66);
+		int32_t L_68 = L_67;
+		int32_t L_69 = (L_66)->GetAt(static_cast<il2cpp_array_size_t>(L_68));
+		V_32 = ((int32_t)il2cpp_codegen_multiply(L_69, 3));
+		float L_70 = V_25;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_71 = V_0;
+		NullCheck(L_71);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_72 = L_71->___data;
+		NullCheck(L_72);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_73 = L_72->___verts;
+		int32_t L_74 = V_30;
+		int32_t L_75 = V_31;
+		int32_t L_76 = V_32;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_77;
+		L_77 = DtUtils_TriArea2D_m8954C4019C78B6502FFC271AD5C881E3CD4D9C51(L_73, L_74, L_75, L_76, NULL);
+		V_25 = ((float)il2cpp_codegen_add(L_70, L_77));
+		int32_t L_78 = V_29;
+		V_29 = ((int32_t)il2cpp_codegen_add(L_78, 1));
+	}
+
+IL_019f:
+	{
+		int32_t L_79 = V_29;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_80 = V_23;
+		NullCheck(L_80);
+		int32_t L_81 = L_80->___vertCount;
+		V_33 = (bool)((((int32_t)L_79) < ((int32_t)L_81))? 1 : 0);
+		bool L_82 = V_33;
+		if (L_82)
+		{
+			goto IL_0151;
+		}
+	}
+	{
+		float L_83 = V_5;
+		float L_84 = V_25;
+		V_5 = ((float)il2cpp_codegen_add(L_83, L_84));
+		RuntimeObject* L_85 = ___1_frand;
+		NullCheck(L_85);
+		float L_86;
+		L_86 = InterfaceFuncInvoker0< float >::Invoke(0, IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var, L_85);
+		V_26 = L_86;
+		float L_87 = V_26;
+		float L_88 = V_5;
+		float L_89 = V_25;
+		V_34 = (bool)((((int32_t)((!(((float)((float)il2cpp_codegen_multiply(L_87, L_88))) <= ((float)L_89)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_90 = V_34;
+		if (!L_90)
+		{
+			goto IL_01d9;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_91 = V_23;
+		V_2 = L_91;
+		int64_t L_92 = V_24;
+		V_3 = L_92;
+	}
+
+IL_01d9:
+	{
+	}
+
+IL_01da:
+	{
+		int32_t L_93 = V_22;
+		V_22 = ((int32_t)il2cpp_codegen_add(L_93, 1));
+	}
+
+IL_01e0:
+	{
+		int32_t L_94 = V_22;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_95 = V_0;
+		NullCheck(L_95);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_96 = L_95->___data;
+		NullCheck(L_96);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_97 = L_96->___header;
+		NullCheck(L_97);
+		int32_t L_98 = L_97->___polyCount;
+		V_35 = (bool)((((int32_t)L_94) < ((int32_t)L_98))? 1 : 0);
+		bool L_99 = V_35;
+		if (L_99)
+		{
+			goto IL_00fc;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_100 = V_2;
+		V_36 = (bool)((((RuntimeObject*)(DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)L_100) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_101 = V_36;
+		if (!L_101)
+		{
+			goto IL_0214;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_102 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		V_13 = L_102;
+		goto IL_02e1;
+	}
+
+IL_0214:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_103 = __this->___m_nav;
+		NullCheck(L_103);
+		int32_t L_104;
+		L_104 = DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F(L_103, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_105 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(3, L_104)));
+		V_6 = L_105;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_106 = __this->___m_nav;
+		NullCheck(L_106);
+		int32_t L_107;
+		L_107 = DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F(L_106, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_108 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_107);
+		V_7 = L_108;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_109 = V_0;
+		NullCheck(L_109);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_110 = L_109->___data;
+		NullCheck(L_110);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_111 = L_110->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_112 = V_2;
+		NullCheck(L_112);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_113 = L_112->___verts;
+		NullCheck(L_113);
+		int32_t L_114 = 0;
+		int32_t L_115 = (L_113)->GetAt(static_cast<il2cpp_array_size_t>(L_114));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_116 = V_6;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_111, ((int32_t)il2cpp_codegen_multiply(L_115, 3)), (RuntimeArray*)L_116, 0, 3, NULL);
+		V_37 = 1;
+		goto IL_0289;
+	}
+
+IL_025e:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_117 = V_0;
+		NullCheck(L_117);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_118 = L_117->___data;
+		NullCheck(L_118);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_119 = L_118->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_120 = V_2;
+		NullCheck(L_120);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_121 = L_120->___verts;
+		int32_t L_122 = V_37;
+		NullCheck(L_121);
+		int32_t L_123 = L_122;
+		int32_t L_124 = (L_121)->GetAt(static_cast<il2cpp_array_size_t>(L_123));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_125 = V_6;
+		int32_t L_126 = V_37;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_119, ((int32_t)il2cpp_codegen_multiply(L_124, 3)), (RuntimeArray*)L_125, ((int32_t)il2cpp_codegen_multiply(L_126, 3)), 3, NULL);
+		int32_t L_127 = V_37;
+		V_37 = ((int32_t)il2cpp_codegen_add(L_127, 1));
+	}
+
+IL_0289:
+	{
+		int32_t L_128 = V_37;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_129 = V_2;
+		NullCheck(L_129);
+		int32_t L_130 = L_129->___vertCount;
+		V_38 = (bool)((((int32_t)L_128) < ((int32_t)L_130))? 1 : 0);
+		bool L_131 = V_38;
+		if (L_131)
+		{
+			goto IL_025e;
+		}
+	}
+	{
+		RuntimeObject* L_132 = ___1_frand;
+		NullCheck(L_132);
+		float L_133;
+		L_133 = InterfaceFuncInvoker0< float >::Invoke(0, IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var, L_132);
+		V_8 = L_133;
+		RuntimeObject* L_134 = ___1_frand;
+		NullCheck(L_134);
+		float L_135;
+		L_135 = InterfaceFuncInvoker0< float >::Invoke(0, IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var, L_134);
+		V_9 = L_135;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_136 = V_6;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_137 = V_2;
+		NullCheck(L_137);
+		int32_t L_138 = L_137->___vertCount;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_139 = V_7;
+		float L_140 = V_8;
+		float L_141 = V_9;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_142;
+		L_142 = DtUtils_RandomPointInConvexPoly_mCB0AD74AEEEA5D9B912647B8DC6F5A0F7A0885FA(L_136, L_138, L_139, L_140, L_141, NULL);
+		V_10 = L_142;
+		int64_t L_143 = V_3;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_144 = V_10;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_145;
+		L_145 = DtNavMeshQuery_ClosestPointOnPoly_mDB1783AFC9A3F42BE17F0C09246DF6E68C7766FB(__this, L_143, L_144, (&V_11), (&V_39), NULL);
+		int64_t* L_146 = ___2_randomRef;
+		int64_t L_147 = V_3;
+		*((int64_t*)L_146) = (int64_t)L_147;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_148 = ___3_randomPt;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_149 = V_11;
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_148 = L_149;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_150 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_13 = L_150;
+		goto IL_02e1;
+	}
+
+IL_02e1:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_151 = V_13;
+		return L_151;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindRandomPointAroundCircle_m278DB13F5BAB462C1AD875602355C79664D64D50 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_centerPos, float ___2_maxRadius, RuntimeObject* ___3_filter, RuntimeObject* ___4_frand, int64_t* ___5_randomRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___6_randomPt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtNoOpDtPolygonByCircleConstraint_tC8DDEF2B890A61D87D5A6DB21078237C8F283DA5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int64_t L_0 = ___0_startRef;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1 = ___1_centerPos;
+		float L_2 = ___2_maxRadius;
+		RuntimeObject* L_3 = ___3_filter;
+		RuntimeObject* L_4 = ___4_frand;
+		il2cpp_codegen_runtime_class_init_inline(DtNoOpDtPolygonByCircleConstraint_tC8DDEF2B890A61D87D5A6DB21078237C8F283DA5_il2cpp_TypeInfo_var);
+		DtNoOpDtPolygonByCircleConstraint_tC8DDEF2B890A61D87D5A6DB21078237C8F283DA5* L_5 = ((DtNoOpDtPolygonByCircleConstraint_tC8DDEF2B890A61D87D5A6DB21078237C8F283DA5_StaticFields*)il2cpp_codegen_static_fields_for(DtNoOpDtPolygonByCircleConstraint_tC8DDEF2B890A61D87D5A6DB21078237C8F283DA5_il2cpp_TypeInfo_var))->___Shared;
+		int64_t* L_6 = ___5_randomRef;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_7 = ___6_randomPt;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_8;
+		L_8 = DtNavMeshQuery_FindRandomPointAroundCircle_mF21056B345E1B32F3314C340BCBA2A72722436F1(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
+		V_0 = L_8;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_9 = V_0;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindRandomPointWithinCircle_mE3734619BBDF9F8A51E71D5C2C222E3A39FD5A37 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_centerPos, float ___2_maxRadius, RuntimeObject* ___3_filter, RuntimeObject* ___4_frand, int64_t* ___5_randomRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___6_randomPt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStrictDtPolygonByCircleConstraint_t43EA1A011A2CC98089AA7502FEF1B7B98D0E11C0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int64_t L_0 = ___0_startRef;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1 = ___1_centerPos;
+		float L_2 = ___2_maxRadius;
+		RuntimeObject* L_3 = ___3_filter;
+		RuntimeObject* L_4 = ___4_frand;
+		il2cpp_codegen_runtime_class_init_inline(DtStrictDtPolygonByCircleConstraint_t43EA1A011A2CC98089AA7502FEF1B7B98D0E11C0_il2cpp_TypeInfo_var);
+		RuntimeObject* L_5 = ((DtStrictDtPolygonByCircleConstraint_t43EA1A011A2CC98089AA7502FEF1B7B98D0E11C0_StaticFields*)il2cpp_codegen_static_fields_for(DtStrictDtPolygonByCircleConstraint_t43EA1A011A2CC98089AA7502FEF1B7B98D0E11C0_il2cpp_TypeInfo_var))->___Shared;
+		int64_t* L_6 = ___5_randomRef;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_7 = ___6_randomPt;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_8;
+		L_8 = DtNavMeshQuery_FindRandomPointAroundCircle_mF21056B345E1B32F3314C340BCBA2A72722436F1(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
+		V_0 = L_8;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_9 = V_0;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindRandomPointAroundCircle_mF21056B345E1B32F3314C340BCBA2A72722436F1 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_centerPos, float ___2_maxRadius, RuntimeObject* ___3_filter, RuntimeObject* ___4_frand, RuntimeObject* ___5_constraint, int64_t* ___6_randomRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___7_randomPt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtPolygonByCircleConstraint_t1C0F29A821648FE1EFB403AEA596356D425F9723_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_0 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_1 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_2 = NULL;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_6 = NULL;
+	int64_t V_7 = 0;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_8 = NULL;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_11 = NULL;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool V_14 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	bool V_16 = false;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_17 = NULL;
+	int64_t V_18 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_19 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_20 = NULL;
+	int64_t V_21 = 0;
+	bool V_22 = false;
+	float V_23 = 0.0f;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_24 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_25 = NULL;
+	int32_t V_26 = 0;
+	bool V_27 = false;
+	bool V_28 = false;
+	int32_t V_29 = 0;
+	float V_30 = 0.0f;
+	int32_t V_31 = 0;
+	int32_t V_32 = 0;
+	int32_t V_33 = 0;
+	int32_t V_34 = 0;
+	bool V_35 = false;
+	bool V_36 = false;
+	bool V_37 = false;
+	int32_t V_38 = 0;
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_39 = NULL;
+	int64_t V_40 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_41 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_42 = NULL;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_43;
+	memset((&V_43), 0, sizeof(V_43));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_44;
+	memset((&V_44), 0, sizeof(V_44));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_45;
+	memset((&V_45), 0, sizeof(V_45));
+	float V_46 = 0.0f;
+	float V_47 = 0.0f;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_48 = NULL;
+	float V_49 = 0.0f;
+	bool V_50 = false;
+	bool V_51 = false;
+	bool V_52 = false;
+	bool V_53 = false;
+	bool V_54 = false;
+	bool V_55 = false;
+	bool V_56 = false;
+	bool V_57 = false;
+	bool V_58 = false;
+	bool V_59 = false;
+	bool V_60 = false;
+	bool V_61 = false;
+	bool V_62 = false;
+	int32_t G_B7_0 = 0;
+	int32_t G_B30_0 = 0;
+	int32_t G_B47_0 = 0;
+	{
+		int64_t* L_0 = ___6_randomRef;
+		int64_t L_1 = ___0_startRef;
+		*((int64_t*)L_0) = (int64_t)L_1;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_2 = ___7_randomPt;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_3 = ___1_centerPos;
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_2 = L_3;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_4 = __this->___m_nav;
+		int64_t L_5 = ___0_startRef;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_4, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_7 = ___1_centerPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		float L_9 = ___2_maxRadius;
+		if ((((float)L_9) < ((float)(0.0f))))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		float L_10 = ___2_maxRadius;
+		bool L_11;
+		L_11 = Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		RuntimeObject* L_12 = ___3_filter;
+		if (!L_12)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		RuntimeObject* L_13 = ___4_frand;
+		G_B7_0 = ((((RuntimeObject*)(RuntimeObject*)L_13) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_003f;
+	}
+
+IL_003e:
+	{
+		G_B7_0 = 1;
+	}
+
+IL_003f:
+	{
+		V_14 = (bool)G_B7_0;
+		bool L_14 = V_14;
+		if (!L_14)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_15 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_16 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_17;
+		L_17 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_15, L_16, NULL);
+		V_15 = L_17;
+		goto IL_051c;
+	}
+
+IL_005c:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_18 = __this->___m_nav;
+		int64_t L_19 = ___0_startRef;
+		NullCheck(L_18);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_18, L_19, (&V_0), (&V_1), NULL);
+		RuntimeObject* L_20 = ___3_filter;
+		int64_t L_21 = ___0_startRef;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_22 = V_0;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_23 = V_1;
+		NullCheck(L_20);
+		bool L_24;
+		L_24 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_20, L_21, L_22, L_23);
+		V_16 = (bool)((((int32_t)L_24) == ((int32_t)0))? 1 : 0);
+		bool L_25 = V_16;
+		if (!L_25)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_26 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_27 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_28;
+		L_28 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_26, L_27, NULL);
+		V_15 = L_28;
+		goto IL_051c;
+	}
+
+IL_0097:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_29 = __this->___m_nodePool;
+		NullCheck(L_29);
+		DtNodePool_Clear_m4682D89F1BB534CA29B32127C54A0B6239075575(L_29, NULL);
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_30 = __this->___m_openList;
+		NullCheck(L_30);
+		DtNodeQueue_Clear_m9FAB097BAD2439457DAE7C38948A62B33D4A13D1(L_30, NULL);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_31 = __this->___m_nodePool;
+		int64_t L_32 = ___0_startRef;
+		NullCheck(L_31);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_33;
+		L_33 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_31, L_32, NULL);
+		V_2 = L_33;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_34 = V_2;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_35 = ___1_centerPos;
+		NullCheck(L_34);
+		L_34->___pos = L_35;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_36 = V_2;
+		NullCheck(L_36);
+		L_36->___pidx = 0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_37 = V_2;
+		NullCheck(L_37);
+		L_37->___cost = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_38 = V_2;
+		NullCheck(L_38);
+		L_38->___total = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_39 = V_2;
+		int64_t L_40 = ___0_startRef;
+		NullCheck(L_39);
+		L_39->___id = L_40;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_41 = V_2;
+		NullCheck(L_41);
+		L_41->___flags = 1;
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_42 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_43 = V_2;
+		NullCheck(L_42);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_42, L_43, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_44 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_3 = L_44;
+		float L_45 = ___2_maxRadius;
+		float L_46 = ___2_maxRadius;
+		V_4 = ((float)il2cpp_codegen_multiply(L_45, L_46));
+		V_5 = (0.0f);
+		V_6 = (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)NULL;
+		V_7 = ((int64_t)0);
+		V_8 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)NULL;
+		goto IL_049a;
+	}
+
+IL_011c:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_47 = __this->___m_openList;
+		NullCheck(L_47);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_48;
+		L_48 = DtNodeQueue_Pop_m4569866ACFC4A645DD3D1A7BB7761CC4222AD145(L_47, NULL);
+		V_17 = L_48;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_49 = V_17;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_50 = L_49;
+		NullCheck(L_50);
+		int32_t L_51 = L_50->___flags;
+		NullCheck(L_50);
+		L_50->___flags = ((int32_t)(L_51&((int32_t)-2)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_52 = V_17;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_53 = L_52;
+		NullCheck(L_53);
+		int32_t L_54 = L_53->___flags;
+		NullCheck(L_53);
+		L_53->___flags = ((int32_t)(L_54|2));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_55 = V_17;
+		NullCheck(L_55);
+		int64_t L_56 = L_55->___id;
+		V_18 = L_56;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_57 = __this->___m_nav;
+		int64_t L_58 = V_18;
+		NullCheck(L_57);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_57, L_58, (&V_19), (&V_20), NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_59 = V_20;
+		NullCheck(L_59);
+		int32_t L_60;
+		L_60 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_59, NULL);
+		V_22 = (bool)((((int32_t)L_60) == ((int32_t)0))? 1 : 0);
+		bool L_61 = V_22;
+		if (!L_61)
+		{
+			goto IL_0261;
+		}
+	}
+	{
+		V_23 = (0.0f);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_62 = V_20;
+		NullCheck(L_62);
+		int32_t L_63 = L_62->___vertCount;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_64 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_63, 3)));
+		V_24 = L_64;
+		V_26 = 0;
+		goto IL_01c1;
+	}
+
+IL_0194:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_65 = V_19;
+		NullCheck(L_65);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_66 = L_65->___data;
+		NullCheck(L_66);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_67 = L_66->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_68 = V_20;
+		NullCheck(L_68);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_69 = L_68->___verts;
+		int32_t L_70 = V_26;
+		NullCheck(L_69);
+		int32_t L_71 = L_70;
+		int32_t L_72 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_71));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_73 = V_24;
+		int32_t L_74 = V_26;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_67, ((int32_t)il2cpp_codegen_multiply(L_72, 3)), (RuntimeArray*)L_73, ((int32_t)il2cpp_codegen_multiply(L_74, 3)), 3, NULL);
+		int32_t L_75 = V_26;
+		V_26 = ((int32_t)il2cpp_codegen_add(L_75, 1));
+	}
+
+IL_01c1:
+	{
+		int32_t L_76 = V_26;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_77 = V_20;
+		NullCheck(L_77);
+		int32_t L_78 = L_77->___vertCount;
+		V_27 = (bool)((((int32_t)L_76) < ((int32_t)L_78))? 1 : 0);
+		bool L_79 = V_27;
+		if (L_79)
+		{
+			goto IL_0194;
+		}
+	}
+	{
+		RuntimeObject* L_80 = ___5_constraint;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_81 = V_24;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_82 = ___1_centerPos;
+		float L_83 = ___2_maxRadius;
+		NullCheck(L_80);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_84;
+		L_84 = InterfaceFuncInvoker3< SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, float >::Invoke(0, IDtPolygonByCircleConstraint_t1C0F29A821648FE1EFB403AEA596356D425F9723_il2cpp_TypeInfo_var, L_80, L_81, L_82, L_83);
+		V_25 = L_84;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_85 = V_25;
+		V_28 = (bool)((!(((RuntimeObject*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)L_85) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_86 = V_28;
+		if (!L_86)
+		{
+			goto IL_0260;
+		}
+	}
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_87 = V_25;
+		NullCheck(L_87);
+		V_29 = ((int32_t)(((int32_t)(((RuntimeArray*)L_87)->max_length))/3));
+		V_31 = 2;
+		goto IL_0223;
+	}
+
+IL_01f8:
+	{
+		V_32 = 0;
+		int32_t L_88 = V_31;
+		V_33 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_subtract(L_88, 1)), 3));
+		int32_t L_89 = V_31;
+		V_34 = ((int32_t)il2cpp_codegen_multiply(L_89, 3));
+		float L_90 = V_23;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_91 = V_25;
+		int32_t L_92 = V_32;
+		int32_t L_93 = V_33;
+		int32_t L_94 = V_34;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_95;
+		L_95 = DtUtils_TriArea2D_m8954C4019C78B6502FFC271AD5C881E3CD4D9C51(L_91, L_92, L_93, L_94, NULL);
+		V_23 = ((float)il2cpp_codegen_add(L_90, L_95));
+		int32_t L_96 = V_31;
+		V_31 = ((int32_t)il2cpp_codegen_add(L_96, 1));
+	}
+
+IL_0223:
+	{
+		int32_t L_97 = V_31;
+		int32_t L_98 = V_29;
+		V_35 = (bool)((((int32_t)L_97) < ((int32_t)L_98))? 1 : 0);
+		bool L_99 = V_35;
+		if (L_99)
+		{
+			goto IL_01f8;
+		}
+	}
+	{
+		float L_100 = V_5;
+		float L_101 = V_23;
+		V_5 = ((float)il2cpp_codegen_add(L_100, L_101));
+		RuntimeObject* L_102 = ___4_frand;
+		NullCheck(L_102);
+		float L_103;
+		L_103 = InterfaceFuncInvoker0< float >::Invoke(0, IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var, L_102);
+		V_30 = L_103;
+		float L_104 = V_30;
+		float L_105 = V_5;
+		float L_106 = V_23;
+		V_36 = (bool)((((int32_t)((!(((float)((float)il2cpp_codegen_multiply(L_104, L_105))) <= ((float)L_106)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_107 = V_36;
+		if (!L_107)
+		{
+			goto IL_025f;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_108 = V_20;
+		V_6 = L_108;
+		int64_t L_109 = V_18;
+		V_7 = L_109;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_110 = V_25;
+		V_8 = L_110;
+	}
+
+IL_025f:
+	{
+	}
+
+IL_0260:
+	{
+	}
+
+IL_0261:
+	{
+		V_21 = ((int64_t)0);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_111 = V_17;
+		NullCheck(L_111);
+		int32_t L_112 = L_111->___pidx;
+		V_37 = (bool)((!(((uint32_t)L_112) <= ((uint32_t)0)))? 1 : 0);
+		bool L_113 = V_37;
+		if (!L_113)
+		{
+			goto IL_0290;
+		}
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_114 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_115 = V_17;
+		NullCheck(L_115);
+		int32_t L_116 = L_115->___pidx;
+		NullCheck(L_114);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_117;
+		L_117 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_114, L_116, NULL);
+		NullCheck(L_117);
+		int64_t L_118 = L_117->___id;
+		V_21 = L_118;
+	}
+
+IL_0290:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_119 = V_19;
+		NullCheck(L_119);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_120 = L_119->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_121 = V_20;
+		NullCheck(L_121);
+		int32_t L_122 = L_121->___index;
+		NullCheck(L_120);
+		int32_t L_123 = L_122;
+		int32_t L_124 = (L_120)->GetAt(static_cast<il2cpp_array_size_t>(L_123));
+		V_38 = L_124;
+		goto IL_0488;
+	}
+
+IL_02a6:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_125 = V_19;
+		NullCheck(L_125);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_126 = L_125->___links;
+		int32_t L_127 = V_38;
+		NullCheck(L_126);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_128;
+		L_128 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_126, L_127, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_39 = L_128;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_129 = V_39;
+		NullCheck(L_129);
+		int64_t L_130 = L_129->___refs;
+		V_40 = L_130;
+		int64_t L_131 = V_40;
+		if (!L_131)
+		{
+			goto IL_02cc;
+		}
+	}
+	{
+		int64_t L_132 = V_40;
+		int64_t L_133 = V_21;
+		G_B30_0 = ((((int64_t)L_132) == ((int64_t)L_133))? 1 : 0);
+		goto IL_02cd;
+	}
+
+IL_02cc:
+	{
+		G_B30_0 = 1;
+	}
+
+IL_02cd:
+	{
+		V_50 = (bool)G_B30_0;
+		bool L_134 = V_50;
+		if (!L_134)
+		{
+			goto IL_02d9;
+		}
+	}
+	{
+		goto IL_0473;
+	}
+
+IL_02d9:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_135 = __this->___m_nav;
+		int64_t L_136 = V_40;
+		NullCheck(L_135);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_135, L_136, (&V_41), (&V_42), NULL);
+		RuntimeObject* L_137 = ___3_filter;
+		int64_t L_138 = V_40;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_139 = V_41;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_140 = V_42;
+		NullCheck(L_137);
+		bool L_141;
+		L_141 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_137, L_138, L_139, L_140);
+		V_51 = (bool)((((int32_t)L_141) == ((int32_t)0))? 1 : 0);
+		bool L_142 = V_51;
+		if (!L_142)
+		{
+			goto IL_0307;
+		}
+	}
+	{
+		goto IL_0473;
+	}
+
+IL_0307:
+	{
+		int64_t L_143 = V_18;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_144 = V_20;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_145 = V_19;
+		int64_t L_146 = V_40;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_147 = V_42;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_148 = V_41;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_149;
+		L_149 = DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D(__this, L_143, L_144, L_145, L_146, L_147, L_148, (&V_44), (&V_45), NULL);
+		V_43 = L_149;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_150;
+		L_150 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_43), NULL);
+		V_52 = L_150;
+		bool L_151 = V_52;
+		if (!L_151)
+		{
+			goto IL_0332;
+		}
+	}
+	{
+		goto IL_0473;
+	}
+
+IL_0332:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_152 = ___1_centerPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_153 = V_44;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_154 = V_45;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_155;
+		L_155 = DtUtils_DistancePtSegSqr2D_m3B2F9369BB74F64FECCEE1D276A1819EDAF7EEB2(L_152, L_153, L_154, (&V_47), NULL);
+		V_46 = L_155;
+		float L_156 = V_46;
+		float L_157 = V_4;
+		V_53 = (bool)((((float)L_156) > ((float)L_157))? 1 : 0);
+		bool L_158 = V_53;
+		if (!L_158)
+		{
+			goto IL_0352;
+		}
+	}
+	{
+		goto IL_0473;
+	}
+
+IL_0352:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_159 = __this->___m_nodePool;
+		int64_t L_160 = V_40;
+		NullCheck(L_159);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_161;
+		L_161 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_159, L_160, NULL);
+		V_48 = L_161;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_162 = V_48;
+		V_54 = (bool)((((RuntimeObject*)(DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)L_162) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_163 = V_54;
+		if (!L_163)
+		{
+			goto IL_037e;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_164 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_165 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_OUT_OF_NODES;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_166;
+		L_166 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_164, L_165, NULL);
+		V_3 = L_166;
+		goto IL_0473;
+	}
+
+IL_037e:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_167 = V_48;
+		NullCheck(L_167);
+		int32_t L_168 = L_167->___flags;
+		V_55 = (bool)((!(((uint32_t)((int32_t)(L_168&2))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_169 = V_55;
+		if (!L_169)
+		{
+			goto IL_0396;
+		}
+	}
+	{
+		goto IL_0473;
+	}
+
+IL_0396:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_170 = V_48;
+		NullCheck(L_170);
+		int32_t L_171 = L_170->___flags;
+		V_56 = (bool)((((int32_t)L_171) == ((int32_t)0))? 1 : 0);
+		bool L_172 = V_56;
+		if (!L_172)
+		{
+			goto IL_03bd;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_173 = V_48;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_174 = V_44;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_175 = V_45;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_176;
+		L_176 = RcVec3f_Lerp_m070D7E7D50CF96AB1F9C0DCDE50F9456B499C91A_inline(L_174, L_175, (0.5f), NULL);
+		NullCheck(L_173);
+		L_173->___pos = L_176;
+	}
+
+IL_03bd:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_177 = V_17;
+		NullCheck(L_177);
+		float L_178 = L_177->___total;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_179 = V_17;
+		NullCheck(L_179);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_180 = L_179->___pos;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_181 = V_48;
+		NullCheck(L_181);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_182 = L_181->___pos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		float L_183;
+		L_183 = RcVec3f_Distance_m6DE6551F4AA9A4CAAF49C6BB2B053FD8DE8C89C8_inline(L_180, L_182, NULL);
+		V_49 = ((float)il2cpp_codegen_add(L_178, L_183));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_184 = V_48;
+		NullCheck(L_184);
+		int32_t L_185 = L_184->___flags;
+		if (!((int32_t)(L_185&1)))
+		{
+			goto IL_03f5;
+		}
+	}
+	{
+		float L_186 = V_49;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_187 = V_48;
+		NullCheck(L_187);
+		float L_188 = L_187->___total;
+		G_B47_0 = ((((int32_t)((!(((float)L_186) >= ((float)L_188)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_03f6;
+	}
+
+IL_03f5:
+	{
+		G_B47_0 = 0;
+	}
+
+IL_03f6:
+	{
+		V_57 = (bool)G_B47_0;
+		bool L_189 = V_57;
+		if (!L_189)
+		{
+			goto IL_03ff;
+		}
+	}
+	{
+		goto IL_0473;
+	}
+
+IL_03ff:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_190 = V_48;
+		int64_t L_191 = V_40;
+		NullCheck(L_190);
+		L_190->___id = L_191;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_192 = V_48;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_193 = V_48;
+		NullCheck(L_193);
+		int32_t L_194 = L_193->___flags;
+		NullCheck(L_192);
+		L_192->___flags = ((int32_t)(L_194&((int32_t)-3)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_195 = V_48;
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_196 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_197 = V_17;
+		NullCheck(L_196);
+		int32_t L_198;
+		L_198 = DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07(L_196, L_197, NULL);
+		NullCheck(L_195);
+		L_195->___pidx = L_198;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_199 = V_48;
+		float L_200 = V_49;
+		NullCheck(L_199);
+		L_199->___total = L_200;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_201 = V_48;
+		NullCheck(L_201);
+		int32_t L_202 = L_201->___flags;
+		V_58 = (bool)((!(((uint32_t)((int32_t)(L_202&1))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_203 = V_58;
+		if (!L_203)
+		{
+			goto IL_045a;
+		}
+	}
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_204 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_205 = V_48;
+		NullCheck(L_204);
+		DtNodeQueue_Modify_m9528E2A6C335DEADAB9B5DF835691EACBEF3E308(L_204, L_205, NULL);
+		goto IL_0472;
+	}
+
+IL_045a:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_206 = V_48;
+		NullCheck(L_206);
+		L_206->___flags = 1;
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_207 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_208 = V_48;
+		NullCheck(L_207);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_207, L_208, NULL);
+	}
+
+IL_0472:
+	{
+	}
+
+IL_0473:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_209 = V_19;
+		NullCheck(L_209);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_210 = L_209->___links;
+		int32_t L_211 = V_38;
+		NullCheck(L_210);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_212;
+		L_212 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_210, L_211, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_212);
+		int32_t L_213 = L_212->___next;
+		V_38 = L_213;
+	}
+
+IL_0488:
+	{
+		int32_t L_214 = V_38;
+		V_59 = (bool)((((int32_t)((((int32_t)L_214) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_215 = V_59;
+		if (L_215)
+		{
+			goto IL_02a6;
+		}
+	}
+	{
+	}
+
+IL_049a:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_216 = __this->___m_openList;
+		NullCheck(L_216);
+		bool L_217;
+		L_217 = DtNodeQueue_IsEmpty_m6FA5A282449EA550AB66A5852500B70CBBC4F99E(L_216, NULL);
+		V_60 = (bool)((((int32_t)L_217) == ((int32_t)0))? 1 : 0);
+		bool L_218 = V_60;
+		if (L_218)
+		{
+			goto IL_011c;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_219 = V_6;
+		V_61 = (bool)((((RuntimeObject*)(DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)L_219) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_220 = V_61;
+		if (!L_220)
+		{
+			goto IL_04c6;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_221 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		V_15 = L_221;
+		goto IL_051c;
+	}
+
+IL_04c6:
+	{
+		RuntimeObject* L_222 = ___4_frand;
+		NullCheck(L_222);
+		float L_223;
+		L_223 = InterfaceFuncInvoker0< float >::Invoke(0, IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var, L_222);
+		V_9 = L_223;
+		RuntimeObject* L_224 = ___4_frand;
+		NullCheck(L_224);
+		float L_225;
+		L_225 = InterfaceFuncInvoker0< float >::Invoke(0, IRcRand_tB7DD1D61453B41C026405A6F5BE911481A817FF6_il2cpp_TypeInfo_var, L_224);
+		V_10 = L_225;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_226 = V_8;
+		NullCheck(L_226);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_227 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((int32_t)(((RuntimeArray*)L_226)->max_length))/3)));
+		V_11 = L_227;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_228 = V_8;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_229 = V_8;
+		NullCheck(L_229);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_230 = V_11;
+		float L_231 = V_9;
+		float L_232 = V_10;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_233;
+		L_233 = DtUtils_RandomPointInConvexPoly_mCB0AD74AEEEA5D9B912647B8DC6F5A0F7A0885FA(L_228, ((int32_t)(((int32_t)(((RuntimeArray*)L_229)->max_length))/3)), L_230, L_231, L_232, NULL);
+		V_12 = L_233;
+		int64_t L_234 = V_7;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_235 = V_12;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_236;
+		L_236 = DtNavMeshQuery_ClosestPointOnPoly_mDB1783AFC9A3F42BE17F0C09246DF6E68C7766FB(__this, L_234, L_235, (&V_13), (&V_62), NULL);
+		int64_t* L_237 = ___6_randomRef;
+		int64_t L_238 = V_7;
+		*((int64_t*)L_237) = (int64_t)L_238;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_239 = ___7_randomPt;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_240 = V_13;
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_239 = L_240;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_241 = V_3;
+		V_15 = L_241;
+		goto IL_051c;
+	}
+
+IL_051c:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_242 = V_15;
+		return L_242;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_ClosestPointOnPoly_mDB1783AFC9A3F42BE17F0C09246DF6E68C7766FB (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_refs, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_pos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___2_closest, bool* ___3_posOverPoly, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t G_B3_0 = 0;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_0 = ___2_closest;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1 = ___1_pos;
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_0 = L_1;
+		bool* L_2 = ___3_posOverPoly;
+		*((int8_t*)L_2) = (int8_t)0;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_3 = __this->___m_nav;
+		int64_t L_4 = ___0_refs;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_3, L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_6 = ___1_pos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_6, NULL);
+		G_B3_0 = ((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		goto IL_0026;
+	}
+
+IL_0025:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0026:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_8 = V_0;
+		if (!L_8)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_9 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_10 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_11;
+		L_11 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_9, L_10, NULL);
+		V_1 = L_11;
+		goto IL_0056;
+	}
+
+IL_003d:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_12 = __this->___m_nav;
+		int64_t L_13 = ___0_refs;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_14 = ___1_pos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_15 = ___2_closest;
+		bool* L_16 = ___3_posOverPoly;
+		NullCheck(L_12);
+		DtNavMesh_ClosestPointOnPoly_mA54B15DA85FBD0EF73B3187F4B5176AE37B71B42(L_12, L_13, L_14, L_15, L_16, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_17 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_1 = L_17;
+		goto IL_0056;
+	}
+
+IL_0056:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_18 = V_1;
+		return L_18;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_ClosestPointOnPolyBoundary_m20919D28E35692760FD1A11D6C15958F6334D1A3 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_refs, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_pos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___2_closest, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_1 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_2 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_3 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_4 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_5 = NULL;
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	bool V_12 = false;
+	float V_13 = 0.0f;
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	bool V_18 = false;
+	bool V_19 = false;
+	int32_t G_B5_0 = 0;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_0 = ___2_closest;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1 = ___1_pos;
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_0 = L_1;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_2 = __this->___m_nav;
+		int64_t L_3 = ___0_refs;
+		NullCheck(L_2);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_4;
+		L_4 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_2, L_3, (&V_1), (&V_2), NULL);
+		V_0 = L_4;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_0), NULL);
+		V_7 = L_5;
+		bool L_6 = V_7;
+		if (!L_6)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_7 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_8 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_9;
+		L_9 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_7, L_8, NULL);
+		V_8 = L_9;
+		goto IL_0170;
+	}
+
+IL_003d:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_10 = V_1;
+		if (!L_10)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_11 = ___1_pos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_11, NULL);
+		G_B5_0 = ((((int32_t)L_12) == ((int32_t)0))? 1 : 0);
+		goto IL_004c;
+	}
+
+IL_004b:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_004c:
+	{
+		V_9 = (bool)G_B5_0;
+		bool L_13 = V_9;
+		if (!L_13)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_14 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_15 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_16;
+		L_16 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_14, L_15, NULL);
+		V_8 = L_16;
+		goto IL_0170;
+	}
+
+IL_0069:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_17 = __this->___m_nav;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F(L_17, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_19 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_18, 3)));
+		V_3 = L_19;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_20 = __this->___m_nav;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F(L_20, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_22 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_21);
+		V_4 = L_22;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_23 = __this->___m_nav;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F(L_23, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_25 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_24);
+		V_5 = L_25;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_26 = V_2;
+		NullCheck(L_26);
+		int32_t L_27 = L_26->___vertCount;
+		V_6 = L_27;
+		V_10 = 0;
+		goto IL_00d7;
+	}
+
+IL_00ad:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_28 = V_1;
+		NullCheck(L_28);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_29 = L_28->___data;
+		NullCheck(L_29);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_30 = L_29->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_31 = V_2;
+		NullCheck(L_31);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_32 = L_31->___verts;
+		int32_t L_33 = V_10;
+		NullCheck(L_32);
+		int32_t L_34 = L_33;
+		int32_t L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_36 = V_3;
+		int32_t L_37 = V_10;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_30, ((int32_t)il2cpp_codegen_multiply(L_35, 3)), (RuntimeArray*)L_36, ((int32_t)il2cpp_codegen_multiply(L_37, 3)), 3, NULL);
+		int32_t L_38 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_38, 1));
+	}
+
+IL_00d7:
+	{
+		int32_t L_39 = V_10;
+		int32_t L_40 = V_6;
+		V_11 = (bool)((((int32_t)L_39) < ((int32_t)L_40))? 1 : 0);
+		bool L_41 = V_11;
+		if (L_41)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_42 = ___1_pos;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_43 = V_3;
+		int32_t L_44 = V_6;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_45 = V_4;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_46 = V_5;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_47;
+		L_47 = DtUtils_DistancePtPolyEdgesSqr_m5820387E9ED08ECDB0552609138AD521D5660046(L_42, L_43, L_44, L_45, L_46, NULL);
+		V_12 = L_47;
+		bool L_48 = V_12;
+		if (!L_48)
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_49 = ___2_closest;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_50 = ___1_pos;
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_49 = L_50;
+		goto IL_0167;
+	}
+
+IL_0101:
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_51 = V_4;
+		NullCheck(L_51);
+		int32_t L_52 = 0;
+		float L_53 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_52));
+		V_13 = L_53;
+		V_14 = 0;
+		V_17 = 1;
+		goto IL_0134;
+	}
+
+IL_0110:
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_54 = V_4;
+		int32_t L_55 = V_17;
+		NullCheck(L_54);
+		int32_t L_56 = L_55;
+		float L_57 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		float L_58 = V_13;
+		V_18 = (bool)((((float)L_57) < ((float)L_58))? 1 : 0);
+		bool L_59 = V_18;
+		if (!L_59)
+		{
+			goto IL_012d;
+		}
+	}
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_60 = V_4;
+		int32_t L_61 = V_17;
+		NullCheck(L_60);
+		int32_t L_62 = L_61;
+		float L_63 = (L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_62));
+		V_13 = L_63;
+		int32_t L_64 = V_17;
+		V_14 = L_64;
+	}
+
+IL_012d:
+	{
+		int32_t L_65 = V_17;
+		V_17 = ((int32_t)il2cpp_codegen_add(L_65, 1));
+	}
+
+IL_0134:
+	{
+		int32_t L_66 = V_17;
+		int32_t L_67 = V_6;
+		V_19 = (bool)((((int32_t)L_66) < ((int32_t)L_67))? 1 : 0);
+		bool L_68 = V_19;
+		if (L_68)
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		int32_t L_69 = V_14;
+		V_15 = ((int32_t)il2cpp_codegen_multiply(L_69, 3));
+		int32_t L_70 = V_14;
+		int32_t L_71 = V_6;
+		V_16 = ((int32_t)il2cpp_codegen_multiply(((int32_t)(((int32_t)il2cpp_codegen_add(L_70, 1))%L_71)), 3));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_72 = ___2_closest;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_73 = V_3;
+		int32_t L_74 = V_15;
+		int32_t L_75 = V_16;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_76 = V_5;
+		int32_t L_77 = V_14;
+		NullCheck(L_76);
+		int32_t L_78 = L_77;
+		float L_79 = (L_76)->GetAt(static_cast<il2cpp_array_size_t>(L_78));
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_80;
+		L_80 = RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline(L_73, L_74, L_75, L_79, NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_72 = L_80;
+	}
+
+IL_0167:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_81 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_8 = L_81;
+		goto IL_0170;
+	}
+
+IL_0170:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_82 = V_8;
+		return L_82;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetPolyHeight_m2DDCFCC348443C8E73AD48B348E087CC839FD0BC (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_refs, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_pos, float* ___2_height, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_1 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_2 = NULL;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	bool V_6 = false;
+	bool V_7 = false;
+	int32_t V_8 = 0;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	float V_11 = 0.0f;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	bool V_13 = false;
+	{
+		float* L_0 = ___2_height;
+		*((float*)L_0) = (float)(0.0f);
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_1 = __this->___m_nav;
+		int64_t L_2 = ___0_refs;
+		NullCheck(L_1);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_3;
+		L_3 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_1, L_2, (&V_1), (&V_2), NULL);
+		V_0 = L_3;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_0), NULL);
+		V_4 = L_4;
+		bool L_5 = V_4;
+		if (!L_5)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_6 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_7 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_8;
+		L_8 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_6, L_7, NULL);
+		V_5 = L_8;
+		goto IL_0197;
+	}
+
+IL_003d:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_9 = ___1_pos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = RcVec3f_IsFinite2D_mAFBB29B6431013778DA303C9D0BCC1C8CC9242BE_inline(L_9, NULL);
+		V_6 = (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
+		bool L_11 = V_6;
+		if (!L_11)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_12 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_13 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_14;
+		L_14 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_12, L_13, NULL);
+		V_5 = L_14;
+		goto IL_0197;
+	}
+
+IL_0063:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_15 = V_2;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_15, NULL);
+		V_7 = (bool)((((int32_t)L_16) == ((int32_t)1))? 1 : 0);
+		bool L_17 = V_7;
+		if (!L_17)
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_18 = V_2;
+		NullCheck(L_18);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = L_18->___verts;
+		NullCheck(L_19);
+		int32_t L_20 = 0;
+		int32_t L_21 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		V_8 = ((int32_t)il2cpp_codegen_multiply(L_21, 3));
+		il2cpp_codegen_initobj((&V_12), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_22 = V_1;
+		NullCheck(L_22);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_23 = L_22->___data;
+		NullCheck(L_23);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_24 = L_23->___verts;
+		int32_t L_25 = V_8;
+		NullCheck(L_24);
+		int32_t L_26 = L_25;
+		float L_27 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		(&V_12)->___x = L_27;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_28 = V_1;
+		NullCheck(L_28);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_29 = L_28->___data;
+		NullCheck(L_29);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_30 = L_29->___verts;
+		int32_t L_31 = V_8;
+		NullCheck(L_30);
+		int32_t L_32 = ((int32_t)il2cpp_codegen_add(L_31, 1));
+		float L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		(&V_12)->___y = L_33;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_34 = V_1;
+		NullCheck(L_34);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_35 = L_34->___data;
+		NullCheck(L_35);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_36 = L_35->___verts;
+		int32_t L_37 = V_8;
+		NullCheck(L_36);
+		int32_t L_38 = ((int32_t)il2cpp_codegen_add(L_37, 2));
+		float L_39 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
+		(&V_12)->___z = L_39;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_40 = V_12;
+		V_9 = L_40;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_41 = V_2;
+		NullCheck(L_41);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_42 = L_41->___verts;
+		NullCheck(L_42);
+		int32_t L_43 = 1;
+		int32_t L_44 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		V_8 = ((int32_t)il2cpp_codegen_multiply(L_44, 3));
+		il2cpp_codegen_initobj((&V_12), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_45 = V_1;
+		NullCheck(L_45);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_46 = L_45->___data;
+		NullCheck(L_46);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_47 = L_46->___verts;
+		int32_t L_48 = V_8;
+		NullCheck(L_47);
+		int32_t L_49 = L_48;
+		float L_50 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
+		(&V_12)->___x = L_50;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_51 = V_1;
+		NullCheck(L_51);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_52 = L_51->___data;
+		NullCheck(L_52);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_53 = L_52->___verts;
+		int32_t L_54 = V_8;
+		NullCheck(L_53);
+		int32_t L_55 = ((int32_t)il2cpp_codegen_add(L_54, 1));
+		float L_56 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		(&V_12)->___y = L_56;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_57 = V_1;
+		NullCheck(L_57);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_58 = L_57->___data;
+		NullCheck(L_58);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_59 = L_58->___verts;
+		int32_t L_60 = V_8;
+		NullCheck(L_59);
+		int32_t L_61 = ((int32_t)il2cpp_codegen_add(L_60, 2));
+		float L_62 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		(&V_12)->___z = L_62;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_63 = V_12;
+		V_10 = L_63;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_64 = ___1_pos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_65 = V_9;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_66 = V_10;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_67;
+		L_67 = DtUtils_DistancePtSegSqr2D_m3B2F9369BB74F64FECCEE1D276A1819EDAF7EEB2(L_64, L_65, L_66, (&V_11), NULL);
+		float* L_68 = ___2_height;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_69 = V_9;
+		float L_70 = L_69.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_71 = V_10;
+		float L_72 = L_71.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_73 = V_9;
+		float L_74 = L_73.___y;
+		float L_75 = V_11;
+		*((float*)L_68) = (float)((float)il2cpp_codegen_add(L_70, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_72, L_74)), L_75))));
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_76 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_5 = L_76;
+		goto IL_0197;
+	}
+
+IL_015e:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_77 = __this->___m_nav;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_78 = V_1;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_79 = V_2;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_80 = ___1_pos;
+		NullCheck(L_77);
+		bool L_81;
+		L_81 = DtNavMesh_GetPolyHeight_mDBEA9D99A9574C917F45B065D32950AF890570DE(L_77, L_78, L_79, L_80, (&V_3), NULL);
+		V_13 = (bool)((((int32_t)L_81) == ((int32_t)0))? 1 : 0);
+		bool L_82 = V_13;
+		if (!L_82)
+		{
+			goto IL_018b;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_83 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_84 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_85;
+		L_85 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_83, L_84, NULL);
+		V_5 = L_85;
+		goto IL_0197;
+	}
+
+IL_018b:
+	{
+		float* L_86 = ___2_height;
+		float L_87 = V_3;
+		*((float*)L_86) = (float)L_87;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_88 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_5 = L_88;
+		goto IL_0197;
+	}
+
+IL_0197:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_89 = V_5;
+		return L_89;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindNearestPoly_m0B9E6CEF5B2F1F42CDD1D9DA154669DFD4287FE0 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_center, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_halfExtents, RuntimeObject* ___2_filter, int64_t* ___3_nearestRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___4_nearestPt, bool* ___5_isOverPoly, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* V_0 = NULL;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		int64_t* L_0 = ___3_nearestRef;
+		*((int64_t*)L_0) = (int64_t)((int64_t)0);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_1 = ___4_nearestPt;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___0_center;
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_1 = L_2;
+		bool* L_3 = ___5_isOverPoly;
+		*((int8_t*)L_3) = (int8_t)0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_4 = ___0_center;
+		DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* L_5 = (DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF*)il2cpp_codegen_object_new(DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF_il2cpp_TypeInfo_var);
+		DtFindNearestPolyQuery__ctor_m3AF80BC1A6D97E5E8DA38C0F704B00F4C6A3C745(L_5, __this, L_4, NULL);
+		V_0 = L_5;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_6 = ___0_center;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_7 = ___1_halfExtents;
+		RuntimeObject* L_8 = ___2_filter;
+		DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* L_9 = V_0;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_10;
+		L_10 = DtNavMeshQuery_QueryPolygons_mB53EFCB5460CAC291CDBD854E2CFDB45A9A4F87B(__this, L_6, L_7, L_8, L_9, NULL);
+		V_1 = L_10;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_1), NULL);
+		V_2 = L_11;
+		bool L_12 = V_2;
+		if (!L_12)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_13 = V_1;
+		V_3 = L_13;
+		goto IL_005c;
+	}
+
+IL_0035:
+	{
+		int64_t* L_14 = ___3_nearestRef;
+		DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* L_15 = V_0;
+		NullCheck(L_15);
+		int64_t L_16;
+		L_16 = DtFindNearestPolyQuery_NearestRef_mC600A513C219B68066596A7DC28F56B56E8DBE54(L_15, NULL);
+		*((int64_t*)L_14) = (int64_t)L_16;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_17 = ___4_nearestPt;
+		DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* L_18 = V_0;
+		NullCheck(L_18);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_19;
+		L_19 = DtFindNearestPolyQuery_NearestPt_mA3FE0747D4501F92BFC6BBB3312B97FD930530E0(L_18, NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_17 = L_19;
+		bool* L_20 = ___5_isOverPoly;
+		DtFindNearestPolyQuery_t7C516DB0A8234CB1763C9A9D222F19C3A9181FAF* L_21 = V_0;
+		NullCheck(L_21);
+		bool L_22;
+		L_22 = DtFindNearestPolyQuery_OverPoly_m1569622B04688A0E9FDC6B4AAC94C2709CF174A0(L_21, NULL);
+		*((int8_t*)L_20) = (int8_t)L_22;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_23 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_3 = L_23;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_24 = V_3;
+		return L_24;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNavMeshQuery_QueryPolygonsInTile_m79D433D5582099640920C4EA9ADD24865206A70D (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___0_tile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_qmin, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_qmax, RuntimeObject* ___3_filter, RuntimeObject* ___4_query, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtPolyQuery_t0174CAB35DF49A50CA3549447F3E8B72C70D43E4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_5 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_6 = NULL;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	int64_t V_13 = 0;
+	int32_t V_14 = 0;
+	DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* V_15 = NULL;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	int64_t V_19 = 0;
+	bool V_20 = false;
+	bool V_21 = false;
+	int32_t V_22 = 0;
+	bool V_23 = false;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_24;
+	memset((&V_24), 0, sizeof(V_24));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_25;
+	memset((&V_25), 0, sizeof(V_25));
+	int64_t V_26 = 0;
+	int32_t V_27 = 0;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_28 = NULL;
+	int64_t V_29 = 0;
+	int32_t V_30 = 0;
+	bool V_31 = false;
+	bool V_32 = false;
+	int32_t V_33 = 0;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_0 = ___0_tile;
+		NullCheck(L_0);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_1 = L_0->___data;
+		NullCheck(L_1);
+		DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* L_2 = L_1->___bvTree;
+		V_0 = (bool)((!(((RuntimeObject*)(DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196*)L_2) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0276;
+		}
+	}
+	{
+		V_1 = 0;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_4 = ___0_tile;
+		NullCheck(L_4);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_5 = L_4->___data;
+		NullCheck(L_5);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_6 = L_5->___header;
+		NullCheck(L_6);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_7 = L_6->___bmin;
+		V_2 = L_7;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_8 = ___0_tile;
+		NullCheck(L_8);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_9 = L_8->___data;
+		NullCheck(L_9);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_10 = L_9->___header;
+		NullCheck(L_10);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_11 = L_10->___bmax;
+		V_3 = L_11;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_12 = ___0_tile;
+		NullCheck(L_12);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_13 = L_12->___data;
+		NullCheck(L_13);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_14 = L_13->___header;
+		NullCheck(L_14);
+		float L_15 = L_14->___bvQuantFactor;
+		V_4 = L_15;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)3);
+		V_5 = L_16;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)3);
+		V_6 = L_17;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_18 = ___1_qmin;
+		float L_19 = L_18.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_20 = V_2;
+		float L_21 = L_20.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_22 = V_3;
+		float L_23 = L_22.___x;
+		float L_24;
+		L_24 = RcMath_Clamp_m6C5D95FBE921D3B36D345EB78253F0FBEA6E7742_inline(L_19, L_21, L_23, NULL);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_25 = V_2;
+		float L_26 = L_25.___x;
+		V_7 = ((float)il2cpp_codegen_subtract(L_24, L_26));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_27 = ___1_qmin;
+		float L_28 = L_27.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_29 = V_2;
+		float L_30 = L_29.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_31 = V_3;
+		float L_32 = L_31.___y;
+		float L_33;
+		L_33 = RcMath_Clamp_m6C5D95FBE921D3B36D345EB78253F0FBEA6E7742_inline(L_28, L_30, L_32, NULL);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_34 = V_2;
+		float L_35 = L_34.___y;
+		V_8 = ((float)il2cpp_codegen_subtract(L_33, L_35));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_36 = ___1_qmin;
+		float L_37 = L_36.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_38 = V_2;
+		float L_39 = L_38.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_40 = V_3;
+		float L_41 = L_40.___z;
+		float L_42;
+		L_42 = RcMath_Clamp_m6C5D95FBE921D3B36D345EB78253F0FBEA6E7742_inline(L_37, L_39, L_41, NULL);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_43 = V_2;
+		float L_44 = L_43.___z;
+		V_9 = ((float)il2cpp_codegen_subtract(L_42, L_44));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_45 = ___2_qmax;
+		float L_46 = L_45.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_47 = V_2;
+		float L_48 = L_47.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_49 = V_3;
+		float L_50 = L_49.___x;
+		float L_51;
+		L_51 = RcMath_Clamp_m6C5D95FBE921D3B36D345EB78253F0FBEA6E7742_inline(L_46, L_48, L_50, NULL);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_52 = V_2;
+		float L_53 = L_52.___x;
+		V_10 = ((float)il2cpp_codegen_subtract(L_51, L_53));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_54 = ___2_qmax;
+		float L_55 = L_54.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_56 = V_2;
+		float L_57 = L_56.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_58 = V_3;
+		float L_59 = L_58.___y;
+		float L_60;
+		L_60 = RcMath_Clamp_m6C5D95FBE921D3B36D345EB78253F0FBEA6E7742_inline(L_55, L_57, L_59, NULL);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_61 = V_2;
+		float L_62 = L_61.___y;
+		V_11 = ((float)il2cpp_codegen_subtract(L_60, L_62));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_63 = ___2_qmax;
+		float L_64 = L_63.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_65 = V_2;
+		float L_66 = L_65.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_67 = V_3;
+		float L_68 = L_67.___z;
+		float L_69;
+		L_69 = RcMath_Clamp_m6C5D95FBE921D3B36D345EB78253F0FBEA6E7742_inline(L_64, L_66, L_68, NULL);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_70 = V_2;
+		float L_71 = L_70.___z;
+		V_12 = ((float)il2cpp_codegen_subtract(L_69, L_71));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_72 = V_5;
+		float L_73 = V_4;
+		float L_74 = V_7;
+		NullCheck(L_72);
+		(L_72)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_73, L_74)))&((int32_t)2147483646))));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_75 = V_5;
+		float L_76 = V_4;
+		float L_77 = V_8;
+		NullCheck(L_75);
+		(L_75)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_76, L_77)))&((int32_t)2147483646))));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_78 = V_5;
+		float L_79 = V_4;
+		float L_80 = V_9;
+		NullCheck(L_78);
+		(L_78)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_79, L_80)))&((int32_t)2147483646))));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_81 = V_6;
+		float L_82 = V_4;
+		float L_83 = V_10;
+		NullCheck(L_81);
+		(L_81)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_82, L_83)), (1.0f))))|1)));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_84 = V_6;
+		float L_85 = V_4;
+		float L_86 = V_11;
+		NullCheck(L_84);
+		(L_84)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_85, L_86)), (1.0f))))|1)));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_87 = V_6;
+		float L_88 = V_4;
+		float L_89 = V_12;
+		NullCheck(L_87);
+		(L_87)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)((int32_t)(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_88, L_89)), (1.0f))))|1)));
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_90 = __this->___m_nav;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_91 = ___0_tile;
+		NullCheck(L_90);
+		int64_t L_92;
+		L_92 = DtNavMesh_GetPolyRefBase_m9D29DD1BCB8EDC4B851204A12ED7D5701AE60646(L_90, L_91, NULL);
+		V_13 = L_92;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_93 = ___0_tile;
+		NullCheck(L_93);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_94 = L_93->___data;
+		NullCheck(L_94);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_95 = L_94->___header;
+		NullCheck(L_95);
+		int32_t L_96 = L_95->___bvNodeCount;
+		V_14 = L_96;
+		goto IL_0262;
+	}
+
+IL_01a8:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_97 = ___0_tile;
+		NullCheck(L_97);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_98 = L_97->___data;
+		NullCheck(L_98);
+		DtBVNodeU5BU5D_t8B2067F61E0402875FF3106ED277E8CE7A6C5196* L_99 = L_98->___bvTree;
+		int32_t L_100 = V_1;
+		NullCheck(L_99);
+		int32_t L_101 = L_100;
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_102 = (L_99)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
+		V_15 = L_102;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_103 = V_5;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_104 = V_6;
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_105 = V_15;
+		NullCheck(L_105);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_106 = L_105->___bmin;
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_107 = V_15;
+		NullCheck(L_107);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_108 = L_107->___bmax;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_109;
+		L_109 = DtUtils_OverlapQuantBounds_m8ECB99609C6CE79C01710A216B7877B98551EBA3(L_103, L_104, L_106, L_108, NULL);
+		V_16 = L_109;
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_110 = V_15;
+		NullCheck(L_110);
+		int32_t L_111 = L_110->___i;
+		V_17 = (bool)((((int32_t)((((int32_t)L_111) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_112 = V_17;
+		bool L_113 = V_16;
+		V_18 = (bool)((int32_t)((int32_t)L_112&(int32_t)L_113));
+		bool L_114 = V_18;
+		if (!L_114)
+		{
+			goto IL_023d;
+		}
+	}
+	{
+		int64_t L_115 = V_13;
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_116 = V_15;
+		NullCheck(L_116);
+		int32_t L_117 = L_116->___i;
+		V_19 = ((int64_t)(L_115|((int64_t)L_117)));
+		RuntimeObject* L_118 = ___3_filter;
+		int64_t L_119 = V_19;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_120 = ___0_tile;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_121 = ___0_tile;
+		NullCheck(L_121);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_122 = L_121->___data;
+		NullCheck(L_122);
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_123 = L_122->___polys;
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_124 = V_15;
+		NullCheck(L_124);
+		int32_t L_125 = L_124->___i;
+		NullCheck(L_123);
+		int32_t L_126 = L_125;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_127 = (L_123)->GetAt(static_cast<il2cpp_array_size_t>(L_126));
+		NullCheck(L_118);
+		bool L_128;
+		L_128 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_118, L_119, L_120, L_127);
+		V_20 = L_128;
+		bool L_129 = V_20;
+		if (!L_129)
+		{
+			goto IL_023c;
+		}
+	}
+	{
+		RuntimeObject* L_130 = ___4_query;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_131 = ___0_tile;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_132 = ___0_tile;
+		NullCheck(L_132);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_133 = L_132->___data;
+		NullCheck(L_133);
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_134 = L_133->___polys;
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_135 = V_15;
+		NullCheck(L_135);
+		int32_t L_136 = L_135->___i;
+		NullCheck(L_134);
+		int32_t L_137 = L_136;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_138 = (L_134)->GetAt(static_cast<il2cpp_array_size_t>(L_137));
+		int64_t L_139 = V_19;
+		NullCheck(L_130);
+		InterfaceActionInvoker3< DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t >::Invoke(0, IDtPolyQuery_t0174CAB35DF49A50CA3549447F3E8B72C70D43E4_il2cpp_TypeInfo_var, L_130, L_131, L_138, L_139);
+	}
+
+IL_023c:
+	{
+	}
+
+IL_023d:
+	{
+		bool L_140 = V_16;
+		bool L_141 = V_17;
+		V_21 = (bool)((int32_t)((int32_t)L_140|(int32_t)L_141));
+		bool L_142 = V_21;
+		if (!L_142)
+		{
+			goto IL_0250;
+		}
+	}
+	{
+		int32_t L_143 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_143, 1));
+		goto IL_0261;
+	}
+
+IL_0250:
+	{
+		DtBVNode_t833638D4B8779553AA8FDB6C23B38B1D168E45C3* L_144 = V_15;
+		NullCheck(L_144);
+		int32_t L_145 = L_144->___i;
+		V_22 = ((-L_145));
+		int32_t L_146 = V_1;
+		int32_t L_147 = V_22;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_146, L_147));
+	}
+
+IL_0261:
+	{
+	}
+
+IL_0262:
+	{
+		int32_t L_148 = V_1;
+		int32_t L_149 = V_14;
+		V_23 = (bool)((((int32_t)L_148) < ((int32_t)L_149))? 1 : 0);
+		bool L_150 = V_23;
+		if (L_150)
+		{
+			goto IL_01a8;
+		}
+	}
+	{
+		goto IL_03b9;
+	}
+
+IL_0276:
+	{
+		il2cpp_codegen_initobj((&V_24), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		il2cpp_codegen_initobj((&V_25), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_151 = __this->___m_nav;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_152 = ___0_tile;
+		NullCheck(L_151);
+		int64_t L_153;
+		L_153 = DtNavMesh_GetPolyRefBase_m9D29DD1BCB8EDC4B851204A12ED7D5701AE60646(L_151, L_152, NULL);
+		V_26 = L_153;
+		V_27 = 0;
+		goto IL_039b;
+	}
+
+IL_029d:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_154 = ___0_tile;
+		NullCheck(L_154);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_155 = L_154->___data;
+		NullCheck(L_155);
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_156 = L_155->___polys;
+		int32_t L_157 = V_27;
+		NullCheck(L_156);
+		int32_t L_158 = L_157;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_159 = (L_156)->GetAt(static_cast<il2cpp_array_size_t>(L_158));
+		V_28 = L_159;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_160 = V_28;
+		NullCheck(L_160);
+		int32_t L_161;
+		L_161 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_160, NULL);
+		V_31 = (bool)((((int32_t)L_161) == ((int32_t)1))? 1 : 0);
+		bool L_162 = V_31;
+		if (!L_162)
+		{
+			goto IL_02c4;
+		}
+	}
+	{
+		goto IL_0395;
+	}
+
+IL_02c4:
+	{
+		int64_t L_163 = V_26;
+		int32_t L_164 = V_27;
+		V_29 = ((int64_t)(L_163|((int64_t)L_164)));
+		RuntimeObject* L_165 = ___3_filter;
+		int64_t L_166 = V_29;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_167 = ___0_tile;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_168 = V_28;
+		NullCheck(L_165);
+		bool L_169;
+		L_169 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_165, L_166, L_167, L_168);
+		V_32 = (bool)((((int32_t)L_169) == ((int32_t)0))? 1 : 0);
+		bool L_170 = V_32;
+		if (!L_170)
+		{
+			goto IL_02e7;
+		}
+	}
+	{
+		goto IL_0395;
+	}
+
+IL_02e7:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_171 = V_28;
+		NullCheck(L_171);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_172 = L_171->___verts;
+		NullCheck(L_172);
+		int32_t L_173 = 0;
+		int32_t L_174 = (L_172)->GetAt(static_cast<il2cpp_array_size_t>(L_173));
+		V_30 = ((int32_t)il2cpp_codegen_multiply(L_174, 3));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_175 = ___0_tile;
+		NullCheck(L_175);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_176 = L_175->___data;
+		NullCheck(L_176);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_177 = L_176->___verts;
+		int32_t L_178 = V_30;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_Set_m5C78CDD63E5C55E4CF131B7BAA60388164AB89B8_inline((&V_24), L_177, L_178, NULL);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_179 = ___0_tile;
+		NullCheck(L_179);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_180 = L_179->___data;
+		NullCheck(L_180);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_181 = L_180->___verts;
+		int32_t L_182 = V_30;
+		RcVec3f_Set_m5C78CDD63E5C55E4CF131B7BAA60388164AB89B8_inline((&V_25), L_181, L_182, NULL);
+		V_33 = 1;
+		goto IL_0363;
+	}
+
+IL_0323:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_183 = V_28;
+		NullCheck(L_183);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_184 = L_183->___verts;
+		int32_t L_185 = V_33;
+		NullCheck(L_184);
+		int32_t L_186 = L_185;
+		int32_t L_187 = (L_184)->GetAt(static_cast<il2cpp_array_size_t>(L_186));
+		V_30 = ((int32_t)il2cpp_codegen_multiply(L_187, 3));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_188 = ___0_tile;
+		NullCheck(L_188);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_189 = L_188->___data;
+		NullCheck(L_189);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_190 = L_189->___verts;
+		int32_t L_191 = V_30;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_Min_mA4F1906CF520358BD3E62A5D9B040BD0D19890C1_inline((&V_24), L_190, L_191, NULL);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_192 = ___0_tile;
+		NullCheck(L_192);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_193 = L_192->___data;
+		NullCheck(L_193);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_194 = L_193->___verts;
+		int32_t L_195 = V_30;
+		RcVec3f_Max_m6D5395D0F4CC1CA03FD492DDF2CD4E55C0F969D4_inline((&V_25), L_194, L_195, NULL);
+		int32_t L_196 = V_33;
+		V_33 = ((int32_t)il2cpp_codegen_add(L_196, 1));
+	}
+
+IL_0363:
+	{
+		int32_t L_197 = V_33;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_198 = V_28;
+		NullCheck(L_198);
+		int32_t L_199 = L_198->___vertCount;
+		V_34 = (bool)((((int32_t)L_197) < ((int32_t)L_199))? 1 : 0);
+		bool L_200 = V_34;
+		if (L_200)
+		{
+			goto IL_0323;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_201 = ___1_qmin;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_202 = ___2_qmax;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_203 = V_24;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_204 = V_25;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_205;
+		L_205 = DtUtils_OverlapBounds_m72D20362D6621C2DB0477D07EEE375677E995DD2(L_201, L_202, L_203, L_204, NULL);
+		V_35 = L_205;
+		bool L_206 = V_35;
+		if (!L_206)
+		{
+			goto IL_0394;
+		}
+	}
+	{
+		RuntimeObject* L_207 = ___4_query;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_208 = ___0_tile;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_209 = V_28;
+		int64_t L_210 = V_29;
+		NullCheck(L_207);
+		InterfaceActionInvoker3< DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t >::Invoke(0, IDtPolyQuery_t0174CAB35DF49A50CA3549447F3E8B72C70D43E4_il2cpp_TypeInfo_var, L_207, L_208, L_209, L_210);
+	}
+
+IL_0394:
+	{
+	}
+
+IL_0395:
+	{
+		int32_t L_211 = V_27;
+		V_27 = ((int32_t)il2cpp_codegen_add(L_211, 1));
+	}
+
+IL_039b:
+	{
+		int32_t L_212 = V_27;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_213 = ___0_tile;
+		NullCheck(L_213);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_214 = L_213->___data;
+		NullCheck(L_214);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_215 = L_214->___header;
+		NullCheck(L_215);
+		int32_t L_216 = L_215->___polyCount;
+		V_36 = (bool)((((int32_t)L_212) < ((int32_t)L_216))? 1 : 0);
+		bool L_217 = V_36;
+		if (L_217)
+		{
+			goto IL_029d;
+		}
+	}
+	{
+	}
+
+IL_03b9:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_QueryPolygons_mB53EFCB5460CAC291CDBD854E2CFDB45A9A4F87B (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_center, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_halfExtents, RuntimeObject* ___2_filter, RuntimeObject* ___3_query, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerable_1_t42073EA80BB566492E736931ECB281F61C34401C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_t04D2000F978FFB55E02AFE66A21DB1963C283443_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	RuntimeObject* V_4 = NULL;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_5 = NULL;
+	int32_t G_B4_0 = 0;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___0_center;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___1_halfExtents;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		RuntimeObject* L_4 = ___2_filter;
+		G_B4_0 = ((((RuntimeObject*)(RuntimeObject*)L_4) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0018;
+	}
+
+IL_0017:
+	{
+		G_B4_0 = 1;
+	}
+
+IL_0018:
+	{
+		V_2 = (bool)G_B4_0;
+		bool L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_6 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		V_3 = L_6;
+		goto IL_0082;
+	}
+
+IL_0025:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_7 = ___1_halfExtents;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_8;
+		L_8 = RcVec3f_Subtract_m22DB9ABD128201BAF869053154F8C16AC2C5135F_inline((&___0_center), L_7, NULL);
+		V_0 = L_8;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_9 = ___1_halfExtents;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10;
+		L_10 = RcVec3f_Add_mF7F8BD57B1C48137508C664D9CE2D08ECE162554_inline((&___0_center), L_9, NULL);
+		V_1 = L_10;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_11 = ___0_center;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_12 = ___1_halfExtents;
+		RuntimeObject* L_13;
+		L_13 = DtNavMeshQuery_QueryTiles_mC3046B807C051769D91CDC30470507FCED443C43(__this, L_11, L_12, NULL);
+		NullCheck(L_13);
+		RuntimeObject* L_14;
+		L_14 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_1_t42073EA80BB566492E736931ECB281F61C34401C_il2cpp_TypeInfo_var, L_13);
+		V_4 = L_14;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_006d:
+			{
+				{
+					RuntimeObject* L_15 = V_4;
+					if (!L_15)
+					{
+						goto IL_0079;
+					}
+				}
+				{
+					RuntimeObject* L_16 = V_4;
+					NullCheck(L_16);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_16);
+				}
+
+IL_0079:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				goto IL_0062_1;
+			}
+
+IL_0049_1:
+			{
+				RuntimeObject* L_17 = V_4;
+				NullCheck(L_17);
+				DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_18;
+				L_18 = InterfaceFuncInvoker0< DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* >::Invoke(0, IEnumerator_1_t04D2000F978FFB55E02AFE66A21DB1963C283443_il2cpp_TypeInfo_var, L_17);
+				V_5 = L_18;
+				DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_19 = V_5;
+				RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_20 = V_0;
+				RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_21 = V_1;
+				RuntimeObject* L_22 = ___2_filter;
+				RuntimeObject* L_23 = ___3_query;
+				DtNavMeshQuery_QueryPolygonsInTile_m79D433D5582099640920C4EA9ADD24865206A70D(__this, L_19, L_20, L_21, L_22, L_23, NULL);
+			}
+
+IL_0062_1:
+			{
+				RuntimeObject* L_24 = V_4;
+				NullCheck(L_24);
+				bool L_25;
+				L_25 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_24);
+				if (L_25)
+				{
+					goto IL_0049_1;
+				}
+			}
+			{
+				goto IL_007a;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_007a:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_26 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_3 = L_26;
+		goto IL_0082;
+	}
+
+IL_0082:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_27 = V_3;
+		return L_27;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DtNavMeshQuery_QueryTiles_mC3046B807C051769D91CDC30470507FCED443C43 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_center, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_halfExtents, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_AddRange_mE6F1B5804B619A7336E62EA922B7BC45A1490883_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m977B44FD6299EE94A50FF862FDE20D663F3EFBDE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5* V_6 = NULL;
+	bool V_7 = false;
+	RuntimeObject* V_8 = NULL;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	bool V_12 = false;
+	int32_t G_B3_0 = 0;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___0_center;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___1_halfExtents;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_2, NULL);
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0015:
+	{
+		V_7 = (bool)G_B3_0;
+		bool L_4 = V_7;
+		if (!L_4)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406_il2cpp_TypeInfo_var);
+		RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406 L_5 = ((RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406_StaticFields*)il2cpp_codegen_static_fields_for(RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406_il2cpp_TypeInfo_var))->___Empty;
+		RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406 L_6 = L_5;
+		RuntimeObject* L_7 = Box(RcImmutableArray_1_tD0028B2CDA850364E98F5EA75DD360CB90AA7406_il2cpp_TypeInfo_var, &L_6);
+		V_8 = (RuntimeObject*)L_7;
+		goto IL_00bd;
+	}
+
+IL_002d:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_8 = ___1_halfExtents;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_9;
+		L_9 = RcVec3f_Subtract_m22DB9ABD128201BAF869053154F8C16AC2C5135F_inline((&___0_center), L_8, NULL);
+		V_0 = L_9;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = ___1_halfExtents;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_11;
+		L_11 = RcVec3f_Add_mF7F8BD57B1C48137508C664D9CE2D08ECE162554_inline((&___0_center), L_10, NULL);
+		V_1 = L_11;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_12 = __this->___m_nav;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_13 = V_0;
+		NullCheck(L_12);
+		DtNavMesh_CalcTileLoc_mF9372BF66BD54F8B432AD7845F60007405C21EEF(L_12, L_13, (&V_2), (&V_3), NULL);
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_14 = __this->___m_nav;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_15 = V_1;
+		NullCheck(L_14);
+		DtNavMesh_CalcTileLoc_mF9372BF66BD54F8B432AD7845F60007405C21EEF(L_14, L_15, (&V_4), (&V_5), NULL);
+		List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5* L_16 = (List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5*)il2cpp_codegen_object_new(List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5_il2cpp_TypeInfo_var);
+		List_1__ctor_m977B44FD6299EE94A50FF862FDE20D663F3EFBDE(L_16, List_1__ctor_m977B44FD6299EE94A50FF862FDE20D663F3EFBDE_RuntimeMethod_var);
+		V_6 = L_16;
+		int32_t L_17 = V_3;
+		V_9 = L_17;
+		goto IL_00a8;
+	}
+
+IL_006d:
+	{
+		int32_t L_18 = V_2;
+		V_10 = L_18;
+		goto IL_0092;
+	}
+
+IL_0073:
+	{
+		List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5* L_19 = V_6;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_20 = __this->___m_nav;
+		int32_t L_21 = V_10;
+		int32_t L_22 = V_9;
+		NullCheck(L_20);
+		List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5* L_23;
+		L_23 = DtNavMesh_GetTilesAt_m2A638D16E9352A71D72FA1B49952823BD28CF05F(L_20, L_21, L_22, NULL);
+		NullCheck(L_19);
+		List_1_AddRange_mE6F1B5804B619A7336E62EA922B7BC45A1490883(L_19, L_23, List_1_AddRange_mE6F1B5804B619A7336E62EA922B7BC45A1490883_RuntimeMethod_var);
+		int32_t L_24 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+	}
+
+IL_0092:
+	{
+		int32_t L_25 = V_10;
+		int32_t L_26 = V_4;
+		V_11 = (bool)((((int32_t)((((int32_t)L_25) > ((int32_t)L_26))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_27 = V_11;
+		if (L_27)
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		int32_t L_28 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+	}
+
+IL_00a8:
+	{
+		int32_t L_29 = V_9;
+		int32_t L_30 = V_5;
+		V_12 = (bool)((((int32_t)((((int32_t)L_29) > ((int32_t)L_30))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_31 = V_12;
+		if (L_31)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		List_1_t894CB2D412B7352C2C7ECA71D3F0C418881638B5* L_32 = V_6;
+		V_8 = L_32;
+		goto IL_00bd;
+	}
+
+IL_00bd:
+	{
+		RuntimeObject* L_33 = V_8;
+		return L_33;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindPath_mE75354749E60AA347A873AFE7316E15CF677CF2A (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, int64_t ___1_endRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_startPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___3_endPos, RuntimeObject* ___4_filter, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___5_path, DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378 ___6_fpo, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IQueryHeuristic_t95046F6CA9DE6BFE7C34CE1ABE3EB31043A4007C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	float V_1 = 0.0f;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_4 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_5 = NULL;
+	float V_6 = 0.0f;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	bool V_8 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool V_10 = false;
+	bool V_11 = false;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_12 = NULL;
+	float V_13 = 0.0f;
+	bool V_14 = false;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_15 = NULL;
+	int64_t V_16 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_17 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_18 = NULL;
+	int64_t V_19 = 0;
+	int64_t V_20 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_21 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_22 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_23 = NULL;
+	bool V_24 = false;
+	bool V_25 = false;
+	bool V_26 = false;
+	bool V_27 = false;
+	bool V_28 = false;
+	bool V_29 = false;
+	bool V_30 = false;
+	int32_t V_31 = 0;
+	int64_t V_32 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_33 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_34 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_35 = NULL;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_36;
+	memset((&V_36), 0, sizeof(V_36));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_37;
+	memset((&V_37), 0, sizeof(V_37));
+	float V_38 = 0.0f;
+	float V_39 = 0.0f;
+	bool V_40 = false;
+	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* V_41 = NULL;
+	float V_42 = 0.0f;
+	bool V_43 = false;
+	bool V_44 = false;
+	bool V_45 = false;
+	bool V_46 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_47;
+	memset((&V_47), 0, sizeof(V_47));
+	DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* V_48 = NULL;
+	bool V_49 = false;
+	bool V_50 = false;
+	bool V_51 = false;
+	float V_52 = 0.0f;
+	bool V_53 = false;
+	float V_54 = 0.0f;
+	bool V_55 = false;
+	bool V_56 = false;
+	bool V_57 = false;
+	bool V_58 = false;
+	bool V_59 = false;
+	bool V_60 = false;
+	bool V_61 = false;
+	int32_t G_B8_0 = 0;
+	int32_t G_B13_0 = 0;
+	int32_t G_B31_0 = 0;
+	int32_t G_B33_0 = 0;
+	int32_t G_B40_0 = 0;
+	int32_t G_B47_0 = 0;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B52_0;
+	memset((&G_B52_0), 0, sizeof(G_B52_0));
+	int32_t G_B66_0 = 0;
+	int32_t G_B71_0 = 0;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* G_B75_0 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* G_B74_0 = NULL;
+	int32_t G_B76_0 = 0;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* G_B76_1 = NULL;
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_0 = ___5_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_1 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_0);
+		V_8 = (bool)((((RuntimeObject*)(List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_2 = V_8;
+		if (!L_2)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_3 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_4 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_5;
+		L_5 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_3, L_4, NULL);
+		V_9 = L_5;
+		goto IL_0625;
+	}
+
+IL_0023:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_6 = ___5_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_7 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_6);
+		NullCheck(L_7);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_7, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_8 = __this->___m_nav;
+		int64_t L_9 = ___0_startRef;
+		NullCheck(L_8);
+		bool L_10;
+		L_10 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_8, L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_11 = __this->___m_nav;
+		int64_t L_12 = ___1_endRef;
+		NullCheck(L_11);
+		bool L_13;
+		L_13 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_11, L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_14 = ___2_startPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_14, NULL);
+		if (!L_15)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_16 = ___3_endPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_17;
+		L_17 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_16, NULL);
+		if (!L_17)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		RuntimeObject* L_18 = ___4_filter;
+		G_B8_0 = ((((RuntimeObject*)(RuntimeObject*)L_18) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0061;
+	}
+
+IL_0060:
+	{
+		G_B8_0 = 1;
+	}
+
+IL_0061:
+	{
+		V_10 = (bool)G_B8_0;
+		bool L_19 = V_10;
+		if (!L_19)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_20 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_21 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_22;
+		L_22 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_20, L_21, NULL);
+		V_9 = L_22;
+		goto IL_0625;
+	}
+
+IL_007e:
+	{
+		DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378 L_23 = ___6_fpo;
+		RuntimeObject* L_24 = L_23.___heuristic;
+		V_0 = L_24;
+		DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378 L_25 = ___6_fpo;
+		float L_26 = L_25.___raycastLimit;
+		V_1 = L_26;
+		DtFindPathOption_tB6EF8B93E0BFC32571F7F566C712EDC60C35B378 L_27 = ___6_fpo;
+		int32_t L_28 = L_27.___options;
+		V_2 = L_28;
+		float L_29 = V_1;
+		float L_30;
+		L_30 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_29, NULL);
+		V_3 = L_30;
+		int32_t L_31 = V_2;
+		if (!((int32_t)(L_31&2)))
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		float L_32 = V_1;
+		G_B13_0 = ((((float)L_32) < ((float)(0.0f)))? 1 : 0);
+		goto IL_00ad;
+	}
+
+IL_00ac:
+	{
+		G_B13_0 = 0;
+	}
+
+IL_00ad:
+	{
+		V_11 = (bool)G_B13_0;
+		bool L_33 = V_11;
+		if (!L_33)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_34 = __this->___m_nav;
+		int64_t L_35 = ___0_startRef;
+		NullCheck(L_34);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_36;
+		L_36 = DtNavMesh_GetTileByRef_mFCFBB2E629D6B582AAA9281DEBC16BBE6485DEA6(L_34, L_35, NULL);
+		V_12 = L_36;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_37 = V_12;
+		NullCheck(L_37);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_38 = L_37->___data;
+		NullCheck(L_38);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_39 = L_38->___header;
+		NullCheck(L_39);
+		float L_40 = L_39->___walkableRadius;
+		V_13 = L_40;
+		float L_41 = V_13;
+		float L_42;
+		L_42 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(((float)il2cpp_codegen_multiply(L_41, (50.0f))), NULL);
+		V_3 = L_42;
+	}
+
+IL_00e4:
+	{
+		int64_t L_43 = ___0_startRef;
+		int64_t L_44 = ___1_endRef;
+		V_14 = (bool)((((int64_t)L_43) == ((int64_t)L_44))? 1 : 0);
+		bool L_45 = V_14;
+		if (!L_45)
+		{
+			goto IL_0105;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_46 = ___5_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_47 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_46);
+		int64_t L_48 = ___0_startRef;
+		NullCheck(L_47);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_47, L_48, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_49 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_9 = L_49;
+		goto IL_0625;
+	}
+
+IL_0105:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_50 = __this->___m_nodePool;
+		NullCheck(L_50);
+		DtNodePool_Clear_m4682D89F1BB534CA29B32127C54A0B6239075575(L_50, NULL);
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_51 = __this->___m_openList;
+		NullCheck(L_51);
+		DtNodeQueue_Clear_m9FAB097BAD2439457DAE7C38948A62B33D4A13D1(L_51, NULL);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_52 = __this->___m_nodePool;
+		int64_t L_53 = ___0_startRef;
+		NullCheck(L_52);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_54;
+		L_54 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_52, L_53, NULL);
+		V_4 = L_54;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_55 = V_4;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_56 = ___2_startPos;
+		NullCheck(L_55);
+		L_55->___pos = L_56;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_57 = V_4;
+		NullCheck(L_57);
+		L_57->___pidx = 0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_58 = V_4;
+		NullCheck(L_58);
+		L_58->___cost = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_59 = V_4;
+		RuntimeObject* L_60 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_61 = ___2_startPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_62 = ___3_endPos;
+		NullCheck(L_60);
+		float L_63;
+		L_63 = InterfaceFuncInvoker2< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 >::Invoke(0, IQueryHeuristic_t95046F6CA9DE6BFE7C34CE1ABE3EB31043A4007C_il2cpp_TypeInfo_var, L_60, L_61, L_62);
+		NullCheck(L_59);
+		L_59->___total = L_63;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_64 = V_4;
+		int64_t L_65 = ___0_startRef;
+		NullCheck(L_64);
+		L_64->___id = L_65;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_66 = V_4;
+		NullCheck(L_66);
+		L_66->___flags = 1;
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_67 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_68 = V_4;
+		NullCheck(L_67);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_67, L_68, NULL);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_69 = V_4;
+		V_5 = L_69;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_70 = V_4;
+		NullCheck(L_70);
+		float L_71 = L_70->___total;
+		V_6 = L_71;
+		goto IL_05d9;
+	}
+
+IL_0187:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_72 = __this->___m_openList;
+		NullCheck(L_72);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_73;
+		L_73 = DtNodeQueue_Pop_m4569866ACFC4A645DD3D1A7BB7761CC4222AD145(L_72, NULL);
+		V_15 = L_73;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_74 = V_15;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_75 = L_74;
+		NullCheck(L_75);
+		int32_t L_76 = L_75->___flags;
+		NullCheck(L_75);
+		L_75->___flags = ((int32_t)(L_76&((int32_t)-2)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_77 = V_15;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_78 = L_77;
+		NullCheck(L_78);
+		int32_t L_79 = L_78->___flags;
+		NullCheck(L_78);
+		L_78->___flags = ((int32_t)(L_79|2));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_80 = V_15;
+		NullCheck(L_80);
+		int64_t L_81 = L_80->___id;
+		int64_t L_82 = ___1_endRef;
+		V_25 = (bool)((((int64_t)L_81) == ((int64_t)L_82))? 1 : 0);
+		bool L_83 = V_25;
+		if (!L_83)
+		{
+			goto IL_01ce;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_84 = V_15;
+		V_5 = L_84;
+		goto IL_05f0;
+	}
+
+IL_01ce:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_85 = V_15;
+		NullCheck(L_85);
+		int64_t L_86 = L_85->___id;
+		V_16 = L_86;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_87 = __this->___m_nav;
+		int64_t L_88 = V_16;
+		NullCheck(L_87);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_87, L_88, (&V_17), (&V_18), NULL);
+		V_19 = ((int64_t)0);
+		V_20 = ((int64_t)0);
+		V_21 = (DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*)NULL;
+		V_22 = (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)NULL;
+		V_23 = (DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)NULL;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_89 = V_15;
+		NullCheck(L_89);
+		int32_t L_90 = L_89->___pidx;
+		V_26 = (bool)((!(((uint32_t)L_90) <= ((uint32_t)0)))? 1 : 0);
+		bool L_91 = V_26;
+		if (!L_91)
+		{
+			goto IL_0254;
+		}
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_92 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_93 = V_15;
+		NullCheck(L_93);
+		int32_t L_94 = L_93->___pidx;
+		NullCheck(L_92);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_95;
+		L_95 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_92, L_94, NULL);
+		V_23 = L_95;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_96 = V_23;
+		NullCheck(L_96);
+		int64_t L_97 = L_96->___id;
+		V_19 = L_97;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_98 = V_23;
+		NullCheck(L_98);
+		int32_t L_99 = L_98->___pidx;
+		V_27 = (bool)((!(((uint32_t)L_99) <= ((uint32_t)0)))? 1 : 0);
+		bool L_100 = V_27;
+		if (!L_100)
+		{
+			goto IL_0253;
+		}
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_101 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_102 = V_23;
+		NullCheck(L_102);
+		int32_t L_103 = L_102->___pidx;
+		NullCheck(L_101);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_104;
+		L_104 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_101, L_103, NULL);
+		NullCheck(L_104);
+		int64_t L_105 = L_104->___id;
+		V_20 = L_105;
+	}
+
+IL_0253:
+	{
+	}
+
+IL_0254:
+	{
+		int64_t L_106 = V_19;
+		V_28 = (bool)((!(((uint64_t)L_106) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		bool L_107 = V_28;
+		if (!L_107)
+		{
+			goto IL_0274;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_108 = __this->___m_nav;
+		int64_t L_109 = V_19;
+		NullCheck(L_108);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_108, L_109, (&V_21), (&V_22), NULL);
+	}
+
+IL_0274:
+	{
+		V_24 = (bool)0;
+		int32_t L_110 = V_2;
+		V_29 = (bool)((!(((uint32_t)((int32_t)(L_110&2))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_111 = V_29;
+		if (!L_111)
+		{
+			goto IL_02b8;
+		}
+	}
+	{
+		int64_t L_112 = V_19;
+		if (!L_112)
+		{
+			goto IL_02ab;
+		}
+	}
+	{
+		float L_113 = V_3;
+		if ((((float)L_113) >= ((float)((std::numeric_limits<float>::max)()))))
+		{
+			goto IL_02a8;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_114 = V_23;
+		NullCheck(L_114);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_115 = L_114->___pos;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_116 = V_15;
+		NullCheck(L_116);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_117 = L_116->___pos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		float L_118;
+		L_118 = RcVec3f_DistSqr_m6A83CC6DB483F8A7C964476E6153BECA4C5FA155_inline(L_115, L_117, NULL);
+		float L_119 = V_3;
+		G_B31_0 = ((((float)L_118) < ((float)L_119))? 1 : 0);
+		goto IL_02a9;
+	}
+
+IL_02a8:
+	{
+		G_B31_0 = 1;
+	}
+
+IL_02a9:
+	{
+		G_B33_0 = G_B31_0;
+		goto IL_02ac;
+	}
+
+IL_02ab:
+	{
+		G_B33_0 = 0;
+	}
+
+IL_02ac:
+	{
+		V_30 = (bool)G_B33_0;
+		bool L_120 = V_30;
+		if (!L_120)
+		{
+			goto IL_02b7;
+		}
+	}
+	{
+		V_24 = (bool)1;
+	}
+
+IL_02b7:
+	{
+	}
+
+IL_02b8:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_121 = V_17;
+		NullCheck(L_121);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_122 = L_121->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_123 = V_18;
+		NullCheck(L_123);
+		int32_t L_124 = L_123->___index;
+		NullCheck(L_122);
+		int32_t L_125 = L_124;
+		int32_t L_126 = (L_122)->GetAt(static_cast<il2cpp_array_size_t>(L_125));
+		V_31 = L_126;
+		goto IL_05c7;
+	}
+
+IL_02ce:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_127 = V_17;
+		NullCheck(L_127);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_128 = L_127->___links;
+		int32_t L_129 = V_31;
+		NullCheck(L_128);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_130;
+		L_130 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_128, L_129, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_130);
+		int64_t L_131 = L_130->___refs;
+		V_32 = L_131;
+		int64_t L_132 = V_32;
+		if (!L_132)
+		{
+			goto IL_02f0;
+		}
+	}
+	{
+		int64_t L_133 = V_32;
+		int64_t L_134 = V_19;
+		G_B40_0 = ((((int64_t)L_133) == ((int64_t)L_134))? 1 : 0);
+		goto IL_02f1;
+	}
+
+IL_02f0:
+	{
+		G_B40_0 = 1;
+	}
+
+IL_02f1:
+	{
+		V_43 = (bool)G_B40_0;
+		bool L_135 = V_43;
+		if (!L_135)
+		{
+			goto IL_02fd;
+		}
+	}
+	{
+		goto IL_05b2;
+	}
+
+IL_02fd:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_136 = __this->___m_nav;
+		int64_t L_137 = V_32;
+		NullCheck(L_136);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_136, L_137, (&V_33), (&V_34), NULL);
+		RuntimeObject* L_138 = ___4_filter;
+		int64_t L_139 = V_32;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_140 = V_33;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_141 = V_34;
+		NullCheck(L_138);
+		bool L_142;
+		L_142 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_138, L_139, L_140, L_141);
+		V_44 = (bool)((((int32_t)L_142) == ((int32_t)0))? 1 : 0);
+		bool L_143 = V_44;
+		if (!L_143)
+		{
+			goto IL_032b;
+		}
+	}
+	{
+		goto IL_05b2;
+	}
+
+IL_032b:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_144 = __this->___m_nodePool;
+		int64_t L_145 = V_32;
+		NullCheck(L_144);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_146;
+		L_146 = DtNodePool_GetNode_mEA8F2B97716EC8F080DBAB4D2EA9CAC562E37611(L_144, L_145, 0, NULL);
+		V_35 = L_146;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_147 = V_35;
+		NullCheck(L_147);
+		int32_t L_148 = L_147->___pidx;
+		if (!L_148)
+		{
+			goto IL_0356;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_149 = V_35;
+		NullCheck(L_149);
+		int32_t L_150 = L_149->___pidx;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_151 = V_15;
+		NullCheck(L_151);
+		int32_t L_152 = L_151->___pidx;
+		G_B47_0 = ((((int32_t)L_150) == ((int32_t)L_152))? 1 : 0);
+		goto IL_0357;
+	}
+
+IL_0356:
+	{
+		G_B47_0 = 0;
+	}
+
+IL_0357:
+	{
+		V_45 = (bool)G_B47_0;
+		bool L_153 = V_45;
+		if (!L_153)
+		{
+			goto IL_0363;
+		}
+	}
+	{
+		goto IL_05b2;
+	}
+
+IL_0363:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_154 = V_35;
+		NullCheck(L_154);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_155 = L_154->___pos;
+		V_36 = L_155;
+		int64_t L_156 = V_32;
+		int64_t L_157 = ___1_endRef;
+		if ((((int64_t)L_156) == ((int64_t)L_157)))
+		{
+			goto IL_0387;
+		}
+	}
+	{
+		int64_t L_158 = V_16;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_159 = V_18;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_160 = V_17;
+		int64_t L_161 = V_32;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_162 = V_34;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_163 = V_33;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_164;
+		L_164 = DtNavMeshQuery_GetEdgeMidPoint_m64BD2A68D1AE02A9B99F178B423EC0F4C52ECD89(__this, L_158, L_159, L_160, L_161, L_162, L_163, (&V_36), NULL);
+		G_B52_0 = L_164;
+		goto IL_03a4;
+	}
+
+IL_0387:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_165 = V_15;
+		NullCheck(L_165);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_166 = L_165->___pos;
+		int64_t L_167 = V_16;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_168 = V_18;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_169 = V_17;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_170 = ___3_endPos;
+		int64_t L_171 = V_32;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_172 = V_34;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_173 = V_33;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_174;
+		L_174 = DtNavMeshQuery_GetEdgeIntersectionPoint_m34708E49CF97F36AD1C789EF05C796E281DED84B(__this, L_166, L_167, L_168, L_169, L_170, L_171, L_172, L_173, (&V_36), NULL);
+		G_B52_0 = L_174;
+	}
+
+IL_03a4:
+	{
+		V_37 = G_B52_0;
+		V_38 = (0.0f);
+		V_39 = (0.0f);
+		V_40 = (bool)0;
+		V_41 = (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)NULL;
+		bool L_175 = V_24;
+		V_46 = L_175;
+		bool L_176 = V_46;
+		if (!L_176)
+		{
+			goto IL_0424;
+		}
+	}
+	{
+		int64_t L_177 = V_19;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_178 = V_23;
+		NullCheck(L_178);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_179 = L_178->___pos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_180 = V_36;
+		RuntimeObject* L_181 = ___4_filter;
+		int64_t L_182 = V_20;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_183;
+		L_183 = DtNavMeshQuery_Raycast_m6C9F06842972111B5822278399DE9A58A8FA6DB1(__this, L_177, L_179, L_180, L_181, 1, L_182, (&V_48), NULL);
+		V_47 = L_183;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_184;
+		L_184 = DtStatus_Succeeded_mCF8E76C4EE7CD0DBF56B06210B09AE9D2E899D0C_inline((&V_47), NULL);
+		V_49 = L_184;
+		bool L_185 = V_49;
+		if (!L_185)
+		{
+			goto IL_0423;
+		}
+	}
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_186 = V_48;
+		NullCheck(L_186);
+		float L_187 = L_186->___t;
+		V_40 = (bool)((((int32_t)((!(((float)L_187) >= ((float)(1.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_188 = V_40;
+		V_50 = L_188;
+		bool L_189 = V_50;
+		if (!L_189)
+		{
+			goto IL_0422;
+		}
+	}
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_190 = V_48;
+		NullCheck(L_190);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_191 = L_190->___path;
+		V_41 = L_191;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_192 = V_23;
+		NullCheck(L_192);
+		float L_193 = L_192->___cost;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_194 = V_48;
+		NullCheck(L_194);
+		float L_195 = L_194->___pathCost;
+		V_38 = ((float)il2cpp_codegen_add(L_193, L_195));
+	}
+
+IL_0422:
+	{
+	}
+
+IL_0423:
+	{
+	}
+
+IL_0424:
+	{
+		bool L_196 = V_40;
+		V_51 = (bool)((((int32_t)L_196) == ((int32_t)0))? 1 : 0);
+		bool L_197 = V_51;
+		if (!L_197)
+		{
+			goto IL_0461;
+		}
+	}
+	{
+		RuntimeObject* L_198 = ___4_filter;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_199 = V_15;
+		NullCheck(L_199);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_200 = L_199->___pos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_201 = V_36;
+		int64_t L_202 = V_19;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_203 = V_21;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_204 = V_22;
+		int64_t L_205 = V_16;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_206 = V_17;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_207 = V_18;
+		int64_t L_208 = V_32;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_209 = V_33;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_210 = V_34;
+		NullCheck(L_198);
+		float L_211;
+		L_211 = InterfaceFuncInvoker11< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(1, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_198, L_200, L_201, L_202, L_203, L_204, L_205, L_206, L_207, L_208, L_209, L_210);
+		V_52 = L_211;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_212 = V_15;
+		NullCheck(L_212);
+		float L_213 = L_212->___cost;
+		float L_214 = V_52;
+		V_38 = ((float)il2cpp_codegen_add(L_213, L_214));
+	}
+
+IL_0461:
+	{
+		int64_t L_215 = V_32;
+		int64_t L_216 = ___1_endRef;
+		V_53 = (bool)((((int64_t)L_215) == ((int64_t)L_216))? 1 : 0);
+		bool L_217 = V_53;
+		if (!L_217)
+		{
+			goto IL_0494;
+		}
+	}
+	{
+		RuntimeObject* L_218 = ___4_filter;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_219 = V_36;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_220 = ___3_endPos;
+		int64_t L_221 = V_16;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_222 = V_17;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_223 = V_18;
+		int64_t L_224 = V_32;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_225 = V_33;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_226 = V_34;
+		NullCheck(L_218);
+		float L_227;
+		L_227 = InterfaceFuncInvoker11< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(1, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_218, L_219, L_220, L_221, L_222, L_223, L_224, L_225, L_226, ((int64_t)0), (DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*)NULL, (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)NULL);
+		V_54 = L_227;
+		float L_228 = V_38;
+		float L_229 = V_54;
+		V_38 = ((float)il2cpp_codegen_add(L_228, L_229));
+		goto IL_04a2;
+	}
+
+IL_0494:
+	{
+		RuntimeObject* L_230 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_231 = V_36;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_232 = ___3_endPos;
+		NullCheck(L_230);
+		float L_233;
+		L_233 = InterfaceFuncInvoker2< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 >::Invoke(0, IQueryHeuristic_t95046F6CA9DE6BFE7C34CE1ABE3EB31043A4007C_il2cpp_TypeInfo_var, L_230, L_231, L_232);
+		V_39 = L_233;
+	}
+
+IL_04a2:
+	{
+		float L_234 = V_38;
+		float L_235 = V_39;
+		V_42 = ((float)il2cpp_codegen_add(L_234, L_235));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_236 = V_35;
+		NullCheck(L_236);
+		int32_t L_237 = L_236->___flags;
+		if (!((int32_t)(L_237&1)))
+		{
+			goto IL_04c4;
+		}
+	}
+	{
+		float L_238 = V_42;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_239 = V_35;
+		NullCheck(L_239);
+		float L_240 = L_239->___total;
+		G_B66_0 = ((((int32_t)((!(((float)L_238) >= ((float)L_240)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_04c5;
+	}
+
+IL_04c4:
+	{
+		G_B66_0 = 0;
+	}
+
+IL_04c5:
+	{
+		V_55 = (bool)G_B66_0;
+		bool L_241 = V_55;
+		if (!L_241)
+		{
+			goto IL_04d1;
+		}
+	}
+	{
+		goto IL_05b2;
+	}
+
+IL_04d1:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_242 = V_35;
+		NullCheck(L_242);
+		int32_t L_243 = L_242->___flags;
+		if (!((int32_t)(L_243&2)))
+		{
+			goto IL_04ec;
+		}
+	}
+	{
+		float L_244 = V_42;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_245 = V_35;
+		NullCheck(L_245);
+		float L_246 = L_245->___total;
+		G_B71_0 = ((((int32_t)((!(((float)L_244) >= ((float)L_246)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_04ed;
+	}
+
+IL_04ec:
+	{
+		G_B71_0 = 0;
+	}
+
+IL_04ed:
+	{
+		V_56 = (bool)G_B71_0;
+		bool L_247 = V_56;
+		if (!L_247)
+		{
+			goto IL_04f9;
+		}
+	}
+	{
+		goto IL_05b2;
+	}
+
+IL_04f9:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_248 = V_35;
+		bool L_249 = V_40;
+		if (L_249)
+		{
+			G_B75_0 = L_248;
+			goto IL_050e;
+		}
+		G_B74_0 = L_248;
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_250 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_251 = V_15;
+		NullCheck(L_250);
+		int32_t L_252;
+		L_252 = DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07(L_250, L_251, NULL);
+		G_B76_0 = L_252;
+		G_B76_1 = G_B74_0;
+		goto IL_0515;
+	}
+
+IL_050e:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_253 = V_15;
+		NullCheck(L_253);
+		int32_t L_254 = L_253->___pidx;
+		G_B76_0 = L_254;
+		G_B76_1 = G_B75_0;
+	}
+
+IL_0515:
+	{
+		NullCheck(G_B76_1);
+		G_B76_1->___pidx = G_B76_0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_255 = V_35;
+		int64_t L_256 = V_32;
+		NullCheck(L_255);
+		L_255->___id = L_256;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_257 = V_35;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_258 = V_35;
+		NullCheck(L_258);
+		int32_t L_259 = L_258->___flags;
+		NullCheck(L_257);
+		L_257->___flags = ((int32_t)(L_259&((int32_t)-3)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_260 = V_35;
+		float L_261 = V_38;
+		NullCheck(L_260);
+		L_260->___cost = L_261;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_262 = V_35;
+		float L_263 = V_42;
+		NullCheck(L_262);
+		L_262->___total = L_263;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_264 = V_35;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_265 = V_36;
+		NullCheck(L_264);
+		L_264->___pos = L_265;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_266 = V_35;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_267 = V_41;
+		NullCheck(L_266);
+		L_266->___shortcut = L_267;
+		Il2CppCodeGenWriteBarrier((void**)(&L_266->___shortcut), (void*)L_267);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_268 = V_35;
+		NullCheck(L_268);
+		int32_t L_269 = L_268->___flags;
+		V_57 = (bool)((!(((uint32_t)((int32_t)(L_269&1))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_270 = V_57;
+		if (!L_270)
+		{
+			goto IL_057c;
+		}
+	}
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_271 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_272 = V_35;
+		NullCheck(L_271);
+		DtNodeQueue_Modify_m9528E2A6C335DEADAB9B5DF835691EACBEF3E308(L_271, L_272, NULL);
+		goto IL_059b;
+	}
+
+IL_057c:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_273 = V_35;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_274 = L_273;
+		NullCheck(L_274);
+		int32_t L_275 = L_274->___flags;
+		NullCheck(L_274);
+		L_274->___flags = ((int32_t)(L_275|1));
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_276 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_277 = V_35;
+		NullCheck(L_276);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_276, L_277, NULL);
+	}
+
+IL_059b:
+	{
+		float L_278 = V_39;
+		float L_279 = V_6;
+		V_58 = (bool)((((float)L_278) < ((float)L_279))? 1 : 0);
+		bool L_280 = V_58;
+		if (!L_280)
+		{
+			goto IL_05b1;
+		}
+	}
+	{
+		float L_281 = V_39;
+		V_6 = L_281;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_282 = V_35;
+		V_5 = L_282;
+	}
+
+IL_05b1:
+	{
+	}
+
+IL_05b2:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_283 = V_17;
+		NullCheck(L_283);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_284 = L_283->___links;
+		int32_t L_285 = V_31;
+		NullCheck(L_284);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_286;
+		L_286 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_284, L_285, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_286);
+		int32_t L_287 = L_286->___next;
+		V_31 = L_287;
+	}
+
+IL_05c7:
+	{
+		int32_t L_288 = V_31;
+		V_59 = (bool)((((int32_t)((((int32_t)L_288) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_289 = V_59;
+		if (L_289)
+		{
+			goto IL_02ce;
+		}
+	}
+	{
+	}
+
+IL_05d9:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_290 = __this->___m_openList;
+		NullCheck(L_290);
+		bool L_291;
+		L_291 = DtNodeQueue_IsEmpty_m6FA5A282449EA550AB66A5852500B70CBBC4F99E(L_290, NULL);
+		V_60 = (bool)((((int32_t)L_291) == ((int32_t)0))? 1 : 0);
+		bool L_292 = V_60;
+		if (L_292)
+		{
+			goto IL_0187;
+		}
+	}
+
+IL_05f0:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_293 = V_5;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_294 = ___5_path;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_295;
+		L_295 = DtNavMeshQuery_GetPathToNode_m3340B0041D42D4CE8F83EB367601F5C9DED38300(__this, L_293, L_294, NULL);
+		V_7 = L_295;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_296 = V_5;
+		NullCheck(L_296);
+		int64_t L_297 = L_296->___id;
+		int64_t L_298 = ___1_endRef;
+		V_61 = (bool)((((int32_t)((((int64_t)L_297) == ((int64_t)L_298))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_299 = V_61;
+		if (!L_299)
+		{
+			goto IL_061f;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_300 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_301 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_PARTIAL_RESULT;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_302;
+		L_302 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_300, L_301, NULL);
+		V_7 = L_302;
+	}
+
+IL_061f:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_303 = V_7;
+		V_9 = L_303;
+		goto IL_0625;
+	}
+
+IL_0625:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_304 = V_9;
+		return L_304;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_InitSlicedFindPath_mF647995804191DB0C3271CB294B0A5DE2BC0D88F (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, int64_t ___1_endRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_startPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___3_endPos, RuntimeObject* ___4_filter, int32_t ___5_options, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int64_t L_0 = ___0_startRef;
+		int64_t L_1 = ___1_endRef;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___2_startPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_3 = ___3_endPos;
+		RuntimeObject* L_4 = ___4_filter;
+		int32_t L_5 = ___5_options;
+		il2cpp_codegen_runtime_class_init_inline(DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_il2cpp_TypeInfo_var);
+		DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55* L_6 = ((DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_StaticFields*)il2cpp_codegen_static_fields_for(DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_il2cpp_TypeInfo_var))->___Default;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_7;
+		L_7 = DtNavMeshQuery_InitSlicedFindPath_mCB70DBA5B6CC28AC507626AE224D8BC0398A2C2C(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, (-1.0f), NULL);
+		V_0 = L_7;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_8 = V_0;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_InitSlicedFindPath_mA48EB2D70920297D1589F84B6D48F6E8E4B1109D (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, int64_t ___1_endRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_startPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___3_endPos, RuntimeObject* ___4_filter, int32_t ___5_options, float ___6_raycastLimit, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int64_t L_0 = ___0_startRef;
+		int64_t L_1 = ___1_endRef;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___2_startPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_3 = ___3_endPos;
+		RuntimeObject* L_4 = ___4_filter;
+		int32_t L_5 = ___5_options;
+		il2cpp_codegen_runtime_class_init_inline(DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_il2cpp_TypeInfo_var);
+		DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55* L_6 = ((DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_StaticFields*)il2cpp_codegen_static_fields_for(DefaultQueryHeuristic_tCA0630A1A7BEBCA88BCC1C0D7BE33DF903E4CF55_il2cpp_TypeInfo_var))->___Default;
+		float L_7 = ___6_raycastLimit;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_8;
+		L_8 = DtNavMeshQuery_InitSlicedFindPath_mCB70DBA5B6CC28AC507626AE224D8BC0398A2C2C(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
+		V_0 = L_8;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_9 = V_0;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_InitSlicedFindPath_mCB70DBA5B6CC28AC507626AE224D8BC0398A2C2C (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, int64_t ___1_endRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_startPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___3_endPos, RuntimeObject* ___4_filter, int32_t ___5_options, RuntimeObject* ___6_heuristic, float ___7_raycastLimit, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IQueryHeuristic_t95046F6CA9DE6BFE7C34CE1ABE3EB31043A4007C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_0 = NULL;
+	bool V_1 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_4 = NULL;
+	float V_5 = 0.0f;
+	bool V_6 = false;
+	int32_t G_B6_0 = 0;
+	int32_t G_B11_0 = 0;
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_0 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_initobj(L_0, sizeof(DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D));
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_1 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_2 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		L_1->___status = L_2;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_3 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_4 = ___0_startRef;
+		L_3->___startRef = L_4;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_5 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_6 = ___1_endRef;
+		L_5->___endRef = L_6;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_7 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_8 = ___2_startPos;
+		L_7->___startPos = L_8;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_9 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = ___3_endPos;
+		L_9->___endPos = L_10;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_11 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RuntimeObject* L_12 = ___4_filter;
+		L_11->___filter = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&L_11->___filter), (void*)L_12);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_13 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int32_t L_14 = ___5_options;
+		L_13->___options = L_14;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_15 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RuntimeObject* L_16 = ___6_heuristic;
+		L_15->___heuristic = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&L_15->___heuristic), (void*)L_16);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_17 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		float L_18 = ___7_raycastLimit;
+		float L_19;
+		L_19 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_18, NULL);
+		L_17->___raycastLimitSqr = L_19;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_20 = __this->___m_nav;
+		int64_t L_21 = ___0_startRef;
+		NullCheck(L_20);
+		bool L_22;
+		L_22 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_20, L_21, NULL);
+		if (!L_22)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_23 = __this->___m_nav;
+		int64_t L_24 = ___1_endRef;
+		NullCheck(L_23);
+		bool L_25;
+		L_25 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_23, L_24, NULL);
+		if (!L_25)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_26 = ___2_startPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_27;
+		L_27 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_28 = ___3_endPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_29;
+		L_29 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_28, NULL);
+		if (!L_29)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		RuntimeObject* L_30 = ___4_filter;
+		G_B6_0 = ((((RuntimeObject*)(RuntimeObject*)L_30) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_00bc;
+	}
+
+IL_00bb:
+	{
+		G_B6_0 = 1;
+	}
+
+IL_00bc:
+	{
+		V_1 = (bool)G_B6_0;
+		bool L_31 = V_1;
+		if (!L_31)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_32 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		V_2 = L_32;
+		goto IL_01e7;
+	}
+
+IL_00cc:
+	{
+		int32_t L_33 = ___5_options;
+		if (!((int32_t)(L_33&2)))
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		float L_34 = ___7_raycastLimit;
+		G_B11_0 = ((((float)L_34) < ((float)(0.0f)))? 1 : 0);
+		goto IL_00de;
+	}
+
+IL_00dd:
+	{
+		G_B11_0 = 0;
+	}
+
+IL_00de:
+	{
+		V_3 = (bool)G_B11_0;
+		bool L_35 = V_3;
+		if (!L_35)
+		{
+			goto IL_011d;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_36 = __this->___m_nav;
+		int64_t L_37 = ___0_startRef;
+		NullCheck(L_36);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_38;
+		L_38 = DtNavMesh_GetTileByRef_mFCFBB2E629D6B582AAA9281DEBC16BBE6485DEA6(L_36, L_37, NULL);
+		V_4 = L_38;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_39 = V_4;
+		NullCheck(L_39);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_40 = L_39->___data;
+		NullCheck(L_40);
+		DtMeshHeader_t6297334E554E2F811F115707ADA4540EB2ECFCB1* L_41 = L_40->___header;
+		NullCheck(L_41);
+		float L_42 = L_41->___walkableRadius;
+		V_5 = L_42;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_43 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		float L_44 = V_5;
+		float L_45;
+		L_45 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(((float)il2cpp_codegen_multiply(L_44, (50.0f))), NULL);
+		L_43->___raycastLimitSqr = L_45;
+	}
+
+IL_011d:
+	{
+		int64_t L_46 = ___0_startRef;
+		int64_t L_47 = ___1_endRef;
+		V_6 = (bool)((((int64_t)L_46) == ((int64_t)L_47))? 1 : 0);
+		bool L_48 = V_6;
+		if (!L_48)
+		{
+			goto IL_0143;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_49 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_50 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		L_49->___status = L_50;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_51 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_2 = L_51;
+		goto IL_01e7;
+	}
+
+IL_0143:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_52 = __this->___m_nodePool;
+		NullCheck(L_52);
+		DtNodePool_Clear_m4682D89F1BB534CA29B32127C54A0B6239075575(L_52, NULL);
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_53 = __this->___m_openList;
+		NullCheck(L_53);
+		DtNodeQueue_Clear_m9FAB097BAD2439457DAE7C38948A62B33D4A13D1(L_53, NULL);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_54 = __this->___m_nodePool;
+		int64_t L_55 = ___0_startRef;
+		NullCheck(L_54);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_56;
+		L_56 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_54, L_55, NULL);
+		V_0 = L_56;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_57 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_58 = ___2_startPos;
+		NullCheck(L_57);
+		L_57->___pos = L_58;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_59 = V_0;
+		NullCheck(L_59);
+		L_59->___pidx = 0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_60 = V_0;
+		NullCheck(L_60);
+		L_60->___cost = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_61 = V_0;
+		RuntimeObject* L_62 = ___6_heuristic;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_63 = ___2_startPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_64 = ___3_endPos;
+		NullCheck(L_62);
+		float L_65;
+		L_65 = InterfaceFuncInvoker2< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 >::Invoke(0, IQueryHeuristic_t95046F6CA9DE6BFE7C34CE1ABE3EB31043A4007C_il2cpp_TypeInfo_var, L_62, L_63, L_64);
+		NullCheck(L_61);
+		L_61->___total = L_65;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_66 = V_0;
+		int64_t L_67 = ___0_startRef;
+		NullCheck(L_66);
+		L_66->___id = L_67;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_68 = V_0;
+		NullCheck(L_68);
+		L_68->___flags = 1;
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_69 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_70 = V_0;
+		NullCheck(L_69);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_69, L_70, NULL);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_71 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_72 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_IN_PROGRESS;
+		L_71->___status = L_72;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_73 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_74 = V_0;
+		L_73->___lastBestNode = L_74;
+		Il2CppCodeGenWriteBarrier((void**)(&L_73->___lastBestNode), (void*)L_74);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_75 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_76 = V_0;
+		NullCheck(L_76);
+		float L_77 = L_76->___total;
+		L_75->___lastBestNodeCost = L_77;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_78 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_79 = L_78->___status;
+		V_2 = L_79;
+		goto IL_01e7;
+	}
+
+IL_01e7:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_80 = V_2;
+		return L_80;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_UpdateSlicedFindPath_mA4C3F4E0494341080A677EBFBCB0DF41D3595E14 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int32_t ___0_maxIter, int32_t* ___1_doneIters, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IQueryHeuristic_t95046F6CA9DE6BFE7C34CE1ABE3EB31043A4007C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_4 = NULL;
+	int64_t V_5 = 0;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_7 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_8 = NULL;
+	int64_t V_9 = 0;
+	int64_t V_10 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_11 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_12 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_13 = NULL;
+	bool V_14 = false;
+	bool V_15 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	bool V_23 = false;
+	bool V_24 = false;
+	int32_t V_25 = 0;
+	int64_t V_26 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_27 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_28 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_29 = NULL;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_30;
+	memset((&V_30), 0, sizeof(V_30));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_31;
+	memset((&V_31), 0, sizeof(V_31));
+	float V_32 = 0.0f;
+	float V_33 = 0.0f;
+	bool V_34 = false;
+	List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* V_35 = NULL;
+	float V_36 = 0.0f;
+	bool V_37 = false;
+	bool V_38 = false;
+	bool V_39 = false;
+	bool V_40 = false;
+	DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* V_41 = NULL;
+	bool V_42 = false;
+	bool V_43 = false;
+	bool V_44 = false;
+	float V_45 = 0.0f;
+	bool V_46 = false;
+	float V_47 = 0.0f;
+	bool V_48 = false;
+	bool V_49 = false;
+	bool V_50 = false;
+	bool V_51 = false;
+	bool V_52 = false;
+	bool V_53 = false;
+	bool V_54 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_55;
+	memset((&V_55), 0, sizeof(V_55));
+	int32_t G_B5_0 = 0;
+	int32_t G_B21_0 = 0;
+	int32_t G_B23_0 = 0;
+	int32_t G_B31_0 = 0;
+	int32_t G_B33_0 = 0;
+	int32_t G_B40_0 = 0;
+	int32_t G_B47_0 = 0;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B52_0;
+	memset((&G_B52_0), 0, sizeof(G_B52_0));
+	int32_t G_B66_0 = 0;
+	int32_t G_B71_0 = 0;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* G_B75_0 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* G_B74_0 = NULL;
+	int32_t G_B76_0 = 0;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* G_B76_1 = NULL;
+	int32_t G_B88_0 = 0;
+	{
+		int32_t* L_0 = ___1_doneIters;
+		*((int32_t*)L_0) = (int32_t)0;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_1 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* L_2 = (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49*)(&L_1->___status);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline(L_2, NULL);
+		V_1 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_5 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_6 = L_5->___status;
+		V_2 = L_6;
+		goto IL_06c4;
+	}
+
+IL_002d:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_7 = __this->___m_nav;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_8 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_9 = L_8->___startRef;
+		NullCheck(L_7);
+		bool L_10;
+		L_10 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_7, L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_11 = __this->___m_nav;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_12 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_13 = L_12->___endRef;
+		NullCheck(L_11);
+		bool L_14;
+		L_14 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_11, L_13, NULL);
+		G_B5_0 = ((((int32_t)L_14) == ((int32_t)0))? 1 : 0);
+		goto IL_0061;
+	}
+
+IL_0060:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_0061:
+	{
+		V_3 = (bool)G_B5_0;
+		bool L_15 = V_3;
+		if (!L_15)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_16 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_17 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		L_16->___status = L_17;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_18 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		V_2 = L_18;
+		goto IL_06c4;
+	}
+
+IL_0081:
+	{
+		V_0 = 0;
+		goto IL_0654;
+	}
+
+IL_0088:
+	{
+		int32_t L_19 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_20 = __this->___m_openList;
+		NullCheck(L_20);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_21;
+		L_21 = DtNodeQueue_Pop_m4569866ACFC4A645DD3D1A7BB7761CC4222AD145(L_20, NULL);
+		V_4 = L_21;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_22 = V_4;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_23 = L_22;
+		NullCheck(L_23);
+		int32_t L_24 = L_23->___flags;
+		NullCheck(L_23);
+		L_23->___flags = ((int32_t)(L_24&((int32_t)-2)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_25 = V_4;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_26 = L_25;
+		NullCheck(L_26);
+		int32_t L_27 = L_26->___flags;
+		NullCheck(L_26);
+		L_26->___flags = ((int32_t)(L_27|2));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_28 = V_4;
+		NullCheck(L_28);
+		int64_t L_29 = L_28->___id;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_30 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_31 = L_30->___endRef;
+		V_15 = (bool)((((int64_t)L_29) == ((int64_t)L_31))? 1 : 0);
+		bool L_32 = V_15;
+		if (!L_32)
+		{
+			goto IL_0123;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_33 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_34 = V_4;
+		L_33->___lastBestNode = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&L_33->___lastBestNode), (void*)L_34);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_35 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_36 = L_35->___status;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_37 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_STATUS_DETAIL_MASK;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_38;
+		L_38 = DtStatus_op_BitwiseAnd_m6E15D2E12EE1D096BE1189835099EE3D3815159A_inline(L_36, L_37, NULL);
+		V_16 = L_38;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_39 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_40 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_41 = V_16;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_42;
+		L_42 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_40, L_41, NULL);
+		L_39->___status = L_42;
+		int32_t* L_43 = ___1_doneIters;
+		int32_t L_44 = V_0;
+		*((int32_t*)L_43) = (int32_t)L_44;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_45 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_46 = L_45->___status;
+		V_2 = L_46;
+		goto IL_06c4;
+	}
+
+IL_0123:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_47 = V_4;
+		NullCheck(L_47);
+		int64_t L_48 = L_47->___id;
+		V_5 = L_48;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_49 = __this->___m_nav;
+		int64_t L_50 = V_5;
+		NullCheck(L_49);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_51;
+		L_51 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_49, L_50, (&V_7), (&V_8), NULL);
+		V_6 = L_51;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_52;
+		L_52 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_6), NULL);
+		V_17 = L_52;
+		bool L_53 = V_17;
+		if (!L_53)
+		{
+			goto IL_0171;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_54 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_55 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		L_54->___status = L_55;
+		int32_t* L_56 = ___1_doneIters;
+		int32_t L_57 = V_0;
+		*((int32_t*)L_56) = (int32_t)L_57;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_58 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_59 = L_58->___status;
+		V_2 = L_59;
+		goto IL_06c4;
+	}
+
+IL_0171:
+	{
+		V_9 = ((int64_t)0);
+		V_10 = ((int64_t)0);
+		V_11 = (DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*)NULL;
+		V_12 = (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)NULL;
+		V_13 = (DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)NULL;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_60 = V_4;
+		NullCheck(L_60);
+		int32_t L_61 = L_60->___pidx;
+		V_18 = (bool)((!(((uint32_t)L_61) <= ((uint32_t)0)))? 1 : 0);
+		bool L_62 = V_18;
+		if (!L_62)
+		{
+			goto IL_01dc;
+		}
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_63 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_64 = V_4;
+		NullCheck(L_64);
+		int32_t L_65 = L_64->___pidx;
+		NullCheck(L_63);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_66;
+		L_66 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_63, L_65, NULL);
+		V_13 = L_66;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_67 = V_13;
+		NullCheck(L_67);
+		int64_t L_68 = L_67->___id;
+		V_9 = L_68;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_69 = V_13;
+		NullCheck(L_69);
+		int32_t L_70 = L_69->___pidx;
+		V_19 = (bool)((!(((uint32_t)L_70) <= ((uint32_t)0)))? 1 : 0);
+		bool L_71 = V_19;
+		if (!L_71)
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_72 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_73 = V_13;
+		NullCheck(L_73);
+		int32_t L_74 = L_73->___pidx;
+		NullCheck(L_72);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_75;
+		L_75 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_72, L_74, NULL);
+		NullCheck(L_75);
+		int64_t L_76 = L_75->___id;
+		V_10 = L_76;
+	}
+
+IL_01db:
+	{
+	}
+
+IL_01dc:
+	{
+		int64_t L_77 = V_9;
+		V_20 = (bool)((!(((uint64_t)L_77) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		bool L_78 = V_20;
+		if (!L_78)
+		{
+			goto IL_0252;
+		}
+	}
+	{
+		V_21 = (bool)0;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_79 = __this->___m_nav;
+		int64_t L_80 = V_9;
+		NullCheck(L_79);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_81;
+		L_81 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_79, L_80, (&V_11), (&V_12), NULL);
+		V_6 = L_81;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_82;
+		L_82 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_6), NULL);
+		V_21 = L_82;
+		bool L_83 = V_21;
+		if (L_83)
+		{
+			goto IL_0225;
+		}
+	}
+	{
+		int64_t L_84 = V_10;
+		if (!L_84)
+		{
+			goto IL_0222;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_85 = __this->___m_nav;
+		int64_t L_86 = V_10;
+		NullCheck(L_85);
+		bool L_87;
+		L_87 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_85, L_86, NULL);
+		G_B21_0 = ((((int32_t)L_87) == ((int32_t)0))? 1 : 0);
+		goto IL_0223;
+	}
+
+IL_0222:
+	{
+		G_B21_0 = 0;
+	}
+
+IL_0223:
+	{
+		G_B23_0 = G_B21_0;
+		goto IL_0226;
+	}
+
+IL_0225:
+	{
+		G_B23_0 = 1;
+	}
+
+IL_0226:
+	{
+		V_22 = (bool)G_B23_0;
+		bool L_88 = V_22;
+		if (!L_88)
+		{
+			goto IL_0251;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_89 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_90 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		L_89->___status = L_90;
+		int32_t* L_91 = ___1_doneIters;
+		int32_t L_92 = V_0;
+		*((int32_t*)L_91) = (int32_t)L_92;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_93 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_94 = L_93->___status;
+		V_2 = L_94;
+		goto IL_06c4;
+	}
+
+IL_0251:
+	{
+	}
+
+IL_0252:
+	{
+		V_14 = (bool)0;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_95 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int32_t L_96 = L_95->___options;
+		V_23 = (bool)((!(((uint32_t)((int32_t)(L_96&2))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_97 = V_23;
+		if (!L_97)
+		{
+			goto IL_02b4;
+		}
+	}
+	{
+		int64_t L_98 = V_9;
+		if (!L_98)
+		{
+			goto IL_02a7;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_99 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		float L_100 = L_99->___raycastLimitSqr;
+		if ((((float)L_100) >= ((float)((std::numeric_limits<float>::max)()))))
+		{
+			goto IL_02a4;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_101 = V_13;
+		NullCheck(L_101);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_102 = L_101->___pos;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_103 = V_4;
+		NullCheck(L_103);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_104 = L_103->___pos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		float L_105;
+		L_105 = RcVec3f_DistSqr_m6A83CC6DB483F8A7C964476E6153BECA4C5FA155_inline(L_102, L_104, NULL);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_106 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		float L_107 = L_106->___raycastLimitSqr;
+		G_B31_0 = ((((float)L_105) < ((float)L_107))? 1 : 0);
+		goto IL_02a5;
+	}
+
+IL_02a4:
+	{
+		G_B31_0 = 1;
+	}
+
+IL_02a5:
+	{
+		G_B33_0 = G_B31_0;
+		goto IL_02a8;
+	}
+
+IL_02a7:
+	{
+		G_B33_0 = 0;
+	}
+
+IL_02a8:
+	{
+		V_24 = (bool)G_B33_0;
+		bool L_108 = V_24;
+		if (!L_108)
+		{
+			goto IL_02b3;
+		}
+	}
+	{
+		V_14 = (bool)1;
+	}
+
+IL_02b3:
+	{
+	}
+
+IL_02b4:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_109 = V_7;
+		NullCheck(L_109);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = L_109->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_111 = V_8;
+		NullCheck(L_111);
+		int32_t L_112 = L_111->___index;
+		NullCheck(L_110);
+		int32_t L_113 = L_112;
+		int32_t L_114 = (L_110)->GetAt(static_cast<il2cpp_array_size_t>(L_113));
+		V_25 = L_114;
+		goto IL_0642;
+	}
+
+IL_02ca:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_115 = V_7;
+		NullCheck(L_115);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_116 = L_115->___links;
+		int32_t L_117 = V_25;
+		NullCheck(L_116);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_118;
+		L_118 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_116, L_117, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_118);
+		int64_t L_119 = L_118->___refs;
+		V_26 = L_119;
+		int64_t L_120 = V_26;
+		if (!L_120)
+		{
+			goto IL_02ec;
+		}
+	}
+	{
+		int64_t L_121 = V_26;
+		int64_t L_122 = V_9;
+		G_B40_0 = ((((int64_t)L_121) == ((int64_t)L_122))? 1 : 0);
+		goto IL_02ed;
+	}
+
+IL_02ec:
+	{
+		G_B40_0 = 1;
+	}
+
+IL_02ed:
+	{
+		V_37 = (bool)G_B40_0;
+		bool L_123 = V_37;
+		if (!L_123)
+		{
+			goto IL_02f9;
+		}
+	}
+	{
+		goto IL_062d;
+	}
+
+IL_02f9:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_124 = __this->___m_nav;
+		int64_t L_125 = V_26;
+		NullCheck(L_124);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_124, L_125, (&V_27), (&V_28), NULL);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_126 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RuntimeObject* L_127 = L_126->___filter;
+		int64_t L_128 = V_26;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_129 = V_27;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_130 = V_28;
+		NullCheck(L_127);
+		bool L_131;
+		L_131 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_127, L_128, L_129, L_130);
+		V_38 = (bool)((((int32_t)L_131) == ((int32_t)0))? 1 : 0);
+		bool L_132 = V_38;
+		if (!L_132)
+		{
+			goto IL_0330;
+		}
+	}
+	{
+		goto IL_062d;
+	}
+
+IL_0330:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_133 = __this->___m_nodePool;
+		int64_t L_134 = V_26;
+		NullCheck(L_133);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_135;
+		L_135 = DtNodePool_GetNode_mEA8F2B97716EC8F080DBAB4D2EA9CAC562E37611(L_133, L_134, 0, NULL);
+		V_29 = L_135;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_136 = V_29;
+		NullCheck(L_136);
+		int32_t L_137 = L_136->___pidx;
+		if (!L_137)
+		{
+			goto IL_035b;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_138 = V_29;
+		NullCheck(L_138);
+		int32_t L_139 = L_138->___pidx;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_140 = V_4;
+		NullCheck(L_140);
+		int32_t L_141 = L_140->___pidx;
+		G_B47_0 = ((((int32_t)L_139) == ((int32_t)L_141))? 1 : 0);
+		goto IL_035c;
+	}
+
+IL_035b:
+	{
+		G_B47_0 = 0;
+	}
+
+IL_035c:
+	{
+		V_39 = (bool)G_B47_0;
+		bool L_142 = V_39;
+		if (!L_142)
+		{
+			goto IL_0368;
+		}
+	}
+	{
+		goto IL_062d;
+	}
+
+IL_0368:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_143 = V_29;
+		NullCheck(L_143);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_144 = L_143->___pos;
+		V_30 = L_144;
+		int64_t L_145 = V_26;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_146 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_147 = L_146->___endRef;
+		if ((((int64_t)L_145) == ((int64_t)L_147)))
+		{
+			goto IL_0396;
+		}
+	}
+	{
+		int64_t L_148 = V_5;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_149 = V_8;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_150 = V_7;
+		int64_t L_151 = V_26;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_152 = V_28;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_153 = V_27;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_154;
+		L_154 = DtNavMeshQuery_GetEdgeMidPoint_m64BD2A68D1AE02A9B99F178B423EC0F4C52ECD89(__this, L_148, L_149, L_150, L_151, L_152, L_153, (&V_30), NULL);
+		G_B52_0 = L_154;
+		goto IL_03bc;
+	}
+
+IL_0396:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_155 = V_4;
+		NullCheck(L_155);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_156 = L_155->___pos;
+		int64_t L_157 = V_5;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_158 = V_8;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_159 = V_7;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_160 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_161 = L_160->___endPos;
+		int64_t L_162 = V_26;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_163 = V_28;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_164 = V_27;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_165;
+		L_165 = DtNavMeshQuery_GetEdgeIntersectionPoint_m34708E49CF97F36AD1C789EF05C796E281DED84B(__this, L_156, L_157, L_158, L_159, L_161, L_162, L_163, L_164, (&V_30), NULL);
+		G_B52_0 = L_165;
+	}
+
+IL_03bc:
+	{
+		V_31 = G_B52_0;
+		V_32 = (0.0f);
+		V_33 = (0.0f);
+		V_34 = (bool)0;
+		V_35 = (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)NULL;
+		bool L_166 = V_14;
+		V_40 = L_166;
+		bool L_167 = V_40;
+		if (!L_167)
+		{
+			goto IL_0445;
+		}
+	}
+	{
+		int64_t L_168 = V_9;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_169 = V_13;
+		NullCheck(L_169);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_170 = L_169->___pos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_171 = V_30;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_172 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RuntimeObject* L_173 = L_172->___filter;
+		int64_t L_174 = V_10;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_175;
+		L_175 = DtNavMeshQuery_Raycast_m6C9F06842972111B5822278399DE9A58A8FA6DB1(__this, L_168, L_170, L_171, L_173, 1, L_174, (&V_41), NULL);
+		V_6 = L_175;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_176;
+		L_176 = DtStatus_Succeeded_mCF8E76C4EE7CD0DBF56B06210B09AE9D2E899D0C_inline((&V_6), NULL);
+		V_42 = L_176;
+		bool L_177 = V_42;
+		if (!L_177)
+		{
+			goto IL_0444;
+		}
+	}
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_178 = V_41;
+		NullCheck(L_178);
+		float L_179 = L_178->___t;
+		V_34 = (bool)((((int32_t)((!(((float)L_179) >= ((float)(1.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_180 = V_34;
+		V_43 = L_180;
+		bool L_181 = V_43;
+		if (!L_181)
+		{
+			goto IL_0443;
+		}
+	}
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_182 = V_41;
+		NullCheck(L_182);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_183 = L_182->___path;
+		V_35 = L_183;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_184 = V_13;
+		NullCheck(L_184);
+		float L_185 = L_184->___cost;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_186 = V_41;
+		NullCheck(L_186);
+		float L_187 = L_186->___pathCost;
+		V_32 = ((float)il2cpp_codegen_add(L_185, L_187));
+	}
+
+IL_0443:
+	{
+	}
+
+IL_0444:
+	{
+	}
+
+IL_0445:
+	{
+		bool L_188 = V_34;
+		V_44 = (bool)((((int32_t)L_188) == ((int32_t)0))? 1 : 0);
+		bool L_189 = V_44;
+		if (!L_189)
+		{
+			goto IL_048b;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_190 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RuntimeObject* L_191 = L_190->___filter;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_192 = V_4;
+		NullCheck(L_192);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_193 = L_192->___pos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_194 = V_30;
+		int64_t L_195 = V_9;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_196 = V_11;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_197 = V_12;
+		int64_t L_198 = V_5;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_199 = V_7;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_200 = V_8;
+		int64_t L_201 = V_26;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_202 = V_27;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_203 = V_28;
+		NullCheck(L_191);
+		float L_204;
+		L_204 = InterfaceFuncInvoker11< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(1, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_191, L_193, L_194, L_195, L_196, L_197, L_198, L_199, L_200, L_201, L_202, L_203);
+		V_45 = L_204;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_205 = V_4;
+		NullCheck(L_205);
+		float L_206 = L_205->___cost;
+		float L_207 = V_45;
+		V_32 = ((float)il2cpp_codegen_add(L_206, L_207));
+	}
+
+IL_048b:
+	{
+		int64_t L_208 = V_26;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_209 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_210 = L_209->___endRef;
+		V_46 = (bool)((((int64_t)L_208) == ((int64_t)L_210))? 1 : 0);
+		bool L_211 = V_46;
+		if (!L_211)
+		{
+			goto IL_04e1;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_212 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RuntimeObject* L_213 = L_212->___filter;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_214 = V_30;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_215 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_216 = L_215->___endPos;
+		int64_t L_217 = V_5;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_218 = V_7;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_219 = V_8;
+		int64_t L_220 = V_26;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_221 = V_27;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_222 = V_28;
+		NullCheck(L_213);
+		float L_223;
+		L_223 = InterfaceFuncInvoker11< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(1, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_213, L_214, L_216, L_217, L_218, L_219, L_220, L_221, L_222, ((int64_t)0), (DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*)NULL, (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)NULL);
+		V_47 = L_223;
+		float L_224 = V_32;
+		float L_225 = V_47;
+		V_32 = ((float)il2cpp_codegen_add(L_224, L_225));
+		V_33 = (0.0f);
+		goto IL_0502;
+	}
+
+IL_04e1:
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_226 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RuntimeObject* L_227 = L_226->___heuristic;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_228 = V_30;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_229 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_230 = L_229->___endPos;
+		NullCheck(L_227);
+		float L_231;
+		L_231 = InterfaceFuncInvoker2< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 >::Invoke(0, IQueryHeuristic_t95046F6CA9DE6BFE7C34CE1ABE3EB31043A4007C_il2cpp_TypeInfo_var, L_227, L_228, L_230);
+		V_33 = L_231;
+	}
+
+IL_0502:
+	{
+		float L_232 = V_32;
+		float L_233 = V_33;
+		V_36 = ((float)il2cpp_codegen_add(L_232, L_233));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_234 = V_29;
+		NullCheck(L_234);
+		int32_t L_235 = L_234->___flags;
+		if (!((int32_t)(L_235&1)))
+		{
+			goto IL_0524;
+		}
+	}
+	{
+		float L_236 = V_36;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_237 = V_29;
+		NullCheck(L_237);
+		float L_238 = L_237->___total;
+		G_B66_0 = ((((int32_t)((!(((float)L_236) >= ((float)L_238)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0525;
+	}
+
+IL_0524:
+	{
+		G_B66_0 = 0;
+	}
+
+IL_0525:
+	{
+		V_48 = (bool)G_B66_0;
+		bool L_239 = V_48;
+		if (!L_239)
+		{
+			goto IL_0531;
+		}
+	}
+	{
+		goto IL_062d;
+	}
+
+IL_0531:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_240 = V_29;
+		NullCheck(L_240);
+		int32_t L_241 = L_240->___flags;
+		if (!((int32_t)(L_241&2)))
+		{
+			goto IL_054c;
+		}
+	}
+	{
+		float L_242 = V_36;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_243 = V_29;
+		NullCheck(L_243);
+		float L_244 = L_243->___total;
+		G_B71_0 = ((((int32_t)((!(((float)L_242) >= ((float)L_244)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_054d;
+	}
+
+IL_054c:
+	{
+		G_B71_0 = 0;
+	}
+
+IL_054d:
+	{
+		V_49 = (bool)G_B71_0;
+		bool L_245 = V_49;
+		if (!L_245)
+		{
+			goto IL_0559;
+		}
+	}
+	{
+		goto IL_062d;
+	}
+
+IL_0559:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_246 = V_29;
+		bool L_247 = V_34;
+		if (L_247)
+		{
+			G_B75_0 = L_246;
+			goto IL_056e;
+		}
+		G_B74_0 = L_246;
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_248 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_249 = V_4;
+		NullCheck(L_248);
+		int32_t L_250;
+		L_250 = DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07(L_248, L_249, NULL);
+		G_B76_0 = L_250;
+		G_B76_1 = G_B74_0;
+		goto IL_0575;
+	}
+
+IL_056e:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_251 = V_4;
+		NullCheck(L_251);
+		int32_t L_252 = L_251->___pidx;
+		G_B76_0 = L_252;
+		G_B76_1 = G_B75_0;
+	}
+
+IL_0575:
+	{
+		NullCheck(G_B76_1);
+		G_B76_1->___pidx = G_B76_0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_253 = V_29;
+		int64_t L_254 = V_26;
+		NullCheck(L_253);
+		L_253->___id = L_254;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_255 = V_29;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_256 = V_29;
+		NullCheck(L_256);
+		int32_t L_257 = L_256->___flags;
+		NullCheck(L_255);
+		L_255->___flags = ((int32_t)(L_257&((int32_t)-3)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_258 = V_29;
+		float L_259 = V_32;
+		NullCheck(L_258);
+		L_258->___cost = L_259;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_260 = V_29;
+		float L_261 = V_36;
+		NullCheck(L_260);
+		L_260->___total = L_261;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_262 = V_29;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_263 = V_30;
+		NullCheck(L_262);
+		L_262->___pos = L_263;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_264 = V_29;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_265 = V_35;
+		NullCheck(L_264);
+		L_264->___shortcut = L_265;
+		Il2CppCodeGenWriteBarrier((void**)(&L_264->___shortcut), (void*)L_265);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_266 = V_29;
+		NullCheck(L_266);
+		int32_t L_267 = L_266->___flags;
+		V_50 = (bool)((!(((uint32_t)((int32_t)(L_267&1))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_268 = V_50;
+		if (!L_268)
+		{
+			goto IL_05dc;
+		}
+	}
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_269 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_270 = V_29;
+		NullCheck(L_269);
+		DtNodeQueue_Modify_m9528E2A6C335DEADAB9B5DF835691EACBEF3E308(L_269, L_270, NULL);
+		goto IL_05fb;
+	}
+
+IL_05dc:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_271 = V_29;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_272 = L_271;
+		NullCheck(L_272);
+		int32_t L_273 = L_272->___flags;
+		NullCheck(L_272);
+		L_272->___flags = ((int32_t)(L_273|1));
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_274 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_275 = V_29;
+		NullCheck(L_274);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_274, L_275, NULL);
+	}
+
+IL_05fb:
+	{
+		float L_276 = V_33;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_277 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		float L_278 = L_277->___lastBestNodeCost;
+		V_51 = (bool)((((float)L_276) < ((float)L_278))? 1 : 0);
+		bool L_279 = V_51;
+		if (!L_279)
+		{
+			goto IL_062c;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_280 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		float L_281 = V_33;
+		L_280->___lastBestNodeCost = L_281;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_282 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_283 = V_29;
+		L_282->___lastBestNode = L_283;
+		Il2CppCodeGenWriteBarrier((void**)(&L_282->___lastBestNode), (void*)L_283);
+	}
+
+IL_062c:
+	{
+	}
+
+IL_062d:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_284 = V_7;
+		NullCheck(L_284);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_285 = L_284->___links;
+		int32_t L_286 = V_25;
+		NullCheck(L_285);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_287;
+		L_287 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_285, L_286, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_287);
+		int32_t L_288 = L_287->___next;
+		V_25 = L_288;
+	}
+
+IL_0642:
+	{
+		int32_t L_289 = V_25;
+		V_52 = (bool)((((int32_t)((((int32_t)L_289) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_290 = V_52;
+		if (L_290)
+		{
+			goto IL_02ca;
+		}
+	}
+	{
+	}
+
+IL_0654:
+	{
+		int32_t L_291 = V_0;
+		int32_t L_292 = ___0_maxIter;
+		if ((((int32_t)L_291) >= ((int32_t)L_292)))
+		{
+			goto IL_0668;
+		}
+	}
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_293 = __this->___m_openList;
+		NullCheck(L_293);
+		bool L_294;
+		L_294 = DtNodeQueue_IsEmpty_m6FA5A282449EA550AB66A5852500B70CBBC4F99E(L_293, NULL);
+		G_B88_0 = ((((int32_t)L_294) == ((int32_t)0))? 1 : 0);
+		goto IL_0669;
+	}
+
+IL_0668:
+	{
+		G_B88_0 = 0;
+	}
+
+IL_0669:
+	{
+		V_53 = (bool)G_B88_0;
+		bool L_295 = V_53;
+		if (L_295)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_296 = __this->___m_openList;
+		NullCheck(L_296);
+		bool L_297;
+		L_297 = DtNodeQueue_IsEmpty_m6FA5A282449EA550AB66A5852500B70CBBC4F99E(L_296, NULL);
+		V_54 = L_297;
+		bool L_298 = V_54;
+		if (!L_298)
+		{
+			goto IL_06b3;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_299 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_300 = L_299->___status;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_301 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_STATUS_DETAIL_MASK;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_302;
+		L_302 = DtStatus_op_BitwiseAnd_m6E15D2E12EE1D096BE1189835099EE3D3815159A_inline(L_300, L_301, NULL);
+		V_55 = L_302;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_303 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_304 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_305 = V_55;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_306;
+		L_306 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_304, L_305, NULL);
+		L_303->___status = L_306;
+	}
+
+IL_06b3:
+	{
+		int32_t* L_307 = ___1_doneIters;
+		int32_t L_308 = V_0;
+		*((int32_t*)L_307) = (int32_t)L_308;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_309 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_310 = L_309->___status;
+		V_2 = L_310;
+		goto IL_06c4;
+	}
+
+IL_06c4:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_311 = V_2;
+		return L_311;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FinalizeSlicedFindPath_mC22203A5877DB001BDDDAA74FB6EF269CB4C5B6C (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___0_path, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_0 = ___0_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_1 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_0);
+		V_1 = (bool)((((RuntimeObject*)(List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_3 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_4 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_5;
+		L_5 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_3, L_4, NULL);
+		V_2 = L_5;
+		goto IL_0115;
+	}
+
+IL_001f:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_6 = ___0_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_7 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_6);
+		NullCheck(L_7);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_7, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_8 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* L_9 = (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49*)(&L_8->___status);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline(L_9, NULL);
+		V_3 = L_10;
+		bool L_11 = V_3;
+		if (!L_11)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_12 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_initobj(L_12, sizeof(DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D));
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_13 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		V_2 = L_13;
+		goto IL_0115;
+	}
+
+IL_0053:
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_14 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_15 = L_14->___startRef;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_16 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_17 = L_16->___endRef;
+		V_4 = (bool)((((int64_t)L_15) == ((int64_t)L_17))? 1 : 0);
+		bool L_18 = V_4;
+		if (!L_18)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_19 = ___0_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_20 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_19);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_21 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_22 = L_21->___startRef;
+		NullCheck(L_20);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_20, L_22, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		goto IL_00e5;
+	}
+
+IL_0088:
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_23 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_24 = L_23->___lastBestNode;
+		NullCheck(L_24);
+		int64_t L_25 = L_24->___id;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_26 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_27 = L_26->___endRef;
+		V_5 = (bool)((((int32_t)((((int64_t)L_25) == ((int64_t)L_27))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_28 = V_5;
+		if (!L_28)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_29 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* L_30 = (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49*)(&L_29->___status);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* L_31 = L_30;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_32 = (*(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49*)L_31);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_33 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_PARTIAL_RESULT;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_34;
+		L_34 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_32, L_33, NULL);
+		*(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49*)L_31 = L_34;
+	}
+
+IL_00d1:
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_35 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_36 = L_35->___lastBestNode;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_37 = ___0_path;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_38;
+		L_38 = DtNavMeshQuery_GetPathToNode_m3340B0041D42D4CE8F83EB367601F5C9DED38300(__this, L_36, L_37, NULL);
+	}
+
+IL_00e5:
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_39 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_40 = L_39->___status;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_41 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_STATUS_DETAIL_MASK;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_42;
+		L_42 = DtStatus_op_BitwiseAnd_m6E15D2E12EE1D096BE1189835099EE3D3815159A_inline(L_40, L_41, NULL);
+		V_0 = L_42;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_43 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_initobj(L_43, sizeof(DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D));
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_44 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_45 = V_0;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_46;
+		L_46 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_44, L_45, NULL);
+		V_2 = L_46;
+		goto IL_0115;
+	}
+
+IL_0115:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_47 = V_2;
+		return L_47;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FinalizeSlicedFindPathPartial_m686D1C1FDD3EA8BEB67DCE6ADC9B57B4230BA4A8 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___0_existing, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___1_path, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_6 = NULL;
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	int32_t G_B5_0 = 0;
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_0 = ___1_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_1 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_0);
+		V_1 = (bool)((((RuntimeObject*)(List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_3 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_4 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_5;
+		L_5 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_3, L_4, NULL);
+		V_2 = L_5;
+		goto IL_0177;
+	}
+
+IL_001f:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_6 = ___1_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_7 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_6);
+		NullCheck(L_7);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_7, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_8 = ___0_existing;
+		if (!L_8)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_9 = ___0_existing;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_9, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		G_B5_0 = ((((int32_t)((((int32_t)L_10) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0039;
+	}
+
+IL_0038:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_0039:
+	{
+		V_3 = (bool)G_B5_0;
+		bool L_11 = V_3;
+		if (!L_11)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_12 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_13 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_14;
+		L_14 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_12, L_13, NULL);
+		V_2 = L_14;
+		goto IL_0177;
+	}
+
+IL_0053:
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_15 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* L_16 = (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49*)(&L_15->___status);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_17;
+		L_17 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline(L_16, NULL);
+		V_4 = L_17;
+		bool L_18 = V_4;
+		if (!L_18)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_19 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_initobj(L_19, sizeof(DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D));
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_20 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		V_2 = L_20;
+		goto IL_0177;
+	}
+
+IL_0081:
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_21 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_22 = L_21->___startRef;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_23 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_24 = L_23->___endRef;
+		V_5 = (bool)((((int64_t)L_22) == ((int64_t)L_24))? 1 : 0);
+		bool L_25 = V_5;
+		if (!L_25)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_26 = ___1_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_27 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_26);
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_28 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		int64_t L_29 = L_28->___startRef;
+		NullCheck(L_27);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_27, L_29, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		goto IL_0147;
+	}
+
+IL_00b9:
+	{
+		V_6 = (DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)NULL;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_30 = ___0_existing;
+		NullCheck(L_30);
+		int32_t L_31;
+		L_31 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_30, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		V_7 = ((int32_t)il2cpp_codegen_subtract(L_31, 1));
+		goto IL_00f4;
+	}
+
+IL_00c9:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_32 = __this->___m_nodePool;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_33 = ___0_existing;
+		int32_t L_34 = V_7;
+		NullCheck(L_33);
+		int64_t L_35;
+		L_35 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_33, L_34, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		NullCheck(L_32);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_36;
+		L_36 = DtNodePool_FindNode_mF8152D1483A4B9AFF73BDDB57E69ADB2F37FF64C(L_32, L_35, NULL);
+		V_6 = L_36;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_37 = V_6;
+		V_8 = (bool)((!(((RuntimeObject*)(DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)L_37) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_38 = V_8;
+		if (!L_38)
+		{
+			goto IL_00ed;
+		}
+	}
+	{
+		goto IL_0102;
+	}
+
+IL_00ed:
+	{
+		int32_t L_39 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_subtract(L_39, 1));
+	}
+
+IL_00f4:
+	{
+		int32_t L_40 = V_7;
+		V_9 = (bool)((((int32_t)((((int32_t)L_40) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_41 = V_9;
+		if (L_41)
+		{
+			goto IL_00c9;
+		}
+	}
+
+IL_0102:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_42 = V_6;
+		V_10 = (bool)((((RuntimeObject*)(DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)L_42) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_43 = V_10;
+		if (!L_43)
+		{
+			goto IL_013c;
+		}
+	}
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_44 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* L_45 = (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49*)(&L_44->___status);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* L_46 = L_45;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_47 = (*(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49*)L_46);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_48 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_PARTIAL_RESULT;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_49;
+		L_49 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_47, L_48, NULL);
+		*(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49*)L_46 = L_49;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_50 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_51 = L_50->___lastBestNode;
+		V_6 = L_51;
+	}
+
+IL_013c:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_52 = V_6;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_53 = ___1_path;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_54;
+		L_54 = DtNavMeshQuery_GetPathToNode_m3340B0041D42D4CE8F83EB367601F5C9DED38300(__this, L_52, L_53, NULL);
+	}
+
+IL_0147:
+	{
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_55 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_56 = L_55->___status;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_57 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_STATUS_DETAIL_MASK;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_58;
+		L_58 = DtStatus_op_BitwiseAnd_m6E15D2E12EE1D096BE1189835099EE3D3815159A_inline(L_56, L_57, NULL);
+		V_0 = L_58;
+		DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D* L_59 = (DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D*)(&__this->___m_query);
+		il2cpp_codegen_initobj(L_59, sizeof(DtQueryData_tF8F80F94763B3E5DE96AD01096A960DA740ADF5D));
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_60 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_61 = V_0;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_62;
+		L_62 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_60, L_61, NULL);
+		V_2 = L_62;
+		goto IL_0177;
+	}
+
+IL_0177:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_63 = V_2;
+		return L_63;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_AppendVertex_mCEDF7D53618ABFCA7BE18F364DF26F6635EF3A57 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_pos, int32_t ___1_flags, int64_t ___2_refs, List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** ___3_straightPath, int32_t ___4_maxStraightPath, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m5FE8C52EA660FBFE92FB3442EBC5B6E109A904D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Item_mE9EB4FBECBC288BEC2FEBFA0A1DDD70CE4F20026_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t G_B3_0 = 0;
+	int32_t G_B10_0 = 0;
+	{
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_0 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_1 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_0);
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline(L_1, List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_3 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_4 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_3);
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_5 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_6 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_5);
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline(L_6, List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		NullCheck(L_4);
+		StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE L_8;
+		L_8 = List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5(L_4, ((int32_t)il2cpp_codegen_subtract(L_7, 1)), List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5_RuntimeMethod_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_9 = L_8.___pos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = ___0_pos;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = DtUtils_VEqual_m98522C380BAAB27E9882C500E61001F3CD1350E4(L_9, L_10, NULL);
+		G_B3_0 = ((int32_t)(L_11));
+		goto IL_002c;
+	}
+
+IL_002b:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_002c:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_12 = V_0;
+		if (!L_12)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_13 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_14 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_13);
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_15 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_16 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_15);
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline(L_16, List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_18 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_19 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_18);
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_20 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_21 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_20);
+		NullCheck(L_21);
+		int32_t L_22;
+		L_22 = List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline(L_21, List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		NullCheck(L_19);
+		StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE L_23;
+		L_23 = List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5(L_19, ((int32_t)il2cpp_codegen_subtract(L_22, 1)), List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5_RuntimeMethod_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_24 = L_23.___pos;
+		int32_t L_25 = ___1_flags;
+		int64_t L_26 = ___2_refs;
+		StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		StraightPathItem__ctor_mFA90DE3B777790B8CF43C0C9689FFE292B48A242((&L_27), L_24, L_25, L_26, NULL);
+		NullCheck(L_14);
+		List_1_set_Item_mE9EB4FBECBC288BEC2FEBFA0A1DDD70CE4F20026(L_14, ((int32_t)il2cpp_codegen_subtract(L_17, 1)), L_27, List_1_set_Item_mE9EB4FBECBC288BEC2FEBFA0A1DDD70CE4F20026_RuntimeMethod_var);
+		goto IL_00ad;
+	}
+
+IL_0065:
+	{
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_28 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_29 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_28);
+		NullCheck(L_29);
+		int32_t L_30;
+		L_30 = List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline(L_29, List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		int32_t L_31 = ___4_maxStraightPath;
+		V_1 = (bool)((((int32_t)L_30) < ((int32_t)L_31))? 1 : 0);
+		bool L_32 = V_1;
+		if (!L_32)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_33 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_34 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_33);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_35 = ___0_pos;
+		int32_t L_36 = ___1_flags;
+		int64_t L_37 = ___2_refs;
+		StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE L_38;
+		memset((&L_38), 0, sizeof(L_38));
+		StraightPathItem__ctor_mFA90DE3B777790B8CF43C0C9689FFE292B48A242((&L_38), L_35, L_36, L_37, NULL);
+		NullCheck(L_34);
+		List_1_Add_m5FE8C52EA660FBFE92FB3442EBC5B6E109A904D0_inline(L_34, L_38, List_1_Add_m5FE8C52EA660FBFE92FB3442EBC5B6E109A904D0_RuntimeMethod_var);
+	}
+
+IL_0089:
+	{
+		int32_t L_39 = ___1_flags;
+		if ((((int32_t)L_39) == ((int32_t)2)))
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_40 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_41 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_40);
+		NullCheck(L_41);
+		int32_t L_42;
+		L_42 = List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline(L_41, List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		int32_t L_43 = ___4_maxStraightPath;
+		G_B10_0 = ((((int32_t)((((int32_t)L_42) < ((int32_t)L_43))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_009f;
+	}
+
+IL_009e:
+	{
+		G_B10_0 = 1;
+	}
+
+IL_009f:
+	{
+		V_2 = (bool)G_B10_0;
+		bool L_44 = V_2;
+		if (!L_44)
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_45 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_3 = L_45;
+		goto IL_00b5;
+	}
+
+IL_00ac:
+	{
+	}
+
+IL_00ad:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_46 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_IN_PROGRESS;
+		V_3 = L_46;
+		goto IL_00b5;
+	}
+
+IL_00b5:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_47 = V_3;
+		return L_47;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_AppendPortals_mD3E89C8FD90EEDB850637DDC0AA53A1B088F3FFF (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int32_t ___0_startIdx, int32_t ___1_endIdx, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_endPos, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___3_path, List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** ___4_straightPath, int32_t ___5_maxStraightPath, int32_t ___6_options, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int64_t V_3 = 0;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_5 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_6 = NULL;
+	int64_t V_7 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_8 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_9 = NULL;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	float V_13 = 0.0f;
+	bool V_14 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	float V_21 = 0.0f;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_22;
+	memset((&V_22), 0, sizeof(V_22));
+	bool V_23 = false;
+	bool V_24 = false;
+	{
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_0 = ___4_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_1 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_0);
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_2 = ___4_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_3 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_2);
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline(L_3, List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		NullCheck(L_1);
+		StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE L_5;
+		L_5 = List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5(L_1, ((int32_t)il2cpp_codegen_subtract(L_4, 1)), List_1_get_Item_mD980F6F2E4A0C933698390E2FC6E43364CDD82A5_RuntimeMethod_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_6 = L_5.___pos;
+		V_0 = L_6;
+		int32_t L_7 = ___0_startIdx;
+		V_2 = L_7;
+		goto IL_0138;
+	}
+
+IL_0020:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_8 = ___3_path;
+		int32_t L_9 = V_2;
+		NullCheck(L_8);
+		int64_t L_10;
+		L_10 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_8, L_9, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		V_3 = L_10;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_11 = __this->___m_nav;
+		int64_t L_12 = V_3;
+		NullCheck(L_11);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_13;
+		L_13 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_11, L_12, (&V_5), (&V_6), NULL);
+		V_4 = L_13;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_4), NULL);
+		V_14 = L_14;
+		bool L_15 = V_14;
+		if (!L_15)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_16 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		V_15 = L_16;
+		goto IL_014e;
+	}
+
+IL_0056:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_17 = ___3_path;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		int64_t L_19;
+		L_19 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_17, ((int32_t)il2cpp_codegen_add(L_18, 1)), List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		V_7 = L_19;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_20 = __this->___m_nav;
+		int64_t L_21 = V_7;
+		NullCheck(L_20);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_22;
+		L_22 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_20, L_21, (&V_8), (&V_9), NULL);
+		V_4 = L_22;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_23;
+		L_23 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_4), NULL);
+		V_16 = L_23;
+		bool L_24 = V_16;
+		if (!L_24)
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_25 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		V_15 = L_25;
+		goto IL_014e;
+	}
+
+IL_008f:
+	{
+		int64_t L_26 = V_3;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_27 = V_6;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_28 = V_5;
+		int64_t L_29 = V_7;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_30 = V_9;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_31 = V_8;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_32;
+		L_32 = DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D(__this, L_26, L_27, L_28, L_29, L_30, L_31, (&V_11), (&V_12), NULL);
+		V_10 = L_32;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_33;
+		L_33 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_10), NULL);
+		V_17 = L_33;
+		bool L_34 = V_17;
+		if (!L_34)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		goto IL_0145;
+	}
+
+IL_00b9:
+	{
+		int32_t L_35 = ___6_options;
+		V_18 = (bool)((!(((uint32_t)((int32_t)(L_35&1))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_36 = V_18;
+		if (!L_36)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_37 = V_6;
+		NullCheck(L_37);
+		int32_t L_38;
+		L_38 = DtPoly_GetArea_m23C9196C4675E64E9247ACA4B8342A91F679BA93(L_37, NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_39 = V_9;
+		NullCheck(L_39);
+		int32_t L_40;
+		L_40 = DtPoly_GetArea_m23C9196C4675E64E9247ACA4B8342A91F679BA93(L_39, NULL);
+		V_19 = (bool)((((int32_t)L_38) == ((int32_t)L_40))? 1 : 0);
+		bool L_41 = V_19;
+		if (!L_41)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		goto IL_0134;
+	}
+
+IL_00e0:
+	{
+	}
+
+IL_00e1:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_42 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_43 = ___2_endPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_44 = V_11;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_45 = V_12;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_46;
+		L_46 = DtUtils_IntersectSegSeg2D_m3796779E2988BEEB7295D0165C683E8BE796ED32(L_42, L_43, L_44, L_45, (&V_21), (&V_13), NULL);
+		V_20 = L_46;
+		bool L_47 = V_20;
+		if (!L_47)
+		{
+			goto IL_0133;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_48 = V_11;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_49 = V_12;
+		float L_50 = V_13;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_51;
+		L_51 = RcVec3f_Lerp_m070D7E7D50CF96AB1F9C0DCDE50F9456B499C91A_inline(L_48, L_49, L_50, NULL);
+		V_22 = L_51;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_52 = V_22;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_53 = ___3_path;
+		int32_t L_54 = V_2;
+		NullCheck(L_53);
+		int64_t L_55;
+		L_55 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_53, ((int32_t)il2cpp_codegen_add(L_54, 1)), List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_56 = ___4_straightPath;
+		int32_t L_57 = ___5_maxStraightPath;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_58;
+		L_58 = DtNavMeshQuery_AppendVertex_mCEDF7D53618ABFCA7BE18F364DF26F6635EF3A57(__this, L_52, 0, L_55, L_56, L_57, NULL);
+		V_1 = L_58;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_59;
+		L_59 = DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline((&V_1), NULL);
+		V_23 = (bool)((((int32_t)L_59) == ((int32_t)0))? 1 : 0);
+		bool L_60 = V_23;
+		if (!L_60)
+		{
+			goto IL_0132;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_61 = V_1;
+		V_15 = L_61;
+		goto IL_014e;
+	}
+
+IL_0132:
+	{
+	}
+
+IL_0133:
+	{
+	}
+
+IL_0134:
+	{
+		int32_t L_62 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_62, 1));
+	}
+
+IL_0138:
+	{
+		int32_t L_63 = V_2;
+		int32_t L_64 = ___1_endIdx;
+		V_24 = (bool)((((int32_t)L_63) < ((int32_t)L_64))? 1 : 0);
+		bool L_65 = V_24;
+		if (L_65)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0145:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_66 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_IN_PROGRESS;
+		V_15 = L_66;
+		goto IL_014e;
+	}
+
+IL_014e:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_67 = V_15;
+		return L_67;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindStraightPath_m1198255E0004CB0C5BDFB94956C74BD6351CDC22 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_startPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_endPos, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* ___2_path, List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** ___3_straightPath, int32_t ___4_maxStraightPath, int32_t ___5_options, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m967D78079FECCFF6C8F55513E76D9F5B2D473588_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	bool V_5 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int64_t V_19 = 0;
+	int64_t V_20 = 0;
+	int32_t V_21 = 0;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_22;
+	memset((&V_22), 0, sizeof(V_22));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_23;
+	memset((&V_23), 0, sizeof(V_23));
+	int32_t V_24 = 0;
+	bool V_25 = false;
+	int32_t V_26 = 0;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_27;
+	memset((&V_27), 0, sizeof(V_27));
+	bool V_28 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_29;
+	memset((&V_29), 0, sizeof(V_29));
+	bool V_30 = false;
+	bool V_31 = false;
+	bool V_32 = false;
+	float V_33 = 0.0f;
+	float V_34 = 0.0f;
+	bool V_35 = false;
+	bool V_36 = false;
+	bool V_37 = false;
+	int32_t V_38 = 0;
+	int64_t V_39 = 0;
+	bool V_40 = false;
+	bool V_41 = false;
+	bool V_42 = false;
+	bool V_43 = false;
+	bool V_44 = false;
+	bool V_45 = false;
+	bool V_46 = false;
+	int32_t V_47 = 0;
+	int64_t V_48 = 0;
+	bool V_49 = false;
+	bool V_50 = false;
+	bool V_51 = false;
+	bool V_52 = false;
+	bool V_53 = false;
+	bool V_54 = false;
+	bool V_55 = false;
+	bool V_56 = false;
+	int32_t G_B8_0 = 0;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B26_0;
+	memset((&G_B26_0), 0, sizeof(G_B26_0));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B25_0;
+	memset((&G_B25_0), 0, sizeof(G_B25_0));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B27_0;
+	memset((&G_B27_0), 0, sizeof(G_B27_0));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B27_1;
+	memset((&G_B27_1), 0, sizeof(G_B27_1));
+	int32_t G_B38_0 = 0;
+	int64_t G_B42_0 = 0;
+	int32_t G_B59_0 = 0;
+	int64_t G_B63_0 = 0;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B86_0;
+	memset((&G_B86_0), 0, sizeof(G_B86_0));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B85_0;
+	memset((&G_B85_0), 0, sizeof(G_B85_0));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B87_0;
+	memset((&G_B87_0), 0, sizeof(G_B87_0));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 G_B87_1;
+	memset((&G_B87_1), 0, sizeof(G_B87_1));
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___0_startPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___1_endPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_4 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_5 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_4);
+		if (!L_5)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_6 = ___2_path;
+		if (!L_6)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_7 = ___2_path;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_7, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		if (!L_8)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_9 = ___2_path;
+		NullCheck(L_9);
+		int64_t L_10;
+		L_10 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_9, 0, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		if (!L_10)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_11 = ___4_maxStraightPath;
+		G_B8_0 = ((((int32_t)((((int32_t)L_11) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0035;
+	}
+
+IL_0034:
+	{
+		G_B8_0 = 1;
+	}
+
+IL_0035:
+	{
+		V_5 = (bool)G_B8_0;
+		bool L_12 = V_5;
+		if (!L_12)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_13 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_14 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_15;
+		L_15 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_13, L_14, NULL);
+		V_6 = L_15;
+		goto IL_0554;
+	}
+
+IL_0052:
+	{
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_16 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_17 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_16);
+		NullCheck(L_17);
+		List_1_Clear_m967D78079FECCFF6C8F55513E76D9F5B2D473588_inline(L_17, List_1_Clear_m967D78079FECCFF6C8F55513E76D9F5B2D473588_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_18 = ___2_path;
+		NullCheck(L_18);
+		int64_t L_19;
+		L_19 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_18, 0, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_20 = ___0_startPos;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_21;
+		L_21 = DtNavMeshQuery_ClosestPointOnPolyBoundary_m20919D28E35692760FD1A11D6C15958F6334D1A3(__this, L_19, L_20, (&V_1), NULL);
+		V_0 = L_21;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_0), NULL);
+		V_7 = L_22;
+		bool L_23 = V_7;
+		if (!L_23)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_24 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_25 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_26;
+		L_26 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_24, L_25, NULL);
+		V_6 = L_26;
+		goto IL_0554;
+	}
+
+IL_0090:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_27 = ___2_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_28 = ___2_path;
+		NullCheck(L_28);
+		int32_t L_29;
+		L_29 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_28, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		NullCheck(L_27);
+		int64_t L_30;
+		L_30 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_27, ((int32_t)il2cpp_codegen_subtract(L_29, 1)), List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_31 = ___1_endPos;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_32;
+		L_32 = DtNavMeshQuery_ClosestPointOnPolyBoundary_m20919D28E35692760FD1A11D6C15958F6334D1A3(__this, L_30, L_31, (&V_3), NULL);
+		V_2 = L_32;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_33;
+		L_33 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_2), NULL);
+		V_8 = L_33;
+		bool L_34 = V_8;
+		if (!L_34)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_35 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_36 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_37;
+		L_37 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_35, L_36, NULL);
+		V_6 = L_37;
+		goto IL_0554;
+	}
+
+IL_00cc:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_38 = V_1;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_39 = ___2_path;
+		NullCheck(L_39);
+		int64_t L_40;
+		L_40 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_39, 0, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_41 = ___3_straightPath;
+		int32_t L_42 = ___4_maxStraightPath;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_43;
+		L_43 = DtNavMeshQuery_AppendVertex_mCEDF7D53618ABFCA7BE18F364DF26F6635EF3A57(__this, L_38, 1, L_40, L_41, L_42, NULL);
+		V_4 = L_43;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_44;
+		L_44 = DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline((&V_4), NULL);
+		V_9 = (bool)((((int32_t)L_44) == ((int32_t)0))? 1 : 0);
+		bool L_45 = V_9;
+		if (!L_45)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_46 = V_4;
+		V_6 = L_46;
+		goto IL_0554;
+	}
+
+IL_00fb:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_47 = ___2_path;
+		NullCheck(L_47);
+		int32_t L_48;
+		L_48 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_47, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		V_10 = (bool)((((int32_t)L_48) > ((int32_t)1))? 1 : 0);
+		bool L_49 = V_10;
+		if (!L_49)
+		{
+			goto IL_051f;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_50 = V_1;
+		V_11 = L_50;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_51 = V_11;
+		V_12 = L_51;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_52 = V_11;
+		V_13 = L_52;
+		V_14 = 0;
+		V_15 = 0;
+		V_16 = 0;
+		V_17 = 0;
+		V_18 = 0;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_53 = ___2_path;
+		NullCheck(L_53);
+		int64_t L_54;
+		L_54 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_53, 0, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		V_19 = L_54;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_55 = ___2_path;
+		NullCheck(L_55);
+		int64_t L_56;
+		L_56 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_55, 0, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		V_20 = L_56;
+		V_21 = 0;
+		goto IL_04cb;
+	}
+
+IL_0142:
+	{
+		int32_t L_57 = V_21;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_58 = ___2_path;
+		NullCheck(L_58);
+		int32_t L_59;
+		L_59 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_58, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		V_25 = (bool)((((int32_t)((int32_t)il2cpp_codegen_add(L_57, 1))) < ((int32_t)L_59))? 1 : 0);
+		bool L_60 = V_25;
+		if (!L_60)
+		{
+			goto IL_0266;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_61 = ___2_path;
+		int32_t L_62 = V_21;
+		NullCheck(L_61);
+		int64_t L_63;
+		L_63 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_61, L_62, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_64 = ___2_path;
+		int32_t L_65 = V_21;
+		NullCheck(L_64);
+		int64_t L_66;
+		L_66 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_64, ((int32_t)il2cpp_codegen_add(L_65, 1)), List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_67;
+		L_67 = DtNavMeshQuery_GetPortalPoints_mED6CC99E0F09571932FF6B2CD891D6FC07ACDE74(__this, L_63, L_66, (&V_22), (&V_23), (&V_26), (&V_24), NULL);
+		V_27 = L_67;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_68;
+		L_68 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_27), NULL);
+		V_28 = L_68;
+		bool L_69 = V_28;
+		if (!L_69)
+		{
+			goto IL_022d;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_70 = ___2_path;
+		int32_t L_71 = V_21;
+		NullCheck(L_70);
+		int64_t L_72;
+		L_72 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_70, L_71, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_73 = ___1_endPos;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_74;
+		L_74 = DtNavMeshQuery_ClosestPointOnPolyBoundary_m20919D28E35692760FD1A11D6C15958F6334D1A3(__this, L_72, L_73, (&V_3), NULL);
+		V_29 = L_74;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_75;
+		L_75 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_29), NULL);
+		V_30 = L_75;
+		bool L_76 = V_30;
+		if (!L_76)
+		{
+			goto IL_01c3;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_77 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_78 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_79;
+		L_79 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_77, L_78, NULL);
+		V_6 = L_79;
+		goto IL_0554;
+	}
+
+IL_01c3:
+	{
+		int32_t L_80 = ___5_options;
+		V_31 = (bool)((!(((uint32_t)((int32_t)(L_80&3))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_81 = V_31;
+		if (!L_81)
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		int32_t L_82 = V_14;
+		int32_t L_83 = V_21;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_84 = V_3;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_85 = ___2_path;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_86 = ___3_straightPath;
+		int32_t L_87 = ___4_maxStraightPath;
+		int32_t L_88 = ___5_options;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_89;
+		L_89 = DtNavMeshQuery_AppendPortals_mD3E89C8FD90EEDB850637DDC0AA53A1B088F3FFF(__this, L_82, L_83, L_84, L_85, L_86, L_87, L_88, NULL);
+	}
+
+IL_01e5:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_90 = V_3;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_91 = ___2_path;
+		int32_t L_92 = V_21;
+		NullCheck(L_91);
+		int64_t L_93;
+		L_93 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_91, L_92, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_94 = ___3_straightPath;
+		int32_t L_95 = ___4_maxStraightPath;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_96;
+		L_96 = DtNavMeshQuery_AppendVertex_mCEDF7D53618ABFCA7BE18F364DF26F6635EF3A57(__this, L_90, 0, L_93, L_94, L_95, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_97 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_98 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_99;
+		L_99 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_97, L_98, NULL);
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_100 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_101 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_100);
+		NullCheck(L_101);
+		int32_t L_102;
+		L_102 = List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline(L_101, List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		int32_t L_103 = ___4_maxStraightPath;
+		if ((((int32_t)L_102) >= ((int32_t)L_103)))
+		{
+			G_B26_0 = L_99;
+			goto IL_021c;
+		}
+		G_B25_0 = L_99;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_104 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_STATUS_NOTHING;
+		G_B27_0 = L_104;
+		G_B27_1 = G_B25_0;
+		goto IL_0221;
+	}
+
+IL_021c:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_105 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_BUFFER_TOO_SMALL;
+		G_B27_0 = L_105;
+		G_B27_1 = G_B26_0;
+	}
+
+IL_0221:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_106;
+		L_106 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(G_B27_1, G_B27_0, NULL);
+		V_6 = L_106;
+		goto IL_0554;
+	}
+
+IL_022d:
+	{
+		int32_t L_107 = V_21;
+		V_32 = (bool)((((int32_t)L_107) == ((int32_t)0))? 1 : 0);
+		bool L_108 = V_32;
+		if (!L_108)
+		{
+			goto IL_0263;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_109 = V_11;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_110 = V_22;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_111 = V_23;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_112;
+		L_112 = DtUtils_DistancePtSegSqr2D_m3B2F9369BB74F64FECCEE1D276A1819EDAF7EEB2(L_109, L_110, L_111, (&V_34), NULL);
+		V_33 = L_112;
+		float L_113 = V_33;
+		float L_114;
+		L_114 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline((0.00100000005f), NULL);
+		V_35 = (bool)((((float)L_113) < ((float)L_114))? 1 : 0);
+		bool L_115 = V_35;
+		if (!L_115)
+		{
+			goto IL_0262;
+		}
+	}
+	{
+		goto IL_04c5;
+	}
+
+IL_0262:
+	{
+	}
+
+IL_0263:
+	{
+		goto IL_0271;
+	}
+
+IL_0266:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_116 = V_3;
+		V_22 = L_116;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_117 = V_3;
+		V_23 = L_117;
+		V_24 = 0;
+	}
+
+IL_0271:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_118 = V_11;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_119 = V_13;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_120 = V_23;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_121;
+		L_121 = DtUtils_TriArea2D_m9A37D8C0CD9EC6A4BC1E8A44001CFDEE31F63242(L_118, L_119, L_120, NULL);
+		V_36 = (bool)((((int32_t)((!(((float)L_121) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_122 = V_36;
+		if (!L_122)
+		{
+			goto IL_039c;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_123 = V_11;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_124 = V_13;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_125;
+		L_125 = DtUtils_VEqual_m98522C380BAAB27E9882C500E61001F3CD1350E4(L_123, L_124, NULL);
+		if (L_125)
+		{
+			goto IL_02af;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_126 = V_11;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_127 = V_12;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_128 = V_23;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_129;
+		L_129 = DtUtils_TriArea2D_m9A37D8C0CD9EC6A4BC1E8A44001CFDEE31F63242(L_126, L_127, L_128, NULL);
+		G_B38_0 = ((((float)L_129) > ((float)(0.0f)))? 1 : 0);
+		goto IL_02b0;
+	}
+
+IL_02af:
+	{
+		G_B38_0 = 1;
+	}
+
+IL_02b0:
+	{
+		V_37 = (bool)G_B38_0;
+		bool L_130 = V_37;
+		if (!L_130)
+		{
+			goto IL_02e5;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_131 = V_23;
+		V_13 = L_131;
+		int32_t L_132 = V_21;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_133 = ___2_path;
+		NullCheck(L_133);
+		int32_t L_134;
+		L_134 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_133, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		if ((((int32_t)((int32_t)il2cpp_codegen_add(L_132, 1))) < ((int32_t)L_134)))
+		{
+			goto IL_02cb;
+		}
+	}
+	{
+		G_B42_0 = ((int64_t)0);
+		goto IL_02d5;
+	}
+
+IL_02cb:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_135 = ___2_path;
+		int32_t L_136 = V_21;
+		NullCheck(L_135);
+		int64_t L_137;
+		L_137 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_135, ((int32_t)il2cpp_codegen_add(L_136, 1)), List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		G_B42_0 = L_137;
+	}
+
+IL_02d5:
+	{
+		V_20 = G_B42_0;
+		int32_t L_138 = V_24;
+		V_18 = L_138;
+		int32_t L_139 = V_21;
+		V_16 = L_139;
+		goto IL_039b;
+	}
+
+IL_02e5:
+	{
+		int32_t L_140 = ___5_options;
+		V_40 = (bool)((!(((uint32_t)((int32_t)(L_140&3))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_141 = V_40;
+		if (!L_141)
+		{
+			goto IL_0324;
+		}
+	}
+	{
+		int32_t L_142 = V_14;
+		int32_t L_143 = V_15;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_144 = V_12;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_145 = ___2_path;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_146 = ___3_straightPath;
+		int32_t L_147 = ___4_maxStraightPath;
+		int32_t L_148 = ___5_options;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_149;
+		L_149 = DtNavMeshQuery_AppendPortals_mD3E89C8FD90EEDB850637DDC0AA53A1B088F3FFF(__this, L_142, L_143, L_144, L_145, L_146, L_147, L_148, NULL);
+		V_4 = L_149;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_150;
+		L_150 = DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline((&V_4), NULL);
+		V_41 = (bool)((((int32_t)L_150) == ((int32_t)0))? 1 : 0);
+		bool L_151 = V_41;
+		if (!L_151)
+		{
+			goto IL_0323;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_152 = V_4;
+		V_6 = L_152;
+		goto IL_0554;
+	}
+
+IL_0323:
+	{
+	}
+
+IL_0324:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_153 = V_12;
+		V_11 = L_153;
+		int32_t L_154 = V_15;
+		V_14 = L_154;
+		V_38 = 0;
+		int64_t L_155 = V_19;
+		V_42 = (bool)((((int64_t)L_155) == ((int64_t)((int64_t)0)))? 1 : 0);
+		bool L_156 = V_42;
+		if (!L_156)
+		{
+			goto IL_0342;
+		}
+	}
+	{
+		V_38 = 2;
+		goto IL_0352;
+	}
+
+IL_0342:
+	{
+		int32_t L_157 = V_17;
+		V_43 = (bool)((((int32_t)L_157) == ((int32_t)1))? 1 : 0);
+		bool L_158 = V_43;
+		if (!L_158)
+		{
+			goto IL_0352;
+		}
+	}
+	{
+		V_38 = 4;
+	}
+
+IL_0352:
+	{
+		int64_t L_159 = V_19;
+		V_39 = L_159;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_160 = V_11;
+		int32_t L_161 = V_38;
+		int64_t L_162 = V_39;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_163 = ___3_straightPath;
+		int32_t L_164 = ___4_maxStraightPath;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_165;
+		L_165 = DtNavMeshQuery_AppendVertex_mCEDF7D53618ABFCA7BE18F364DF26F6635EF3A57(__this, L_160, L_161, L_162, L_163, L_164, NULL);
+		V_4 = L_165;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_166;
+		L_166 = DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline((&V_4), NULL);
+		V_44 = (bool)((((int32_t)L_166) == ((int32_t)0))? 1 : 0);
+		bool L_167 = V_44;
+		if (!L_167)
+		{
+			goto IL_0382;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_168 = V_4;
+		V_6 = L_168;
+		goto IL_0554;
+	}
+
+IL_0382:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_169 = V_11;
+		V_12 = L_169;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_170 = V_11;
+		V_13 = L_170;
+		int32_t L_171 = V_14;
+		V_15 = L_171;
+		int32_t L_172 = V_14;
+		V_16 = L_172;
+		int32_t L_173 = V_14;
+		V_21 = L_173;
+		goto IL_04c5;
+	}
+
+IL_039b:
+	{
+	}
+
+IL_039c:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_174 = V_11;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_175 = V_12;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_176 = V_22;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_177;
+		L_177 = DtUtils_TriArea2D_m9A37D8C0CD9EC6A4BC1E8A44001CFDEE31F63242(L_174, L_175, L_176, NULL);
+		V_45 = (bool)((((int32_t)((!(((float)L_177) >= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_178 = V_45;
+		if (!L_178)
+		{
+			goto IL_04c4;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_179 = V_11;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_180 = V_12;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_181;
+		L_181 = DtUtils_VEqual_m98522C380BAAB27E9882C500E61001F3CD1350E4(L_179, L_180, NULL);
+		if (L_181)
+		{
+			goto IL_03da;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_182 = V_11;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_183 = V_13;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_184 = V_22;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_185;
+		L_185 = DtUtils_TriArea2D_m9A37D8C0CD9EC6A4BC1E8A44001CFDEE31F63242(L_182, L_183, L_184, NULL);
+		G_B59_0 = ((((float)L_185) < ((float)(0.0f)))? 1 : 0);
+		goto IL_03db;
+	}
+
+IL_03da:
+	{
+		G_B59_0 = 1;
+	}
+
+IL_03db:
+	{
+		V_46 = (bool)G_B59_0;
+		bool L_186 = V_46;
+		if (!L_186)
+		{
+			goto IL_0410;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_187 = V_22;
+		V_12 = L_187;
+		int32_t L_188 = V_21;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_189 = ___2_path;
+		NullCheck(L_189);
+		int32_t L_190;
+		L_190 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_189, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		if ((((int32_t)((int32_t)il2cpp_codegen_add(L_188, 1))) < ((int32_t)L_190)))
+		{
+			goto IL_03f6;
+		}
+	}
+	{
+		G_B63_0 = ((int64_t)0);
+		goto IL_0400;
+	}
+
+IL_03f6:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_191 = ___2_path;
+		int32_t L_192 = V_21;
+		NullCheck(L_191);
+		int64_t L_193;
+		L_193 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_191, ((int32_t)il2cpp_codegen_add(L_192, 1)), List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		G_B63_0 = L_193;
+	}
+
+IL_0400:
+	{
+		V_19 = G_B63_0;
+		int32_t L_194 = V_24;
+		V_17 = L_194;
+		int32_t L_195 = V_21;
+		V_15 = L_195;
+		goto IL_04c3;
+	}
+
+IL_0410:
+	{
+		int32_t L_196 = ___5_options;
+		V_49 = (bool)((!(((uint32_t)((int32_t)(L_196&3))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_197 = V_49;
+		if (!L_197)
+		{
+			goto IL_044f;
+		}
+	}
+	{
+		int32_t L_198 = V_14;
+		int32_t L_199 = V_16;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_200 = V_13;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_201 = ___2_path;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_202 = ___3_straightPath;
+		int32_t L_203 = ___4_maxStraightPath;
+		int32_t L_204 = ___5_options;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_205;
+		L_205 = DtNavMeshQuery_AppendPortals_mD3E89C8FD90EEDB850637DDC0AA53A1B088F3FFF(__this, L_198, L_199, L_200, L_201, L_202, L_203, L_204, NULL);
+		V_4 = L_205;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_206;
+		L_206 = DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline((&V_4), NULL);
+		V_50 = (bool)((((int32_t)L_206) == ((int32_t)0))? 1 : 0);
+		bool L_207 = V_50;
+		if (!L_207)
+		{
+			goto IL_044e;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_208 = V_4;
+		V_6 = L_208;
+		goto IL_0554;
+	}
+
+IL_044e:
+	{
+	}
+
+IL_044f:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_209 = V_13;
+		V_11 = L_209;
+		int32_t L_210 = V_16;
+		V_14 = L_210;
+		V_47 = 0;
+		int64_t L_211 = V_20;
+		V_51 = (bool)((((int64_t)L_211) == ((int64_t)((int64_t)0)))? 1 : 0);
+		bool L_212 = V_51;
+		if (!L_212)
+		{
+			goto IL_046d;
+		}
+	}
+	{
+		V_47 = 2;
+		goto IL_047d;
+	}
+
+IL_046d:
+	{
+		int32_t L_213 = V_18;
+		V_52 = (bool)((((int32_t)L_213) == ((int32_t)1))? 1 : 0);
+		bool L_214 = V_52;
+		if (!L_214)
+		{
+			goto IL_047d;
+		}
+	}
+	{
+		V_47 = 4;
+	}
+
+IL_047d:
+	{
+		int64_t L_215 = V_20;
+		V_48 = L_215;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_216 = V_11;
+		int32_t L_217 = V_47;
+		int64_t L_218 = V_48;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_219 = ___3_straightPath;
+		int32_t L_220 = ___4_maxStraightPath;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_221;
+		L_221 = DtNavMeshQuery_AppendVertex_mCEDF7D53618ABFCA7BE18F364DF26F6635EF3A57(__this, L_216, L_217, L_218, L_219, L_220, NULL);
+		V_4 = L_221;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_222;
+		L_222 = DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline((&V_4), NULL);
+		V_53 = (bool)((((int32_t)L_222) == ((int32_t)0))? 1 : 0);
+		bool L_223 = V_53;
+		if (!L_223)
+		{
+			goto IL_04ad;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_224 = V_4;
+		V_6 = L_224;
+		goto IL_0554;
+	}
+
+IL_04ad:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_225 = V_11;
+		V_12 = L_225;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_226 = V_11;
+		V_13 = L_226;
+		int32_t L_227 = V_14;
+		V_15 = L_227;
+		int32_t L_228 = V_14;
+		V_16 = L_228;
+		int32_t L_229 = V_14;
+		V_21 = L_229;
+		goto IL_04c5;
+	}
+
+IL_04c3:
+	{
+	}
+
+IL_04c4:
+	{
+	}
+
+IL_04c5:
+	{
+		int32_t L_230 = V_21;
+		V_21 = ((int32_t)il2cpp_codegen_add(L_230, 1));
+	}
+
+IL_04cb:
+	{
+		int32_t L_231 = V_21;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_232 = ___2_path;
+		NullCheck(L_232);
+		int32_t L_233;
+		L_233 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_232, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		V_54 = (bool)((((int32_t)L_231) < ((int32_t)L_233))? 1 : 0);
+		bool L_234 = V_54;
+		if (L_234)
+		{
+			goto IL_0142;
+		}
+	}
+	{
+		int32_t L_235 = ___5_options;
+		V_55 = (bool)((!(((uint32_t)((int32_t)(L_235&3))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_236 = V_55;
+		if (!L_236)
+		{
+			goto IL_051e;
+		}
+	}
+	{
+		int32_t L_237 = V_14;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_238 = ___2_path;
+		NullCheck(L_238);
+		int32_t L_239;
+		L_239 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_238, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_240 = V_3;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_241 = ___2_path;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_242 = ___3_straightPath;
+		int32_t L_243 = ___4_maxStraightPath;
+		int32_t L_244 = ___5_options;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_245;
+		L_245 = DtNavMeshQuery_AppendPortals_mD3E89C8FD90EEDB850637DDC0AA53A1B088F3FFF(__this, L_237, ((int32_t)il2cpp_codegen_subtract(L_239, 1)), L_240, L_241, L_242, L_243, L_244, NULL);
+		V_4 = L_245;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_246;
+		L_246 = DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline((&V_4), NULL);
+		V_56 = (bool)((((int32_t)L_246) == ((int32_t)0))? 1 : 0);
+		bool L_247 = V_56;
+		if (!L_247)
+		{
+			goto IL_051d;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_248 = V_4;
+		V_6 = L_248;
+		goto IL_0554;
+	}
+
+IL_051d:
+	{
+	}
+
+IL_051e:
+	{
+	}
+
+IL_051f:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_249 = V_3;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_250 = ___3_straightPath;
+		int32_t L_251 = ___4_maxStraightPath;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_252;
+		L_252 = DtNavMeshQuery_AppendVertex_mCEDF7D53618ABFCA7BE18F364DF26F6635EF3A57(__this, L_249, 2, ((int64_t)0), L_250, L_251, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_253 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD** L_254 = ___3_straightPath;
+		List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* L_255 = *((List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD**)L_254);
+		NullCheck(L_255);
+		int32_t L_256;
+		L_256 = List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_inline(L_255, List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_RuntimeMethod_var);
+		int32_t L_257 = ___4_maxStraightPath;
+		if ((((int32_t)L_256) >= ((int32_t)L_257)))
+		{
+			G_B86_0 = L_253;
+			goto IL_0546;
+		}
+		G_B85_0 = L_253;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_258 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_STATUS_NOTHING;
+		G_B87_0 = L_258;
+		G_B87_1 = G_B85_0;
+		goto IL_054b;
+	}
+
+IL_0546:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_259 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_BUFFER_TOO_SMALL;
+		G_B87_0 = L_259;
+		G_B87_1 = G_B86_0;
+	}
+
+IL_054b:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_260;
+		L_260 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(G_B87_1, G_B87_0, NULL);
+		V_6 = L_260;
+		goto IL_0554;
+	}
+
+IL_0554:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_261 = V_6;
+		return L_261;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_MoveAlongSurface_mB8953A77E0C13D49110AC456D9B4B457AB97CAAD (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_startPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_endPos, RuntimeObject* ___3_filter, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___4_resultPos, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___5_visited, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedListNode_1_get_Value_m0002CA07B9FA0EA9B184224D7575DF46D5E5972F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_RemoveFirst_m8783AF0585C84EE3173FB8E608A29914A1DA66BD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1__ctor_m2CEDDD9094DEB3DE022EA06DAD156C5A2027E4F4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_get_Count_mDE2A5DE9F82166C43C5C12058737ECB5AC137D9F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_get_First_mE50B3E3FC2A783CAC5738E6718C9C788BB43D6D9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* V_0 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_1 = NULL;
+	LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* V_2 = NULL;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_5 = NULL;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	float V_7 = 0.0f;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_8 = NULL;
+	bool V_9 = false;
+	bool V_10 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_12 = NULL;
+	int64_t V_13 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_14 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_15 = NULL;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	bool V_18 = false;
+	bool V_19 = false;
+	int32_t V_20 = 0;
+	int32_t V_21 = 0;
+	int32_t V_22 = 0;
+	int32_t V_23 = 0;
+	Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* V_24 = NULL;
+	bool V_25 = false;
+	int32_t V_26 = 0;
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_27 = NULL;
+	bool V_28 = false;
+	bool V_29 = false;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_30 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_31 = NULL;
+	bool V_32 = false;
+	bool V_33 = false;
+	bool V_34 = false;
+	bool V_35 = false;
+	int32_t V_36 = 0;
+	int64_t V_37 = 0;
+	bool V_38 = false;
+	bool V_39 = false;
+	int32_t V_40 = 0;
+	int32_t V_41 = 0;
+	float V_42 = 0.0f;
+	float V_43 = 0.0f;
+	bool V_44 = false;
+	int32_t V_45 = 0;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_46 = NULL;
+	int32_t V_47 = 0;
+	int32_t V_48 = 0;
+	float V_49 = 0.0f;
+	bool V_50 = false;
+	float V_51 = 0.0f;
+	bool V_52 = false;
+	bool V_53 = false;
+	bool V_54 = false;
+	bool V_55 = false;
+	bool V_56 = false;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_57 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_58 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_59 = NULL;
+	bool V_60 = false;
+	bool V_61 = false;
+	int32_t G_B7_0 = 0;
+	LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* G_B12_0 = NULL;
+	LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* G_B11_0 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* G_B13_0 = NULL;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_0 = ___4_resultPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1;
+		L_1 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_0 = L_1;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_2 = ___5_visited;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_3 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_2);
+		V_9 = (bool)((!(((RuntimeObject*)(List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)L_3) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_4 = V_9;
+		if (!L_4)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_5 = ___5_visited;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_6 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_5);
+		NullCheck(L_6);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_6, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+	}
+
+IL_0022:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_7 = __this->___m_nav;
+		int64_t L_8 = ___0_startRef;
+		NullCheck(L_7);
+		bool L_9;
+		L_9 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_7, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = ___1_startPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_12 = ___2_endPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		RuntimeObject* L_14 = ___3_filter;
+		G_B7_0 = ((((RuntimeObject*)(RuntimeObject*)L_14) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0048;
+	}
+
+IL_0047:
+	{
+		G_B7_0 = 1;
+	}
+
+IL_0048:
+	{
+		V_10 = (bool)G_B7_0;
+		bool L_15 = V_10;
+		if (!L_15)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_16 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_17 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_18;
+		L_18 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_16, L_17, NULL);
+		V_11 = L_18;
+		goto IL_04a4;
+	}
+
+IL_0065:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_19 = (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6*)il2cpp_codegen_object_new(DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6_il2cpp_TypeInfo_var);
+		DtNodePool__ctor_m564949C90A7CA1D036F9B8E23DC6A33967228A04(L_19, NULL);
+		V_0 = L_19;
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_20 = V_0;
+		int64_t L_21 = ___0_startRef;
+		NullCheck(L_20);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_22;
+		L_22 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_20, L_21, NULL);
+		V_1 = L_22;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_23 = V_1;
+		NullCheck(L_23);
+		L_23->___pidx = 0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_24 = V_1;
+		NullCheck(L_24);
+		L_24->___cost = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_25 = V_1;
+		NullCheck(L_25);
+		L_25->___total = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_26 = V_1;
+		int64_t L_27 = ___0_startRef;
+		NullCheck(L_26);
+		L_26->___id = L_27;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_28 = V_1;
+		NullCheck(L_28);
+		L_28->___flags = 2;
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_29 = (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18*)il2cpp_codegen_object_new(LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18_il2cpp_TypeInfo_var);
+		LinkedList_1__ctor_m2CEDDD9094DEB3DE022EA06DAD156C5A2027E4F4(L_29, LinkedList_1__ctor_m2CEDDD9094DEB3DE022EA06DAD156C5A2027E4F4_RuntimeMethod_var);
+		V_2 = L_29;
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_30 = V_2;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_31 = V_1;
+		NullCheck(L_30);
+		LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* L_32;
+		L_32 = LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A(L_30, L_31, LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A_RuntimeMethod_var);
+		il2cpp_codegen_initobj((&V_3), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		V_4 = ((std::numeric_limits<float>::max)());
+		V_5 = (DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)NULL;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_33 = ___1_startPos;
+		V_3 = L_33;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_34 = ___1_startPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_35 = ___2_endPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_36;
+		L_36 = RcVec3f_Lerp_m070D7E7D50CF96AB1F9C0DCDE50F9456B499C91A_inline(L_34, L_35, (0.5f), NULL);
+		V_6 = L_36;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_37 = ___1_startPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_38 = ___2_endPos;
+		float L_39;
+		L_39 = RcVec3f_Distance_m6DE6551F4AA9A4CAAF49C6BB2B053FD8DE8C89C8_inline(L_37, L_38, NULL);
+		float L_40;
+		L_40 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(((float)il2cpp_codegen_add(((float)(L_39/(2.0f))), (0.00100000005f))), NULL);
+		V_7 = L_40;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_41 = __this->___m_nav;
+		NullCheck(L_41);
+		int32_t L_42;
+		L_42 = DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F(L_41, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_43 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_42, 3)));
+		V_8 = L_43;
+		goto IL_040a;
+	}
+
+IL_0101:
+	{
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_44 = V_2;
+		NullCheck(L_44);
+		LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* L_45;
+		L_45 = LinkedList_1_get_First_mE50B3E3FC2A783CAC5738E6718C9C788BB43D6D9_inline(L_44, LinkedList_1_get_First_mE50B3E3FC2A783CAC5738E6718C9C788BB43D6D9_RuntimeMethod_var);
+		LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* L_46 = L_45;
+		if (L_46)
+		{
+			G_B12_0 = L_46;
+			goto IL_010f;
+		}
+		G_B11_0 = L_46;
+	}
+	{
+		G_B13_0 = ((DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)(NULL));
+		goto IL_0114;
+	}
+
+IL_010f:
+	{
+		NullCheck(G_B12_0);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_47;
+		L_47 = LinkedListNode_1_get_Value_m0002CA07B9FA0EA9B184224D7575DF46D5E5972F_inline(G_B12_0, LinkedListNode_1_get_Value_m0002CA07B9FA0EA9B184224D7575DF46D5E5972F_RuntimeMethod_var);
+		G_B13_0 = L_47;
+	}
+
+IL_0114:
+	{
+		V_12 = G_B13_0;
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_48 = V_2;
+		NullCheck(L_48);
+		LinkedList_1_RemoveFirst_m8783AF0585C84EE3173FB8E608A29914A1DA66BD(L_48, LinkedList_1_RemoveFirst_m8783AF0585C84EE3173FB8E608A29914A1DA66BD_RuntimeMethod_var);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_49 = V_12;
+		NullCheck(L_49);
+		int64_t L_50 = L_49->___id;
+		V_13 = L_50;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_51 = __this->___m_nav;
+		int64_t L_52 = V_13;
+		NullCheck(L_51);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_51, L_52, (&V_14), (&V_15), NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_53 = V_15;
+		NullCheck(L_53);
+		int32_t L_54 = L_53->___vertCount;
+		V_16 = L_54;
+		V_17 = 0;
+		goto IL_0173;
+	}
+
+IL_0146:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_55 = V_14;
+		NullCheck(L_55);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_56 = L_55->___data;
+		NullCheck(L_56);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_57 = L_56->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_58 = V_15;
+		NullCheck(L_58);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_59 = L_58->___verts;
+		int32_t L_60 = V_17;
+		NullCheck(L_59);
+		int32_t L_61 = L_60;
+		int32_t L_62 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_63 = V_8;
+		int32_t L_64 = V_17;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_57, ((int32_t)il2cpp_codegen_multiply(L_62, 3)), (RuntimeArray*)L_63, ((int32_t)il2cpp_codegen_multiply(L_64, 3)), 3, NULL);
+		int32_t L_65 = V_17;
+		V_17 = ((int32_t)il2cpp_codegen_add(L_65, 1));
+	}
+
+IL_0173:
+	{
+		int32_t L_66 = V_17;
+		int32_t L_67 = V_16;
+		V_18 = (bool)((((int32_t)L_66) < ((int32_t)L_67))? 1 : 0);
+		bool L_68 = V_18;
+		if (L_68)
+		{
+			goto IL_0146;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_69 = ___2_endPos;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_70 = V_8;
+		int32_t L_71 = V_16;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_72;
+		L_72 = DtUtils_PointInPolygon_m3BE6C56AA5D90A5DF9A0C3B071DC08C283E7F367(L_69, L_70, L_71, NULL);
+		V_19 = L_72;
+		bool L_73 = V_19;
+		if (!L_73)
+		{
+			goto IL_019b;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_74 = V_12;
+		V_5 = L_74;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_75 = ___2_endPos;
+		V_3 = L_75;
+		goto IL_041c;
+	}
+
+IL_019b:
+	{
+		V_20 = 0;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_76 = V_15;
+		NullCheck(L_76);
+		int32_t L_77 = L_76->___vertCount;
+		V_21 = ((int32_t)il2cpp_codegen_subtract(L_77, 1));
+		goto IL_03f5;
+	}
+
+IL_01ae:
+	{
+		V_22 = 8;
+		V_23 = 0;
+		int32_t L_78 = V_22;
+		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_79 = (Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D*)(Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D*)SZArrayNew(Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D_il2cpp_TypeInfo_var, (uint32_t)L_78);
+		V_24 = L_79;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_80 = V_15;
+		NullCheck(L_80);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_81 = L_80->___neis;
+		int32_t L_82 = V_21;
+		NullCheck(L_81);
+		int32_t L_83 = L_82;
+		int32_t L_84 = (L_81)->GetAt(static_cast<il2cpp_array_size_t>(L_83));
+		V_25 = (bool)((!(((uint32_t)((int32_t)(L_84&((int32_t)32768)))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_85 = V_25;
+		if (!L_85)
+		{
+			goto IL_02a2;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_86 = V_14;
+		NullCheck(L_86);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_87 = L_86->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_88 = V_15;
+		NullCheck(L_88);
+		int32_t L_89 = L_88->___index;
+		NullCheck(L_87);
+		int32_t L_90 = L_89;
+		int32_t L_91 = (L_87)->GetAt(static_cast<il2cpp_array_size_t>(L_90));
+		V_26 = L_91;
+		goto IL_028e;
+	}
+
+IL_01f1:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_92 = V_14;
+		NullCheck(L_92);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_93 = L_92->___links;
+		int32_t L_94 = V_26;
+		NullCheck(L_93);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_95;
+		L_95 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_93, L_94, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_27 = L_95;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_96 = V_27;
+		NullCheck(L_96);
+		int32_t L_97 = L_96->___edge;
+		int32_t L_98 = V_21;
+		V_28 = (bool)((((int32_t)L_97) == ((int32_t)L_98))? 1 : 0);
+		bool L_99 = V_28;
+		if (!L_99)
+		{
+			goto IL_0278;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_100 = V_27;
+		NullCheck(L_100);
+		int64_t L_101 = L_100->___refs;
+		V_29 = (bool)((!(((uint64_t)L_101) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		bool L_102 = V_29;
+		if (!L_102)
+		{
+			goto IL_0277;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_103 = __this->___m_nav;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_104 = V_27;
+		NullCheck(L_104);
+		int64_t L_105 = L_104->___refs;
+		NullCheck(L_103);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_103, L_105, (&V_30), (&V_31), NULL);
+		RuntimeObject* L_106 = ___3_filter;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_107 = V_27;
+		NullCheck(L_107);
+		int64_t L_108 = L_107->___refs;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_109 = V_30;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_110 = V_31;
+		NullCheck(L_106);
+		bool L_111;
+		L_111 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_106, L_108, L_109, L_110);
+		V_32 = L_111;
+		bool L_112 = V_32;
+		if (!L_112)
+		{
+			goto IL_0276;
+		}
+	}
+	{
+		int32_t L_113 = V_23;
+		int32_t L_114 = V_22;
+		V_33 = (bool)((((int32_t)L_113) < ((int32_t)L_114))? 1 : 0);
+		bool L_115 = V_33;
+		if (!L_115)
+		{
+			goto IL_0275;
+		}
+	}
+	{
+		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_116 = V_24;
+		int32_t L_117 = V_23;
+		int32_t L_118 = L_117;
+		V_23 = ((int32_t)il2cpp_codegen_add(L_118, 1));
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_119 = V_27;
+		NullCheck(L_119);
+		int64_t L_120 = L_119->___refs;
+		NullCheck(L_116);
+		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(L_118), (int64_t)L_120);
+	}
+
+IL_0275:
+	{
+	}
+
+IL_0276:
+	{
+	}
+
+IL_0277:
+	{
+	}
+
+IL_0278:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_121 = V_14;
+		NullCheck(L_121);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_122 = L_121->___links;
+		int32_t L_123 = V_26;
+		NullCheck(L_122);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_124;
+		L_124 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_122, L_123, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_124);
+		int32_t L_125 = L_124->___next;
+		V_26 = L_125;
+	}
+
+IL_028e:
+	{
+		int32_t L_126 = V_26;
+		V_34 = (bool)((((int32_t)((((int32_t)L_126) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_127 = V_34;
+		if (L_127)
+		{
+			goto IL_01f1;
+		}
+	}
+	{
+		goto IL_0306;
+	}
+
+IL_02a2:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_128 = V_15;
+		NullCheck(L_128);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_129 = L_128->___neis;
+		int32_t L_130 = V_21;
+		NullCheck(L_129);
+		int32_t L_131 = L_130;
+		int32_t L_132 = (L_129)->GetAt(static_cast<il2cpp_array_size_t>(L_131));
+		V_35 = (bool)((!(((uint32_t)L_132) <= ((uint32_t)0)))? 1 : 0);
+		bool L_133 = V_35;
+		if (!L_133)
+		{
+			goto IL_0306;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_134 = V_15;
+		NullCheck(L_134);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_135 = L_134->___neis;
+		int32_t L_136 = V_21;
+		NullCheck(L_135);
+		int32_t L_137 = L_136;
+		int32_t L_138 = (L_135)->GetAt(static_cast<il2cpp_array_size_t>(L_137));
+		V_36 = ((int32_t)il2cpp_codegen_subtract(L_138, 1));
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_139 = __this->___m_nav;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_140 = V_14;
+		NullCheck(L_139);
+		int64_t L_141;
+		L_141 = DtNavMesh_GetPolyRefBase_m9D29DD1BCB8EDC4B851204A12ED7D5701AE60646(L_139, L_140, NULL);
+		int32_t L_142 = V_36;
+		V_37 = ((int64_t)(L_141|((int64_t)L_142)));
+		RuntimeObject* L_143 = ___3_filter;
+		int64_t L_144 = V_37;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_145 = V_14;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_146 = V_14;
+		NullCheck(L_146);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_147 = L_146->___data;
+		NullCheck(L_147);
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_148 = L_147->___polys;
+		int32_t L_149 = V_36;
+		NullCheck(L_148);
+		int32_t L_150 = L_149;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_151 = (L_148)->GetAt(static_cast<il2cpp_array_size_t>(L_150));
+		NullCheck(L_143);
+		bool L_152;
+		L_152 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_143, L_144, L_145, L_151);
+		V_38 = L_152;
+		bool L_153 = V_38;
+		if (!L_153)
+		{
+			goto IL_0305;
+		}
+	}
+	{
+		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_154 = V_24;
+		int32_t L_155 = V_23;
+		int32_t L_156 = L_155;
+		V_23 = ((int32_t)il2cpp_codegen_add(L_156, 1));
+		int64_t L_157 = V_37;
+		NullCheck(L_154);
+		(L_154)->SetAt(static_cast<il2cpp_array_size_t>(L_156), (int64_t)L_157);
+	}
+
+IL_0305:
+	{
+	}
+
+IL_0306:
+	{
+		int32_t L_158 = V_23;
+		V_39 = (bool)((((int32_t)L_158) == ((int32_t)0))? 1 : 0);
+		bool L_159 = V_39;
+		if (!L_159)
+		{
+			goto IL_0358;
+		}
+	}
+	{
+		int32_t L_160 = V_21;
+		V_40 = ((int32_t)il2cpp_codegen_multiply(L_160, 3));
+		int32_t L_161 = V_20;
+		V_41 = ((int32_t)il2cpp_codegen_multiply(L_161, 3));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_162 = ___2_endPos;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_163 = V_8;
+		int32_t L_164 = V_40;
+		int32_t L_165 = V_41;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_166;
+		L_166 = DtUtils_DistancePtSegSqr2D_m50C51FCA6D90441C2A8BC0059FF1E585FEFCCB27(L_162, L_163, L_164, L_165, (&V_43), NULL);
+		V_42 = L_166;
+		float L_167 = V_42;
+		float L_168 = V_4;
+		V_44 = (bool)((((float)L_167) < ((float)L_168))? 1 : 0);
+		bool L_169 = V_44;
+		if (!L_169)
+		{
+			goto IL_0352;
+		}
+	}
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_170 = V_8;
+		int32_t L_171 = V_40;
+		int32_t L_172 = V_41;
+		float L_173 = V_43;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_174;
+		L_174 = RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline(L_170, L_171, L_172, L_173, NULL);
+		V_3 = L_174;
+		float L_175 = V_42;
+		V_4 = L_175;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_176 = V_12;
+		V_5 = L_176;
+	}
+
+IL_0352:
+	{
+		goto IL_03eb;
+	}
+
+IL_0358:
+	{
+		V_45 = 0;
+		goto IL_03db;
+	}
+
+IL_035e:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_177 = V_0;
+		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_178 = V_24;
+		int32_t L_179 = V_45;
+		NullCheck(L_178);
+		int32_t L_180 = L_179;
+		int64_t L_181 = (L_178)->GetAt(static_cast<il2cpp_array_size_t>(L_180));
+		NullCheck(L_177);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_182;
+		L_182 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_177, L_181, NULL);
+		V_46 = L_182;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_183 = V_46;
+		NullCheck(L_183);
+		int32_t L_184 = L_183->___flags;
+		V_50 = (bool)((!(((uint32_t)((int32_t)(L_184&2))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_185 = V_50;
+		if (!L_185)
+		{
+			goto IL_0381;
+		}
+	}
+	{
+		goto IL_03d5;
+	}
+
+IL_0381:
+	{
+		int32_t L_186 = V_21;
+		V_47 = ((int32_t)il2cpp_codegen_multiply(L_186, 3));
+		int32_t L_187 = V_20;
+		V_48 = ((int32_t)il2cpp_codegen_multiply(L_187, 3));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_188 = V_6;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_189 = V_8;
+		int32_t L_190 = V_47;
+		int32_t L_191 = V_48;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_192;
+		L_192 = DtUtils_DistancePtSegSqr2D_m50C51FCA6D90441C2A8BC0059FF1E585FEFCCB27(L_188, L_189, L_190, L_191, (&V_51), NULL);
+		V_49 = L_192;
+		float L_193 = V_49;
+		float L_194 = V_7;
+		V_52 = (bool)((((float)L_193) > ((float)L_194))? 1 : 0);
+		bool L_195 = V_52;
+		if (!L_195)
+		{
+			goto IL_03ad;
+		}
+	}
+	{
+		goto IL_03d5;
+	}
+
+IL_03ad:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_196 = V_46;
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_197 = V_0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_198 = V_12;
+		NullCheck(L_197);
+		int32_t L_199;
+		L_199 = DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07(L_197, L_198, NULL);
+		NullCheck(L_196);
+		L_196->___pidx = L_199;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_200 = V_46;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_201 = L_200;
+		NullCheck(L_201);
+		int32_t L_202 = L_201->___flags;
+		NullCheck(L_201);
+		L_201->___flags = ((int32_t)(L_202|2));
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_203 = V_2;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_204 = V_46;
+		NullCheck(L_203);
+		LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* L_205;
+		L_205 = LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A(L_203, L_204, LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A_RuntimeMethod_var);
+	}
+
+IL_03d5:
+	{
+		int32_t L_206 = V_45;
+		V_45 = ((int32_t)il2cpp_codegen_add(L_206, 1));
+	}
+
+IL_03db:
+	{
+		int32_t L_207 = V_45;
+		int32_t L_208 = V_23;
+		V_53 = (bool)((((int32_t)L_207) < ((int32_t)L_208))? 1 : 0);
+		bool L_209 = V_53;
+		if (L_209)
+		{
+			goto IL_035e;
+		}
+	}
+	{
+	}
+
+IL_03eb:
+	{
+		int32_t L_210 = V_20;
+		int32_t L_211 = L_210;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_211, 1));
+		V_21 = L_211;
+	}
+
+IL_03f5:
+	{
+		int32_t L_212 = V_20;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_213 = V_15;
+		NullCheck(L_213);
+		int32_t L_214 = L_213->___vertCount;
+		V_54 = (bool)((((int32_t)L_212) < ((int32_t)L_214))? 1 : 0);
+		bool L_215 = V_54;
+		if (L_215)
+		{
+			goto IL_01ae;
+		}
+	}
+	{
+	}
+
+IL_040a:
+	{
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_216 = V_2;
+		NullCheck(L_216);
+		int32_t L_217;
+		L_217 = LinkedList_1_get_Count_mDE2A5DE9F82166C43C5C12058737ECB5AC137D9F_inline(L_216, LinkedList_1_get_Count_mDE2A5DE9F82166C43C5C12058737ECB5AC137D9F_RuntimeMethod_var);
+		V_55 = (bool)((((int32_t)0) < ((int32_t)L_217))? 1 : 0);
+		bool L_218 = V_55;
+		if (L_218)
+		{
+			goto IL_0101;
+		}
+	}
+
+IL_041c:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_219 = V_5;
+		V_56 = (bool)((!(((RuntimeObject*)(DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)L_219) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_220 = V_56;
+		if (!L_220)
+		{
+			goto IL_0493;
+		}
+	}
+	{
+		V_57 = (DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)NULL;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_221 = V_5;
+		V_58 = L_221;
+	}
+
+IL_042f:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_222 = V_0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_223 = V_58;
+		NullCheck(L_223);
+		int32_t L_224 = L_223->___pidx;
+		NullCheck(L_222);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_225;
+		L_225 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_222, L_224, NULL);
+		V_59 = L_225;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_226 = V_58;
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_227 = V_0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_228 = V_57;
+		NullCheck(L_227);
+		int32_t L_229;
+		L_229 = DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07(L_227, L_228, NULL);
+		NullCheck(L_226);
+		L_226->___pidx = L_229;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_230 = V_58;
+		V_57 = L_230;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_231 = V_59;
+		V_58 = L_231;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_232 = V_58;
+		V_60 = (bool)((!(((RuntimeObject*)(DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)L_232) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_233 = V_60;
+		if (L_233)
+		{
+			goto IL_042f;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_234 = V_57;
+		V_58 = L_234;
+	}
+
+IL_0466:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_235 = ___5_visited;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_236 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_235);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_237 = V_58;
+		NullCheck(L_237);
+		int64_t L_238 = L_237->___id;
+		NullCheck(L_236);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_236, L_238, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_239 = V_0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_240 = V_58;
+		NullCheck(L_240);
+		int32_t L_241 = L_240->___pidx;
+		NullCheck(L_239);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_242;
+		L_242 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_239, L_241, NULL);
+		V_58 = L_242;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_243 = V_58;
+		V_61 = (bool)((!(((RuntimeObject*)(DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)L_243) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_244 = V_61;
+		if (L_244)
+		{
+			goto IL_0466;
+		}
+	}
+	{
+	}
+
+IL_0493:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_245 = ___4_resultPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_246 = V_3;
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_245 = L_246;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_247 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_11 = L_247;
+		goto IL_04a4;
+	}
+
+IL_04a4:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_248 = V_11;
+		return L_248;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetPortalPoints_mED6CC99E0F09571932FF6B2CD891D6FC07ACDE74 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_from, int64_t ___1_to, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___2_left, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___3_right, int32_t* ___4_fromType, int32_t* ___5_toType, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_1 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_2 = NULL;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_3 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_4 = NULL;
+	bool V_5 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	bool V_7 = false;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_0 = ___2_left;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1;
+		L_1 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_0 = L_1;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_2 = ___3_right;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_3;
+		L_3 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_2 = L_3;
+		int32_t* L_4 = ___4_fromType;
+		*((int32_t*)L_4) = (int32_t)0;
+		int32_t* L_5 = ___5_toType;
+		*((int32_t*)L_5) = (int32_t)0;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_6 = __this->___m_nav;
+		int64_t L_7 = ___0_from;
+		NullCheck(L_6);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_8;
+		L_8 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_6, L_7, (&V_1), (&V_2), NULL);
+		V_0 = L_8;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_0), NULL);
+		V_5 = L_9;
+		bool L_10 = V_5;
+		if (!L_10)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_11 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_12 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_13;
+		L_13 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_11, L_12, NULL);
+		V_6 = L_13;
+		goto IL_00ab;
+	}
+
+IL_0052:
+	{
+		int32_t* L_14 = ___4_fromType;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_15 = V_2;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_15, NULL);
+		*((int32_t*)L_14) = (int32_t)L_16;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_17 = __this->___m_nav;
+		int64_t L_18 = ___1_to;
+		NullCheck(L_17);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_19;
+		L_19 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_17, L_18, (&V_3), (&V_4), NULL);
+		V_0 = L_19;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_0), NULL);
+		V_7 = L_20;
+		bool L_21 = V_7;
+		if (!L_21)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_22 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_23 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_24;
+		L_24 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_22, L_23, NULL);
+		V_6 = L_24;
+		goto IL_00ab;
+	}
+
+IL_008d:
+	{
+		int32_t* L_25 = ___5_toType;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_26 = V_4;
+		NullCheck(L_26);
+		int32_t L_27;
+		L_27 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_26, NULL);
+		*((int32_t*)L_25) = (int32_t)L_27;
+		int64_t L_28 = ___0_from;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_29 = V_2;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_30 = V_1;
+		int64_t L_31 = ___1_to;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_32 = V_4;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_33 = V_3;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_34 = ___2_left;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_35 = ___3_right;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_36;
+		L_36 = DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D(__this, L_28, L_29, L_30, L_31, L_32, L_33, L_34, L_35, NULL);
+		V_6 = L_36;
+		goto IL_00ab;
+	}
+
+IL_00ab:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_37 = V_6;
+		return L_37;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_from, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___1_fromPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___2_fromTile, int64_t ___3_to, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___4_toPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___5_toTile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___6_left, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___7_right, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	int32_t V_16 = 0;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	float V_20 = 0.0f;
+	float V_21 = 0.0f;
+	float V_22 = 0.0f;
+	int32_t G_B25_0 = 0;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_0 = ___6_left;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1;
+		L_1 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_0 = L_1;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_2 = ___7_right;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_3;
+		L_3 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_2 = L_3;
+		V_0 = (DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697*)NULL;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_4 = ___2_fromTile;
+		NullCheck(L_4);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = L_4->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_6 = ___1_fromPoly;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___index;
+		NullCheck(L_5);
+		int32_t L_8 = L_7;
+		int32_t L_9 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_3 = L_9;
+		goto IL_006a;
+	}
+
+IL_002b:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_10 = ___2_fromTile;
+		NullCheck(L_10);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_11 = L_10->___links;
+		int32_t L_12 = V_3;
+		NullCheck(L_11);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_13;
+		L_13 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_11, L_12, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_13);
+		int64_t L_14 = L_13->___refs;
+		int64_t L_15 = ___3_to;
+		V_4 = (bool)((((int64_t)L_14) == ((int64_t)L_15))? 1 : 0);
+		bool L_16 = V_4;
+		if (!L_16)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_17 = ___2_fromTile;
+		NullCheck(L_17);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_18 = L_17->___links;
+		int32_t L_19 = V_3;
+		NullCheck(L_18);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_20;
+		L_20 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_18, L_19, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_0 = L_20;
+		goto IL_0077;
+	}
+
+IL_0057:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_21 = ___2_fromTile;
+		NullCheck(L_21);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_22 = L_21->___links;
+		int32_t L_23 = V_3;
+		NullCheck(L_22);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_24;
+		L_24 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_22, L_23, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_24);
+		int32_t L_25 = L_24->___next;
+		V_3 = L_25;
+	}
+
+IL_006a:
+	{
+		int32_t L_26 = V_3;
+		V_5 = (bool)((((int32_t)((((int32_t)L_26) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_27 = V_5;
+		if (L_27)
+		{
+			goto IL_002b;
+		}
+	}
+
+IL_0077:
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_28 = V_0;
+		V_6 = (bool)((((RuntimeObject*)(DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697*)L_28) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_29 = V_6;
+		if (!L_29)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_30 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_31 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_32;
+		L_32 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_30, L_31, NULL);
+		V_7 = L_32;
+		goto IL_04be;
+	}
+
+IL_0098:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_33 = ___1_fromPoly;
+		NullCheck(L_33);
+		int32_t L_34;
+		L_34 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_33, NULL);
+		V_8 = (bool)((((int32_t)L_34) == ((int32_t)1))? 1 : 0);
+		bool L_35 = V_8;
+		if (!L_35)
+		{
+			goto IL_01f8;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_36 = ___2_fromTile;
+		NullCheck(L_36);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = L_36->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_38 = ___1_fromPoly;
+		NullCheck(L_38);
+		int32_t L_39 = L_38->___index;
+		NullCheck(L_37);
+		int32_t L_40 = L_39;
+		int32_t L_41 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+		V_9 = L_41;
+		goto IL_01d1;
+	}
+
+IL_00bf:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_42 = ___2_fromTile;
+		NullCheck(L_42);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_43 = L_42->___links;
+		int32_t L_44 = V_9;
+		NullCheck(L_43);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_45;
+		L_45 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_43, L_44, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_45);
+		int64_t L_46 = L_45->___refs;
+		int64_t L_47 = ___3_to;
+		V_10 = (bool)((((int64_t)L_46) == ((int64_t)L_47))? 1 : 0);
+		bool L_48 = V_10;
+		if (!L_48)
+		{
+			goto IL_01bc;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_49 = ___2_fromTile;
+		NullCheck(L_49);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_50 = L_49->___links;
+		int32_t L_51 = V_9;
+		NullCheck(L_50);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_52;
+		L_52 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_50, L_51, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_52);
+		int32_t L_53 = L_52->___edge;
+		V_11 = L_53;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_54 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_55 = ___2_fromTile;
+		NullCheck(L_55);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_56 = L_55->___data;
+		NullCheck(L_56);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_57 = L_56->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_58 = ___1_fromPoly;
+		NullCheck(L_58);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_59 = L_58->___verts;
+		int32_t L_60 = V_11;
+		NullCheck(L_59);
+		int32_t L_61 = L_60;
+		int32_t L_62 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		NullCheck(L_57);
+		int32_t L_63 = ((int32_t)il2cpp_codegen_multiply(L_62, 3));
+		float L_64 = (L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_63));
+		L_54->___x = L_64;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_65 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_66 = ___2_fromTile;
+		NullCheck(L_66);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_67 = L_66->___data;
+		NullCheck(L_67);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_68 = L_67->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_69 = ___1_fromPoly;
+		NullCheck(L_69);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_70 = L_69->___verts;
+		int32_t L_71 = V_11;
+		NullCheck(L_70);
+		int32_t L_72 = L_71;
+		int32_t L_73 = (L_70)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
+		NullCheck(L_68);
+		int32_t L_74 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_73, 3)), 1));
+		float L_75 = (L_68)->GetAt(static_cast<il2cpp_array_size_t>(L_74));
+		L_65->___y = L_75;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_76 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_77 = ___2_fromTile;
+		NullCheck(L_77);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_78 = L_77->___data;
+		NullCheck(L_78);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_79 = L_78->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_80 = ___1_fromPoly;
+		NullCheck(L_80);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_81 = L_80->___verts;
+		int32_t L_82 = V_11;
+		NullCheck(L_81);
+		int32_t L_83 = L_82;
+		int32_t L_84 = (L_81)->GetAt(static_cast<il2cpp_array_size_t>(L_83));
+		NullCheck(L_79);
+		int32_t L_85 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_84, 3)), 2));
+		float L_86 = (L_79)->GetAt(static_cast<il2cpp_array_size_t>(L_85));
+		L_76->___z = L_86;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_87 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_88 = ___2_fromTile;
+		NullCheck(L_88);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_89 = L_88->___data;
+		NullCheck(L_89);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_90 = L_89->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_91 = ___1_fromPoly;
+		NullCheck(L_91);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_92 = L_91->___verts;
+		int32_t L_93 = V_11;
+		NullCheck(L_92);
+		int32_t L_94 = L_93;
+		int32_t L_95 = (L_92)->GetAt(static_cast<il2cpp_array_size_t>(L_94));
+		NullCheck(L_90);
+		int32_t L_96 = ((int32_t)il2cpp_codegen_multiply(L_95, 3));
+		float L_97 = (L_90)->GetAt(static_cast<il2cpp_array_size_t>(L_96));
+		L_87->___x = L_97;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_98 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_99 = ___2_fromTile;
+		NullCheck(L_99);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_100 = L_99->___data;
+		NullCheck(L_100);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_101 = L_100->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_102 = ___1_fromPoly;
+		NullCheck(L_102);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_103 = L_102->___verts;
+		int32_t L_104 = V_11;
+		NullCheck(L_103);
+		int32_t L_105 = L_104;
+		int32_t L_106 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_105));
+		NullCheck(L_101);
+		int32_t L_107 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_106, 3)), 1));
+		float L_108 = (L_101)->GetAt(static_cast<il2cpp_array_size_t>(L_107));
+		L_98->___y = L_108;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_109 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_110 = ___2_fromTile;
+		NullCheck(L_110);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_111 = L_110->___data;
+		NullCheck(L_111);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_112 = L_111->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_113 = ___1_fromPoly;
+		NullCheck(L_113);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_114 = L_113->___verts;
+		int32_t L_115 = V_11;
+		NullCheck(L_114);
+		int32_t L_116 = L_115;
+		int32_t L_117 = (L_114)->GetAt(static_cast<il2cpp_array_size_t>(L_116));
+		NullCheck(L_112);
+		int32_t L_118 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_117, 3)), 2));
+		float L_119 = (L_112)->GetAt(static_cast<il2cpp_array_size_t>(L_118));
+		L_109->___z = L_119;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_120 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_7 = L_120;
+		goto IL_04be;
+	}
+
+IL_01bc:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_121 = ___2_fromTile;
+		NullCheck(L_121);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_122 = L_121->___links;
+		int32_t L_123 = V_9;
+		NullCheck(L_122);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_124;
+		L_124 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_122, L_123, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_124);
+		int32_t L_125 = L_124->___next;
+		V_9 = L_125;
+	}
+
+IL_01d1:
+	{
+		int32_t L_126 = V_9;
+		V_12 = (bool)((((int32_t)((((int32_t)L_126) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_127 = V_12;
+		if (L_127)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_128 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_129 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_130;
+		L_130 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_128, L_129, NULL);
+		V_7 = L_130;
+		goto IL_04be;
+	}
+
+IL_01f8:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_131 = ___4_toPoly;
+		NullCheck(L_131);
+		int32_t L_132;
+		L_132 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_131, NULL);
+		V_13 = (bool)((((int32_t)L_132) == ((int32_t)1))? 1 : 0);
+		bool L_133 = V_13;
+		if (!L_133)
+		{
+			goto IL_0369;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_134 = ___5_toTile;
+		NullCheck(L_134);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_135 = L_134->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_136 = ___4_toPoly;
+		NullCheck(L_136);
+		int32_t L_137 = L_136->___index;
+		NullCheck(L_135);
+		int32_t L_138 = L_137;
+		int32_t L_139 = (L_135)->GetAt(static_cast<il2cpp_array_size_t>(L_138));
+		V_14 = L_139;
+		goto IL_0342;
+	}
+
+IL_0222:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_140 = ___5_toTile;
+		NullCheck(L_140);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_141 = L_140->___links;
+		int32_t L_142 = V_14;
+		NullCheck(L_141);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_143;
+		L_143 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_141, L_142, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_143);
+		int64_t L_144 = L_143->___refs;
+		int64_t L_145 = ___0_from;
+		V_15 = (bool)((((int64_t)L_144) == ((int64_t)L_145))? 1 : 0);
+		bool L_146 = V_15;
+		if (!L_146)
+		{
+			goto IL_032c;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_147 = ___5_toTile;
+		NullCheck(L_147);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_148 = L_147->___links;
+		int32_t L_149 = V_14;
+		NullCheck(L_148);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_150;
+		L_150 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_148, L_149, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_150);
+		int32_t L_151 = L_150->___edge;
+		V_16 = L_151;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_152 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_153 = ___5_toTile;
+		NullCheck(L_153);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_154 = L_153->___data;
+		NullCheck(L_154);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_155 = L_154->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_156 = ___4_toPoly;
+		NullCheck(L_156);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_157 = L_156->___verts;
+		int32_t L_158 = V_16;
+		NullCheck(L_157);
+		int32_t L_159 = L_158;
+		int32_t L_160 = (L_157)->GetAt(static_cast<il2cpp_array_size_t>(L_159));
+		NullCheck(L_155);
+		int32_t L_161 = ((int32_t)il2cpp_codegen_multiply(L_160, 3));
+		float L_162 = (L_155)->GetAt(static_cast<il2cpp_array_size_t>(L_161));
+		L_152->___x = L_162;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_163 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_164 = ___5_toTile;
+		NullCheck(L_164);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_165 = L_164->___data;
+		NullCheck(L_165);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_166 = L_165->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_167 = ___4_toPoly;
+		NullCheck(L_167);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_168 = L_167->___verts;
+		int32_t L_169 = V_16;
+		NullCheck(L_168);
+		int32_t L_170 = L_169;
+		int32_t L_171 = (L_168)->GetAt(static_cast<il2cpp_array_size_t>(L_170));
+		NullCheck(L_166);
+		int32_t L_172 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_171, 3)), 1));
+		float L_173 = (L_166)->GetAt(static_cast<il2cpp_array_size_t>(L_172));
+		L_163->___y = L_173;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_174 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_175 = ___5_toTile;
+		NullCheck(L_175);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_176 = L_175->___data;
+		NullCheck(L_176);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_177 = L_176->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_178 = ___4_toPoly;
+		NullCheck(L_178);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_179 = L_178->___verts;
+		int32_t L_180 = V_16;
+		NullCheck(L_179);
+		int32_t L_181 = L_180;
+		int32_t L_182 = (L_179)->GetAt(static_cast<il2cpp_array_size_t>(L_181));
+		NullCheck(L_177);
+		int32_t L_183 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_182, 3)), 2));
+		float L_184 = (L_177)->GetAt(static_cast<il2cpp_array_size_t>(L_183));
+		L_174->___z = L_184;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_185 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_186 = ___5_toTile;
+		NullCheck(L_186);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_187 = L_186->___data;
+		NullCheck(L_187);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_188 = L_187->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_189 = ___4_toPoly;
+		NullCheck(L_189);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_190 = L_189->___verts;
+		int32_t L_191 = V_16;
+		NullCheck(L_190);
+		int32_t L_192 = L_191;
+		int32_t L_193 = (L_190)->GetAt(static_cast<il2cpp_array_size_t>(L_192));
+		NullCheck(L_188);
+		int32_t L_194 = ((int32_t)il2cpp_codegen_multiply(L_193, 3));
+		float L_195 = (L_188)->GetAt(static_cast<il2cpp_array_size_t>(L_194));
+		L_185->___x = L_195;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_196 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_197 = ___5_toTile;
+		NullCheck(L_197);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_198 = L_197->___data;
+		NullCheck(L_198);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_199 = L_198->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_200 = ___4_toPoly;
+		NullCheck(L_200);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_201 = L_200->___verts;
+		int32_t L_202 = V_16;
+		NullCheck(L_201);
+		int32_t L_203 = L_202;
+		int32_t L_204 = (L_201)->GetAt(static_cast<il2cpp_array_size_t>(L_203));
+		NullCheck(L_199);
+		int32_t L_205 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_204, 3)), 1));
+		float L_206 = (L_199)->GetAt(static_cast<il2cpp_array_size_t>(L_205));
+		L_196->___y = L_206;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_207 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_208 = ___5_toTile;
+		NullCheck(L_208);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_209 = L_208->___data;
+		NullCheck(L_209);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_210 = L_209->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_211 = ___4_toPoly;
+		NullCheck(L_211);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_212 = L_211->___verts;
+		int32_t L_213 = V_16;
+		NullCheck(L_212);
+		int32_t L_214 = L_213;
+		int32_t L_215 = (L_212)->GetAt(static_cast<il2cpp_array_size_t>(L_214));
+		NullCheck(L_210);
+		int32_t L_216 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_215, 3)), 2));
+		float L_217 = (L_210)->GetAt(static_cast<il2cpp_array_size_t>(L_216));
+		L_207->___z = L_217;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_218 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_7 = L_218;
+		goto IL_04be;
+	}
+
+IL_032c:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_219 = ___5_toTile;
+		NullCheck(L_219);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_220 = L_219->___links;
+		int32_t L_221 = V_14;
+		NullCheck(L_220);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_222;
+		L_222 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_220, L_221, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_222);
+		int32_t L_223 = L_222->___next;
+		V_14 = L_223;
+	}
+
+IL_0342:
+	{
+		int32_t L_224 = V_14;
+		V_17 = (bool)((((int32_t)((((int32_t)L_224) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_225 = V_17;
+		if (L_225)
+		{
+			goto IL_0222;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_226 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_227 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_228;
+		L_228 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_226, L_227, NULL);
+		V_7 = L_228;
+		goto IL_04be;
+	}
+
+IL_0369:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_229 = ___1_fromPoly;
+		NullCheck(L_229);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_230 = L_229->___verts;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_231 = V_0;
+		NullCheck(L_231);
+		int32_t L_232 = L_231->___edge;
+		NullCheck(L_230);
+		int32_t L_233 = L_232;
+		int32_t L_234 = (L_230)->GetAt(static_cast<il2cpp_array_size_t>(L_233));
+		V_1 = L_234;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_235 = ___1_fromPoly;
+		NullCheck(L_235);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_236 = L_235->___verts;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_237 = V_0;
+		NullCheck(L_237);
+		int32_t L_238 = L_237->___edge;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_239 = ___1_fromPoly;
+		NullCheck(L_239);
+		int32_t L_240 = L_239->___vertCount;
+		NullCheck(L_236);
+		int32_t L_241 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_238, 1))%L_240));
+		int32_t L_242 = (L_236)->GetAt(static_cast<il2cpp_array_size_t>(L_241));
+		V_2 = L_242;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_243 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_244 = ___2_fromTile;
+		NullCheck(L_244);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_245 = L_244->___data;
+		NullCheck(L_245);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_246 = L_245->___verts;
+		int32_t L_247 = V_1;
+		NullCheck(L_246);
+		int32_t L_248 = ((int32_t)il2cpp_codegen_multiply(L_247, 3));
+		float L_249 = (L_246)->GetAt(static_cast<il2cpp_array_size_t>(L_248));
+		L_243->___x = L_249;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_250 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_251 = ___2_fromTile;
+		NullCheck(L_251);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_252 = L_251->___data;
+		NullCheck(L_252);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_253 = L_252->___verts;
+		int32_t L_254 = V_1;
+		NullCheck(L_253);
+		int32_t L_255 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_254, 3)), 1));
+		float L_256 = (L_253)->GetAt(static_cast<il2cpp_array_size_t>(L_255));
+		L_250->___y = L_256;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_257 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_258 = ___2_fromTile;
+		NullCheck(L_258);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_259 = L_258->___data;
+		NullCheck(L_259);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_260 = L_259->___verts;
+		int32_t L_261 = V_1;
+		NullCheck(L_260);
+		int32_t L_262 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_261, 3)), 2));
+		float L_263 = (L_260)->GetAt(static_cast<il2cpp_array_size_t>(L_262));
+		L_257->___z = L_263;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_264 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_265 = ___2_fromTile;
+		NullCheck(L_265);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_266 = L_265->___data;
+		NullCheck(L_266);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_267 = L_266->___verts;
+		int32_t L_268 = V_2;
+		NullCheck(L_267);
+		int32_t L_269 = ((int32_t)il2cpp_codegen_multiply(L_268, 3));
+		float L_270 = (L_267)->GetAt(static_cast<il2cpp_array_size_t>(L_269));
+		L_264->___x = L_270;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_271 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_272 = ___2_fromTile;
+		NullCheck(L_272);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_273 = L_272->___data;
+		NullCheck(L_273);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_274 = L_273->___verts;
+		int32_t L_275 = V_2;
+		NullCheck(L_274);
+		int32_t L_276 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_275, 3)), 1));
+		float L_277 = (L_274)->GetAt(static_cast<il2cpp_array_size_t>(L_276));
+		L_271->___y = L_277;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_278 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_279 = ___2_fromTile;
+		NullCheck(L_279);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_280 = L_279->___data;
+		NullCheck(L_280);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_281 = L_280->___verts;
+		int32_t L_282 = V_2;
+		NullCheck(L_281);
+		int32_t L_283 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_282, 3)), 2));
+		float L_284 = (L_281)->GetAt(static_cast<il2cpp_array_size_t>(L_283));
+		L_278->___z = L_284;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_285 = V_0;
+		NullCheck(L_285);
+		int32_t L_286 = L_285->___side;
+		V_18 = (bool)((((int32_t)((((int32_t)L_286) == ((int32_t)((int32_t)255)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_287 = V_18;
+		if (!L_287)
+		{
+			goto IL_04b5;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_288 = V_0;
+		NullCheck(L_288);
+		int32_t L_289 = L_288->___bmin;
+		if (L_289)
+		{
+			goto IL_044e;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_290 = V_0;
+		NullCheck(L_290);
+		int32_t L_291 = L_290->___bmax;
+		G_B25_0 = ((((int32_t)((((int32_t)L_291) == ((int32_t)((int32_t)255)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_044f;
+	}
+
+IL_044e:
+	{
+		G_B25_0 = 1;
+	}
+
+IL_044f:
+	{
+		V_19 = (bool)G_B25_0;
+		bool L_292 = V_19;
+		if (!L_292)
+		{
+			goto IL_04b4;
+		}
+	}
+	{
+		V_20 = (0.00392156886f);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_293 = V_0;
+		NullCheck(L_293);
+		int32_t L_294 = L_293->___bmin;
+		float L_295 = V_20;
+		V_21 = ((float)il2cpp_codegen_multiply(((float)L_294), L_295));
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_296 = V_0;
+		NullCheck(L_296);
+		int32_t L_297 = L_296->___bmax;
+		float L_298 = V_20;
+		V_22 = ((float)il2cpp_codegen_multiply(((float)L_297), L_298));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_299 = ___6_left;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_300 = ___2_fromTile;
+		NullCheck(L_300);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_301 = L_300->___data;
+		NullCheck(L_301);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_302 = L_301->___verts;
+		int32_t L_303 = V_1;
+		int32_t L_304 = V_2;
+		float L_305 = V_21;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_306;
+		L_306 = RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline(L_302, ((int32_t)il2cpp_codegen_multiply(L_303, 3)), ((int32_t)il2cpp_codegen_multiply(L_304, 3)), L_305, NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_299 = L_306;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_307 = ___7_right;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_308 = ___2_fromTile;
+		NullCheck(L_308);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_309 = L_308->___data;
+		NullCheck(L_309);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_310 = L_309->___verts;
+		int32_t L_311 = V_1;
+		int32_t L_312 = V_2;
+		float L_313 = V_22;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_314;
+		L_314 = RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline(L_310, ((int32_t)il2cpp_codegen_multiply(L_311, 3)), ((int32_t)il2cpp_codegen_multiply(L_312, 3)), L_313, NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_307 = L_314;
+	}
+
+IL_04b4:
+	{
+	}
+
+IL_04b5:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_315 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_7 = L_315;
+		goto IL_04be;
+	}
+
+IL_04be:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_316 = V_7;
+		return L_316;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetEdgeMidPoint_m64BD2A68D1AE02A9B99F178B423EC0F4C52ECD89 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_from, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___1_fromPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___2_fromTile, int64_t ___3_to, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___4_toPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___5_toTile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___6_mid, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	{
+		int64_t L_0 = ___0_from;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_1 = ___1_fromPoly;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_2 = ___2_fromTile;
+		int64_t L_3 = ___3_to;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_4 = ___4_toPoly;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_5 = ___5_toTile;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_6;
+		L_6 = DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D(__this, L_0, L_1, L_2, L_3, L_4, L_5, (&V_1), (&V_2), NULL);
+		V_0 = L_6;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_0), NULL);
+		V_3 = L_7;
+		bool L_8 = V_3;
+		if (!L_8)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_9 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_10 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_11;
+		L_11 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_9, L_10, NULL);
+		V_4 = L_11;
+		goto IL_008b;
+	}
+
+IL_0034:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_12 = ___6_mid;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_13 = V_1;
+		float L_14 = L_13.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_15 = V_2;
+		float L_16 = L_15.___x;
+		L_12->___x = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_14, L_16)), (0.5f)));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_17 = ___6_mid;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_18 = V_1;
+		float L_19 = L_18.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_20 = V_2;
+		float L_21 = L_20.___y;
+		L_17->___y = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_19, L_21)), (0.5f)));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_22 = ___6_mid;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_23 = V_1;
+		float L_24 = L_23.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_25 = V_2;
+		float L_26 = L_25.___z;
+		L_22->___z = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_24, L_26)), (0.5f)));
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_27 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_4 = L_27;
+		goto IL_008b;
+	}
+
+IL_008b:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_28 = V_4;
+		return L_28;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetEdgeIntersectionPoint_m34708E49CF97F36AD1C789EF05C796E281DED84B (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_fromPos, int64_t ___1_from, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___2_fromPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___3_fromTile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___4_toPos, int64_t ___5_to, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* ___6_toPoly, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* ___7_toTile, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___8_pt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	bool V_5 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	bool V_7 = false;
+	float V_8 = 0.0f;
+	{
+		int64_t L_0 = ___1_from;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_1 = ___2_fromPoly;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_2 = ___3_fromTile;
+		int64_t L_3 = ___5_to;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_4 = ___6_toPoly;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_5 = ___7_toTile;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_6;
+		L_6 = DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D(__this, L_0, L_1, L_2, L_3, L_4, L_5, (&V_1), (&V_2), NULL);
+		V_0 = L_6;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_0), NULL);
+		V_5 = L_7;
+		bool L_8 = V_5;
+		if (!L_8)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_9 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		V_6 = L_9;
+		goto IL_0073;
+	}
+
+IL_002d:
+	{
+		V_3 = (0.5f);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = ___0_fromPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_11 = ___4_toPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_12 = V_1;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_13 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = DtUtils_IntersectSegSeg2D_m3796779E2988BEEB7295D0165C683E8BE796ED32(L_10, L_11, L_12, L_13, (&V_8), (&V_4), NULL);
+		V_7 = L_14;
+		bool L_15 = V_7;
+		if (!L_15)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		float L_16 = V_4;
+		float L_17;
+		L_17 = RcMath_Clamp_m6C5D95FBE921D3B36D345EB78253F0FBEA6E7742_inline(L_16, (0.100000001f), (0.899999976f), NULL);
+		V_3 = L_17;
+	}
+
+IL_005b:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_18 = ___8_pt;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_19 = V_1;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_20 = V_2;
+		float L_21 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_22;
+		L_22 = RcVec3f_Lerp_m070D7E7D50CF96AB1F9C0DCDE50F9456B499C91A_inline(L_19, L_20, L_21, NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_18 = L_22;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_23 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_6 = L_23;
+		goto IL_0073;
+	}
+
+IL_0073:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_24 = V_6;
+		return L_24;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_Raycast_m6C9F06842972111B5822278399DE9A58A8FA6DB1 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_startPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___2_endPos, RuntimeObject* ___3_filter, int32_t ___4_options, int64_t ___5_prevRef, DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** ___6_hit, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* V_0 = NULL;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_4 = NULL;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_5 = NULL;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_6 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_7 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_8 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_9 = NULL;
+	int64_t V_10 = 0;
+	bool V_11 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	float V_16 = 0.0f;
+	float V_17 = 0.0f;
+	int32_t V_18 = 0;
+	int32_t V_19 = 0;
+	int64_t V_20 = 0;
+	int32_t V_21 = 0;
+	bool V_22 = false;
+	bool V_23 = false;
+	bool V_24 = false;
+	bool V_25 = false;
+	bool V_26 = false;
+	int32_t V_27 = 0;
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_28 = NULL;
+	int32_t V_29 = 0;
+	int32_t V_30 = 0;
+	int32_t V_31 = 0;
+	int32_t V_32 = 0;
+	bool V_33 = false;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	bool V_37 = false;
+	bool V_38 = false;
+	float V_39 = 0.0f;
+	float V_40 = 0.0f;
+	float V_41 = 0.0f;
+	bool V_42 = false;
+	float V_43 = 0.0f;
+	bool V_44 = false;
+	bool V_45 = false;
+	float V_46 = 0.0f;
+	float V_47 = 0.0f;
+	float V_48 = 0.0f;
+	bool V_49 = false;
+	bool V_50 = false;
+	bool V_51 = false;
+	bool V_52 = false;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_53;
+	memset((&V_53), 0, sizeof(V_53));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_54;
+	memset((&V_54), 0, sizeof(V_54));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_55;
+	memset((&V_55), 0, sizeof(V_55));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_56;
+	memset((&V_56), 0, sizeof(V_56));
+	float V_57 = 0.0f;
+	bool V_58 = false;
+	int32_t V_59 = 0;
+	int32_t V_60 = 0;
+	float V_61 = 0.0f;
+	float V_62 = 0.0f;
+	bool V_63 = false;
+	int32_t G_B7_0 = 0;
+	int32_t G_B9_0 = 0;
+	int32_t G_B37_0 = 0;
+	int32_t G_B42_0 = 0;
+	int32_t G_B48_0 = 0;
+	int32_t G_B54_0 = 0;
+	int32_t G_B60_0 = 0;
+	float G_B70_0 = 0.0f;
+	int32_t G_B75_0 = 0;
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_0 = ___6_hit;
+		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_1 = __this->___m_nav;
+		int64_t L_2 = ___0_startRef;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_1, L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_4 = ___1_startPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_6 = ___2_endPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		RuntimeObject* L_8 = ___3_filter;
+		if (!L_8)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		int64_t L_9 = ___5_prevRef;
+		if (!L_9)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_10 = __this->___m_nav;
+		int64_t L_11 = ___5_prevRef;
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_10, L_11, NULL);
+		G_B7_0 = ((((int32_t)L_12) == ((int32_t)0))? 1 : 0);
+		goto IL_003e;
+	}
+
+IL_003d:
+	{
+		G_B7_0 = 0;
+	}
+
+IL_003e:
+	{
+		G_B9_0 = G_B7_0;
+		goto IL_0041;
+	}
+
+IL_0040:
+	{
+		G_B9_0 = 1;
+	}
+
+IL_0041:
+	{
+		V_11 = (bool)G_B9_0;
+		bool L_13 = V_11;
+		if (!L_13)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_14 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_15 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_16;
+		L_16 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_14, L_15, NULL);
+		V_12 = L_16;
+		goto IL_06da;
+	}
+
+IL_005e:
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_17 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_18 = (DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4*)il2cpp_codegen_object_new(DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4_il2cpp_TypeInfo_var);
+		DtRaycastHit__ctor_m33D892911751C4259ED94785149EA9DDDE327922(L_18, NULL);
+		*((RuntimeObject**)L_17) = (RuntimeObject*)L_18;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_17, (void*)(RuntimeObject*)L_18);
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_19 = __this->___m_nav;
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F(L_19, NULL);
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_21 = (RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6*)(RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6*)SZArrayNew(RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(L_20, 1)));
+		V_0 = L_21;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_22;
+		L_22 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		V_1 = L_22;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_23;
+		L_23 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		V_2 = L_23;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_24 = ___1_startPos;
+		V_1 = L_24;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_25 = ___1_startPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_26;
+		L_26 = RcVec3f_Subtract_m22DB9ABD128201BAF869053154F8C16AC2C5135F_inline((&___2_endPos), L_25, NULL);
+		V_3 = L_26;
+		int64_t L_27 = ___0_startRef;
+		V_10 = L_27;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_28 = __this->___m_nav;
+		int64_t L_29 = V_10;
+		NullCheck(L_28);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_28, L_29, (&V_5), (&V_8), NULL);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_30 = V_5;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_31 = L_30;
+		V_4 = L_31;
+		V_6 = L_31;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_32 = V_8;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_33 = L_32;
+		V_7 = L_33;
+		V_9 = L_33;
+		int64_t L_34 = ___5_prevRef;
+		V_13 = (bool)((!(((uint64_t)L_34) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		bool L_35 = V_13;
+		if (!L_35)
+		{
+			goto IL_00d3;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_36 = __this->___m_nav;
+		int64_t L_37 = ___5_prevRef;
+		NullCheck(L_36);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_36, L_37, (&V_4), (&V_7), NULL);
+	}
+
+IL_00d3:
+	{
+		goto IL_06c2;
+	}
+
+IL_00d8:
+	{
+		V_14 = 0;
+		V_21 = 0;
+		goto IL_0114;
+	}
+
+IL_00e1:
+	{
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_38 = V_0;
+		int32_t L_39 = V_14;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_40 = V_5;
+		NullCheck(L_40);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_41 = L_40->___data;
+		NullCheck(L_41);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_42 = L_41->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_43 = V_8;
+		NullCheck(L_43);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_44 = L_43->___verts;
+		int32_t L_45 = V_21;
+		NullCheck(L_44);
+		int32_t L_46 = L_45;
+		int32_t L_47 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_48;
+		L_48 = RcVec3f_Of_m2B898424BC446DEBFE40214EAA1428F7B3612373(L_42, ((int32_t)il2cpp_codegen_multiply(L_47, 3)), NULL);
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(L_39), (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700)L_48);
+		int32_t L_49 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_49, 1));
+		int32_t L_50 = V_21;
+		V_21 = ((int32_t)il2cpp_codegen_add(L_50, 1));
+	}
+
+IL_0114:
+	{
+		int32_t L_51 = V_21;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_52 = V_8;
+		NullCheck(L_52);
+		int32_t L_53 = L_52->___vertCount;
+		V_22 = (bool)((((int32_t)L_51) < ((int32_t)L_53))? 1 : 0);
+		bool L_54 = V_22;
+		if (L_54)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_55 = ___1_startPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_56 = ___2_endPos;
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_57 = V_0;
+		int32_t L_58 = V_14;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_59;
+		L_59 = DtUtils_IntersectSegmentPoly2D_mBE858F977771D4A3B45BDE68651C560F9E444C9E(L_55, L_56, L_57, L_58, (&V_16), (&V_17), (&V_18), (&V_19), NULL);
+		V_15 = L_59;
+		bool L_60 = V_15;
+		V_23 = (bool)((((int32_t)L_60) == ((int32_t)0))? 1 : 0);
+		bool L_61 = V_23;
+		if (!L_61)
+		{
+			goto IL_0151;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_62 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_12 = L_62;
+		goto IL_06da;
+	}
+
+IL_0151:
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_63 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_64 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_63);
+		int32_t L_65 = V_19;
+		NullCheck(L_64);
+		L_64->___hitEdgeIndex = L_65;
+		float L_66 = V_17;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_67 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_68 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_67);
+		NullCheck(L_68);
+		float L_69 = L_68->___t;
+		V_24 = (bool)((((float)L_66) > ((float)L_69))? 1 : 0);
+		bool L_70 = V_24;
+		if (!L_70)
+		{
+			goto IL_0179;
+		}
+	}
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_71 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_72 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_71);
+		float L_73 = V_17;
+		NullCheck(L_72);
+		L_72->___t = L_73;
+	}
+
+IL_0179:
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_74 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_75 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_74);
+		NullCheck(L_75);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_76 = L_75->___path;
+		int64_t L_77 = V_10;
+		NullCheck(L_76);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_76, L_77, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		int32_t L_78 = V_19;
+		V_25 = (bool)((((int32_t)L_78) == ((int32_t)(-1)))? 1 : 0);
+		bool L_79 = V_25;
+		if (!L_79)
+		{
+			goto IL_01e7;
+		}
+	}
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_80 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_81 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_80);
+		NullCheck(L_81);
+		L_81->___t = ((std::numeric_limits<float>::max)());
+		int32_t L_82 = ___4_options;
+		V_26 = (bool)((!(((uint32_t)((int32_t)(L_82&1))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_83 = V_26;
+		if (!L_83)
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_84 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_85 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_84);
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_86 = L_85;
+		NullCheck(L_86);
+		float L_87 = L_86->___pathCost;
+		RuntimeObject* L_88 = ___3_filter;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_89 = V_1;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_90 = ___2_endPos;
+		int64_t L_91 = ___5_prevRef;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_92 = V_4;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_93 = V_7;
+		int64_t L_94 = V_10;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_95 = V_5;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_96 = V_8;
+		int64_t L_97 = V_10;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_98 = V_5;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_99 = V_8;
+		NullCheck(L_88);
+		float L_100;
+		L_100 = InterfaceFuncInvoker11< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(1, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_88, L_89, L_90, L_91, L_92, L_93, L_94, L_95, L_96, L_97, L_98, L_99);
+		NullCheck(L_86);
+		L_86->___pathCost = ((float)il2cpp_codegen_add(L_87, L_100));
+	}
+
+IL_01db:
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_101 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_12 = L_101;
+		goto IL_06da;
+	}
+
+IL_01e7:
+	{
+		V_20 = ((int64_t)0);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_102 = V_5;
+		NullCheck(L_102);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_103 = L_102->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_104 = V_8;
+		NullCheck(L_104);
+		int32_t L_105 = L_104->___index;
+		NullCheck(L_103);
+		int32_t L_106 = L_105;
+		int32_t L_107 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_106));
+		V_27 = L_107;
+		goto IL_051f;
+	}
+
+IL_0201:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_108 = V_5;
+		NullCheck(L_108);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_109 = L_108->___links;
+		int32_t L_110 = V_27;
+		NullCheck(L_109);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_111;
+		L_111 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_109, L_110, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_28 = L_111;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_112 = V_28;
+		NullCheck(L_112);
+		int32_t L_113 = L_112->___edge;
+		int32_t L_114 = V_19;
+		V_33 = (bool)((((int32_t)((((int32_t)L_113) == ((int32_t)L_114))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_115 = V_33;
+		if (!L_115)
+		{
+			goto IL_022c;
+		}
+	}
+	{
+		goto IL_050a;
+	}
+
+IL_022c:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_116 = __this->___m_nav;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_117 = V_28;
+		NullCheck(L_117);
+		int64_t L_118 = L_117->___refs;
+		NullCheck(L_116);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_116, L_118, (&V_6), (&V_9), NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_119 = V_9;
+		NullCheck(L_119);
+		int32_t L_120;
+		L_120 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_119, NULL);
+		V_34 = (bool)((((int32_t)L_120) == ((int32_t)1))? 1 : 0);
+		bool L_121 = V_34;
+		if (!L_121)
+		{
+			goto IL_0259;
+		}
+	}
+	{
+		goto IL_050a;
+	}
+
+IL_0259:
+	{
+		RuntimeObject* L_122 = ___3_filter;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_123 = V_28;
+		NullCheck(L_123);
+		int64_t L_124 = L_123->___refs;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_125 = V_6;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_126 = V_9;
+		NullCheck(L_122);
+		bool L_127;
+		L_127 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_122, L_124, L_125, L_126);
+		V_35 = (bool)((((int32_t)L_127) == ((int32_t)0))? 1 : 0);
+		bool L_128 = V_35;
+		if (!L_128)
+		{
+			goto IL_027a;
+		}
+	}
+	{
+		goto IL_050a;
+	}
+
+IL_027a:
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_129 = V_28;
+		NullCheck(L_129);
+		int32_t L_130 = L_129->___side;
+		V_36 = (bool)((((int32_t)L_130) == ((int32_t)((int32_t)255)))? 1 : 0);
+		bool L_131 = V_36;
+		if (!L_131)
+		{
+			goto IL_029d;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_132 = V_28;
+		NullCheck(L_132);
+		int64_t L_133 = L_132->___refs;
+		V_20 = L_133;
+		goto IL_0530;
+	}
+
+IL_029d:
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_134 = V_28;
+		NullCheck(L_134);
+		int32_t L_135 = L_134->___bmin;
+		if (L_135)
+		{
+			goto IL_02b6;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_136 = V_28;
+		NullCheck(L_136);
+		int32_t L_137 = L_136->___bmax;
+		G_B37_0 = ((((int32_t)L_137) == ((int32_t)((int32_t)255)))? 1 : 0);
+		goto IL_02b7;
+	}
+
+IL_02b6:
+	{
+		G_B37_0 = 0;
+	}
+
+IL_02b7:
+	{
+		V_37 = (bool)G_B37_0;
+		bool L_138 = V_37;
+		if (!L_138)
+		{
+			goto IL_02cc;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_139 = V_28;
+		NullCheck(L_139);
+		int64_t L_140 = L_139->___refs;
+		V_20 = L_140;
+		goto IL_0530;
+	}
+
+IL_02cc:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_141 = V_8;
+		NullCheck(L_141);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_142 = L_141->___verts;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_143 = V_28;
+		NullCheck(L_143);
+		int32_t L_144 = L_143->___edge;
+		NullCheck(L_142);
+		int32_t L_145 = L_144;
+		int32_t L_146 = (L_142)->GetAt(static_cast<il2cpp_array_size_t>(L_145));
+		V_29 = L_146;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_147 = V_8;
+		NullCheck(L_147);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_148 = L_147->___verts;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_149 = V_28;
+		NullCheck(L_149);
+		int32_t L_150 = L_149->___edge;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_151 = V_8;
+		NullCheck(L_151);
+		int32_t L_152 = L_151->___vertCount;
+		NullCheck(L_148);
+		int32_t L_153 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_150, 1))%L_152));
+		int32_t L_154 = (L_148)->GetAt(static_cast<il2cpp_array_size_t>(L_153));
+		V_30 = L_154;
+		int32_t L_155 = V_29;
+		V_31 = ((int32_t)il2cpp_codegen_multiply(L_155, 3));
+		int32_t L_156 = V_30;
+		V_32 = ((int32_t)il2cpp_codegen_multiply(L_156, 3));
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_157 = V_28;
+		NullCheck(L_157);
+		int32_t L_158 = L_157->___side;
+		if (!L_158)
+		{
+			goto IL_0319;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_159 = V_28;
+		NullCheck(L_159);
+		int32_t L_160 = L_159->___side;
+		G_B42_0 = ((((int32_t)L_160) == ((int32_t)4))? 1 : 0);
+		goto IL_031a;
+	}
+
+IL_0319:
+	{
+		G_B42_0 = 1;
+	}
+
+IL_031a:
+	{
+		V_38 = (bool)G_B42_0;
+		bool L_161 = V_38;
+		if (!L_161)
+		{
+			goto IL_0410;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_162 = V_5;
+		NullCheck(L_162);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_163 = L_162->___data;
+		NullCheck(L_163);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_164 = L_163->___verts;
+		int32_t L_165 = V_31;
+		NullCheck(L_164);
+		int32_t L_166 = ((int32_t)il2cpp_codegen_add(L_165, 2));
+		float L_167 = (L_164)->GetAt(static_cast<il2cpp_array_size_t>(L_166));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_168 = V_5;
+		NullCheck(L_168);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_169 = L_168->___data;
+		NullCheck(L_169);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_170 = L_169->___verts;
+		int32_t L_171 = V_32;
+		NullCheck(L_170);
+		int32_t L_172 = ((int32_t)il2cpp_codegen_add(L_171, 2));
+		float L_173 = (L_170)->GetAt(static_cast<il2cpp_array_size_t>(L_172));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_174 = V_5;
+		NullCheck(L_174);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_175 = L_174->___data;
+		NullCheck(L_175);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_176 = L_175->___verts;
+		int32_t L_177 = V_31;
+		NullCheck(L_176);
+		int32_t L_178 = ((int32_t)il2cpp_codegen_add(L_177, 2));
+		float L_179 = (L_176)->GetAt(static_cast<il2cpp_array_size_t>(L_178));
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_180 = V_28;
+		NullCheck(L_180);
+		int32_t L_181 = L_180->___bmin;
+		V_39 = ((float)il2cpp_codegen_add(L_167, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_173, L_179)), ((float)il2cpp_codegen_multiply(((float)L_181), (0.00392156886f)))))));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_182 = V_5;
+		NullCheck(L_182);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_183 = L_182->___data;
+		NullCheck(L_183);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_184 = L_183->___verts;
+		int32_t L_185 = V_31;
+		NullCheck(L_184);
+		int32_t L_186 = ((int32_t)il2cpp_codegen_add(L_185, 2));
+		float L_187 = (L_184)->GetAt(static_cast<il2cpp_array_size_t>(L_186));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_188 = V_5;
+		NullCheck(L_188);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_189 = L_188->___data;
+		NullCheck(L_189);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_190 = L_189->___verts;
+		int32_t L_191 = V_32;
+		NullCheck(L_190);
+		int32_t L_192 = ((int32_t)il2cpp_codegen_add(L_191, 2));
+		float L_193 = (L_190)->GetAt(static_cast<il2cpp_array_size_t>(L_192));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_194 = V_5;
+		NullCheck(L_194);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_195 = L_194->___data;
+		NullCheck(L_195);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_196 = L_195->___verts;
+		int32_t L_197 = V_31;
+		NullCheck(L_196);
+		int32_t L_198 = ((int32_t)il2cpp_codegen_add(L_197, 2));
+		float L_199 = (L_196)->GetAt(static_cast<il2cpp_array_size_t>(L_198));
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_200 = V_28;
+		NullCheck(L_200);
+		int32_t L_201 = L_200->___bmax;
+		V_40 = ((float)il2cpp_codegen_add(L_187, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_193, L_199)), ((float)il2cpp_codegen_multiply(((float)L_201), (0.00392156886f)))))));
+		float L_202 = V_39;
+		float L_203 = V_40;
+		V_42 = (bool)((((float)L_202) > ((float)L_203))? 1 : 0);
+		bool L_204 = V_42;
+		if (!L_204)
+		{
+			goto IL_03ca;
+		}
+	}
+	{
+		float L_205 = V_40;
+		float L_206 = V_39;
+		V_43 = L_206;
+		V_39 = L_205;
+		float L_207 = V_43;
+		V_40 = L_207;
+	}
+
+IL_03ca:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_208 = ___1_startPos;
+		float L_209 = L_208.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_210 = ___2_endPos;
+		float L_211 = L_210.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_212 = ___1_startPos;
+		float L_213 = L_212.___z;
+		float L_214 = V_17;
+		V_41 = ((float)il2cpp_codegen_add(L_209, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_211, L_213)), L_214))));
+		float L_215 = V_41;
+		float L_216 = V_39;
+		if ((!(((float)L_215) >= ((float)L_216))))
+		{
+			goto IL_03f4;
+		}
+	}
+	{
+		float L_217 = V_41;
+		float L_218 = V_40;
+		G_B48_0 = ((((int32_t)((!(((float)L_217) <= ((float)L_218)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_03f5;
+	}
+
+IL_03f4:
+	{
+		G_B48_0 = 0;
+	}
+
+IL_03f5:
+	{
+		V_44 = (bool)G_B48_0;
+		bool L_219 = V_44;
+		if (!L_219)
+		{
+			goto IL_040a;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_220 = V_28;
+		NullCheck(L_220);
+		int64_t L_221 = L_220->___refs;
+		V_20 = L_221;
+		goto IL_0530;
+	}
+
+IL_040a:
+	{
+		goto IL_0509;
+	}
+
+IL_0410:
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_222 = V_28;
+		NullCheck(L_222);
+		int32_t L_223 = L_222->___side;
+		if ((((int32_t)L_223) == ((int32_t)2)))
+		{
+			goto IL_0426;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_224 = V_28;
+		NullCheck(L_224);
+		int32_t L_225 = L_224->___side;
+		G_B54_0 = ((((int32_t)L_225) == ((int32_t)6))? 1 : 0);
+		goto IL_0427;
+	}
+
+IL_0426:
+	{
+		G_B54_0 = 1;
+	}
+
+IL_0427:
+	{
+		V_45 = (bool)G_B54_0;
+		bool L_226 = V_45;
+		if (!L_226)
+		{
+			goto IL_0509;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_227 = V_5;
+		NullCheck(L_227);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_228 = L_227->___data;
+		NullCheck(L_228);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_229 = L_228->___verts;
+		int32_t L_230 = V_31;
+		NullCheck(L_229);
+		int32_t L_231 = L_230;
+		float L_232 = (L_229)->GetAt(static_cast<il2cpp_array_size_t>(L_231));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_233 = V_5;
+		NullCheck(L_233);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_234 = L_233->___data;
+		NullCheck(L_234);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_235 = L_234->___verts;
+		int32_t L_236 = V_32;
+		NullCheck(L_235);
+		int32_t L_237 = L_236;
+		float L_238 = (L_235)->GetAt(static_cast<il2cpp_array_size_t>(L_237));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_239 = V_5;
+		NullCheck(L_239);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_240 = L_239->___data;
+		NullCheck(L_240);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_241 = L_240->___verts;
+		int32_t L_242 = V_31;
+		NullCheck(L_241);
+		int32_t L_243 = L_242;
+		float L_244 = (L_241)->GetAt(static_cast<il2cpp_array_size_t>(L_243));
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_245 = V_28;
+		NullCheck(L_245);
+		int32_t L_246 = L_245->___bmin;
+		V_46 = ((float)il2cpp_codegen_add(L_232, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_238, L_244)), ((float)il2cpp_codegen_multiply(((float)L_246), (0.00392156886f)))))));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_247 = V_5;
+		NullCheck(L_247);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_248 = L_247->___data;
+		NullCheck(L_248);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_249 = L_248->___verts;
+		int32_t L_250 = V_31;
+		NullCheck(L_249);
+		int32_t L_251 = L_250;
+		float L_252 = (L_249)->GetAt(static_cast<il2cpp_array_size_t>(L_251));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_253 = V_5;
+		NullCheck(L_253);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_254 = L_253->___data;
+		NullCheck(L_254);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_255 = L_254->___verts;
+		int32_t L_256 = V_32;
+		NullCheck(L_255);
+		int32_t L_257 = L_256;
+		float L_258 = (L_255)->GetAt(static_cast<il2cpp_array_size_t>(L_257));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_259 = V_5;
+		NullCheck(L_259);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_260 = L_259->___data;
+		NullCheck(L_260);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_261 = L_260->___verts;
+		int32_t L_262 = V_31;
+		NullCheck(L_261);
+		int32_t L_263 = L_262;
+		float L_264 = (L_261)->GetAt(static_cast<il2cpp_array_size_t>(L_263));
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_265 = V_28;
+		NullCheck(L_265);
+		int32_t L_266 = L_265->___bmax;
+		V_47 = ((float)il2cpp_codegen_add(L_252, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_258, L_264)), ((float)il2cpp_codegen_multiply(((float)L_266), (0.00392156886f)))))));
+		float L_267 = V_46;
+		float L_268 = V_47;
+		V_49 = (bool)((((float)L_267) > ((float)L_268))? 1 : 0);
+		bool L_269 = V_49;
+		if (!L_269)
+		{
+			goto IL_04cb;
+		}
+	}
+	{
+		float L_270 = V_47;
+		float L_271 = V_46;
+		V_43 = L_271;
+		V_46 = L_270;
+		float L_272 = V_43;
+		V_47 = L_272;
+	}
+
+IL_04cb:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_273 = ___1_startPos;
+		float L_274 = L_273.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_275 = ___2_endPos;
+		float L_276 = L_275.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_277 = ___1_startPos;
+		float L_278 = L_277.___x;
+		float L_279 = V_17;
+		V_48 = ((float)il2cpp_codegen_add(L_274, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_276, L_278)), L_279))));
+		float L_280 = V_48;
+		float L_281 = V_46;
+		if ((!(((float)L_280) >= ((float)L_281))))
+		{
+			goto IL_04f5;
+		}
+	}
+	{
+		float L_282 = V_48;
+		float L_283 = V_47;
+		G_B60_0 = ((((int32_t)((!(((float)L_282) <= ((float)L_283)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_04f6;
+	}
+
+IL_04f5:
+	{
+		G_B60_0 = 0;
+	}
+
+IL_04f6:
+	{
+		V_50 = (bool)G_B60_0;
+		bool L_284 = V_50;
+		if (!L_284)
+		{
+			goto IL_0508;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_285 = V_28;
+		NullCheck(L_285);
+		int64_t L_286 = L_285->___refs;
+		V_20 = L_286;
+		goto IL_0530;
+	}
+
+IL_0508:
+	{
+	}
+
+IL_0509:
+	{
+	}
+
+IL_050a:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_287 = V_5;
+		NullCheck(L_287);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_288 = L_287->___links;
+		int32_t L_289 = V_27;
+		NullCheck(L_288);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_290;
+		L_290 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_288, L_289, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_290);
+		int32_t L_291 = L_290->___next;
+		V_27 = L_291;
+	}
+
+IL_051f:
+	{
+		int32_t L_292 = V_27;
+		V_51 = (bool)((((int32_t)((((int32_t)L_292) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_293 = V_51;
+		if (L_293)
+		{
+			goto IL_0201;
+		}
+	}
+
+IL_0530:
+	{
+		int32_t L_294 = ___4_options;
+		V_52 = (bool)((!(((uint32_t)((int32_t)(L_294&1))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_295 = V_52;
+		if (!L_295)
+		{
+			goto IL_0602;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_296 = V_1;
+		V_2 = L_296;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_297 = ___1_startPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_298 = V_3;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_299 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_300 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_299);
+		NullCheck(L_300);
+		float L_301 = L_300->___t;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_302;
+		L_302 = RcVec3f_Mad_m39874CE2B7229F1131DDBF955E07620CA9DCC5B4_inline(L_297, L_298, L_301, NULL);
+		V_1 = L_302;
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_303 = V_0;
+		int32_t L_304 = V_19;
+		NullCheck(L_303);
+		int32_t L_305 = L_304;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_306 = (L_303)->GetAt(static_cast<il2cpp_array_size_t>(L_305));
+		V_53 = L_306;
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_307 = V_0;
+		int32_t L_308 = V_19;
+		int32_t L_309 = V_14;
+		NullCheck(L_307);
+		int32_t L_310 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_308, 1))%L_309));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_311 = (L_307)->GetAt(static_cast<il2cpp_array_size_t>(L_310));
+		V_54 = L_311;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_312 = V_53;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_313;
+		L_313 = RcVec3f_Subtract_m22DB9ABD128201BAF869053154F8C16AC2C5135F_inline((&V_54), L_312, NULL);
+		V_55 = L_313;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_314 = V_53;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_315;
+		L_315 = RcVec3f_Subtract_m22DB9ABD128201BAF869053154F8C16AC2C5135F_inline((&V_1), L_314, NULL);
+		V_56 = L_315;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_316 = V_55;
+		float L_317 = L_316.___x;
+		float L_318;
+		L_318 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_317, NULL);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_319 = V_55;
+		float L_320 = L_319.___z;
+		float L_321;
+		L_321 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_320, NULL);
+		if ((((float)L_318) > ((float)L_321)))
+		{
+			goto IL_05ad;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_322 = V_56;
+		float L_323 = L_322.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_324 = V_55;
+		float L_325 = L_324.___z;
+		G_B70_0 = ((float)(L_323/L_325));
+		goto IL_05bc;
+	}
+
+IL_05ad:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_326 = V_56;
+		float L_327 = L_326.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_328 = V_55;
+		float L_329 = L_328.___x;
+		G_B70_0 = ((float)(L_327/L_329));
+	}
+
+IL_05bc:
+	{
+		V_57 = G_B70_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_330 = V_53;
+		float L_331 = L_330.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_332 = V_55;
+		float L_333 = L_332.___y;
+		float L_334 = V_57;
+		(&V_1)->___y = ((float)il2cpp_codegen_add(L_331, ((float)il2cpp_codegen_multiply(L_333, L_334))));
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_335 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_336 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_335);
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_337 = L_336;
+		NullCheck(L_337);
+		float L_338 = L_337->___pathCost;
+		RuntimeObject* L_339 = ___3_filter;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_340 = V_2;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_341 = V_1;
+		int64_t L_342 = ___5_prevRef;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_343 = V_4;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_344 = V_7;
+		int64_t L_345 = V_10;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_346 = V_5;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_347 = V_8;
+		int64_t L_348 = V_20;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_349 = V_6;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_350 = V_9;
+		NullCheck(L_339);
+		float L_351;
+		L_351 = InterfaceFuncInvoker11< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(1, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_339, L_340, L_341, L_342, L_343, L_344, L_345, L_346, L_347, L_348, L_349, L_350);
+		NullCheck(L_337);
+		L_337->___pathCost = ((float)il2cpp_codegen_add(L_338, L_351));
+	}
+
+IL_0602:
+	{
+		int64_t L_352 = V_20;
+		V_58 = (bool)((((int64_t)L_352) == ((int64_t)((int64_t)0)))? 1 : 0);
+		bool L_353 = V_58;
+		if (!L_353)
+		{
+			goto IL_06a9;
+		}
+	}
+	{
+		int32_t L_354 = V_19;
+		V_59 = L_354;
+		int32_t L_355 = V_19;
+		int32_t L_356 = V_14;
+		if ((((int32_t)((int32_t)il2cpp_codegen_add(L_355, 1))) < ((int32_t)L_356)))
+		{
+			goto IL_0621;
+		}
+	}
+	{
+		G_B75_0 = 0;
+		goto IL_0625;
+	}
+
+IL_0621:
+	{
+		int32_t L_357 = V_19;
+		G_B75_0 = ((int32_t)il2cpp_codegen_add(L_357, 1));
+	}
+
+IL_0625:
+	{
+		V_60 = G_B75_0;
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_358 = V_0;
+		int32_t L_359 = V_60;
+		NullCheck(L_358);
+		float L_360 = ((L_358)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_359)))->___x;
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_361 = V_0;
+		int32_t L_362 = V_59;
+		NullCheck(L_361);
+		float L_363 = ((L_361)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_362)))->___x;
+		V_61 = ((float)il2cpp_codegen_subtract(L_360, L_363));
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_364 = V_0;
+		int32_t L_365 = V_60;
+		NullCheck(L_364);
+		float L_366 = ((L_364)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_365)))->___z;
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_367 = V_0;
+		int32_t L_368 = V_59;
+		NullCheck(L_367);
+		float L_369 = ((L_367)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_368)))->___x;
+		V_62 = ((float)il2cpp_codegen_subtract(L_366, L_369));
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_370 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_371 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_370);
+		NullCheck(L_371);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_372 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_371->___hitNormal);
+		float L_373 = V_62;
+		L_372->___x = L_373;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_374 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_375 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_374);
+		NullCheck(L_375);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_376 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_375->___hitNormal);
+		L_376->___y = (0.0f);
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_377 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_378 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_377);
+		NullCheck(L_378);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_379 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_378->___hitNormal);
+		float L_380 = V_61;
+		L_379->___z = ((-L_380));
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4** L_381 = ___6_hit;
+		DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4* L_382 = *((DtRaycastHit_t644C708973FAF1DA174009FAF528D36EC6DE0AB4**)L_381);
+		NullCheck(L_382);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_383 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_382->___hitNormal);
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_Normalize_mB704E1A1336A29792D75A1683E4AAC0894D68E72_inline(L_383, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_384 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_12 = L_384;
+		goto IL_06da;
+	}
+
+IL_06a9:
+	{
+		int64_t L_385 = V_10;
+		___5_prevRef = L_385;
+		int64_t L_386 = V_20;
+		V_10 = L_386;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_387 = V_5;
+		V_4 = L_387;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_388 = V_6;
+		V_5 = L_388;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_389 = V_8;
+		V_7 = L_389;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_390 = V_9;
+		V_8 = L_390;
+	}
+
+IL_06c2:
+	{
+		int64_t L_391 = V_10;
+		V_63 = (bool)((!(((uint64_t)L_391) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		bool L_392 = V_63;
+		if (L_392)
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_393 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_12 = L_393;
+		goto IL_06da;
+	}
+
+IL_06da:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_394 = V_12;
+		return L_394;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindPolysAroundCircle_m898388B2F33A251A72A23FC542D9B119DB114024 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_centerPos, float ___2_radius, RuntimeObject* ___3_filter, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___4_resultRef, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___5_resultParent, List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918** ___6_resultCost, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_0 = NULL;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	bool V_3 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_5 = NULL;
+	int64_t V_6 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_7 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_8 = NULL;
+	int64_t V_9 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_10 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_11 = NULL;
+	bool V_12 = false;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_15 = NULL;
+	int64_t V_16 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_17 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_18 = NULL;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_20;
+	memset((&V_20), 0, sizeof(V_20));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	float V_22 = 0.0f;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_23 = NULL;
+	float V_24 = 0.0f;
+	float V_25 = 0.0f;
+	bool V_26 = false;
+	bool V_27 = false;
+	bool V_28 = false;
+	float V_29 = 0.0f;
+	bool V_30 = false;
+	bool V_31 = false;
+	bool V_32 = false;
+	bool V_33 = false;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	int32_t G_B8_0 = 0;
+	int32_t G_B19_0 = 0;
+	int32_t G_B34_0 = 0;
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_0 = ___4_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_1 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_0);
+		V_2 = (bool)((!(((RuntimeObject*)(List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_2 = V_2;
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_3 = ___4_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_4 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_3);
+		NullCheck(L_4);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_4, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_5 = ___5_resultParent;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_6 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_5);
+		NullCheck(L_6);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_6, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918** L_7 = ___6_resultCost;
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_8 = *((List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918**)L_7);
+		NullCheck(L_8);
+		List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_inline(L_8, List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
+	}
+
+IL_0028:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_9 = __this->___m_nav;
+		int64_t L_10 = ___0_startRef;
+		NullCheck(L_9);
+		bool L_11;
+		L_11 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_9, L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_12 = ___1_centerPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		float L_14 = ___2_radius;
+		if ((((float)L_14) < ((float)(0.0f))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		float L_15 = ___2_radius;
+		bool L_16;
+		L_16 = Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline(L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		RuntimeObject* L_17 = ___3_filter;
+		G_B8_0 = ((((RuntimeObject*)(RuntimeObject*)L_17) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0056;
+	}
+
+IL_0055:
+	{
+		G_B8_0 = 1;
+	}
+
+IL_0056:
+	{
+		V_3 = (bool)G_B8_0;
+		bool L_18 = V_3;
+		if (!L_18)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_19 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_20 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_21;
+		L_21 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_19, L_20, NULL);
+		V_4 = L_21;
+		goto IL_03b7;
+	}
+
+IL_0071:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_22 = __this->___m_nodePool;
+		NullCheck(L_22);
+		DtNodePool_Clear_m4682D89F1BB534CA29B32127C54A0B6239075575(L_22, NULL);
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_23 = __this->___m_openList;
+		NullCheck(L_23);
+		DtNodeQueue_Clear_m9FAB097BAD2439457DAE7C38948A62B33D4A13D1(L_23, NULL);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_24 = __this->___m_nodePool;
+		int64_t L_25 = ___0_startRef;
+		NullCheck(L_24);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_26;
+		L_26 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_24, L_25, NULL);
+		V_0 = L_26;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_27 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_28 = ___1_centerPos;
+		NullCheck(L_27);
+		L_27->___pos = L_28;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_29 = V_0;
+		NullCheck(L_29);
+		L_29->___pidx = 0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_30 = V_0;
+		NullCheck(L_30);
+		L_30->___cost = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_31 = V_0;
+		NullCheck(L_31);
+		L_31->___total = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_32 = V_0;
+		int64_t L_33 = ___0_startRef;
+		NullCheck(L_32);
+		L_32->___id = L_33;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_34 = V_0;
+		NullCheck(L_34);
+		L_34->___flags = 1;
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_35 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_36 = V_0;
+		NullCheck(L_35);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_35, L_36, NULL);
+		float L_37 = ___2_radius;
+		float L_38;
+		L_38 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_37, NULL);
+		V_1 = L_38;
+		goto IL_0397;
+	}
+
+IL_00e1:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_39 = __this->___m_openList;
+		NullCheck(L_39);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_40;
+		L_40 = DtNodeQueue_Pop_m4569866ACFC4A645DD3D1A7BB7761CC4222AD145(L_39, NULL);
+		V_5 = L_40;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_41 = V_5;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_42 = L_41;
+		NullCheck(L_42);
+		int32_t L_43 = L_42->___flags;
+		NullCheck(L_42);
+		L_42->___flags = ((int32_t)(L_43&((int32_t)-2)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_44 = V_5;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_45 = L_44;
+		NullCheck(L_45);
+		int32_t L_46 = L_45->___flags;
+		NullCheck(L_45);
+		L_45->___flags = ((int32_t)(L_46|2));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_47 = V_5;
+		NullCheck(L_47);
+		int64_t L_48 = L_47->___id;
+		V_6 = L_48;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_49 = __this->___m_nav;
+		int64_t L_50 = V_6;
+		NullCheck(L_49);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_49, L_50, (&V_7), (&V_8), NULL);
+		V_9 = ((int64_t)0);
+		V_10 = (DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*)NULL;
+		V_11 = (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)NULL;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_51 = V_5;
+		NullCheck(L_51);
+		int32_t L_52 = L_51->___pidx;
+		V_12 = (bool)((!(((uint32_t)L_52) <= ((uint32_t)0)))? 1 : 0);
+		bool L_53 = V_12;
+		if (!L_53)
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_54 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_55 = V_5;
+		NullCheck(L_55);
+		int32_t L_56 = L_55->___pidx;
+		NullCheck(L_54);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_57;
+		L_57 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_54, L_56, NULL);
+		NullCheck(L_57);
+		int64_t L_58 = L_57->___id;
+		V_9 = L_58;
+	}
+
+IL_015e:
+	{
+		int64_t L_59 = V_9;
+		V_13 = (bool)((!(((uint64_t)L_59) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		bool L_60 = V_13;
+		if (!L_60)
+		{
+			goto IL_017e;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_61 = __this->___m_nav;
+		int64_t L_62 = V_9;
+		NullCheck(L_61);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_61, L_62, (&V_10), (&V_11), NULL);
+	}
+
+IL_017e:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_63 = ___4_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_64 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_63);
+		int64_t L_65 = V_6;
+		NullCheck(L_64);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_64, L_65, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_66 = ___5_resultParent;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_67 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_66);
+		int64_t L_68 = V_9;
+		NullCheck(L_67);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_67, L_68, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918** L_69 = ___6_resultCost;
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_70 = *((List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918**)L_69);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_71 = V_5;
+		NullCheck(L_71);
+		float L_72 = L_71->___total;
+		NullCheck(L_70);
+		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_70, L_72, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_73 = V_7;
+		NullCheck(L_73);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_74 = L_73->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_75 = V_8;
+		NullCheck(L_75);
+		int32_t L_76 = L_75->___index;
+		NullCheck(L_74);
+		int32_t L_77 = L_76;
+		int32_t L_78 = (L_74)->GetAt(static_cast<il2cpp_array_size_t>(L_77));
+		V_14 = L_78;
+		goto IL_0385;
+	}
+
+IL_01ba:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_79 = V_7;
+		NullCheck(L_79);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_80 = L_79->___links;
+		int32_t L_81 = V_14;
+		NullCheck(L_80);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_82;
+		L_82 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_80, L_81, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_15 = L_82;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_83 = V_15;
+		NullCheck(L_83);
+		int64_t L_84 = L_83->___refs;
+		V_16 = L_84;
+		int64_t L_85 = V_16;
+		if (!L_85)
+		{
+			goto IL_01e0;
+		}
+	}
+	{
+		int64_t L_86 = V_16;
+		int64_t L_87 = V_9;
+		G_B19_0 = ((((int64_t)L_86) == ((int64_t)L_87))? 1 : 0);
+		goto IL_01e1;
+	}
+
+IL_01e0:
+	{
+		G_B19_0 = 1;
+	}
+
+IL_01e1:
+	{
+		V_26 = (bool)G_B19_0;
+		bool L_88 = V_26;
+		if (!L_88)
+		{
+			goto IL_01ed;
+		}
+	}
+	{
+		goto IL_0370;
+	}
+
+IL_01ed:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_89 = __this->___m_nav;
+		int64_t L_90 = V_16;
+		NullCheck(L_89);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_89, L_90, (&V_17), (&V_18), NULL);
+		RuntimeObject* L_91 = ___3_filter;
+		int64_t L_92 = V_16;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_93 = V_17;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_94 = V_18;
+		NullCheck(L_91);
+		bool L_95;
+		L_95 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_91, L_92, L_93, L_94);
+		V_27 = (bool)((((int32_t)L_95) == ((int32_t)0))? 1 : 0);
+		bool L_96 = V_27;
+		if (!L_96)
+		{
+			goto IL_021b;
+		}
+	}
+	{
+		goto IL_0370;
+	}
+
+IL_021b:
+	{
+		int64_t L_97 = V_6;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_98 = V_8;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_99 = V_7;
+		int64_t L_100 = V_16;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_101 = V_18;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_102 = V_17;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_103;
+		L_103 = DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D(__this, L_97, L_98, L_99, L_100, L_101, L_102, (&V_20), (&V_21), NULL);
+		V_19 = L_103;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_104;
+		L_104 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_19), NULL);
+		V_28 = L_104;
+		bool L_105 = V_28;
+		if (!L_105)
+		{
+			goto IL_0246;
+		}
+	}
+	{
+		goto IL_0370;
+	}
+
+IL_0246:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_106 = ___1_centerPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_107 = V_20;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_108 = V_21;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_109;
+		L_109 = DtUtils_DistancePtSegSqr2D_m3B2F9369BB74F64FECCEE1D276A1819EDAF7EEB2(L_106, L_107, L_108, (&V_29), NULL);
+		V_22 = L_109;
+		float L_110 = V_22;
+		float L_111 = V_1;
+		V_30 = (bool)((((float)L_110) > ((float)L_111))? 1 : 0);
+		bool L_112 = V_30;
+		if (!L_112)
+		{
+			goto IL_0265;
+		}
+	}
+	{
+		goto IL_0370;
+	}
+
+IL_0265:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_113 = __this->___m_nodePool;
+		int64_t L_114 = V_16;
+		NullCheck(L_113);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_115;
+		L_115 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_113, L_114, NULL);
+		V_23 = L_115;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_116 = V_23;
+		NullCheck(L_116);
+		int32_t L_117 = L_116->___flags;
+		V_31 = (bool)((!(((uint32_t)((int32_t)(L_117&2))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_118 = V_31;
+		if (!L_118)
+		{
+			goto IL_028c;
+		}
+	}
+	{
+		goto IL_0370;
+	}
+
+IL_028c:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_119 = V_23;
+		NullCheck(L_119);
+		int32_t L_120 = L_119->___flags;
+		V_32 = (bool)((((int32_t)L_120) == ((int32_t)0))? 1 : 0);
+		bool L_121 = V_32;
+		if (!L_121)
+		{
+			goto IL_02b3;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_122 = V_23;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_123 = V_20;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_124 = V_21;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_125;
+		L_125 = RcVec3f_Lerp_m070D7E7D50CF96AB1F9C0DCDE50F9456B499C91A_inline(L_123, L_124, (0.5f), NULL);
+		NullCheck(L_122);
+		L_122->___pos = L_125;
+	}
+
+IL_02b3:
+	{
+		RuntimeObject* L_126 = ___3_filter;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_127 = V_5;
+		NullCheck(L_127);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_128 = L_127->___pos;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_129 = V_23;
+		NullCheck(L_129);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_130 = L_129->___pos;
+		int64_t L_131 = V_9;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_132 = V_10;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_133 = V_11;
+		int64_t L_134 = V_6;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_135 = V_7;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_136 = V_8;
+		int64_t L_137 = V_16;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_138 = V_17;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_139 = V_18;
+		NullCheck(L_126);
+		float L_140;
+		L_140 = InterfaceFuncInvoker11< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(1, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_126, L_128, L_130, L_131, L_132, L_133, L_134, L_135, L_136, L_137, L_138, L_139);
+		V_24 = L_140;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_141 = V_5;
+		NullCheck(L_141);
+		float L_142 = L_141->___total;
+		float L_143 = V_24;
+		V_25 = ((float)il2cpp_codegen_add(L_142, L_143));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_144 = V_23;
+		NullCheck(L_144);
+		int32_t L_145 = L_144->___flags;
+		if (!((int32_t)(L_145&1)))
+		{
+			goto IL_0303;
+		}
+	}
+	{
+		float L_146 = V_25;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_147 = V_23;
+		NullCheck(L_147);
+		float L_148 = L_147->___total;
+		G_B34_0 = ((((int32_t)((!(((float)L_146) >= ((float)L_148)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0304;
+	}
+
+IL_0303:
+	{
+		G_B34_0 = 0;
+	}
+
+IL_0304:
+	{
+		V_33 = (bool)G_B34_0;
+		bool L_149 = V_33;
+		if (!L_149)
+		{
+			goto IL_030d;
+		}
+	}
+	{
+		goto IL_0370;
+	}
+
+IL_030d:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_150 = V_23;
+		int64_t L_151 = V_16;
+		NullCheck(L_150);
+		L_150->___id = L_151;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_152 = V_23;
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_153 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_154 = V_5;
+		NullCheck(L_153);
+		int32_t L_155;
+		L_155 = DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07(L_153, L_154, NULL);
+		NullCheck(L_152);
+		L_152->___pidx = L_155;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_156 = V_23;
+		float L_157 = V_25;
+		NullCheck(L_156);
+		L_156->___total = L_157;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_158 = V_23;
+		NullCheck(L_158);
+		int32_t L_159 = L_158->___flags;
+		V_34 = (bool)((!(((uint32_t)((int32_t)(L_159&1))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_160 = V_34;
+		if (!L_160)
+		{
+			goto IL_0357;
+		}
+	}
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_161 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_162 = V_23;
+		NullCheck(L_161);
+		DtNodeQueue_Modify_m9528E2A6C335DEADAB9B5DF835691EACBEF3E308(L_161, L_162, NULL);
+		goto IL_036f;
+	}
+
+IL_0357:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_163 = V_23;
+		NullCheck(L_163);
+		L_163->___flags = 1;
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_164 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_165 = V_23;
+		NullCheck(L_164);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_164, L_165, NULL);
+	}
+
+IL_036f:
+	{
+	}
+
+IL_0370:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_166 = V_7;
+		NullCheck(L_166);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_167 = L_166->___links;
+		int32_t L_168 = V_14;
+		NullCheck(L_167);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_169;
+		L_169 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_167, L_168, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_169);
+		int32_t L_170 = L_169->___next;
+		V_14 = L_170;
+	}
+
+IL_0385:
+	{
+		int32_t L_171 = V_14;
+		V_35 = (bool)((((int32_t)((((int32_t)L_171) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_172 = V_35;
+		if (L_172)
+		{
+			goto IL_01ba;
+		}
+	}
+	{
+	}
+
+IL_0397:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_173 = __this->___m_openList;
+		NullCheck(L_173);
+		bool L_174;
+		L_174 = DtNodeQueue_IsEmpty_m6FA5A282449EA550AB66A5852500B70CBBC4F99E(L_173, NULL);
+		V_36 = (bool)((((int32_t)L_174) == ((int32_t)0))? 1 : 0);
+		bool L_175 = V_36;
+		if (L_175)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_176 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_4 = L_176;
+		goto IL_03b7;
+	}
+
+IL_03b7:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_177 = V_4;
+		return L_177;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindPolysAroundShape_m9B40A9618E4FFCECC01B1A9E988E4BF9569BD660 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* ___1_verts, RuntimeObject* ___2_filter, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___3_resultRef, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___4_resultParent, List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918** ___5_resultCost, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_3 = NULL;
+	bool V_4 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_8 = NULL;
+	int64_t V_9 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_10 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_11 = NULL;
+	int64_t V_12 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_13 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_14 = NULL;
+	bool V_15 = false;
+	bool V_16 = false;
+	int32_t V_17 = 0;
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_18 = NULL;
+	int64_t V_19 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_20 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_21 = NULL;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_22;
+	memset((&V_22), 0, sizeof(V_22));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_23;
+	memset((&V_23), 0, sizeof(V_23));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_24;
+	memset((&V_24), 0, sizeof(V_24));
+	bool V_25 = false;
+	float V_26 = 0.0f;
+	float V_27 = 0.0f;
+	int32_t V_28 = 0;
+	int32_t V_29 = 0;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_30 = NULL;
+	float V_31 = 0.0f;
+	float V_32 = 0.0f;
+	bool V_33 = false;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	bool V_37 = false;
+	bool V_38 = false;
+	bool V_39 = false;
+	bool V_40 = false;
+	bool V_41 = false;
+	bool V_42 = false;
+	bool V_43 = false;
+	int32_t G_B5_0 = 0;
+	int32_t G_B19_0 = 0;
+	int32_t G_B30_0 = 0;
+	int32_t G_B39_0 = 0;
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_0 = ___3_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_1 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_0);
+		NullCheck(L_1);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_1, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_2 = ___4_resultParent;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_3 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_2);
+		NullCheck(L_3);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_3, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918** L_4 = ___5_resultCost;
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_5 = *((List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918**)L_4);
+		NullCheck(L_5);
+		List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_inline(L_5, List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_6 = ___1_verts;
+		NullCheck(L_6);
+		V_0 = ((int32_t)(((RuntimeArray*)L_6)->max_length));
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_7 = __this->___m_nav;
+		int64_t L_8 = ___0_startRef;
+		NullCheck(L_7);
+		bool L_9;
+		L_9 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_7, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_10 = ___1_verts;
+		if (!L_10)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_11) < ((int32_t)3)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		RuntimeObject* L_12 = ___2_filter;
+		G_B5_0 = ((((RuntimeObject*)(RuntimeObject*)L_12) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_003c;
+	}
+
+IL_003b:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_003c:
+	{
+		V_4 = (bool)G_B5_0;
+		bool L_13 = V_4;
+		if (!L_13)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_14 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_15 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_16;
+		L_16 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_14, L_15, NULL);
+		V_5 = L_16;
+		goto IL_0418;
+	}
+
+IL_0059:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_17 = __this->___m_nodePool;
+		NullCheck(L_17);
+		DtNodePool_Clear_m4682D89F1BB534CA29B32127C54A0B6239075575(L_17, NULL);
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_18 = __this->___m_openList;
+		NullCheck(L_18);
+		DtNodeQueue_Clear_m9FAB097BAD2439457DAE7C38948A62B33D4A13D1(L_18, NULL);
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_19;
+		L_19 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		V_1 = L_19;
+		V_6 = 0;
+		goto IL_0093;
+	}
+
+IL_007c:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_20 = V_1;
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_21 = ___1_verts;
+		int32_t L_22 = V_6;
+		NullCheck(L_21);
+		int32_t L_23 = L_22;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_25;
+		L_25 = RcVec3f_op_Addition_m54DDDEF534B73C8AEA3B4019CFC41ECA48D63D66_inline(L_20, L_24, NULL);
+		V_1 = L_25;
+		int32_t L_26 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_0093:
+	{
+		int32_t L_27 = V_6;
+		int32_t L_28 = V_0;
+		V_7 = (bool)((((int32_t)L_27) < ((int32_t)L_28))? 1 : 0);
+		bool L_29 = V_7;
+		if (L_29)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		int32_t L_30 = V_0;
+		V_2 = ((float)((1.0f)/((float)L_30)));
+		float* L_31 = (float*)(&(&V_1)->___x);
+		float* L_32 = L_31;
+		float L_33 = *((float*)L_32);
+		float L_34 = V_2;
+		*((float*)L_32) = (float)((float)il2cpp_codegen_multiply(L_33, L_34));
+		float* L_35 = (float*)(&(&V_1)->___y);
+		float* L_36 = L_35;
+		float L_37 = *((float*)L_36);
+		float L_38 = V_2;
+		*((float*)L_36) = (float)((float)il2cpp_codegen_multiply(L_37, L_38));
+		float* L_39 = (float*)(&(&V_1)->___z);
+		float* L_40 = L_39;
+		float L_41 = *((float*)L_40);
+		float L_42 = V_2;
+		*((float*)L_40) = (float)((float)il2cpp_codegen_multiply(L_41, L_42));
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_43 = __this->___m_nodePool;
+		int64_t L_44 = ___0_startRef;
+		NullCheck(L_43);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_45;
+		L_45 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_43, L_44, NULL);
+		V_3 = L_45;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_46 = V_3;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_47 = V_1;
+		NullCheck(L_46);
+		L_46->___pos = L_47;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_48 = V_3;
+		NullCheck(L_48);
+		L_48->___pidx = 0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_49 = V_3;
+		NullCheck(L_49);
+		L_49->___cost = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_50 = V_3;
+		NullCheck(L_50);
+		L_50->___total = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_51 = V_3;
+		int64_t L_52 = ___0_startRef;
+		NullCheck(L_51);
+		L_51->___id = L_52;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_53 = V_3;
+		NullCheck(L_53);
+		L_53->___flags = 1;
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_54 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_55 = V_3;
+		NullCheck(L_54);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_54, L_55, NULL);
+		goto IL_03f8;
+	}
+
+IL_011c:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_56 = __this->___m_openList;
+		NullCheck(L_56);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_57;
+		L_57 = DtNodeQueue_Pop_m4569866ACFC4A645DD3D1A7BB7761CC4222AD145(L_56, NULL);
+		V_8 = L_57;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_58 = V_8;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_59 = L_58;
+		NullCheck(L_59);
+		int32_t L_60 = L_59->___flags;
+		NullCheck(L_59);
+		L_59->___flags = ((int32_t)(L_60&((int32_t)-2)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_61 = V_8;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_62 = L_61;
+		NullCheck(L_62);
+		int32_t L_63 = L_62->___flags;
+		NullCheck(L_62);
+		L_62->___flags = ((int32_t)(L_63|2));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_64 = V_8;
+		NullCheck(L_64);
+		int64_t L_65 = L_64->___id;
+		V_9 = L_65;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_66 = __this->___m_nav;
+		int64_t L_67 = V_9;
+		NullCheck(L_66);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_66, L_67, (&V_10), (&V_11), NULL);
+		V_12 = ((int64_t)0);
+		V_13 = (DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*)NULL;
+		V_14 = (DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*)NULL;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_68 = V_8;
+		NullCheck(L_68);
+		int32_t L_69 = L_68->___pidx;
+		V_15 = (bool)((!(((uint32_t)L_69) <= ((uint32_t)0)))? 1 : 0);
+		bool L_70 = V_15;
+		if (!L_70)
+		{
+			goto IL_0199;
+		}
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_71 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_72 = V_8;
+		NullCheck(L_72);
+		int32_t L_73 = L_72->___pidx;
+		NullCheck(L_71);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_74;
+		L_74 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_71, L_73, NULL);
+		NullCheck(L_74);
+		int64_t L_75 = L_74->___id;
+		V_12 = L_75;
+	}
+
+IL_0199:
+	{
+		int64_t L_76 = V_12;
+		V_16 = (bool)((!(((uint64_t)L_76) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		bool L_77 = V_16;
+		if (!L_77)
+		{
+			goto IL_01b9;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_78 = __this->___m_nav;
+		int64_t L_79 = V_12;
+		NullCheck(L_78);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_78, L_79, (&V_13), (&V_14), NULL);
+	}
+
+IL_01b9:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_80 = ___3_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_81 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_80);
+		int64_t L_82 = V_9;
+		NullCheck(L_81);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_81, L_82, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_83 = ___4_resultParent;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_84 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_83);
+		int64_t L_85 = V_12;
+		NullCheck(L_84);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_84, L_85, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918** L_86 = ___5_resultCost;
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_87 = *((List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918**)L_86);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_88 = V_8;
+		NullCheck(L_88);
+		float L_89 = L_88->___total;
+		NullCheck(L_87);
+		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_87, L_89, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_90 = V_10;
+		NullCheck(L_90);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_91 = L_90->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_92 = V_11;
+		NullCheck(L_92);
+		int32_t L_93 = L_92->___index;
+		NullCheck(L_91);
+		int32_t L_94 = L_93;
+		int32_t L_95 = (L_91)->GetAt(static_cast<il2cpp_array_size_t>(L_94));
+		V_17 = L_95;
+		goto IL_03e6;
+	}
+
+IL_01f5:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_96 = V_10;
+		NullCheck(L_96);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_97 = L_96->___links;
+		int32_t L_98 = V_17;
+		NullCheck(L_97);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_99;
+		L_99 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_97, L_98, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_18 = L_99;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_100 = V_18;
+		NullCheck(L_100);
+		int64_t L_101 = L_100->___refs;
+		V_19 = L_101;
+		int64_t L_102 = V_19;
+		if (!L_102)
+		{
+			goto IL_021b;
+		}
+	}
+	{
+		int64_t L_103 = V_19;
+		int64_t L_104 = V_12;
+		G_B19_0 = ((((int64_t)L_103) == ((int64_t)L_104))? 1 : 0);
+		goto IL_021c;
+	}
+
+IL_021b:
+	{
+		G_B19_0 = 1;
+	}
+
+IL_021c:
+	{
+		V_33 = (bool)G_B19_0;
+		bool L_105 = V_33;
+		if (!L_105)
+		{
+			goto IL_0228;
+		}
+	}
+	{
+		goto IL_03d1;
+	}
+
+IL_0228:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_106 = __this->___m_nav;
+		int64_t L_107 = V_19;
+		NullCheck(L_106);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_106, L_107, (&V_20), (&V_21), NULL);
+		RuntimeObject* L_108 = ___2_filter;
+		int64_t L_109 = V_19;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_110 = V_20;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_111 = V_21;
+		NullCheck(L_108);
+		bool L_112;
+		L_112 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_108, L_109, L_110, L_111);
+		V_34 = (bool)((((int32_t)L_112) == ((int32_t)0))? 1 : 0);
+		bool L_113 = V_34;
+		if (!L_113)
+		{
+			goto IL_0255;
+		}
+	}
+	{
+		goto IL_03d1;
+	}
+
+IL_0255:
+	{
+		int64_t L_114 = V_9;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_115 = V_11;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_116 = V_10;
+		int64_t L_117 = V_19;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_118 = V_21;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_119 = V_20;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_120;
+		L_120 = DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D(__this, L_114, L_115, L_116, L_117, L_118, L_119, (&V_23), (&V_24), NULL);
+		V_22 = L_120;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_121;
+		L_121 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_22), NULL);
+		V_35 = L_121;
+		bool L_122 = V_35;
+		if (!L_122)
+		{
+			goto IL_0280;
+		}
+	}
+	{
+		goto IL_03d1;
+	}
+
+IL_0280:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_123 = V_23;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_124 = V_24;
+		RcVec3fU5BU5D_tA30642C272AEA10D7D4DF647B8B59A565D1DDAD6* L_125 = ___1_verts;
+		int32_t L_126 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_127;
+		L_127 = DtUtils_IntersectSegmentPoly2D_mBE858F977771D4A3B45BDE68651C560F9E444C9E(L_123, L_124, L_125, L_126, (&V_26), (&V_27), (&V_28), (&V_29), NULL);
+		V_25 = L_127;
+		bool L_128 = V_25;
+		V_36 = (bool)((((int32_t)L_128) == ((int32_t)0))? 1 : 0);
+		bool L_129 = V_36;
+		if (!L_129)
+		{
+			goto IL_02a6;
+		}
+	}
+	{
+		goto IL_03d1;
+	}
+
+IL_02a6:
+	{
+		float L_130 = V_26;
+		if ((((float)L_130) > ((float)(1.0f))))
+		{
+			goto IL_02ba;
+		}
+	}
+	{
+		float L_131 = V_27;
+		G_B30_0 = ((((float)L_131) < ((float)(0.0f)))? 1 : 0);
+		goto IL_02bb;
+	}
+
+IL_02ba:
+	{
+		G_B30_0 = 1;
+	}
+
+IL_02bb:
+	{
+		V_37 = (bool)G_B30_0;
+		bool L_132 = V_37;
+		if (!L_132)
+		{
+			goto IL_02c7;
+		}
+	}
+	{
+		goto IL_03d1;
+	}
+
+IL_02c7:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_133 = __this->___m_nodePool;
+		int64_t L_134 = V_19;
+		NullCheck(L_133);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_135;
+		L_135 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_133, L_134, NULL);
+		V_30 = L_135;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_136 = V_30;
+		NullCheck(L_136);
+		int32_t L_137 = L_136->___flags;
+		V_38 = (bool)((!(((uint32_t)((int32_t)(L_137&2))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_138 = V_38;
+		if (!L_138)
+		{
+			goto IL_02ee;
+		}
+	}
+	{
+		goto IL_03d1;
+	}
+
+IL_02ee:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_139 = V_30;
+		NullCheck(L_139);
+		int32_t L_140 = L_139->___flags;
+		V_39 = (bool)((((int32_t)L_140) == ((int32_t)0))? 1 : 0);
+		bool L_141 = V_39;
+		if (!L_141)
+		{
+			goto IL_0315;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_142 = V_30;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_143 = V_23;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_144 = V_24;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_145;
+		L_145 = RcVec3f_Lerp_m070D7E7D50CF96AB1F9C0DCDE50F9456B499C91A_inline(L_143, L_144, (0.5f), NULL);
+		NullCheck(L_142);
+		L_142->___pos = L_145;
+	}
+
+IL_0315:
+	{
+		RuntimeObject* L_146 = ___2_filter;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_147 = V_8;
+		NullCheck(L_147);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_148 = L_147->___pos;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_149 = V_30;
+		NullCheck(L_149);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_150 = L_149->___pos;
+		int64_t L_151 = V_12;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_152 = V_13;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_153 = V_14;
+		int64_t L_154 = V_9;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_155 = V_10;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_156 = V_11;
+		int64_t L_157 = V_19;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_158 = V_20;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_159 = V_21;
+		NullCheck(L_146);
+		float L_160;
+		L_160 = InterfaceFuncInvoker11< float, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6*, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(1, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_146, L_148, L_150, L_151, L_152, L_153, L_154, L_155, L_156, L_157, L_158, L_159);
+		V_31 = L_160;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_161 = V_8;
+		NullCheck(L_161);
+		float L_162 = L_161->___total;
+		float L_163 = V_31;
+		V_32 = ((float)il2cpp_codegen_add(L_162, L_163));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_164 = V_30;
+		NullCheck(L_164);
+		int32_t L_165 = L_164->___flags;
+		if (!((int32_t)(L_165&1)))
+		{
+			goto IL_0364;
+		}
+	}
+	{
+		float L_166 = V_32;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_167 = V_30;
+		NullCheck(L_167);
+		float L_168 = L_167->___total;
+		G_B39_0 = ((((int32_t)((!(((float)L_166) >= ((float)L_168)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0365;
+	}
+
+IL_0364:
+	{
+		G_B39_0 = 0;
+	}
+
+IL_0365:
+	{
+		V_40 = (bool)G_B39_0;
+		bool L_169 = V_40;
+		if (!L_169)
+		{
+			goto IL_036e;
+		}
+	}
+	{
+		goto IL_03d1;
+	}
+
+IL_036e:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_170 = V_30;
+		int64_t L_171 = V_19;
+		NullCheck(L_170);
+		L_170->___id = L_171;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_172 = V_30;
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_173 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_174 = V_8;
+		NullCheck(L_173);
+		int32_t L_175;
+		L_175 = DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07(L_173, L_174, NULL);
+		NullCheck(L_172);
+		L_172->___pidx = L_175;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_176 = V_30;
+		float L_177 = V_32;
+		NullCheck(L_176);
+		L_176->___total = L_177;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_178 = V_30;
+		NullCheck(L_178);
+		int32_t L_179 = L_178->___flags;
+		V_41 = (bool)((!(((uint32_t)((int32_t)(L_179&1))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_180 = V_41;
+		if (!L_180)
+		{
+			goto IL_03b8;
+		}
+	}
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_181 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_182 = V_30;
+		NullCheck(L_181);
+		DtNodeQueue_Modify_m9528E2A6C335DEADAB9B5DF835691EACBEF3E308(L_181, L_182, NULL);
+		goto IL_03d0;
+	}
+
+IL_03b8:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_183 = V_30;
+		NullCheck(L_183);
+		L_183->___flags = 1;
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_184 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_185 = V_30;
+		NullCheck(L_184);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_184, L_185, NULL);
+	}
+
+IL_03d0:
+	{
+	}
+
+IL_03d1:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_186 = V_10;
+		NullCheck(L_186);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_187 = L_186->___links;
+		int32_t L_188 = V_17;
+		NullCheck(L_187);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_189;
+		L_189 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_187, L_188, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_189);
+		int32_t L_190 = L_189->___next;
+		V_17 = L_190;
+	}
+
+IL_03e6:
+	{
+		int32_t L_191 = V_17;
+		V_42 = (bool)((((int32_t)((((int32_t)L_191) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_192 = V_42;
+		if (L_192)
+		{
+			goto IL_01f5;
+		}
+	}
+	{
+	}
+
+IL_03f8:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_193 = __this->___m_openList;
+		NullCheck(L_193);
+		bool L_194;
+		L_194 = DtNodeQueue_IsEmpty_m6FA5A282449EA550AB66A5852500B70CBBC4F99E(L_193, NULL);
+		V_43 = (bool)((((int32_t)L_194) == ((int32_t)0))? 1 : 0);
+		bool L_195 = V_43;
+		if (L_195)
+		{
+			goto IL_011c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_196 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_5 = L_196;
+		goto IL_0418;
+	}
+
+IL_0418:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_197 = V_5;
+		return L_197;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindLocalNeighbourhood_m519676972F90D63B2F9481B5308B1D052A6562F3 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_centerPos, float ___2_radius, RuntimeObject* ___3_filter, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___4_resultRef, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___5_resultParent, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedListNode_1_get_Value_m0002CA07B9FA0EA9B184224D7575DF46D5E5972F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_RemoveFirst_m8783AF0585C84EE3173FB8E608A29914A1DA66BD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1__ctor_m2CEDDD9094DEB3DE022EA06DAD156C5A2027E4F4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_get_Count_mDE2A5DE9F82166C43C5C12058737ECB5AC137D9F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_get_First_mE50B3E3FC2A783CAC5738E6718C9C788BB43D6D9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* V_0 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_1 = NULL;
+	LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* V_2 = NULL;
+	float V_3 = 0.0f;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_4 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_5 = NULL;
+	bool V_6 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_8 = NULL;
+	int64_t V_9 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_10 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_11 = NULL;
+	int32_t V_12 = 0;
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_13 = NULL;
+	int64_t V_14 = 0;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_15 = NULL;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_16 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_17 = NULL;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_18;
+	memset((&V_18), 0, sizeof(V_18));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_20;
+	memset((&V_20), 0, sizeof(V_20));
+	float V_21 = 0.0f;
+	int32_t V_22 = 0;
+	bool V_23 = false;
+	bool V_24 = false;
+	bool V_25 = false;
+	bool V_26 = false;
+	bool V_27 = false;
+	bool V_28 = false;
+	float V_29 = 0.0f;
+	bool V_30 = false;
+	int32_t V_31 = 0;
+	bool V_32 = false;
+	int32_t V_33 = 0;
+	int64_t V_34 = 0;
+	bool V_35 = false;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_36 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_37 = NULL;
+	int32_t V_38 = 0;
+	int32_t V_39 = 0;
+	bool V_40 = false;
+	bool V_41 = false;
+	bool V_42 = false;
+	int32_t V_43 = 0;
+	bool V_44 = false;
+	bool V_45 = false;
+	bool V_46 = false;
+	bool V_47 = false;
+	bool V_48 = false;
+	bool V_49 = false;
+	int32_t G_B8_0 = 0;
+	LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* G_B13_0 = NULL;
+	LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* G_B12_0 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* G_B14_0 = NULL;
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_0 = __this->___m_nav;
+		int64_t L_1 = ___0_startRef;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_3 = ___1_centerPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		float L_5 = ___2_radius;
+		if ((((float)L_5) < ((float)(0.0f))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		float L_6 = ___2_radius;
+		bool L_7;
+		L_7 = Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		RuntimeObject* L_8 = ___3_filter;
+		if (!L_8)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_9 = ___4_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_10 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_9);
+		if (!L_10)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_11 = ___5_resultParent;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_12 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_11);
+		G_B8_0 = ((((RuntimeObject*)(List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)L_12) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0039;
+	}
+
+IL_0038:
+	{
+		G_B8_0 = 1;
+	}
+
+IL_0039:
+	{
+		V_6 = (bool)G_B8_0;
+		bool L_13 = V_6;
+		if (!L_13)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_14 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_15 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_16;
+		L_16 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_14, L_15, NULL);
+		V_7 = L_16;
+		goto IL_03f1;
+	}
+
+IL_0056:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_17 = ___4_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_18 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_17);
+		NullCheck(L_18);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_18, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_19 = ___5_resultParent;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_20 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_19);
+		NullCheck(L_20);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_20, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_21 = (DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6*)il2cpp_codegen_object_new(DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6_il2cpp_TypeInfo_var);
+		DtNodePool__ctor_m564949C90A7CA1D036F9B8E23DC6A33967228A04(L_21, NULL);
+		V_0 = L_21;
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_22 = V_0;
+		int64_t L_23 = ___0_startRef;
+		NullCheck(L_22);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_24;
+		L_24 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_22, L_23, NULL);
+		V_1 = L_24;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_25 = V_1;
+		NullCheck(L_25);
+		L_25->___pidx = 0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_26 = V_1;
+		int64_t L_27 = ___0_startRef;
+		NullCheck(L_26);
+		L_26->___id = L_27;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_28 = V_1;
+		NullCheck(L_28);
+		L_28->___flags = 2;
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_29 = (LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18*)il2cpp_codegen_object_new(LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18_il2cpp_TypeInfo_var);
+		LinkedList_1__ctor_m2CEDDD9094DEB3DE022EA06DAD156C5A2027E4F4(L_29, LinkedList_1__ctor_m2CEDDD9094DEB3DE022EA06DAD156C5A2027E4F4_RuntimeMethod_var);
+		V_2 = L_29;
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_30 = V_2;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_31 = V_1;
+		NullCheck(L_30);
+		LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* L_32;
+		L_32 = LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A(L_30, L_31, LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_33 = ___4_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_34 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_33);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_35 = V_1;
+		NullCheck(L_35);
+		int64_t L_36 = L_35->___id;
+		NullCheck(L_34);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_34, L_36, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_37 = ___5_resultParent;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_38 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_37);
+		NullCheck(L_38);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_38, ((int64_t)0), List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		float L_39 = ___2_radius;
+		float L_40;
+		L_40 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_39, NULL);
+		V_3 = L_40;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_41 = __this->___m_nav;
+		NullCheck(L_41);
+		int32_t L_42;
+		L_42 = DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F(L_41, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_43 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_42, 3)));
+		V_4 = L_43;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_44 = __this->___m_nav;
+		NullCheck(L_44);
+		int32_t L_45;
+		L_45 = DtNavMesh_GetMaxVertsPerPoly_mAEDD8DC1FEA1001CCE933C77388E38B8CFA0017F(L_44, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_46 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_45, 3)));
+		V_5 = L_46;
+		goto IL_03d6;
+	}
+
+IL_00e7:
+	{
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_47 = V_2;
+		NullCheck(L_47);
+		LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* L_48;
+		L_48 = LinkedList_1_get_First_mE50B3E3FC2A783CAC5738E6718C9C788BB43D6D9_inline(L_47, LinkedList_1_get_First_mE50B3E3FC2A783CAC5738E6718C9C788BB43D6D9_RuntimeMethod_var);
+		LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* L_49 = L_48;
+		if (L_49)
+		{
+			G_B13_0 = L_49;
+			goto IL_00f5;
+		}
+		G_B12_0 = L_49;
+	}
+	{
+		G_B14_0 = ((DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)(NULL));
+		goto IL_00fa;
+	}
+
+IL_00f5:
+	{
+		NullCheck(G_B13_0);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_50;
+		L_50 = LinkedListNode_1_get_Value_m0002CA07B9FA0EA9B184224D7575DF46D5E5972F_inline(G_B13_0, LinkedListNode_1_get_Value_m0002CA07B9FA0EA9B184224D7575DF46D5E5972F_RuntimeMethod_var);
+		G_B14_0 = L_50;
+	}
+
+IL_00fa:
+	{
+		V_8 = G_B14_0;
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_51 = V_2;
+		NullCheck(L_51);
+		LinkedList_1_RemoveFirst_m8783AF0585C84EE3173FB8E608A29914A1DA66BD(L_51, LinkedList_1_RemoveFirst_m8783AF0585C84EE3173FB8E608A29914A1DA66BD_RuntimeMethod_var);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_52 = V_8;
+		NullCheck(L_52);
+		int64_t L_53 = L_52->___id;
+		V_9 = L_53;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_54 = __this->___m_nav;
+		int64_t L_55 = V_9;
+		NullCheck(L_54);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_54, L_55, (&V_10), (&V_11), NULL);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_56 = V_10;
+		NullCheck(L_56);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_57 = L_56->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_58 = V_11;
+		NullCheck(L_58);
+		int32_t L_59 = L_58->___index;
+		NullCheck(L_57);
+		int32_t L_60 = L_59;
+		int32_t L_61 = (L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		V_12 = L_61;
+		goto IL_03c4;
+	}
+
+IL_0134:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_62 = V_10;
+		NullCheck(L_62);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_63 = L_62->___links;
+		int32_t L_64 = V_12;
+		NullCheck(L_63);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_65;
+		L_65 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_63, L_64, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_13 = L_65;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_66 = V_13;
+		NullCheck(L_66);
+		int64_t L_67 = L_66->___refs;
+		V_14 = L_67;
+		int64_t L_68 = V_14;
+		V_24 = (bool)((((int64_t)L_68) == ((int64_t)((int64_t)0)))? 1 : 0);
+		bool L_69 = V_24;
+		if (!L_69)
+		{
+			goto IL_0160;
+		}
+	}
+	{
+		goto IL_03af;
+	}
+
+IL_0160:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_70 = V_0;
+		int64_t L_71 = V_14;
+		NullCheck(L_70);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_72;
+		L_72 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_70, L_71, NULL);
+		V_15 = L_72;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_73 = V_15;
+		NullCheck(L_73);
+		int32_t L_74 = L_73->___flags;
+		V_25 = (bool)((!(((uint32_t)((int32_t)(L_74&2))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_75 = V_25;
+		if (!L_75)
+		{
+			goto IL_0182;
+		}
+	}
+	{
+		goto IL_03af;
+	}
+
+IL_0182:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_76 = __this->___m_nav;
+		int64_t L_77 = V_14;
+		NullCheck(L_76);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_76, L_77, (&V_16), (&V_17), NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_78 = V_17;
+		NullCheck(L_78);
+		int32_t L_79;
+		L_79 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_78, NULL);
+		V_26 = (bool)((((int32_t)L_79) == ((int32_t)1))? 1 : 0);
+		bool L_80 = V_26;
+		if (!L_80)
+		{
+			goto IL_01aa;
+		}
+	}
+	{
+		goto IL_03af;
+	}
+
+IL_01aa:
+	{
+		RuntimeObject* L_81 = ___3_filter;
+		int64_t L_82 = V_14;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_83 = V_16;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_84 = V_17;
+		NullCheck(L_81);
+		bool L_85;
+		L_85 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_81, L_82, L_83, L_84);
+		V_27 = (bool)((((int32_t)L_85) == ((int32_t)0))? 1 : 0);
+		bool L_86 = V_27;
+		if (!L_86)
+		{
+			goto IL_01c6;
+		}
+	}
+	{
+		goto IL_03af;
+	}
+
+IL_01c6:
+	{
+		int64_t L_87 = V_9;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_88 = V_11;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_89 = V_10;
+		int64_t L_90 = V_14;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_91 = V_17;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_92 = V_16;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_93;
+		L_93 = DtNavMeshQuery_GetPortalPoints_m0DBFB23F2EE02C541E0B8BDDB8F2A2E691DEE34D(__this, L_87, L_88, L_89, L_90, L_91, L_92, (&V_19), (&V_20), NULL);
+		V_18 = L_93;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_94;
+		L_94 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_18), NULL);
+		V_28 = L_94;
+		bool L_95 = V_28;
+		if (!L_95)
+		{
+			goto IL_01f1;
+		}
+	}
+	{
+		goto IL_03af;
+	}
+
+IL_01f1:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_96 = ___1_centerPos;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_97 = V_19;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_98 = V_20;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_99;
+		L_99 = DtUtils_DistancePtSegSqr2D_m3B2F9369BB74F64FECCEE1D276A1819EDAF7EEB2(L_96, L_97, L_98, (&V_29), NULL);
+		V_21 = L_99;
+		float L_100 = V_21;
+		float L_101 = V_3;
+		V_30 = (bool)((((float)L_100) > ((float)L_101))? 1 : 0);
+		bool L_102 = V_30;
+		if (!L_102)
+		{
+			goto IL_0210;
+		}
+	}
+	{
+		goto IL_03af;
+	}
+
+IL_0210:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_103 = V_15;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_104 = L_103;
+		NullCheck(L_104);
+		int32_t L_105 = L_104->___flags;
+		NullCheck(L_104);
+		L_104->___flags = ((int32_t)(L_105|2));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_106 = V_15;
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_107 = V_0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_108 = V_8;
+		NullCheck(L_107);
+		int32_t L_109;
+		L_109 = DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07(L_107, L_108, NULL);
+		NullCheck(L_106);
+		L_106->___pidx = L_109;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_110 = V_17;
+		NullCheck(L_110);
+		int32_t L_111 = L_110->___vertCount;
+		V_22 = L_111;
+		V_31 = 0;
+		goto IL_0269;
+	}
+
+IL_023c:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_112 = V_16;
+		NullCheck(L_112);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_113 = L_112->___data;
+		NullCheck(L_113);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_114 = L_113->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_115 = V_17;
+		NullCheck(L_115);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_116 = L_115->___verts;
+		int32_t L_117 = V_31;
+		NullCheck(L_116);
+		int32_t L_118 = L_117;
+		int32_t L_119 = (L_116)->GetAt(static_cast<il2cpp_array_size_t>(L_118));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_120 = V_4;
+		int32_t L_121 = V_31;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_114, ((int32_t)il2cpp_codegen_multiply(L_119, 3)), (RuntimeArray*)L_120, ((int32_t)il2cpp_codegen_multiply(L_121, 3)), 3, NULL);
+		int32_t L_122 = V_31;
+		V_31 = ((int32_t)il2cpp_codegen_add(L_122, 1));
+	}
+
+IL_0269:
+	{
+		int32_t L_123 = V_31;
+		int32_t L_124 = V_22;
+		V_32 = (bool)((((int32_t)L_123) < ((int32_t)L_124))? 1 : 0);
+		bool L_125 = V_32;
+		if (L_125)
+		{
+			goto IL_023c;
+		}
+	}
+	{
+		V_23 = (bool)0;
+		V_33 = 0;
+		goto IL_036f;
+	}
+
+IL_0280:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_126 = ___4_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_127 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_126);
+		int32_t L_128 = V_33;
+		NullCheck(L_127);
+		int64_t L_129;
+		L_129 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_127, L_128, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		V_34 = L_129;
+		V_35 = (bool)0;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_130 = V_10;
+		NullCheck(L_130);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_131 = L_130->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_132 = V_11;
+		NullCheck(L_132);
+		int32_t L_133 = L_132->___index;
+		NullCheck(L_131);
+		int32_t L_134 = L_133;
+		int32_t L_135 = (L_131)->GetAt(static_cast<il2cpp_array_size_t>(L_134));
+		V_39 = L_135;
+		goto IL_02dd;
+	}
+
+IL_02a3:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_136 = V_10;
+		NullCheck(L_136);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_137 = L_136->___links;
+		int32_t L_138 = V_39;
+		NullCheck(L_137);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_139;
+		L_139 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_137, L_138, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_139);
+		int64_t L_140 = L_139->___refs;
+		int64_t L_141 = V_34;
+		V_40 = (bool)((((int64_t)L_140) == ((int64_t)L_141))? 1 : 0);
+		bool L_142 = V_40;
+		if (!L_142)
+		{
+			goto IL_02c7;
+		}
+	}
+	{
+		V_35 = (bool)1;
+		goto IL_02eb;
+	}
+
+IL_02c7:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_143 = V_10;
+		NullCheck(L_143);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_144 = L_143->___links;
+		int32_t L_145 = V_39;
+		NullCheck(L_144);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_146;
+		L_146 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_144, L_145, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_146);
+		int32_t L_147 = L_146->___next;
+		V_39 = L_147;
+	}
+
+IL_02dd:
+	{
+		int32_t L_148 = V_39;
+		V_41 = (bool)((((int32_t)((((int32_t)L_148) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_149 = V_41;
+		if (L_149)
+		{
+			goto IL_02a3;
+		}
+	}
+
+IL_02eb:
+	{
+		bool L_150 = V_35;
+		V_42 = L_150;
+		bool L_151 = V_42;
+		if (!L_151)
+		{
+			goto IL_02f6;
+		}
+	}
+	{
+		goto IL_0369;
+	}
+
+IL_02f6:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_152 = __this->___m_nav;
+		int64_t L_153 = V_34;
+		NullCheck(L_152);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_152, L_153, (&V_36), (&V_37), NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_154 = V_37;
+		NullCheck(L_154);
+		int32_t L_155 = L_154->___vertCount;
+		V_38 = L_155;
+		V_43 = 0;
+		goto IL_0343;
+	}
+
+IL_0316:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_156 = V_36;
+		NullCheck(L_156);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_157 = L_156->___data;
+		NullCheck(L_157);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_158 = L_157->___verts;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_159 = V_37;
+		NullCheck(L_159);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_160 = L_159->___verts;
+		int32_t L_161 = V_43;
+		NullCheck(L_160);
+		int32_t L_162 = L_161;
+		int32_t L_163 = (L_160)->GetAt(static_cast<il2cpp_array_size_t>(L_162));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_164 = V_5;
+		int32_t L_165 = V_43;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_158, ((int32_t)il2cpp_codegen_multiply(L_163, 3)), (RuntimeArray*)L_164, ((int32_t)il2cpp_codegen_multiply(L_165, 3)), 3, NULL);
+		int32_t L_166 = V_43;
+		V_43 = ((int32_t)il2cpp_codegen_add(L_166, 1));
+	}
+
+IL_0343:
+	{
+		int32_t L_167 = V_43;
+		int32_t L_168 = V_38;
+		V_44 = (bool)((((int32_t)L_167) < ((int32_t)L_168))? 1 : 0);
+		bool L_169 = V_44;
+		if (L_169)
+		{
+			goto IL_0316;
+		}
+	}
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_170 = V_4;
+		int32_t L_171 = V_22;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_172 = V_5;
+		int32_t L_173 = V_38;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		bool L_174;
+		L_174 = DtUtils_OverlapPolyPoly2D_m766579A5A2D491ADE6543F6B32F0380C2D7FC871(L_170, L_171, L_172, L_173, NULL);
+		V_45 = L_174;
+		bool L_175 = V_45;
+		if (!L_175)
+		{
+			goto IL_0368;
+		}
+	}
+	{
+		V_23 = (bool)1;
+		goto IL_0384;
+	}
+
+IL_0368:
+	{
+	}
+
+IL_0369:
+	{
+		int32_t L_176 = V_33;
+		V_33 = ((int32_t)il2cpp_codegen_add(L_176, 1));
+	}
+
+IL_036f:
+	{
+		int32_t L_177 = V_33;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_178 = ___4_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_179 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_178);
+		NullCheck(L_179);
+		int32_t L_180;
+		L_180 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_179, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		V_46 = (bool)((((int32_t)L_177) < ((int32_t)L_180))? 1 : 0);
+		bool L_181 = V_46;
+		if (L_181)
+		{
+			goto IL_0280;
+		}
+	}
+
+IL_0384:
+	{
+		bool L_182 = V_23;
+		V_47 = L_182;
+		bool L_183 = V_47;
+		if (!L_183)
+		{
+			goto IL_038f;
+		}
+	}
+	{
+		goto IL_03af;
+	}
+
+IL_038f:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_184 = ___4_resultRef;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_185 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_184);
+		int64_t L_186 = V_14;
+		NullCheck(L_185);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_185, L_186, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_187 = ___5_resultParent;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_188 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_187);
+		int64_t L_189 = V_9;
+		NullCheck(L_188);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_188, L_189, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_190 = V_2;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_191 = V_15;
+		NullCheck(L_190);
+		LinkedListNode_1_tEFFD4D52DBEAC7993AF19FAFC0FEBC52756C260F* L_192;
+		L_192 = LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A(L_190, L_191, LinkedList_1_AddLast_m646EB95F4B5D95725C8F353B2EB8B3F57269594A_RuntimeMethod_var);
+	}
+
+IL_03af:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_193 = V_10;
+		NullCheck(L_193);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_194 = L_193->___links;
+		int32_t L_195 = V_12;
+		NullCheck(L_194);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_196;
+		L_196 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_194, L_195, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_196);
+		int32_t L_197 = L_196->___next;
+		V_12 = L_197;
+	}
+
+IL_03c4:
+	{
+		int32_t L_198 = V_12;
+		V_48 = (bool)((((int32_t)((((int32_t)L_198) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_199 = V_48;
+		if (L_199)
+		{
+			goto IL_0134;
+		}
+	}
+	{
+	}
+
+IL_03d6:
+	{
+		LinkedList_1_tFEA4C95795F67C126755DB5BF1B9F3508D896C18* L_200 = V_2;
+		NullCheck(L_200);
+		int32_t L_201;
+		L_201 = LinkedList_1_get_Count_mDE2A5DE9F82166C43C5C12058737ECB5AC137D9F_inline(L_200, LinkedList_1_get_Count_mDE2A5DE9F82166C43C5C12058737ECB5AC137D9F_RuntimeMethod_var);
+		V_49 = (bool)((((int32_t)0) < ((int32_t)L_201))? 1 : 0);
+		bool L_202 = V_49;
+		if (L_202)
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_203 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_7 = L_203;
+		goto IL_03f1;
+	}
+
+IL_03f1:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_204 = V_7;
+		return L_204;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DtNavMeshQuery_InsertInterval_m5A9617D1960A9D90B66C5A4C01C0C8DF2210FAF0 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* ___0_ints, int32_t ___1_tmin, int32_t ___2_tmax, int64_t ___3_refs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Insert_mD5799815B3D2003C43AB7F3A4BCB6DEA39B5CB4C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
+	{
+		V_0 = 0;
+		goto IL_0024;
+	}
+
+IL_0005:
+	{
+		int32_t L_0 = ___2_tmax;
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_1 = ___0_ints;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D L_3;
+		L_3 = List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948(L_1, L_2, List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var);
+		int32_t L_4 = L_3.___tmin;
+		V_1 = (bool)((((int32_t)((((int32_t)L_0) > ((int32_t)L_4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		goto IL_0031;
+	}
+
+IL_001f:
+	{
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_0024:
+	{
+		int32_t L_7 = V_0;
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_8 = ___0_ints;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_inline(L_8, List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_RuntimeMethod_var);
+		V_2 = (bool)((((int32_t)L_7) < ((int32_t)L_9))? 1 : 0);
+		bool L_10 = V_2;
+		if (L_10)
+		{
+			goto IL_0005;
+		}
+	}
+
+IL_0031:
+	{
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_11 = ___0_ints;
+		int32_t L_12 = V_0;
+		int64_t L_13 = ___3_refs;
+		int32_t L_14 = ___1_tmin;
+		int32_t L_15 = ___2_tmax;
+		DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		DtSegInterval__ctor_mB96FA5F99CB6169D7503A1505C43420CC422BC90((&L_16), L_13, L_14, L_15, NULL);
+		NullCheck(L_11);
+		List_1_Insert_mD5799815B3D2003C43AB7F3A4BCB6DEA39B5CB4C(L_11, L_12, L_16, List_1_Insert_mD5799815B3D2003C43AB7F3A4BCB6DEA39B5CB4C_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetPolyWallSegments_mAA6A4C5528FE88A1D15D89C4048DBA6C746DEF40 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_refs, bool ___1_storePortals, RuntimeObject* ___2_filter, List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF** ___3_segmentVerts, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___4_segmentRefs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m157ABCFF323F55D2C1465A55FE432AE8E90B902F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m6D127683440E1798FFBB04AFB6CC1C60CEFAF9A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m8CA456DFA19E8E6D1EDBFD576DB353E6AED5A97D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_1 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_2 = NULL;
+	List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* V_3 = NULL;
+	bool V_4 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	bool V_6 = false;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	int32_t V_12 = 0;
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_13 = NULL;
+	bool V_14 = false;
+	bool V_15 = false;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_16 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_17 = NULL;
+	bool V_18 = false;
+	bool V_19 = false;
+	int64_t V_20 = 0;
+	int32_t V_21 = 0;
+	int32_t V_22 = 0;
+	RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 V_23;
+	memset((&V_23), 0, sizeof(V_23));
+	bool V_24 = false;
+	int32_t V_25 = 0;
+	bool V_26 = false;
+	bool V_27 = false;
+	int32_t V_28 = 0;
+	int32_t V_29 = 0;
+	int32_t V_30 = 0;
+	bool V_31 = false;
+	float V_32 = 0.0f;
+	float V_33 = 0.0f;
+	RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 V_34;
+	memset((&V_34), 0, sizeof(V_34));
+	bool V_35 = false;
+	float V_36 = 0.0f;
+	float V_37 = 0.0f;
+	RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 V_38;
+	memset((&V_38), 0, sizeof(V_38));
+	bool V_39 = false;
+	bool V_40 = false;
+	int32_t G_B23_0 = 0;
+	int32_t G_B30_0 = 0;
+	{
+		List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF** L_0 = ___3_segmentVerts;
+		List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* L_1 = *((List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF**)L_0);
+		NullCheck(L_1);
+		List_1_Clear_m157ABCFF323F55D2C1465A55FE432AE8E90B902F_inline(L_1, List_1_Clear_m157ABCFF323F55D2C1465A55FE432AE8E90B902F_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_2 = ___4_segmentRefs;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_3 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_2);
+		NullCheck(L_3);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_3, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_4 = __this->___m_nav;
+		int64_t L_5 = ___0_refs;
+		NullCheck(L_4);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_6;
+		L_6 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_4, L_5, (&V_1), (&V_2), NULL);
+		V_0 = L_6;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_0), NULL);
+		V_4 = L_7;
+		bool L_8 = V_4;
+		if (!L_8)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_9 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_10 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_11;
+		L_11 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_9, L_10, NULL);
+		V_5 = L_11;
+		goto IL_0423;
+	}
+
+IL_0048:
+	{
+		RuntimeObject* L_12 = ___2_filter;
+		V_6 = (bool)((((RuntimeObject*)(RuntimeObject*)L_12) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_13 = V_6;
+		if (!L_13)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_14 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_15 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_16;
+		L_16 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_14, L_15, NULL);
+		V_5 = L_16;
+		goto IL_0423;
+	}
+
+IL_0069:
+	{
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_17 = (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4*)il2cpp_codegen_object_new(List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4_il2cpp_TypeInfo_var);
+		List_1__ctor_m8CA456DFA19E8E6D1EDBFD576DB353E6AED5A97D(L_17, ((int32_t)16), List_1__ctor_m8CA456DFA19E8E6D1EDBFD576DB353E6AED5A97D_RuntimeMethod_var);
+		V_3 = L_17;
+		V_7 = 0;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_18 = V_2;
+		NullCheck(L_18);
+		int32_t L_19 = L_18->___vertCount;
+		V_8 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
+		goto IL_0407;
+	}
+
+IL_0083:
+	{
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_20 = V_3;
+		NullCheck(L_20);
+		List_1_Clear_m6D127683440E1798FFBB04AFB6CC1C60CEFAF9A6_inline(L_20, List_1_Clear_m6D127683440E1798FFBB04AFB6CC1C60CEFAF9A6_RuntimeMethod_var);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_21 = V_2;
+		NullCheck(L_21);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_22 = L_21->___neis;
+		int32_t L_23 = V_8;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		int32_t L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		V_11 = (bool)((!(((uint32_t)((int32_t)(L_25&((int32_t)32768)))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_26 = V_11;
+		if (!L_26)
+		{
+			goto IL_016a;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_27 = V_1;
+		NullCheck(L_27);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_28 = L_27->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_29 = V_2;
+		NullCheck(L_29);
+		int32_t L_30 = L_29->___index;
+		NullCheck(L_28);
+		int32_t L_31 = L_30;
+		int32_t L_32 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
+		V_12 = L_32;
+		goto IL_0153;
+	}
+
+IL_00bb:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_33 = V_1;
+		NullCheck(L_33);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_34 = L_33->___links;
+		int32_t L_35 = V_12;
+		NullCheck(L_34);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_36;
+		L_36 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_34, L_35, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_13 = L_36;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_37 = V_13;
+		NullCheck(L_37);
+		int32_t L_38 = L_37->___edge;
+		int32_t L_39 = V_8;
+		V_14 = (bool)((((int32_t)L_38) == ((int32_t)L_39))? 1 : 0);
+		bool L_40 = V_14;
+		if (!L_40)
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_41 = V_13;
+		NullCheck(L_41);
+		int64_t L_42 = L_41->___refs;
+		V_15 = (bool)((!(((uint64_t)L_42) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		bool L_43 = V_15;
+		if (!L_43)
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_44 = __this->___m_nav;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_45 = V_13;
+		NullCheck(L_45);
+		int64_t L_46 = L_45->___refs;
+		NullCheck(L_44);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_44, L_46, (&V_16), (&V_17), NULL);
+		RuntimeObject* L_47 = ___2_filter;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_48 = V_13;
+		NullCheck(L_48);
+		int64_t L_49 = L_48->___refs;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_50 = V_16;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_51 = V_17;
+		NullCheck(L_47);
+		bool L_52;
+		L_52 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_47, L_49, L_50, L_51);
+		V_18 = L_52;
+		bool L_53 = V_18;
+		if (!L_53)
+		{
+			goto IL_013c;
+		}
+	}
+	{
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_54 = V_3;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_55 = V_13;
+		NullCheck(L_55);
+		int32_t L_56 = L_55->___bmin;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_57 = V_13;
+		NullCheck(L_57);
+		int32_t L_58 = L_57->___bmax;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_59 = V_13;
+		NullCheck(L_59);
+		int64_t L_60 = L_59->___refs;
+		DtNavMeshQuery_InsertInterval_m5A9617D1960A9D90B66C5A4C01C0C8DF2210FAF0(__this, L_54, L_56, L_58, L_60, NULL);
+	}
+
+IL_013c:
+	{
+	}
+
+IL_013d:
+	{
+	}
+
+IL_013e:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_61 = V_1;
+		NullCheck(L_61);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_62 = L_61->___links;
+		int32_t L_63 = V_12;
+		NullCheck(L_62);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_64;
+		L_64 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_62, L_63, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_64);
+		int32_t L_65 = L_64->___next;
+		V_12 = L_65;
+	}
+
+IL_0153:
+	{
+		int32_t L_66 = V_12;
+		V_19 = (bool)((((int32_t)((((int32_t)L_66) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_67 = V_19;
+		if (L_67)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		goto IL_0250;
+	}
+
+IL_016a:
+	{
+		V_20 = ((int64_t)0);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_68 = V_2;
+		NullCheck(L_68);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_69 = L_68->___neis;
+		int32_t L_70 = V_8;
+		NullCheck(L_69);
+		int32_t L_71 = L_70;
+		int32_t L_72 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_71));
+		V_24 = (bool)((!(((uint32_t)L_72) <= ((uint32_t)0)))? 1 : 0);
+		bool L_73 = V_24;
+		if (!L_73)
+		{
+			goto IL_01c8;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_74 = V_2;
+		NullCheck(L_74);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_75 = L_74->___neis;
+		int32_t L_76 = V_8;
+		NullCheck(L_75);
+		int32_t L_77 = L_76;
+		int32_t L_78 = (L_75)->GetAt(static_cast<il2cpp_array_size_t>(L_77));
+		V_25 = ((int32_t)il2cpp_codegen_subtract(L_78, 1));
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_79 = __this->___m_nav;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_80 = V_1;
+		NullCheck(L_79);
+		int64_t L_81;
+		L_81 = DtNavMesh_GetPolyRefBase_m9D29DD1BCB8EDC4B851204A12ED7D5701AE60646(L_79, L_80, NULL);
+		int32_t L_82 = V_25;
+		V_20 = ((int64_t)(L_81|((int64_t)L_82)));
+		RuntimeObject* L_83 = ___2_filter;
+		int64_t L_84 = V_20;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_85 = V_1;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_86 = V_1;
+		NullCheck(L_86);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_87 = L_86->___data;
+		NullCheck(L_87);
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_88 = L_87->___polys;
+		int32_t L_89 = V_25;
+		NullCheck(L_88);
+		int32_t L_90 = L_89;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_91 = (L_88)->GetAt(static_cast<il2cpp_array_size_t>(L_90));
+		NullCheck(L_83);
+		bool L_92;
+		L_92 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_83, L_84, L_85, L_91);
+		V_26 = (bool)((((int32_t)L_92) == ((int32_t)0))? 1 : 0);
+		bool L_93 = V_26;
+		if (!L_93)
+		{
+			goto IL_01c7;
+		}
+	}
+	{
+		V_20 = ((int64_t)0);
+	}
+
+IL_01c7:
+	{
+	}
+
+IL_01c8:
+	{
+		int64_t L_94 = V_20;
+		if (!L_94)
+		{
+			goto IL_01d2;
+		}
+	}
+	{
+		bool L_95 = ___1_storePortals;
+		G_B23_0 = ((((int32_t)L_95) == ((int32_t)0))? 1 : 0);
+		goto IL_01d3;
+	}
+
+IL_01d2:
+	{
+		G_B23_0 = 0;
+	}
+
+IL_01d3:
+	{
+		V_27 = (bool)G_B23_0;
+		bool L_96 = V_27;
+		if (!L_96)
+		{
+			goto IL_01df;
+		}
+	}
+	{
+		goto IL_03fe;
+	}
+
+IL_01df:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_97 = V_2;
+		NullCheck(L_97);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_98 = L_97->___verts;
+		int32_t L_99 = V_8;
+		NullCheck(L_98);
+		int32_t L_100 = L_99;
+		int32_t L_101 = (L_98)->GetAt(static_cast<il2cpp_array_size_t>(L_100));
+		V_21 = ((int32_t)il2cpp_codegen_multiply(L_101, 3));
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_102 = V_2;
+		NullCheck(L_102);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_103 = L_102->___verts;
+		int32_t L_104 = V_7;
+		NullCheck(L_103);
+		int32_t L_105 = L_104;
+		int32_t L_106 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_105));
+		V_22 = ((int32_t)il2cpp_codegen_multiply(L_106, 3));
+		il2cpp_codegen_initobj((&V_23), sizeof(RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_107 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&(&V_23)->___vmin);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_108 = V_1;
+		NullCheck(L_108);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_109 = L_108->___data;
+		NullCheck(L_109);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_110 = L_109->___verts;
+		int32_t L_111 = V_21;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_Set_m5C78CDD63E5C55E4CF131B7BAA60388164AB89B8_inline(L_107, L_110, L_111, NULL);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_112 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&(&V_23)->___vmax);
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_113 = V_1;
+		NullCheck(L_113);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_114 = L_113->___data;
+		NullCheck(L_114);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_115 = L_114->___verts;
+		int32_t L_116 = V_22;
+		RcVec3f_Set_m5C78CDD63E5C55E4CF131B7BAA60388164AB89B8_inline(L_112, L_115, L_116, NULL);
+		List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF** L_117 = ___3_segmentVerts;
+		List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* L_118 = *((List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF**)L_117);
+		RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 L_119 = V_23;
+		NullCheck(L_118);
+		List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_inline(L_118, L_119, List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_120 = ___4_segmentRefs;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_121 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_120);
+		int64_t L_122 = V_20;
+		NullCheck(L_121);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_121, L_122, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		goto IL_03fe;
+	}
+
+IL_0250:
+	{
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_123 = V_3;
+		DtNavMeshQuery_InsertInterval_m5A9617D1960A9D90B66C5A4C01C0C8DF2210FAF0(__this, L_123, (-1), 0, ((int64_t)0), NULL);
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_124 = V_3;
+		DtNavMeshQuery_InsertInterval_m5A9617D1960A9D90B66C5A4C01C0C8DF2210FAF0(__this, L_124, ((int32_t)255), ((int32_t)256), ((int64_t)0), NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_125 = V_2;
+		NullCheck(L_125);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_126 = L_125->___verts;
+		int32_t L_127 = V_8;
+		NullCheck(L_126);
+		int32_t L_128 = L_127;
+		int32_t L_129 = (L_126)->GetAt(static_cast<il2cpp_array_size_t>(L_128));
+		V_9 = ((int32_t)il2cpp_codegen_multiply(L_129, 3));
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_130 = V_2;
+		NullCheck(L_130);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_131 = L_130->___verts;
+		int32_t L_132 = V_7;
+		NullCheck(L_131);
+		int32_t L_133 = L_132;
+		int32_t L_134 = (L_131)->GetAt(static_cast<il2cpp_array_size_t>(L_133));
+		V_10 = ((int32_t)il2cpp_codegen_multiply(L_134, 3));
+		V_28 = 1;
+		goto IL_03ea;
+	}
+
+IL_0292:
+	{
+		bool L_135 = ___1_storePortals;
+		if (!L_135)
+		{
+			goto IL_02a9;
+		}
+	}
+	{
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_136 = V_3;
+		int32_t L_137 = V_28;
+		NullCheck(L_136);
+		DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D L_138;
+		L_138 = List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948(L_136, L_137, List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var);
+		int64_t L_139 = L_138.___refs;
+		G_B30_0 = ((!(((uint64_t)L_139) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		goto IL_02aa;
+	}
+
+IL_02a9:
+	{
+		G_B30_0 = 0;
+	}
+
+IL_02aa:
+	{
+		V_31 = (bool)G_B30_0;
+		bool L_140 = V_31;
+		if (!L_140)
+		{
+			goto IL_0344;
+		}
+	}
+	{
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_141 = V_3;
+		int32_t L_142 = V_28;
+		NullCheck(L_141);
+		DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D L_143;
+		L_143 = List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948(L_141, L_142, List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var);
+		int32_t L_144 = L_143.___tmin;
+		V_32 = ((float)(((float)L_144)/(255.0f)));
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_145 = V_3;
+		int32_t L_146 = V_28;
+		NullCheck(L_145);
+		DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D L_147;
+		L_147 = List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948(L_145, L_146, List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var);
+		int32_t L_148 = L_147.___tmax;
+		V_33 = ((float)(((float)L_148)/(255.0f)));
+		il2cpp_codegen_initobj((&V_34), sizeof(RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_149 = V_1;
+		NullCheck(L_149);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_150 = L_149->___data;
+		NullCheck(L_150);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_151 = L_150->___verts;
+		int32_t L_152 = V_9;
+		int32_t L_153 = V_10;
+		float L_154 = V_32;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_155;
+		L_155 = RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline(L_151, L_152, L_153, L_154, NULL);
+		(&V_34)->___vmin = L_155;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_156 = V_1;
+		NullCheck(L_156);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_157 = L_156->___data;
+		NullCheck(L_157);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_158 = L_157->___verts;
+		int32_t L_159 = V_9;
+		int32_t L_160 = V_10;
+		float L_161 = V_33;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_162;
+		L_162 = RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline(L_158, L_159, L_160, L_161, NULL);
+		(&V_34)->___vmax = L_162;
+		List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF** L_163 = ___3_segmentVerts;
+		List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* L_164 = *((List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF**)L_163);
+		RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 L_165 = V_34;
+		NullCheck(L_164);
+		List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_inline(L_164, L_165, List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_166 = ___4_segmentRefs;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_167 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_166);
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_168 = V_3;
+		int32_t L_169 = V_28;
+		NullCheck(L_168);
+		DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D L_170;
+		L_170 = List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948(L_168, L_169, List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var);
+		int64_t L_171 = L_170.___refs;
+		NullCheck(L_167);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_167, L_171, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+	}
+
+IL_0344:
+	{
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_172 = V_3;
+		int32_t L_173 = V_28;
+		NullCheck(L_172);
+		DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D L_174;
+		L_174 = List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948(L_172, ((int32_t)il2cpp_codegen_subtract(L_173, 1)), List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var);
+		int32_t L_175 = L_174.___tmax;
+		V_29 = L_175;
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_176 = V_3;
+		int32_t L_177 = V_28;
+		NullCheck(L_176);
+		DtSegInterval_t7025FCA44B8846458B0A9F939E27AF56B978E43D L_178;
+		L_178 = List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948(L_176, L_177, List_1_get_Item_m96392F907D14CCF022D58F4855CA6E330F603948_RuntimeMethod_var);
+		int32_t L_179 = L_178.___tmin;
+		V_30 = L_179;
+		int32_t L_180 = V_29;
+		int32_t L_181 = V_30;
+		V_35 = (bool)((((int32_t)((((int32_t)L_180) == ((int32_t)L_181))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_182 = V_35;
+		if (!L_182)
+		{
+			goto IL_03e3;
+		}
+	}
+	{
+		int32_t L_183 = V_29;
+		V_36 = ((float)(((float)L_183)/(255.0f)));
+		int32_t L_184 = V_30;
+		V_37 = ((float)(((float)L_184)/(255.0f)));
+		il2cpp_codegen_initobj((&V_38), sizeof(RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_185 = V_1;
+		NullCheck(L_185);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_186 = L_185->___data;
+		NullCheck(L_186);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_187 = L_186->___verts;
+		int32_t L_188 = V_9;
+		int32_t L_189 = V_10;
+		float L_190 = V_36;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_191;
+		L_191 = RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline(L_187, L_188, L_189, L_190, NULL);
+		(&V_38)->___vmin = L_191;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_192 = V_1;
+		NullCheck(L_192);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_193 = L_192->___data;
+		NullCheck(L_193);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_194 = L_193->___verts;
+		int32_t L_195 = V_9;
+		int32_t L_196 = V_10;
+		float L_197 = V_37;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_198;
+		L_198 = RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline(L_194, L_195, L_196, L_197, NULL);
+		(&V_38)->___vmax = L_198;
+		List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF** L_199 = ___3_segmentVerts;
+		List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* L_200 = *((List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF**)L_199);
+		RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 L_201 = V_38;
+		NullCheck(L_200);
+		List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_inline(L_200, L_201, List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_RuntimeMethod_var);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_202 = ___4_segmentRefs;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_203 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_202);
+		NullCheck(L_203);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_203, ((int64_t)0), List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+	}
+
+IL_03e3:
+	{
+		int32_t L_204 = V_28;
+		V_28 = ((int32_t)il2cpp_codegen_add(L_204, 1));
+	}
+
+IL_03ea:
+	{
+		int32_t L_205 = V_28;
+		List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* L_206 = V_3;
+		NullCheck(L_206);
+		int32_t L_207;
+		L_207 = List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_inline(L_206, List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_RuntimeMethod_var);
+		V_39 = (bool)((((int32_t)L_205) < ((int32_t)L_207))? 1 : 0);
+		bool L_208 = V_39;
+		if (L_208)
+		{
+			goto IL_0292;
+		}
+	}
+	{
+	}
+
+IL_03fe:
+	{
+		int32_t L_209 = V_7;
+		int32_t L_210 = L_209;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_210, 1));
+		V_8 = L_210;
+	}
+
+IL_0407:
+	{
+		int32_t L_211 = V_7;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_212 = V_2;
+		NullCheck(L_212);
+		int32_t L_213 = L_212->___vertCount;
+		V_40 = (bool)((((int32_t)L_211) < ((int32_t)L_213))? 1 : 0);
+		bool L_214 = V_40;
+		if (L_214)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_215 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_5 = L_215;
+		goto IL_0423;
+	}
+
+IL_0423:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_216 = V_5;
+		return L_216;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_FindDistanceToWall_m40B9078AC27A8DD2CC152F401FCADE9C3987610C (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_startRef, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_centerPos, float ___2_maxRadius, RuntimeObject* ___3_filter, float* ___4_hitDist, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___5_hitPos, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* ___6_hitNormal, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_0 = NULL;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	bool V_6 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_8 = NULL;
+	int64_t V_9 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_10 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_11 = NULL;
+	int64_t V_12 = 0;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	float V_18 = 0.0f;
+	float V_19 = 0.0f;
+	bool V_20 = false;
+	bool V_21 = false;
+	int32_t V_22 = 0;
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_23 = NULL;
+	bool V_24 = false;
+	bool V_25 = false;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_26 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_27 = NULL;
+	bool V_28 = false;
+	bool V_29 = false;
+	bool V_30 = false;
+	bool V_31 = false;
+	int32_t V_32 = 0;
+	int64_t V_33 = 0;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	int32_t V_37 = 0;
+	DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* V_38 = NULL;
+	int64_t V_39 = 0;
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_40 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_41 = NULL;
+	int32_t V_42 = 0;
+	int32_t V_43 = 0;
+	float V_44 = 0.0f;
+	float V_45 = 0.0f;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_46 = NULL;
+	float V_47 = 0.0f;
+	bool V_48 = false;
+	bool V_49 = false;
+	bool V_50 = false;
+	bool V_51 = false;
+	bool V_52 = false;
+	bool V_53 = false;
+	bool V_54 = false;
+	bool V_55 = false;
+	bool V_56 = false;
+	bool V_57 = false;
+	bool V_58 = false;
+	bool V_59 = false;
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_60;
+	memset((&V_60), 0, sizeof(V_60));
+	int32_t G_B6_0 = 0;
+	int32_t G_B38_0 = 0;
+	int32_t G_B55_0 = 0;
+	{
+		float* L_0 = ___4_hitDist;
+		*((float*)L_0) = (float)(0.0f);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_1 = ___5_hitPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2;
+		L_2 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_1 = L_2;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_3 = ___6_hitNormal;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_4;
+		L_4 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		*(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)L_3 = L_4;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_5 = __this->___m_nav;
+		int64_t L_6 = ___0_startRef;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_5, L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_8 = ___1_centerPos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline(L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		float L_10 = ___2_maxRadius;
+		if ((((float)L_10) < ((float)(0.0f))))
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		float L_11 = ___2_maxRadius;
+		bool L_12;
+		L_12 = Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline(L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		RuntimeObject* L_13 = ___3_filter;
+		G_B6_0 = ((((RuntimeObject*)(RuntimeObject*)L_13) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_004f;
+	}
+
+IL_004e:
+	{
+		G_B6_0 = 1;
+	}
+
+IL_004f:
+	{
+		V_6 = (bool)G_B6_0;
+		bool L_14 = V_6;
+		if (!L_14)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_15 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_16 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_17;
+		L_17 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_15, L_16, NULL);
+		V_7 = L_17;
+		goto IL_06aa;
+	}
+
+IL_006c:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_18 = __this->___m_nodePool;
+		NullCheck(L_18);
+		DtNodePool_Clear_m4682D89F1BB534CA29B32127C54A0B6239075575(L_18, NULL);
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_19 = __this->___m_openList;
+		NullCheck(L_19);
+		DtNodeQueue_Clear_m9FAB097BAD2439457DAE7C38948A62B33D4A13D1(L_19, NULL);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_20 = __this->___m_nodePool;
+		int64_t L_21 = ___0_startRef;
+		NullCheck(L_20);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_22;
+		L_22 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_20, L_21, NULL);
+		V_0 = L_22;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_23 = V_0;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_24 = ___1_centerPos;
+		NullCheck(L_23);
+		L_23->___pos = L_24;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_25 = V_0;
+		NullCheck(L_25);
+		L_25->___pidx = 0;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_26 = V_0;
+		NullCheck(L_26);
+		L_26->___cost = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_27 = V_0;
+		NullCheck(L_27);
+		L_27->___total = (0.0f);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_28 = V_0;
+		int64_t L_29 = ___0_startRef;
+		NullCheck(L_28);
+		L_28->___id = L_29;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_30 = V_0;
+		NullCheck(L_30);
+		L_30->___flags = 1;
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_31 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_32 = V_0;
+		NullCheck(L_31);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_31, L_32, NULL);
+		float L_33 = ___2_maxRadius;
+		float L_34;
+		L_34 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_33, NULL);
+		V_1 = L_34;
+		V_2 = (bool)0;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_35;
+		L_35 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		V_3 = L_35;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_36;
+		L_36 = RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline(NULL);
+		V_4 = L_36;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_37 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_5 = L_37;
+		goto IL_063e;
+	}
+
+IL_00f2:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_38 = __this->___m_openList;
+		NullCheck(L_38);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_39;
+		L_39 = DtNodeQueue_Pop_m4569866ACFC4A645DD3D1A7BB7761CC4222AD145(L_38, NULL);
+		V_8 = L_39;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_40 = V_8;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_41 = L_40;
+		NullCheck(L_41);
+		int32_t L_42 = L_41->___flags;
+		NullCheck(L_41);
+		L_41->___flags = ((int32_t)(L_42&((int32_t)-2)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_43 = V_8;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_44 = L_43;
+		NullCheck(L_44);
+		int32_t L_45 = L_44->___flags;
+		NullCheck(L_44);
+		L_44->___flags = ((int32_t)(L_45|2));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_46 = V_8;
+		NullCheck(L_46);
+		int64_t L_47 = L_46->___id;
+		V_9 = L_47;
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_48 = __this->___m_nav;
+		int64_t L_49 = V_9;
+		NullCheck(L_48);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_48, L_49, (&V_10), (&V_11), NULL);
+		V_12 = ((int64_t)0);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_50 = V_8;
+		NullCheck(L_50);
+		int32_t L_51 = L_50->___pidx;
+		V_13 = (bool)((!(((uint32_t)L_51) <= ((uint32_t)0)))? 1 : 0);
+		bool L_52 = V_13;
+		if (!L_52)
+		{
+			goto IL_0169;
+		}
+	}
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_53 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_54 = V_8;
+		NullCheck(L_54);
+		int32_t L_55 = L_54->___pidx;
+		NullCheck(L_53);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_56;
+		L_56 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_53, L_55, NULL);
+		NullCheck(L_56);
+		int64_t L_57 = L_56->___id;
+		V_12 = L_57;
+	}
+
+IL_0169:
+	{
+		V_14 = 0;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_58 = V_11;
+		NullCheck(L_58);
+		int32_t L_59 = L_58->___vertCount;
+		V_15 = ((int32_t)il2cpp_codegen_subtract(L_59, 1));
+		goto IL_03ec;
+	}
+
+IL_017c:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_60 = V_11;
+		NullCheck(L_60);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_61 = L_60->___neis;
+		int32_t L_62 = V_15;
+		NullCheck(L_61);
+		int32_t L_63 = L_62;
+		int32_t L_64 = (L_61)->GetAt(static_cast<il2cpp_array_size_t>(L_63));
+		V_20 = (bool)((!(((uint32_t)((int32_t)(L_64&((int32_t)32768)))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_65 = V_20;
+		if (!L_65)
+		{
+			goto IL_025a;
+		}
+	}
+	{
+		V_21 = (bool)1;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_66 = V_10;
+		NullCheck(L_66);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_67 = L_66->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_68 = V_11;
+		NullCheck(L_68);
+		int32_t L_69 = L_68->___index;
+		NullCheck(L_67);
+		int32_t L_70 = L_69;
+		int32_t L_71 = (L_67)->GetAt(static_cast<il2cpp_array_size_t>(L_70));
+		V_22 = L_71;
+		goto IL_0235;
+	}
+
+IL_01b3:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_72 = V_10;
+		NullCheck(L_72);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_73 = L_72->___links;
+		int32_t L_74 = V_22;
+		NullCheck(L_73);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_75;
+		L_75 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_73, L_74, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_23 = L_75;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_76 = V_23;
+		NullCheck(L_76);
+		int32_t L_77 = L_76->___edge;
+		int32_t L_78 = V_15;
+		V_24 = (bool)((((int32_t)L_77) == ((int32_t)L_78))? 1 : 0);
+		bool L_79 = V_24;
+		if (!L_79)
+		{
+			goto IL_021f;
+		}
+	}
+	{
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_80 = V_23;
+		NullCheck(L_80);
+		int64_t L_81 = L_80->___refs;
+		V_25 = (bool)((!(((uint64_t)L_81) <= ((uint64_t)((int64_t)0))))? 1 : 0);
+		bool L_82 = V_25;
+		if (!L_82)
+		{
+			goto IL_021d;
+		}
+	}
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_83 = __this->___m_nav;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_84 = V_23;
+		NullCheck(L_84);
+		int64_t L_85 = L_84->___refs;
+		NullCheck(L_83);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_83, L_85, (&V_26), (&V_27), NULL);
+		RuntimeObject* L_86 = ___3_filter;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_87 = V_23;
+		NullCheck(L_87);
+		int64_t L_88 = L_87->___refs;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_89 = V_26;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_90 = V_27;
+		NullCheck(L_86);
+		bool L_91;
+		L_91 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_86, L_88, L_89, L_90);
+		V_28 = L_91;
+		bool L_92 = V_28;
+		if (!L_92)
+		{
+			goto IL_021c;
+		}
+	}
+	{
+		V_21 = (bool)0;
+	}
+
+IL_021c:
+	{
+	}
+
+IL_021d:
+	{
+		goto IL_0246;
+	}
+
+IL_021f:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_93 = V_10;
+		NullCheck(L_93);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_94 = L_93->___links;
+		int32_t L_95 = V_22;
+		NullCheck(L_94);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_96;
+		L_96 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_94, L_95, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_96);
+		int32_t L_97 = L_96->___next;
+		V_22 = L_97;
+	}
+
+IL_0235:
+	{
+		int32_t L_98 = V_22;
+		V_29 = (bool)((((int32_t)((((int32_t)L_98) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_99 = V_29;
+		if (L_99)
+		{
+			goto IL_01b3;
+		}
+	}
+
+IL_0246:
+	{
+		bool L_100 = V_21;
+		V_30 = (bool)((((int32_t)L_100) == ((int32_t)0))? 1 : 0);
+		bool L_101 = V_30;
+		if (!L_101)
+		{
+			goto IL_0257;
+		}
+	}
+	{
+		goto IL_03e3;
+	}
+
+IL_0257:
+	{
+		goto IL_02b6;
+	}
+
+IL_025a:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_102 = V_11;
+		NullCheck(L_102);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_103 = L_102->___neis;
+		int32_t L_104 = V_15;
+		NullCheck(L_103);
+		int32_t L_105 = L_104;
+		int32_t L_106 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_105));
+		V_31 = (bool)((!(((uint32_t)L_106) <= ((uint32_t)0)))? 1 : 0);
+		bool L_107 = V_31;
+		if (!L_107)
+		{
+			goto IL_02b6;
+		}
+	}
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_108 = V_11;
+		NullCheck(L_108);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_109 = L_108->___neis;
+		int32_t L_110 = V_15;
+		NullCheck(L_109);
+		int32_t L_111 = L_110;
+		int32_t L_112 = (L_109)->GetAt(static_cast<il2cpp_array_size_t>(L_111));
+		V_32 = ((int32_t)il2cpp_codegen_subtract(L_112, 1));
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_113 = __this->___m_nav;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_114 = V_10;
+		NullCheck(L_113);
+		int64_t L_115;
+		L_115 = DtNavMesh_GetPolyRefBase_m9D29DD1BCB8EDC4B851204A12ED7D5701AE60646(L_113, L_114, NULL);
+		int32_t L_116 = V_32;
+		V_33 = ((int64_t)(L_115|((int64_t)L_116)));
+		RuntimeObject* L_117 = ___3_filter;
+		int64_t L_118 = V_33;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_119 = V_10;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_120 = V_10;
+		NullCheck(L_120);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_121 = L_120->___data;
+		NullCheck(L_121);
+		DtPolyU5BU5D_tA992A83231BD06D99A654E8BD40097A162F6239C* L_122 = L_121->___polys;
+		int32_t L_123 = V_32;
+		NullCheck(L_122);
+		int32_t L_124 = L_123;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_125 = (L_122)->GetAt(static_cast<il2cpp_array_size_t>(L_124));
+		NullCheck(L_117);
+		bool L_126;
+		L_126 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_117, L_118, L_119, L_125);
+		V_34 = L_126;
+		bool L_127 = V_34;
+		if (!L_127)
+		{
+			goto IL_02b5;
+		}
+	}
+	{
+		goto IL_03e3;
+	}
+
+IL_02b5:
+	{
+	}
+
+IL_02b6:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_128 = V_11;
+		NullCheck(L_128);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_129 = L_128->___verts;
+		int32_t L_130 = V_15;
+		NullCheck(L_129);
+		int32_t L_131 = L_130;
+		int32_t L_132 = (L_129)->GetAt(static_cast<il2cpp_array_size_t>(L_131));
+		V_16 = ((int32_t)il2cpp_codegen_multiply(L_132, 3));
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_133 = V_11;
+		NullCheck(L_133);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_134 = L_133->___verts;
+		int32_t L_135 = V_14;
+		NullCheck(L_134);
+		int32_t L_136 = L_135;
+		int32_t L_137 = (L_134)->GetAt(static_cast<il2cpp_array_size_t>(L_136));
+		V_17 = ((int32_t)il2cpp_codegen_multiply(L_137, 3));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_138 = ___1_centerPos;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_139 = V_10;
+		NullCheck(L_139);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_140 = L_139->___data;
+		NullCheck(L_140);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_141 = L_140->___verts;
+		int32_t L_142 = V_16;
+		int32_t L_143 = V_17;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_144;
+		L_144 = DtUtils_DistancePtSegSqr2D_m50C51FCA6D90441C2A8BC0059FF1E585FEFCCB27(L_138, L_141, L_142, L_143, (&V_19), NULL);
+		V_18 = L_144;
+		float L_145 = V_18;
+		float L_146 = V_1;
+		V_35 = (bool)((((float)L_145) > ((float)L_146))? 1 : 0);
+		bool L_147 = V_35;
+		if (!L_147)
+		{
+			goto IL_02fd;
+		}
+	}
+	{
+		goto IL_03e3;
+	}
+
+IL_02fd:
+	{
+		float L_148 = V_18;
+		V_1 = L_148;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_149 = ___5_hitPos;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_150 = V_10;
+		NullCheck(L_150);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_151 = L_150->___data;
+		NullCheck(L_151);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_152 = L_151->___verts;
+		int32_t L_153 = V_16;
+		NullCheck(L_152);
+		int32_t L_154 = L_153;
+		float L_155 = (L_152)->GetAt(static_cast<il2cpp_array_size_t>(L_154));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_156 = V_10;
+		NullCheck(L_156);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_157 = L_156->___data;
+		NullCheck(L_157);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_158 = L_157->___verts;
+		int32_t L_159 = V_17;
+		NullCheck(L_158);
+		int32_t L_160 = L_159;
+		float L_161 = (L_158)->GetAt(static_cast<il2cpp_array_size_t>(L_160));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_162 = V_10;
+		NullCheck(L_162);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_163 = L_162->___data;
+		NullCheck(L_163);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_164 = L_163->___verts;
+		int32_t L_165 = V_16;
+		NullCheck(L_164);
+		int32_t L_166 = L_165;
+		float L_167 = (L_164)->GetAt(static_cast<il2cpp_array_size_t>(L_166));
+		float L_168 = V_19;
+		L_149->___x = ((float)il2cpp_codegen_add(L_155, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_161, L_167)), L_168))));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_169 = ___5_hitPos;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_170 = V_10;
+		NullCheck(L_170);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_171 = L_170->___data;
+		NullCheck(L_171);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_172 = L_171->___verts;
+		int32_t L_173 = V_16;
+		NullCheck(L_172);
+		int32_t L_174 = ((int32_t)il2cpp_codegen_add(L_173, 1));
+		float L_175 = (L_172)->GetAt(static_cast<il2cpp_array_size_t>(L_174));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_176 = V_10;
+		NullCheck(L_176);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_177 = L_176->___data;
+		NullCheck(L_177);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_178 = L_177->___verts;
+		int32_t L_179 = V_17;
+		NullCheck(L_178);
+		int32_t L_180 = ((int32_t)il2cpp_codegen_add(L_179, 1));
+		float L_181 = (L_178)->GetAt(static_cast<il2cpp_array_size_t>(L_180));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_182 = V_10;
+		NullCheck(L_182);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_183 = L_182->___data;
+		NullCheck(L_183);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_184 = L_183->___verts;
+		int32_t L_185 = V_16;
+		NullCheck(L_184);
+		int32_t L_186 = ((int32_t)il2cpp_codegen_add(L_185, 1));
+		float L_187 = (L_184)->GetAt(static_cast<il2cpp_array_size_t>(L_186));
+		float L_188 = V_19;
+		L_169->___y = ((float)il2cpp_codegen_add(L_175, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_181, L_187)), L_188))));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_189 = ___5_hitPos;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_190 = V_10;
+		NullCheck(L_190);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_191 = L_190->___data;
+		NullCheck(L_191);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_192 = L_191->___verts;
+		int32_t L_193 = V_16;
+		NullCheck(L_192);
+		int32_t L_194 = ((int32_t)il2cpp_codegen_add(L_193, 2));
+		float L_195 = (L_192)->GetAt(static_cast<il2cpp_array_size_t>(L_194));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_196 = V_10;
+		NullCheck(L_196);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_197 = L_196->___data;
+		NullCheck(L_197);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_198 = L_197->___verts;
+		int32_t L_199 = V_17;
+		NullCheck(L_198);
+		int32_t L_200 = ((int32_t)il2cpp_codegen_add(L_199, 2));
+		float L_201 = (L_198)->GetAt(static_cast<il2cpp_array_size_t>(L_200));
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_202 = V_10;
+		NullCheck(L_202);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_203 = L_202->___data;
+		NullCheck(L_203);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_204 = L_203->___verts;
+		int32_t L_205 = V_16;
+		NullCheck(L_204);
+		int32_t L_206 = ((int32_t)il2cpp_codegen_add(L_205, 2));
+		float L_207 = (L_204)->GetAt(static_cast<il2cpp_array_size_t>(L_206));
+		float L_208 = V_19;
+		L_189->___z = ((float)il2cpp_codegen_add(L_195, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_201, L_207)), L_208))));
+		V_2 = (bool)1;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_209 = V_10;
+		NullCheck(L_209);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_210 = L_209->___data;
+		NullCheck(L_210);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_211 = L_210->___verts;
+		int32_t L_212 = V_16;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_213;
+		L_213 = RcVec3f_Of_m2B898424BC446DEBFE40214EAA1428F7B3612373(L_211, L_212, NULL);
+		V_3 = L_213;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_214 = V_10;
+		NullCheck(L_214);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_215 = L_214->___data;
+		NullCheck(L_215);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_216 = L_215->___verts;
+		int32_t L_217 = V_17;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_218;
+		L_218 = RcVec3f_Of_m2B898424BC446DEBFE40214EAA1428F7B3612373(L_216, L_217, NULL);
+		V_4 = L_218;
+	}
+
+IL_03e3:
+	{
+		int32_t L_219 = V_14;
+		int32_t L_220 = L_219;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_220, 1));
+		V_15 = L_220;
+	}
+
+IL_03ec:
+	{
+		int32_t L_221 = V_14;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_222 = V_11;
+		NullCheck(L_222);
+		int32_t L_223 = L_222->___vertCount;
+		V_36 = (bool)((((int32_t)L_221) < ((int32_t)L_223))? 1 : 0);
+		bool L_224 = V_36;
+		if (L_224)
+		{
+			goto IL_017c;
+		}
+	}
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_225 = V_10;
+		NullCheck(L_225);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_226 = L_225->___polyLinks;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_227 = V_11;
+		NullCheck(L_227);
+		int32_t L_228 = L_227->___index;
+		NullCheck(L_226);
+		int32_t L_229 = L_228;
+		int32_t L_230 = (L_226)->GetAt(static_cast<il2cpp_array_size_t>(L_229));
+		V_37 = L_230;
+		goto IL_062c;
+	}
+
+IL_0416:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_231 = V_10;
+		NullCheck(L_231);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_232 = L_231->___links;
+		int32_t L_233 = V_37;
+		NullCheck(L_232);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_234;
+		L_234 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_232, L_233, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		V_38 = L_234;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_235 = V_38;
+		NullCheck(L_235);
+		int64_t L_236 = L_235->___refs;
+		V_39 = L_236;
+		int64_t L_237 = V_39;
+		if (!L_237)
+		{
+			goto IL_043c;
+		}
+	}
+	{
+		int64_t L_238 = V_39;
+		int64_t L_239 = V_12;
+		G_B38_0 = ((((int64_t)L_238) == ((int64_t)L_239))? 1 : 0);
+		goto IL_043d;
+	}
+
+IL_043c:
+	{
+		G_B38_0 = 1;
+	}
+
+IL_043d:
+	{
+		V_48 = (bool)G_B38_0;
+		bool L_240 = V_48;
+		if (!L_240)
+		{
+			goto IL_0449;
+		}
+	}
+	{
+		goto IL_0617;
+	}
+
+IL_0449:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_241 = __this->___m_nav;
+		int64_t L_242 = V_39;
+		NullCheck(L_241);
+		DtNavMesh_GetTileAndPolyByRefUnsafe_m3CBD7D2845C679F7A76FA4E4E92F0CEF3AD119CA(L_241, L_242, (&V_40), (&V_41), NULL);
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_243 = V_41;
+		NullCheck(L_243);
+		int32_t L_244;
+		L_244 = DtPoly_GetPolyType_m927ACFB240EB7337AB1CC3A128DA55A603A46284(L_243, NULL);
+		V_49 = (bool)((((int32_t)L_244) == ((int32_t)1))? 1 : 0);
+		bool L_245 = V_49;
+		if (!L_245)
+		{
+			goto IL_0471;
+		}
+	}
+	{
+		goto IL_0617;
+	}
+
+IL_0471:
+	{
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_246 = V_11;
+		NullCheck(L_246);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_247 = L_246->___verts;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_248 = V_38;
+		NullCheck(L_248);
+		int32_t L_249 = L_248->___edge;
+		NullCheck(L_247);
+		int32_t L_250 = L_249;
+		int32_t L_251 = (L_247)->GetAt(static_cast<il2cpp_array_size_t>(L_250));
+		V_42 = ((int32_t)il2cpp_codegen_multiply(L_251, 3));
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_252 = V_11;
+		NullCheck(L_252);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_253 = L_252->___verts;
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_254 = V_38;
+		NullCheck(L_254);
+		int32_t L_255 = L_254->___edge;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_256 = V_11;
+		NullCheck(L_256);
+		int32_t L_257 = L_256->___vertCount;
+		NullCheck(L_253);
+		int32_t L_258 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_255, 1))%L_257));
+		int32_t L_259 = (L_253)->GetAt(static_cast<il2cpp_array_size_t>(L_258));
+		V_43 = ((int32_t)il2cpp_codegen_multiply(L_259, 3));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_260 = ___1_centerPos;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_261 = V_10;
+		NullCheck(L_261);
+		DtMeshData_tFF6629BC6F180A7B5DB92660F80539E1D2034591* L_262 = L_261->___data;
+		NullCheck(L_262);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_263 = L_262->___verts;
+		int32_t L_264 = V_42;
+		int32_t L_265 = V_43;
+		il2cpp_codegen_runtime_class_init_inline(DtUtils_tE8D864027D97BA6039345B5F60D2D4673A5D8875_il2cpp_TypeInfo_var);
+		float L_266;
+		L_266 = DtUtils_DistancePtSegSqr2D_m50C51FCA6D90441C2A8BC0059FF1E585FEFCCB27(L_260, L_263, L_264, L_265, (&V_45), NULL);
+		V_44 = L_266;
+		float L_267 = V_44;
+		float L_268 = V_1;
+		V_50 = (bool)((((float)L_267) > ((float)L_268))? 1 : 0);
+		bool L_269 = V_50;
+		if (!L_269)
+		{
+			goto IL_04cc;
+		}
+	}
+	{
+		goto IL_0617;
+	}
+
+IL_04cc:
+	{
+		RuntimeObject* L_270 = ___3_filter;
+		int64_t L_271 = V_39;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_272 = V_40;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_273 = V_41;
+		NullCheck(L_270);
+		bool L_274;
+		L_274 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_270, L_271, L_272, L_273);
+		V_51 = (bool)((((int32_t)L_274) == ((int32_t)0))? 1 : 0);
+		bool L_275 = V_51;
+		if (!L_275)
+		{
+			goto IL_04e8;
+		}
+	}
+	{
+		goto IL_0617;
+	}
+
+IL_04e8:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_276 = __this->___m_nodePool;
+		int64_t L_277 = V_39;
+		NullCheck(L_276);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_278;
+		L_278 = DtNodePool_GetNode_m6CF86E1EC6C32F77EBCF896A936C3C0C34F8A3B2(L_276, L_277, NULL);
+		V_46 = L_278;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_279 = V_46;
+		V_52 = (bool)((((RuntimeObject*)(DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)L_279) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_280 = V_52;
+		if (!L_280)
+		{
+			goto IL_0516;
+		}
+	}
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_281 = V_5;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_282 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_OUT_OF_NODES;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_283;
+		L_283 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_281, L_282, NULL);
+		V_5 = L_283;
+		goto IL_0617;
+	}
+
+IL_0516:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_284 = V_46;
+		NullCheck(L_284);
+		int32_t L_285 = L_284->___flags;
+		V_53 = (bool)((!(((uint32_t)((int32_t)(L_285&2))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_286 = V_53;
+		if (!L_286)
+		{
+			goto IL_052e;
+		}
+	}
+	{
+		goto IL_0617;
+	}
+
+IL_052e:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_287 = V_46;
+		NullCheck(L_287);
+		int32_t L_288 = L_287->___flags;
+		V_54 = (bool)((((int32_t)L_288) == ((int32_t)0))? 1 : 0);
+		bool L_289 = V_54;
+		if (!L_289)
+		{
+			goto IL_055a;
+		}
+	}
+	{
+		int64_t L_290 = V_9;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_291 = V_11;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_292 = V_10;
+		int64_t L_293 = V_39;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_294 = V_41;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_295 = V_40;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_296 = V_46;
+		NullCheck(L_296);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_297 = (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700*)(&L_296->___pos);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_298;
+		L_298 = DtNavMeshQuery_GetEdgeMidPoint_m64BD2A68D1AE02A9B99F178B423EC0F4C52ECD89(__this, L_290, L_291, L_292, L_293, L_294, L_295, L_297, NULL);
+	}
+
+IL_055a:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_299 = V_8;
+		NullCheck(L_299);
+		float L_300 = L_299->___total;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_301 = V_8;
+		NullCheck(L_301);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_302 = L_301->___pos;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_303 = V_46;
+		NullCheck(L_303);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_304 = L_303->___pos;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		float L_305;
+		L_305 = RcVec3f_Distance_m6DE6551F4AA9A4CAAF49C6BB2B053FD8DE8C89C8_inline(L_302, L_304, NULL);
+		V_47 = ((float)il2cpp_codegen_add(L_300, L_305));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_306 = V_46;
+		NullCheck(L_306);
+		int32_t L_307 = L_306->___flags;
+		if (!((int32_t)(L_307&1)))
+		{
+			goto IL_0592;
+		}
+	}
+	{
+		float L_308 = V_47;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_309 = V_46;
+		NullCheck(L_309);
+		float L_310 = L_309->___total;
+		G_B55_0 = ((((int32_t)((!(((float)L_308) >= ((float)L_310)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0593;
+	}
+
+IL_0592:
+	{
+		G_B55_0 = 0;
+	}
+
+IL_0593:
+	{
+		V_55 = (bool)G_B55_0;
+		bool L_311 = V_55;
+		if (!L_311)
+		{
+			goto IL_059c;
+		}
+	}
+	{
+		goto IL_0617;
+	}
+
+IL_059c:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_312 = V_46;
+		int64_t L_313 = V_39;
+		NullCheck(L_312);
+		L_312->___id = L_313;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_314 = V_46;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_315 = V_46;
+		NullCheck(L_315);
+		int32_t L_316 = L_315->___flags;
+		NullCheck(L_314);
+		L_314->___flags = ((int32_t)(L_316&((int32_t)-3)));
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_317 = V_46;
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_318 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_319 = V_8;
+		NullCheck(L_318);
+		int32_t L_320;
+		L_320 = DtNodePool_GetNodeIdx_m93FBC34DB04833279A44C1F0634EBBB6DDDB3F07(L_318, L_319, NULL);
+		NullCheck(L_317);
+		L_317->___pidx = L_320;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_321 = V_46;
+		float L_322 = V_47;
+		NullCheck(L_321);
+		L_321->___total = L_322;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_323 = V_46;
+		NullCheck(L_323);
+		int32_t L_324 = L_323->___flags;
+		V_56 = (bool)((!(((uint32_t)((int32_t)(L_324&1))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_325 = V_56;
+		if (!L_325)
+		{
+			goto IL_05f7;
+		}
+	}
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_326 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_327 = V_46;
+		NullCheck(L_326);
+		DtNodeQueue_Modify_m9528E2A6C335DEADAB9B5DF835691EACBEF3E308(L_326, L_327, NULL);
+		goto IL_0616;
+	}
+
+IL_05f7:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_328 = V_46;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_329 = L_328;
+		NullCheck(L_329);
+		int32_t L_330 = L_329->___flags;
+		NullCheck(L_329);
+		L_329->___flags = ((int32_t)(L_330|1));
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_331 = __this->___m_openList;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_332 = V_46;
+		NullCheck(L_331);
+		DtNodeQueue_Push_m03BDF78F4CE1AC703188994186FC6345ED35D0FF(L_331, L_332, NULL);
+	}
+
+IL_0616:
+	{
+	}
+
+IL_0617:
+	{
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_333 = V_10;
+		NullCheck(L_333);
+		List_1_t72FB86E52F4CF5529773272C076978B9400BF5D5* L_334 = L_333->___links;
+		int32_t L_335 = V_37;
+		NullCheck(L_334);
+		DtLink_tCC22EA86D7C8C564099AE1C671C581F8BEBE0697* L_336;
+		L_336 = List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13(L_334, L_335, List_1_get_Item_m004AB46EBFAA006E9283F253D6D893419FA6AF13_RuntimeMethod_var);
+		NullCheck(L_336);
+		int32_t L_337 = L_336->___next;
+		V_37 = L_337;
+	}
+
+IL_062c:
+	{
+		int32_t L_338 = V_37;
+		V_57 = (bool)((((int32_t)((((int32_t)L_338) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_339 = V_57;
+		if (L_339)
+		{
+			goto IL_0416;
+		}
+	}
+	{
+	}
+
+IL_063e:
+	{
+		DtNodeQueue_t75FA88603D75B6F25B46068CF122B1F98732E508* L_340 = __this->___m_openList;
+		NullCheck(L_340);
+		bool L_341;
+		L_341 = DtNodeQueue_IsEmpty_m6FA5A282449EA550AB66A5852500B70CBBC4F99E(L_340, NULL);
+		V_58 = (bool)((((int32_t)L_341) == ((int32_t)0))? 1 : 0);
+		bool L_342 = V_58;
+		if (L_342)
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		bool L_343 = V_2;
+		V_59 = L_343;
+		bool L_344 = V_59;
+		if (!L_344)
+		{
+			goto IL_0699;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_345 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_346;
+		L_346 = RcVec3f_Subtract_m22DB9ABD128201BAF869053154F8C16AC2C5135F_inline((&V_4), L_345, NULL);
+		V_60 = L_346;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_347 = ___6_hitNormal;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_348 = V_60;
+		float L_349 = L_348.___z;
+		L_347->___x = L_349;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_350 = ___6_hitNormal;
+		L_350->___y = (0.0f);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_351 = ___6_hitNormal;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_352 = V_60;
+		float L_353 = L_352.___x;
+		L_351->___z = ((-L_353));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* L_354 = ___6_hitNormal;
+		RcVec3f_Normalize_mB704E1A1336A29792D75A1683E4AAC0894D68E72_inline(L_354, NULL);
+	}
+
+IL_0699:
+	{
+		float* L_355 = ___4_hitDist;
+		float L_356 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_357;
+		L_357 = sqrt(((double)L_356));
+		*((float*)L_355) = (float)((float)L_357);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_358 = V_5;
+		V_7 = L_358;
+		goto IL_06aa;
+	}
+
+IL_06aa:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_359 = V_7;
+		return L_359;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtNavMeshQuery_IsValidPolyRef_m20F056B7A737B4BC7F39D53FB53540F682FAFCFD (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_refs, RuntimeObject* ___1_filter, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* V_1 = NULL;
+	DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* V_2 = NULL;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_0 = __this->___m_nav;
+		int64_t L_1 = ___0_refs;
+		NullCheck(L_0);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_2;
+		L_2 = DtNavMesh_GetTileAndPolyByRef_m762876566EB0BFBE9F511E0F653DE7FCC3B4302E(L_0, L_1, (&V_1), (&V_2), NULL);
+		V_0 = L_2;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline((&V_0), NULL);
+		V_3 = L_3;
+		bool L_4 = V_3;
+		if (!L_4)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		V_4 = (bool)0;
+		goto IL_0040;
+	}
+
+IL_0023:
+	{
+		RuntimeObject* L_5 = ___1_filter;
+		int64_t L_6 = ___0_refs;
+		DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED* L_7 = V_1;
+		DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* L_8 = V_2;
+		NullCheck(L_5);
+		bool L_9;
+		L_9 = InterfaceFuncInvoker3< bool, int64_t, DtMeshTile_tB533ACEB593474DAB807AD3155F0EE010E2D28ED*, DtPoly_t3B14FF3F541741745B715F50E5C5E60AED4259D6* >::Invoke(0, IDtQueryFilter_t713A084FC425749A39E46B6A0E1315CD618BD019_il2cpp_TypeInfo_var, L_5, L_6, L_7, L_8);
+		V_5 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
+		bool L_10 = V_5;
+		if (!L_10)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		V_4 = (bool)0;
+		goto IL_0040;
+	}
+
+IL_003b:
+	{
+		V_4 = (bool)1;
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		bool L_11 = V_4;
+		return L_11;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* DtNavMeshQuery_GetAttachedNavMesh_m7F65D80F4BE17473688EDCF66A4230BD58E64B9C (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, const RuntimeMethod* method) 
+{
+	DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* V_0 = NULL;
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_0 = __this->___m_nav;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetPathFromDijkstraSearch_mF1C29C2CBCFDBCAF15D0D99F5259419EF12B76D2 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_endRef, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___1_path, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m59C47AA5B633FAFCADF124B66A27CA957A235A0B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m72031E09DAD93D10A3DD0EF4C0EDB42531A85BFC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* V_0 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_1 = NULL;
+	bool V_2 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B3_0 = 0;
+	{
+		DtNavMesh_t415084A4AEC0E10315DC2CA93E9C9BA658836AED* L_0 = __this->___m_nav;
+		int64_t L_1 = ___0_endRef;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = DtNavMesh_IsValidPolyRef_m909F06C3C2FE254DE0EB9C4CFEC0BD3F24D25EA7(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_3 = ___1_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_4 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_3);
+		G_B3_0 = ((((RuntimeObject*)(List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)L_4) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0017:
+	{
+		V_2 = (bool)G_B3_0;
+		bool L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_6 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_7 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_8;
+		L_8 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_6, L_7, NULL);
+		V_3 = L_8;
+		goto IL_009f;
+	}
+
+IL_002e:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_9 = ___1_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_10 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_9);
+		NullCheck(L_10);
+		List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_inline(L_10, List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_RuntimeMethod_var);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_11 = __this->___m_nodePool;
+		int64_t L_12 = ___0_endRef;
+		NullCheck(L_11);
+		List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* L_13;
+		L_13 = DtNodePool_FindNodes_m62F2E5F81A4AEA0D6F1E07F4247953C220408019(L_11, L_12, NULL);
+		V_0 = L_13;
+		List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* L_14 = V_0;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = List_1_get_Count_m59C47AA5B633FAFCADF124B66A27CA957A235A0B_inline(L_14, List_1_get_Count_m59C47AA5B633FAFCADF124B66A27CA957A235A0B_RuntimeMethod_var);
+		V_4 = (bool)((((int32_t)((((int32_t)L_15) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_16 = V_4;
+		if (!L_16)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_17 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_18 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_19;
+		L_19 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_17, L_18, NULL);
+		V_3 = L_19;
+		goto IL_009f;
+	}
+
+IL_0068:
+	{
+		List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* L_20 = V_0;
+		NullCheck(L_20);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_21;
+		L_21 = List_1_get_Item_m72031E09DAD93D10A3DD0EF4C0EDB42531A85BFC(L_20, 0, List_1_get_Item_m72031E09DAD93D10A3DD0EF4C0EDB42531A85BFC_RuntimeMethod_var);
+		V_1 = L_21;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_22 = V_1;
+		NullCheck(L_22);
+		int32_t L_23 = L_22->___flags;
+		V_5 = (bool)((((int32_t)((int32_t)(L_23&2))) == ((int32_t)0))? 1 : 0);
+		bool L_24 = V_5;
+		if (!L_24)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_25 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_26 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_27;
+		L_27 = DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline(L_25, L_26, NULL);
+		V_3 = L_27;
+		goto IL_009f;
+	}
+
+IL_0094:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_28 = V_1;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_29 = ___1_path;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_30;
+		L_30 = DtNavMeshQuery_GetPathToNode_m3340B0041D42D4CE8F83EB367601F5C9DED38300(__this, L_28, L_29, NULL);
+		V_3 = L_30;
+		goto IL_009f;
+	}
+
+IL_009f:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_31 = V_3;
+		return L_31;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtNavMeshQuery_GetPathToNode_m3340B0041D42D4CE8F83EB367601F5C9DED38300 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* ___0_endNode, List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** ___1_path, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Reverse_mFA4816FEB2014002AD0277DD3B1F250818F2838E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_0 = NULL;
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_1 = NULL;
+	bool V_2 = false;
+	int32_t V_3 = 0;
+	int64_t V_4 = 0;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	int32_t G_B6_0 = 0;
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_0 = ___0_endNode;
+		V_0 = L_0;
+	}
+
+IL_0003:
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_1 = ___1_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_2 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_1);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_3 = V_0;
+		NullCheck(L_3);
+		int64_t L_4 = L_3->___id;
+		NullCheck(L_2);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_2, L_4, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_5 = __this->___m_nodePool;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___pidx;
+		NullCheck(L_5);
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_8;
+		L_8 = DtNodePool_GetNodeAtIdx_mDE1B685F5CC86DB5A2C6D5709D16FC4569827318(L_5, L_7, NULL);
+		V_1 = L_8;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_9 = V_0;
+		NullCheck(L_9);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_10 = L_9->___shortcut;
+		V_2 = (bool)((!(((RuntimeObject*)(List_1_tF9D88C946600C782EE786A252258C0AA97BD019A*)L_10) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_11 = V_2;
+		if (!L_11)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_12 = V_0;
+		NullCheck(L_12);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_13 = L_12->___shortcut;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_inline(L_13, List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_RuntimeMethod_var);
+		V_3 = ((int32_t)il2cpp_codegen_subtract(L_14, 1));
+		goto IL_0082;
+	}
+
+IL_0042:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_15 = V_0;
+		NullCheck(L_15);
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_16 = L_15->___shortcut;
+		int32_t L_17 = V_3;
+		NullCheck(L_16);
+		int64_t L_18;
+		L_18 = List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD(L_16, L_17, List_1_get_Item_m83A927A531097BB02EAEC9E5AD4B32C1499B55FD_RuntimeMethod_var);
+		V_4 = L_18;
+		int64_t L_19 = V_4;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_20 = V_0;
+		NullCheck(L_20);
+		int64_t L_21 = L_20->___id;
+		if ((((int64_t)L_19) == ((int64_t)L_21)))
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		int64_t L_22 = V_4;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_23 = V_1;
+		NullCheck(L_23);
+		int64_t L_24 = L_23->___id;
+		G_B6_0 = ((((int32_t)((((int64_t)L_22) == ((int64_t)L_24))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_006b;
+	}
+
+IL_006a:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_006b:
+	{
+		V_5 = (bool)G_B6_0;
+		bool L_25 = V_5;
+		if (!L_25)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_26 = ___1_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_27 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_26);
+		int64_t L_28 = V_4;
+		NullCheck(L_27);
+		List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_inline(L_27, L_28, List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_RuntimeMethod_var);
+	}
+
+IL_007d:
+	{
+		int32_t L_29 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_subtract(L_29, 1));
+	}
+
+IL_0082:
+	{
+		int32_t L_30 = V_3;
+		V_6 = (bool)((((int32_t)((((int32_t)L_30) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_31 = V_6;
+		if (L_31)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+	}
+
+IL_0090:
+	{
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_32 = V_1;
+		V_0 = L_32;
+		DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_33 = V_0;
+		V_7 = (bool)((!(((RuntimeObject*)(DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54*)L_33) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_34 = V_7;
+		if (L_34)
+		{
+			goto IL_0003;
+		}
+	}
+	{
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A** L_35 = ___1_path;
+		List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* L_36 = *((List_1_tF9D88C946600C782EE786A252258C0AA97BD019A**)L_35);
+		NullCheck(L_36);
+		List_1_Reverse_mFA4816FEB2014002AD0277DD3B1F250818F2838E(L_36, List_1_Reverse_mFA4816FEB2014002AD0277DD3B1F250818F2838E_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_37 = ((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS;
+		V_8 = L_37;
+		goto IL_00b1;
+	}
+
+IL_00b1:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_38 = V_8;
+		return L_38;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DtNavMeshQuery_IsInClosedList_m5AA71DBA1245461A0A2BEB96E1175D8D9C8C1083 (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, int64_t ___0_refs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m36984B707F4293BB109240274397E9FC06E022AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mA70655BE6FEA1E96B913190354DE9F44095F5DF0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m19964B2DEFD9D3AECE1FAC38800B75E2C58A9ADD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m08AAB3C7A33557EF731CBD2A752CE4ABC76278FA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* V_3 = NULL;
+	bool V_4 = false;
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_0 = __this->___m_nodePool;
+		V_0 = (bool)((((RuntimeObject*)(DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		V_1 = (bool)0;
+		goto IL_0066;
+	}
+
+IL_0013:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_2 = __this->___m_nodePool;
+		int64_t L_3 = ___0_refs;
+		NullCheck(L_2);
+		List_1_tB24BF518E9256638E05A54DD4457E4E72C66FF3F* L_4;
+		L_4 = DtNodePool_FindNodes_m62F2E5F81A4AEA0D6F1E07F4247953C220408019(L_2, L_3, NULL);
+		NullCheck(L_4);
+		Enumerator_tE95B970818ADAB82497C16B5CC8109427D52317C L_5;
+		L_5 = List_1_GetEnumerator_m08AAB3C7A33557EF731CBD2A752CE4ABC76278FA(L_4, List_1_GetEnumerator_m08AAB3C7A33557EF731CBD2A752CE4ABC76278FA_RuntimeMethod_var);
+		V_2 = L_5;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0053:
+			{
+				Enumerator_Dispose_m36984B707F4293BB109240274397E9FC06E022AF((&V_2), Enumerator_Dispose_m36984B707F4293BB109240274397E9FC06E022AF_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0048_1;
+			}
+
+IL_0028_1:
+			{
+				DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_6;
+				L_6 = Enumerator_get_Current_m19964B2DEFD9D3AECE1FAC38800B75E2C58A9ADD_inline((&V_2), Enumerator_get_Current_m19964B2DEFD9D3AECE1FAC38800B75E2C58A9ADD_RuntimeMethod_var);
+				V_3 = L_6;
+				DtNode_tBF3FAF2E8DC97897FEE432390C68D1FEEB86DF54* L_7 = V_3;
+				NullCheck(L_7);
+				int32_t L_8 = L_7->___flags;
+				V_4 = (bool)((!(((uint32_t)((int32_t)(L_8&2))) <= ((uint32_t)0)))? 1 : 0);
+				bool L_9 = V_4;
+				if (!L_9)
+				{
+					goto IL_0047_1;
+				}
+			}
+			{
+				V_1 = (bool)1;
+				goto IL_0066;
+			}
+
+IL_0047_1:
+			{
+			}
+
+IL_0048_1:
+			{
+				bool L_10;
+				L_10 = Enumerator_MoveNext_mA70655BE6FEA1E96B913190354DE9F44095F5DF0((&V_2), Enumerator_MoveNext_mA70655BE6FEA1E96B913190354DE9F44095F5DF0_RuntimeMethod_var);
+				if (L_10)
+				{
+					goto IL_0028_1;
+				}
+			}
+			{
+				goto IL_0062;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0062:
+	{
+		V_1 = (bool)0;
+		goto IL_0066;
+	}
+
+IL_0066:
+	{
+		bool L_11 = V_1;
+		return L_11;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* DtNavMeshQuery_GetNodePool_mBD32D5002BCA208D2E3030155454311743EDDD9B (DtNavMeshQuery_t20DA0F0EEEBDFB328377A9FB8FCA493969BBA201* __this, const RuntimeMethod* method) 
+{
+	DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* V_0 = NULL;
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_0 = __this->___m_nodePool;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		DtNodePool_tC1542127329631351DB535E44BE036C2DE9FF9D6* L_1 = V_0;
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f_Set_m5C78CDD63E5C55E4CF131B7BAA60388164AB89B8_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_in, int32_t ___1_i, const RuntimeMethod* method) 
+{
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___0_in;
+		int32_t L_1 = ___1_i;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		float L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		__this->___x = L_3;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = ___0_in;
+		int32_t L_5 = ___1_i;
+		NullCheck(L_4);
+		int32_t L_6 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		float L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		__this->___y = L_7;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = ___0_in;
+		int32_t L_9 = ___1_i;
+		NullCheck(L_8);
+		int32_t L_10 = ((int32_t)il2cpp_codegen_add(L_9, 2));
+		float L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		__this->___z = L_11;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f_Min_mA4F1906CF520358BD3E62A5D9B040BD0D19890C1_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_in, int32_t ___1_i, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->___x;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___0_in;
+		int32_t L_2 = ___1_i;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		float L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_5;
+		L_5 = Math_Min_mE913811A2F7566294BF4649A434282634E7254B3(L_0, L_4, NULL);
+		__this->___x = L_5;
+		float L_6 = __this->___y;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ___0_in;
+		int32_t L_8 = ___1_i;
+		NullCheck(L_7);
+		int32_t L_9 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+		float L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		float L_11;
+		L_11 = Math_Min_mE913811A2F7566294BF4649A434282634E7254B3(L_6, L_10, NULL);
+		__this->___y = L_11;
+		float L_12 = __this->___z;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = ___0_in;
+		int32_t L_14 = ___1_i;
+		NullCheck(L_13);
+		int32_t L_15 = ((int32_t)il2cpp_codegen_add(L_14, 2));
+		float L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		float L_17;
+		L_17 = Math_Min_mE913811A2F7566294BF4649A434282634E7254B3(L_12, L_16, NULL);
+		__this->___z = L_17;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f_Max_m6D5395D0F4CC1CA03FD492DDF2CD4E55C0F969D4_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_in, int32_t ___1_i, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->___x;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___0_in;
+		int32_t L_2 = ___1_i;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		float L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_5;
+		L_5 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_0, L_4, NULL);
+		__this->___x = L_5;
+		float L_6 = __this->___y;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ___0_in;
+		int32_t L_8 = ___1_i;
+		NullCheck(L_7);
+		int32_t L_9 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+		float L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		float L_11;
+		L_11 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_6, L_10, NULL);
+		__this->___y = L_11;
+		float L_12 = __this->___z;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = ___0_in;
+		int32_t L_14 = ___1_i;
+		NullCheck(L_13);
+		int32_t L_15 = ((int32_t)il2cpp_codegen_add(L_14, 2));
+		float L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		float L_17;
+		L_17 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_12, L_16, NULL);
+		__this->___z = L_17;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t RcMath_Clamp_mCF21FED747DCE42814A247F784061FC31B57EC7B_inline (int32_t ___0_v, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___0_v;
+		int32_t L_1 = ___2_max;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_2;
+		L_2 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_0, L_1, NULL);
+		int32_t L_3 = ___1_min;
+		int32_t L_4;
+		L_4 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_2, L_3, NULL);
+		V_0 = L_4;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		int32_t L_5 = V_0;
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_get_Zero_m615A2648BCF2C7863CEA75B076B7FB933BD5ABE5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ((RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_StaticFields*)il2cpp_codegen_static_fields_for(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var))->___U3CZeroU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtStatus_op_BitwiseOr_m652BF9EDF3FACD47F8D524244206161BB00CC564_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___0_left, DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___1_right, const RuntimeMethod* method) 
+{
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_0 = ___0_left;
+		uint32_t L_1 = L_0.___Value;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_2 = ___1_right;
+		uint32_t L_3 = L_2.___Value;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		DtStatus__ctor_m61ECEE8576AFFA35F1C0076989C40A681DCA5898((&L_4), ((int32_t)((int32_t)L_1|(int32_t)L_3)), NULL);
+		V_0 = L_4;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_5 = V_0;
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RcVec3f_IsFinite_m56D12EE898E71393ECD5E035089BCC22C3D755A9_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	int32_t G_B4_0 = 0;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		bool L_2;
+		L_2 = Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_3 = ___0_v;
+		float L_4 = L_3.___y;
+		bool L_5;
+		L_5 = Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_6 = ___0_v;
+		float L_7 = L_6.___z;
+		bool L_8;
+		L_8 = Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline(L_7, NULL);
+		G_B4_0 = ((int32_t)(L_8));
+		goto IL_0029;
+	}
+
+IL_0028:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0029:
+	{
+		V_0 = (bool)G_B4_0;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		bool L_9 = V_0;
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_f;
+		int32_t L_1;
+		L_1 = BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline(L_0, NULL);
+		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) < ((int32_t)((int32_t)2139095040)))? 1 : 0);
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DtStatus_Failed_m062DC2373F24A0A893CBEEED95D3E45D05F3BBB2_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		uint32_t L_0 = __this->___Value;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		uint32_t L_1 = (&((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_FAILURE)->___Value;
+		uint32_t L_2 = (&((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_INVALID_PARAM)->___Value;
+		V_0 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_0&((int32_t)((int32_t)L_1|(int32_t)L_2))))) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Lerp_m070D7E7D50CF96AB1F9C0DCDE50F9456B499C91A_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v1, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_v2, float ___2_t, const RuntimeMethod* method) 
+{
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___0_v1;
+		float L_1 = L_0.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___1_v2;
+		float L_3 = L_2.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_4 = ___0_v1;
+		float L_5 = L_4.___x;
+		float L_6 = ___2_t;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_7 = ___0_v1;
+		float L_8 = L_7.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_9 = ___1_v2;
+		float L_10 = L_9.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_11 = ___0_v1;
+		float L_12 = L_11.___y;
+		float L_13 = ___2_t;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_14 = ___0_v1;
+		float L_15 = L_14.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_16 = ___1_v2;
+		float L_17 = L_16.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_18 = ___0_v1;
+		float L_19 = L_18.___z;
+		float L_20 = ___2_t;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		RcVec3f__ctor_mB8F23E2507B7F9D20C6C470599E0135F1D97A304_inline((&L_21), ((float)il2cpp_codegen_add(L_1, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_3, L_5)), L_6)))), ((float)il2cpp_codegen_add(L_8, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_10, L_12)), L_13)))), ((float)il2cpp_codegen_add(L_15, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_17, L_19)), L_20)))), NULL);
+		V_0 = L_21;
+		goto IL_004b;
+	}
+
+IL_004b:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_22 = V_0;
+		return L_22;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RcVec3f_Distance_m6DE6551F4AA9A4CAAF49C6BB2B053FD8DE8C89C8_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v1, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_v2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___1_v2;
+		float L_1 = L_0.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___0_v1;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_4 = ___1_v2;
+		float L_5 = L_4.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_6 = ___0_v1;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_8 = ___1_v2;
+		float L_9 = L_8.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = ___0_v1;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_18;
+		L_18 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))))));
+		V_3 = ((float)L_18);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		float L_19 = V_3;
+		return L_19;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Lerp_mD2635DBE4F3A572CD858D2EA8AB2051B74D9802F_inline (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_verts, int32_t ___1_v1, int32_t ___2_v2, float ___3_t, const RuntimeMethod* method) 
+{
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___0_verts;
+		int32_t L_1 = ___1_v1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		float L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = ___0_verts;
+		int32_t L_5 = ___2_v2;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		float L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = ___0_verts;
+		int32_t L_9 = ___1_v1;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		float L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		float L_12 = ___3_t;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = ___0_verts;
+		int32_t L_14 = ___1_v1;
+		NullCheck(L_13);
+		int32_t L_15 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+		float L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = ___0_verts;
+		int32_t L_18 = ___2_v2;
+		NullCheck(L_17);
+		int32_t L_19 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+		float L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_21 = ___0_verts;
+		int32_t L_22 = ___1_v1;
+		NullCheck(L_21);
+		int32_t L_23 = ((int32_t)il2cpp_codegen_add(L_22, 1));
+		float L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		float L_25 = ___3_t;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_26 = ___0_verts;
+		int32_t L_27 = ___1_v1;
+		NullCheck(L_26);
+		int32_t L_28 = ((int32_t)il2cpp_codegen_add(L_27, 2));
+		float L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_30 = ___0_verts;
+		int32_t L_31 = ___2_v2;
+		NullCheck(L_30);
+		int32_t L_32 = ((int32_t)il2cpp_codegen_add(L_31, 2));
+		float L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_34 = ___0_verts;
+		int32_t L_35 = ___1_v1;
+		NullCheck(L_34);
+		int32_t L_36 = ((int32_t)il2cpp_codegen_add(L_35, 2));
+		float L_37 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+		float L_38 = ___3_t;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_39;
+		memset((&L_39), 0, sizeof(L_39));
+		RcVec3f__ctor_mB8F23E2507B7F9D20C6C470599E0135F1D97A304_inline((&L_39), ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_7, L_11)), L_12)))), ((float)il2cpp_codegen_add(L_16, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_20, L_24)), L_25)))), ((float)il2cpp_codegen_add(L_29, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_33, L_37)), L_38)))), NULL);
+		V_0 = L_39;
+		goto IL_003c;
+	}
+
+IL_003c:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_40 = V_0;
+		return L_40;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RcVec3f_IsFinite2D_mAFBB29B6431013778DA303C9D0BCC1C8CC9242BE_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		bool L_2;
+		L_2 = Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_3 = ___0_v;
+		float L_4 = L_3.___z;
+		bool L_5;
+		L_5 = Single_IsFinite_m50EDEFA3EDE9C72BC485E44C13C1CEC483D3D412_inline(L_4, NULL);
+		G_B3_0 = ((int32_t)(L_5));
+		goto IL_001c;
+	}
+
+IL_001b:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001c:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		bool L_6 = V_0;
+		return L_6;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RcMath_Clamp_m6C5D95FBE921D3B36D345EB78253F0FBEA6E7742_inline (float ___0_v, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_v;
+		float L_1 = ___2_max;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_2;
+		L_2 = Math_Min_mE913811A2F7566294BF4649A434282634E7254B3(L_0, L_1, NULL);
+		float L_3 = ___1_min;
+		float L_4;
+		L_4 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_2, L_3, NULL);
+		V_0 = L_4;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Subtract_m22DB9ABD128201BAF869053154F8C16AC2C5135F_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_right, const RuntimeMethod* method) 
+{
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = __this->___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1 = ___0_right;
+		float L_2 = L_1.___x;
+		float L_3 = __this->___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_4 = ___0_right;
+		float L_5 = L_4.___y;
+		float L_6 = __this->___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_7 = ___0_right;
+		float L_8 = L_7.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		RcVec3f__ctor_mB8F23E2507B7F9D20C6C470599E0135F1D97A304_inline((&L_9), ((float)il2cpp_codegen_subtract(L_0, L_2)), ((float)il2cpp_codegen_subtract(L_3, L_5)), ((float)il2cpp_codegen_subtract(L_6, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = V_0;
+		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Add_mF7F8BD57B1C48137508C664D9CE2D08ECE162554_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v2, const RuntimeMethod* method) 
+{
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = __this->___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1 = ___0_v2;
+		float L_2 = L_1.___x;
+		float L_3 = __this->___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_4 = ___0_v2;
+		float L_5 = L_4.___y;
+		float L_6 = __this->___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_7 = ___0_v2;
+		float L_8 = L_7.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		RcVec3f__ctor_mB8F23E2507B7F9D20C6C470599E0135F1D97A304_inline((&L_9), ((float)il2cpp_codegen_add(L_0, L_2)), ((float)il2cpp_codegen_add(L_3, L_5)), ((float)il2cpp_codegen_add(L_6, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = V_0;
+		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_f;
+		float L_1 = ___0_f;
+		V_0 = ((float)il2cpp_codegen_multiply(L_0, L_1));
+		goto IL_0007;
+	}
+
+IL_0007:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float RcVec3f_DistSqr_m6A83CC6DB483F8A7C964476E6153BECA4C5FA155_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v1, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_v2, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___1_v2;
+		float L_1 = L_0.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___0_v1;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_4 = ___1_v2;
+		float L_5 = L_4.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_6 = ___0_v1;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_8 = ___1_v2;
+		float L_9 = L_8.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = ___0_v1;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		V_3 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))));
+		goto IL_0039;
+	}
+
+IL_0039:
+	{
+		float L_18 = V_3;
+		return L_18;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DtStatus_Succeeded_mCF8E76C4EE7CD0DBF56B06210B09AE9D2E899D0C_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		uint32_t L_0 = __this->___Value;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		uint32_t L_1 = (&((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_SUCCSESS)->___Value;
+		uint32_t L_2 = (&((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_PARTIAL_RESULT)->___Value;
+		V_0 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_0&((int32_t)((int32_t)L_1|(int32_t)L_2))))) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DtStatus_InProgress_m945AA0688547AF5435741597D0D078CC1189453A_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		uint32_t L_0 = __this->___Value;
+		il2cpp_codegen_runtime_class_init_inline(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var);
+		uint32_t L_1 = (&((DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_StaticFields*)il2cpp_codegen_static_fields_for(DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49_il2cpp_TypeInfo_var))->___DT_IN_PROGRESS)->___Value;
+		V_0 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_0&(int32_t)L_1))) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 DtStatus_op_BitwiseAnd_m6E15D2E12EE1D096BE1189835099EE3D3815159A_inline (DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___0_left, DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 ___1_right, const RuntimeMethod* method) 
+{
+	DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_0 = ___0_left;
+		uint32_t L_1 = L_0.___Value;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_2 = ___1_right;
+		uint32_t L_3 = L_2.___Value;
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		DtStatus__ctor_m61ECEE8576AFFA35F1C0076989C40A681DCA5898((&L_4), ((int32_t)((int32_t)L_1&(int32_t)L_3)), NULL);
+		V_0 = L_4;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		DtStatus_t06D0D85C6F98B34C61ED1E382403D44C8AC25A49 L_5 = V_0;
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_Mad_m39874CE2B7229F1131DDBF955E07620CA9DCC5B4_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_v1, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_v2, float ___2_s, const RuntimeMethod* method) 
+{
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___0_v1;
+		float L_1 = L_0.___x;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = ___1_v2;
+		float L_3 = L_2.___x;
+		float L_4 = ___2_s;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, ((float)il2cpp_codegen_multiply(L_3, L_4))));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_5 = ___0_v1;
+		float L_6 = L_5.___y;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_7 = ___1_v2;
+		float L_8 = L_7.___y;
+		float L_9 = ___2_s;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_6, ((float)il2cpp_codegen_multiply(L_8, L_9))));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_10 = ___0_v1;
+		float L_11 = L_10.___z;
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_12 = ___1_v2;
+		float L_13 = L_12.___z;
+		float L_14 = ___2_s;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_11, ((float)il2cpp_codegen_multiply(L_13, L_14))));
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_15 = V_0;
+		V_1 = L_15;
+		goto IL_004f;
+	}
+
+IL_004f:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_16 = V_1;
+		return L_16;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f_Normalize_mB704E1A1336A29792D75A1683E4AAC0894D68E72_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	{
+		float L_0 = __this->___x;
+		float L_1;
+		L_1 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_0, NULL);
+		float L_2 = __this->___y;
+		float L_3;
+		L_3 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_2, NULL);
+		float L_4 = __this->___z;
+		float L_5;
+		L_5 = RcMath_Sqr_m2B9980BBEB999D88B1F1D6E9E0D1B8845E07FC0D_inline(L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1, L_3)), L_5))));
+		V_0 = ((float)((double)((1.0)/L_6)));
+		float L_7 = V_0;
+		V_1 = (bool)((((int32_t)((((float)L_7) == ((float)(0.0f)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_1;
+		if (!L_8)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		float L_9 = __this->___x;
+		float L_10 = V_0;
+		__this->___x = ((float)il2cpp_codegen_multiply(L_9, L_10));
+		float L_11 = __this->___y;
+		float L_12 = V_0;
+		__this->___y = ((float)il2cpp_codegen_multiply(L_11, L_12));
+		float L_13 = __this->___z;
+		float L_14 = V_0;
+		__this->___z = ((float)il2cpp_codegen_multiply(L_13, L_14));
+	}
+
+IL_0071:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 RcVec3f_op_Addition_m54DDDEF534B73C8AEA3B4019CFC41ECA48D63D66_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___0_left, RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 ___1_right, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_0 = ___1_right;
+		il2cpp_codegen_runtime_class_init_inline(RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700_il2cpp_TypeInfo_var);
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_1;
+		L_1 = RcVec3f_Add_mF7F8BD57B1C48137508C664D9CE2D08ECE162554_inline((&___0_left), L_0, NULL);
+		V_0 = L_1;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700 L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m1F54D0D52DD1DD33B05635E029A6A01CF38135A7_gshared_inline (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m3AB938BCFAB883339EB05C02B33852D44401AA86_gshared_inline (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, int64_t ___0_item, const RuntimeMethod* method) 
+{
+	Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_6 = V_0;
+		int32_t L_7 = V_1;
+		int64_t L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (int64_t)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		int64_t L_9 = ___0_item;
+		List_1_AddWithResize_mAE92ED7C1F3B1E0BB409F462197C47FD982345E1(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mB728D0ECC961C6D3BBB32044B7095D0E5B879731_gshared_inline (List_1_tF9D88C946600C782EE786A252258C0AA97BD019A* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m28A58F1EF22886CDB5FD6E2317C071905BA5D82A_gshared_inline (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m5FE8C52EA660FBFE92FB3442EBC5B6E109A904D0_gshared_inline (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE ___0_item, const RuntimeMethod* method) 
+{
+	StraightPathItemU5BU5D_tEDFD81118951FCCF45AAC6EBF8AD23CF8C5774B2* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		StraightPathItemU5BU5D_tEDFD81118951FCCF45AAC6EBF8AD23CF8C5774B2* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		StraightPathItemU5BU5D_tEDFD81118951FCCF45AAC6EBF8AD23CF8C5774B2* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		StraightPathItemU5BU5D_tEDFD81118951FCCF45AAC6EBF8AD23CF8C5774B2* L_6 = V_0;
+		int32_t L_7 = V_1;
+		StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		StraightPathItem_tD177F5ACCC2AB247E848E222108EF66A494B3ABE L_9 = ___0_item;
+		List_1_AddWithResize_m4B78611159AAF06A3465FABCB48B6D3051D363DF(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m967D78079FECCFF6C8F55513E76D9F5B2D473588_gshared_inline (List_1_t9BE088DA4C7E4E33E69F50FE13704197F92A40AD* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* LinkedList_1_get_First_mF743AE65DDD0324290E33D3F433F37AC83216E18_gshared_inline (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* __this, const RuntimeMethod* method) 
+{
+	{
+		LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* L_0 = __this->___head;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* LinkedListNode_1_get_Value_m8F67264DC98EF442B34CE4947044BCE18BF26053_gshared_inline (LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___item;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LinkedList_1_get_Count_mBFF1AE23B10EDF501026201C0427AA5820AECD82_gshared_inline (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___count;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method) 
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = V_0;
+		int32_t L_7 = V_1;
+		float L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (float)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		float L_9 = ___0_item;
+		List_1_AddWithResize_m446487BF7F55E757E7D552B2436AD74AC354EA99(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m93FFDD7E1C4CF52F04A26FA235C50BF1CC4F53D1_gshared_inline (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m157ABCFF323F55D2C1465A55FE432AE8E90B902F_gshared_inline (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m6D127683440E1798FFBB04AFB6CC1C60CEFAF9A6_gshared_inline (List_1_t7A715A2E978E3D2C2A575D30F8699437CE0FB1A4* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mBF585C8CAFBCE39F148A0593C12A38AA441B5BC7_gshared_inline (List_1_t817F3EB9E3342ED7424C457EACF02880B1C543DF* __this, RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 ___0_item, const RuntimeMethod* method) 
+{
+	RcSegmentVertU5BU5D_t3A794A33919160356DCE71A7CEA8004D92A94F21* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		RcSegmentVertU5BU5D_t3A794A33919160356DCE71A7CEA8004D92A94F21* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		RcSegmentVertU5BU5D_t3A794A33919160356DCE71A7CEA8004D92A94F21* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		RcSegmentVertU5BU5D_t3A794A33919160356DCE71A7CEA8004D92A94F21* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RcSegmentVert_t0FB93F655567118CF377A5FBEF756C365A4BC775 L_9 = ___0_item;
+		List_1_AddWithResize_m0FCA4D79F5FAAB756C56A4458E2F17F071F21082(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = *((int32_t*)((uintptr_t)(&___0_value)));
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RcVec3f__ctor_mB8F23E2507B7F9D20C6C470599E0135F1D97A304_inline (RcVec3f_t9045BCB347DDE2481E43817651C94A3CE4CD6700* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}

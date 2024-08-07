@@ -1,0 +1,24 @@
+2024-08-06 11:15:18.4070 (MessageSessionHandler.cs:68) System.NullReferenceException: Object reference not set to an instance of an object.
+   at ET.Server.C2G_LoginGateHandler.Run(Session session, C2G_LoginGate request, G2C_LoginGate response) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Server\Demo\Gate\C2G_LoginGateHandler.cs:line 42
+   at ET.ETTask.GetResult() in C:\SunZ\ET\Unity\Assets\Scripts\ThirdParty\ETTask\ETTask.cs:line 126
+   at ET.MessageSessionHandler`2.HandleAsync(Session session, Object message) in C:\SunZ\ET\Unity\Assets\Scripts\Model\Share\Module\Message\MessageSessionHandler.cs:line 68
+   at ET.MessageSessionHandler`2.HandleAsync(Session session, Object message) in C:\SunZ\ET\Unity\Assets\Scripts\Model\Share\Module\Message\MessageSessionHandler.cs:line 68
+   at ET.MessageSessionHandler`2.HandleAsync(Session session, Object message)
+   at ET.MessageSessionHandler`2.Handle(Session session, Object message) in C:\SunZ\ET\Unity\Assets\Scripts\Model\Share\Module\Message\MessageSessionHandler.cs:line 48
+   at ET.MessageSessionDispatcher.Handle(Session session, Object message) in C:\SunZ\ET\Unity\Assets\Scripts\Model\Share\Module\Message\MessageSessionDispatcher.cs:line 87
+   at ET.Server.NetComponentOnReadInvoker_Gate.HandleAsync(NetComponentOnRead args) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Server\Demo\Gate\NetComponentOnReadInvoker_Gate.cs:line 23
+   at ET.Server.NetComponentOnReadInvoker_Gate.HandleAsync(NetComponentOnRead args)
+   at ET.Server.NetComponentOnReadInvoker_Gate.Handle(NetComponentOnRead args) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Server\Demo\Gate\NetComponentOnReadInvoker_Gate.cs:line 10
+   at ET.EventSystem.Invoke[A](Int64 type, A args) in C:\SunZ\ET\Unity\Assets\Scripts\Core\World\Module\EventSystem\EventSystem.cs:line 171
+   at ET.NetComponentSystem.OnRead(NetComponent self, Int64 channelId, MemoryBuffer memoryBuffer) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Share\Module\Message\NetComponentSystem.cs:line 79
+   at ET.KChannel.OnRead(MemoryBuffer memoryStream) in C:\SunZ\ET\Unity\Assets\Scripts\Core\Network\KChannel.cs:line 440
+   at ET.KChannel.HandleRecv(Byte[] date, Int32 offset, Int32 length) in C:\SunZ\ET\Unity\Assets\Scripts\Core\Network\KChannel.cs:line 326
+   at ET.KService.Recv() in C:\SunZ\ET\Unity\Assets\Scripts\Core\Network\KService.cs:line 408
+   at ET.KService.Update() in C:\SunZ\ET\Unity\Assets\Scripts\Core\Network\KService.cs:line 514
+   at ET.NetComponentSystem.Update(NetComponent self) in C:\SunZ\ET\Unity\Assets\Scripts\Hotfix\Share\Module\Message\NetComponentSystem.cs:line 30
+   at ET.NetComponentSystem.ET_NetComponent_UpdateSystem.Update(NetComponent self) in C:\SunZ\ET\DotNet\Hotfix\obj\Debug\Share.SourceGenerator\ET.Generator.ETSystemGenerator\ET.NetComponentSystem.Update.ET_NetComponent.g.cs:line 10
+   at ET.UpdateSystem`1.ET.IUpdateSystem.Run(Entity o) in C:\SunZ\ET\Unity\Assets\Scripts\Core\Entity\IUpdateSystem.cs:line 19
+   at ET.EntitySystem.Update() in C:\SunZ\ET\Unity\Assets\Scripts\Core\Fiber\EntitySystem.cs:line 74
+   at ET.Fiber.Update() in C:\SunZ\ET\Unity\Assets\Scripts\Core\Fiber\Fiber.cs:line 73
+   at ET.ThreadPoolScheduler.Loop() in C:\SunZ\ET\Unity\Assets\Scripts\Core\World\Module\Fiber\ThreadPoolScheduler.cs:line 68
+

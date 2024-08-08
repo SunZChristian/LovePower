@@ -4,23 +4,23 @@
 // Data: 2023年2月12日
 //------------------------------------------------------------
 
+using System;
+using System.Collections.Generic;
+using ET.Client;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using System.Collections.Generic;
-using Sirenix.OdinInspector;
-using System;
-using Sirenix.Serialization;
-using YIUIBind;
 
 namespace YIUIFramework
 {
     /// <summary>
     /// 这个类用于在UI中显示3D对象。
     /// </summary>
-    public sealed partial class UI3DDisplay : SerializedMonoBehaviour,
-        IDragHandler, IPointerDownHandler, IPointerUpHandler
+    public sealed partial class UI3DDisplay: SerializedMonoBehaviour,
+            IDragHandler, IPointerDownHandler, IPointerUpHandler
     {
         [OdinSerialize]
         [ShowInInspector]
@@ -44,7 +44,7 @@ namespace YIUIFramework
         [LabelText("摄像机")]
         private Camera m_ShowCamera;
 
-        //摄像机的初始化位置
+        //相机的初始化位置
         private Vector3 m_ShowCameraDefPos;
         
         [Required]
@@ -172,7 +172,7 @@ namespace YIUIFramework
             get
             {
                 if (m_UICamera != null) return m_UICamera;
-                m_UICamera = PanelMgr.Inst.UICamera;
+                m_UICamera = YIUIMgrComponent.Inst.UICamera;
                 return m_UICamera;
             }
         }
@@ -260,19 +260,17 @@ namespace YIUIFramework
 
             m_DragRotation = 0f;
 
-            m_DragTarge = m_MultipleTargetMode ? null : m_ShowObject;
+            m_DragTarge = m_MultipleTargetMode? null : m_ShowObject;
 
             var showTransform = m_ShowObject.transform;
             if (m_FitScaleRoot != null)
             {
                 m_FitScaleRoot.localScale = Vector3.one;
-                showTransform.SetParent(
-                    m_FitScaleRoot, true);
+                showTransform.SetParent(m_FitScaleRoot, true);
             }
             else
             {
-                showTransform.SetParent(
-                    transform, true);
+                showTransform.SetParent(transform, true);
             }
 
             m_ShowCameraCtrl ??= m_ShowCamera.GetOrAddComponent<UI3DDisplayCamera>();
@@ -292,12 +290,11 @@ namespace YIUIFramework
             //位置大小旋转
             var showRotation = Quaternion.Euler(m_ShowRotation);
             var showUp       = showRotation * Vector3.up;
-            showRotation *= Quaternion.AngleAxis(
-                m_DragRotation, showUp);
-            showTransform.localRotation = showRotation;
-            showTransform.localScale    = m_ShowScale;
-            showTransform.localPosition = m_ModelGlobalOffset + m_ShowOffset;
-            m_ShowPosition              = showTransform.localPosition;
+            showRotation                *= Quaternion.AngleAxis(m_DragRotation, showUp);
+            showTransform.localRotation =  showRotation;
+            showTransform.localScale    =  m_ShowScale;
+            showTransform.localPosition =  m_ModelGlobalOffset + m_ShowOffset;
+            m_ShowPosition              =  showTransform.localPosition;
 
             //镜面反射
             if (m_ReflectionPlane != null)
@@ -319,8 +316,7 @@ namespace YIUIFramework
             {
                 var lossyScale = m_FitScaleRoot.lossyScale;
                 var localScale = transform.localScale;
-                m_FitScaleRoot.localScale = new Vector3(
-                    1f / lossyScale.x * localScale.x,
+                m_FitScaleRoot.localScale = new Vector3(1f / lossyScale.x * localScale.x,
                     1f / lossyScale.y * localScale.y,
                     1f / lossyScale.z * localScale.z);
             }
@@ -340,7 +336,7 @@ namespace YIUIFramework
             m_ShowCamera.orthographic     = lookCamera.orthographic;
             m_ShowCamera.orthographicSize = lookCamera.orthographicSize;
             m_ShowCamera.clearFlags       = CameraClearFlags.SolidColor;
-            m_ShowCamera.backgroundColor  = m_UseLookCameraColor ? lookCamera.backgroundColor : Color.clear;
+            m_ShowCamera.backgroundColor  = m_UseLookCameraColor? lookCamera.backgroundColor : Color.clear;
             m_OrthographicSize            = lookCamera.orthographicSize;
             m_LookCamera                  = lookCamera;
 
@@ -349,14 +345,15 @@ namespace YIUIFramework
             if (m_ShowLight)
                 m_ShowLight.cullingMask = m_ShowCamera.cullingMask;
 
+
             var lookCameraTsf = lookCamera.transform;
             if (lookCamera == m_ShowCamera)
             {
                 //当使用默认相机作为显示相机时 需要处理每个显示物体的额外偏移
                 lookCamera.transform.localPosition = m_ShowCameraDefPos + m_ModelGlobalOffset; 
             }
-            m_ShowCamera.transform.SetPositionAndRotation(
-                lookCameraTsf.position,
+
+            m_ShowCamera.transform.SetPositionAndRotation(lookCameraTsf.position,
                 lookCameraTsf.rotation);
 
             m_ShowCamera.enabled = true;
@@ -371,10 +368,10 @@ namespace YIUIFramework
             if (m_ShowTexture != null)
                 RenderTexture.ReleaseTemporary(m_ShowTexture);
 
-            m_ShowTexture = RenderTexture.GetTemporary(m_ResolutionX, m_ResolutionY, m_RenderTextureDepthBuffer);
-            m_ShowImage.texture = m_ShowTexture;
+            m_ShowTexture              = RenderTexture.GetTemporary(m_ResolutionX, m_ResolutionY, m_RenderTextureDepthBuffer);
+            m_ShowImage.texture        = m_ShowTexture;
             m_ShowCamera.targetTexture = m_ShowTexture;
-            m_ShowImage.enabled = true;
+            m_ShowImage.enabled        = true;
         }
 
         //阴影采集
@@ -417,8 +414,8 @@ namespace YIUIFramework
             }
             else
             {
-                m_ShowTexture = RenderTexture.GetTemporary(m_ResolutionX, m_ResolutionY, m_RenderTextureDepthBuffer);
-                m_ShowImage.texture = m_ShowTexture;
+                m_ShowTexture              = RenderTexture.GetTemporary(m_ResolutionX, m_ResolutionY, m_RenderTextureDepthBuffer);
+                m_ShowImage.texture        = m_ShowTexture;
                 m_ShowCamera.targetTexture = m_ShowTexture;
             }
         }

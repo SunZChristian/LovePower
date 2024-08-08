@@ -1,7 +1,8 @@
 ﻿using System;
 using UnityEngine;
 using Object = UnityEngine.Object;
-using Cysharp.Threading.Tasks;
+using ET;
+using ET.Client;
 
 namespace YIUIFramework
 {
@@ -14,7 +15,7 @@ namespace YIUIFramework
         /// 异步加载资源对象
         /// 返回类型
         /// </summary>
-        internal static async UniTask<T> LoadAssetAsync<T>(string pkgName, string resName) where T : Object
+        internal static async ETTask<T> LoadAssetAsync<T>(string pkgName, string resName) where T : Object
         {
             var load = LoadHelper.GetLoad(pkgName, resName);
             load.AddRefCount();
@@ -26,10 +27,10 @@ namespace YIUIFramework
 
             if (load.WaitAsync)
             {
-                await UniTask.WaitUntil(() => !load.WaitAsync);
+                await YIUIMgrComponent.Inst.Root().GetComponent<TimerComponent>().WaitUntil(() => !load.WaitAsync);
 
                 loadObj = load.Object;
-
+                
                 if (loadObj != null)
                 {
                     return (T)loadObj;
@@ -43,7 +44,7 @@ namespace YIUIFramework
 
             load.SetWaitAsync(true);
 
-            var (obj, hashCode) = await YIUILoadDI.LoadAssetAsyncFunc(pkgName, resName, typeof(T));
+            var (obj, hashCode) = await YIUILoadDI.LoadAssetAsyncFunc(pkgName, resName, typeof (T));
 
             if (obj == null)
             {
@@ -70,11 +71,11 @@ namespace YIUIFramework
         /// </summary>
         internal static void LoadAssetAsync<T>(string pkgName, string resName, Action<T> action) where T : Object
         {
-            LoadAssetAsyncAction(pkgName, resName, action).Forget();
+            LoadAssetAsyncAction(pkgName, resName, action).Coroutine();
         }
 
-        private static async UniTaskVoid LoadAssetAsyncAction<T>(string pkgName, string resName, Action<T> action)
-            where T : Object
+        private static async ETTask LoadAssetAsyncAction<T>(string pkgName, string resName, Action<T> action)
+                where T : Object
         {
             var asset = await LoadAssetAsync<T>(pkgName, resName);
             if (asset == null)

@@ -1,9 +1,8 @@
 ﻿using System.Collections;
-using DG.Tweening;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     [LabelText("任意集合的GameObject的显隐")]
     [AddComponentMenu("YIUIBind/Data/显隐 【ActiveGameObjects】 UIDataBindActiveGameObjects y")]

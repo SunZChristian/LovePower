@@ -11,3 +11,16 @@ C:\SunZ\ET\DotNet\ThirdParty\obj\Debug\ThirdParty.dll
 C:\SunZ\ET\DotNet\ThirdParty\obj\Debug\refint\ThirdParty.dll
 C:\SunZ\ET\DotNet\ThirdParty\obj\Debug\ThirdParty.pdb
 C:\SunZ\ET\DotNet\ThirdParty\obj\Debug\ref\ThirdParty.dll
+C:\SunZ\LovePower\ET\Bin\ThirdParty.deps.json
+C:\SunZ\LovePower\ET\Bin\ThirdParty.dll
+C:\SunZ\LovePower\ET\Bin\ThirdParty.pdb
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.csproj.AssemblyReference.cache
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.GeneratedMSBuildEditorConfig.editorconfig
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.AssemblyInfoInputs.cache
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.AssemblyInfo.cs
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.csproj.CoreCompileInputs.cache
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\DotNet.ThirdParty.sourcelink.json
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\ThirdParty.dll
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\refint\ThirdParty.dll
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\ThirdParty.pdb
+C:\SunZ\LovePower\ET\DotNet\ThirdParty\obj\Debug\ref\ThirdParty.dll

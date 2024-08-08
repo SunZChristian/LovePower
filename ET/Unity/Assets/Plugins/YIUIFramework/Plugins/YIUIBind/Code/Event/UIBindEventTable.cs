@@ -11,7 +11,7 @@ using UnityEngine;
 using YIUIFramework;
 using Logger = YIUIFramework.Logger;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     //[DetailedInfoBox("UI 事件表 点击展开详细介绍", @"李胜扬")]
     [LabelText("UI 事件表")]
@@ -46,7 +46,7 @@ namespace YIUIBind
         }
 
         /// <summary>
-        /// 清除事件
+        /// 清除指定事件
         /// </summary>
         public bool ClearEvent(string eventName)
         {
@@ -61,7 +61,7 @@ namespace YIUIBind
 
         /// <summary>
         /// 清除所有事件
-        /// 危险运行时没这个需求
+        /// 危险!! 运行时没这个需求
         /// </summary>
         public void ClearAllEvents()
         {
@@ -75,12 +75,7 @@ namespace YIUIBind
 
         private void OnDestroy()
         {
-            foreach (var uiEvent in m_EventDic.Values)
-            {
-                uiEvent.Clear();
-            }
-
-            m_EventDic = null;
+            ClearAllEvents();
         }
 
         private void Awake()

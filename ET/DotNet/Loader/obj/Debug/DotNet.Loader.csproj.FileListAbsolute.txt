@@ -12,3 +12,17 @@ C:\SunZ\ET\DotNet\Loader\obj\Debug\Loader.dll
 C:\SunZ\ET\DotNet\Loader\obj\Debug\refint\Loader.dll
 C:\SunZ\ET\DotNet\Loader\obj\Debug\Loader.pdb
 C:\SunZ\ET\DotNet\Loader\obj\Debug\ref\Loader.dll
+C:\SunZ\LovePower\ET\Bin\Loader.deps.json
+C:\SunZ\LovePower\ET\Bin\Loader.dll
+C:\SunZ\LovePower\ET\Bin\Loader.pdb
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\DotNet.Loader.csproj.AssemblyReference.cache
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\DotNet.Loader.GeneratedMSBuildEditorConfig.editorconfig
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\DotNet.Loader.AssemblyInfoInputs.cache
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\DotNet.Loader.AssemblyInfo.cs
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\DotNet.Loader.csproj.CoreCompileInputs.cache
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\DotNet.Loader.sourcelink.json
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\DotNet.L.DA009C55.Up2Date
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\Loader.dll
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\refint\Loader.dll
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\Loader.pdb
+C:\SunZ\LovePower\ET\DotNet\Loader\obj\Debug\ref\Loader.dll

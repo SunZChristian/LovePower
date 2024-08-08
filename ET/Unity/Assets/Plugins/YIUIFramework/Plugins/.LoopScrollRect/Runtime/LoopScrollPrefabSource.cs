@@ -1,10 +1,12 @@
-﻿using Cysharp.Threading.Tasks;
+﻿using UnityEngine;
+using System.Collections;
+using ET;
 
 namespace UnityEngine.UI
 {
     public interface LoopScrollPrefabAsyncSource
     {
-        UniTask<GameObject> GetObject(int index);
+        ETTask<GameObject> GetObject(int index);
 
         void ReturnObject(Transform trans);
     }

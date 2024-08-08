@@ -1,4 +1,4 @@
-﻿using Cysharp.Threading.Tasks;
+﻿using ET;
 using UnityEngine;
 
 namespace YIUIFramework
@@ -21,18 +21,18 @@ namespace YIUIFramework
         public int           ItemEnd                => m_Owner.u_ItemEnd;                               //当前显示的最后一个index 被+1了注意                      
 
         //在开始时用startItem填充单元格，同时清除现有的单元格
-        public async UniTask RefillCells(int startItem = 0, float contentOffset = 0)
+        public async ETTask RefillCells(int startItem = 0, float contentOffset = 0)
         {
             await m_Owner.RefillCells(startItem, contentOffset);
         }
 
         //在结束时重新填充endItem中的单元格，同时清除现有的单元格
-        public async UniTask RefillCellsFromEnd(int endItem = 0, bool alignStart = false)
+        public async ETTask RefillCellsFromEnd(int endItem = 0, bool alignStart = false)
         {
             await m_Owner.RefillCellsFromEnd(endItem, alignStart);
         }
 
-        public async UniTask RefreshCells()
+        public async ETTask RefreshCells()
         {
             await m_Owner.RefreshCells();
         }
@@ -57,13 +57,13 @@ namespace YIUIFramework
             return Mathf.Clamp(index, 0, TotalCount - 1);
         }
 
-        public async UniTask ScrollToCell(int index, float speed)
+        public async ETTask ScrollToCell(int index, float speed)
         {
             if (TotalCount <= 0) return;
             await m_Owner.ScrollToCell(GetValidIndex(index), speed);
         }
 
-        public async UniTask ScrollToCellWithinTime(int index, float time)
+        public async ETTask ScrollToCellWithinTime(int index, float time)
         {
             if (TotalCount <= 0) return;
             await m_Owner.ScrollToCellWithinTime(GetValidIndex(index), time);

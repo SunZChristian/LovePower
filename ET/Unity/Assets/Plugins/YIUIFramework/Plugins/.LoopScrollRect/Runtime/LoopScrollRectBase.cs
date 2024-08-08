@@ -1,7 +1,11 @@
-﻿using UnityEngine.Events;
+﻿using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using System;
-using Cysharp.Threading.Tasks;
+using System.Collections;
+using System.Collections.Generic;
+using ET;
+using ET.Client;
 
 namespace UnityEngine.UI
 {
@@ -183,9 +187,9 @@ namespace UnityEngine.UI
             }
         }
 
-        protected virtual async UniTask<(bool,Bounds,Bounds)> UpdateItems(Bounds viewBounds, Bounds contentBounds)
+        protected virtual async ETTask<(bool,Bounds,Bounds)> UpdateItems(Bounds viewBounds, Bounds contentBounds)
         {
-            await UniTask.CompletedTask;
+            await ETTask.CompletedTask;
             return (false, viewBounds, contentBounds);
         }
         //==========LoopScrollRect==========
@@ -754,7 +758,7 @@ namespace UnityEngine.UI
             return itemTypeEnd - idx - 1;
         }
         
-        public async UniTask ScrollToCell(int index, float speed)
+        public async ETTask ScrollToCell(int index, float speed)
         {
             if (totalCount >= 0 && (index < 0 || index >= totalCount))
             {
@@ -770,7 +774,7 @@ namespace UnityEngine.UI
             await ScrollToCellCoroutine(index, speed);
         }
         
-        public async UniTask ScrollToCellWithinTime(int index, float time)
+        public async ETTask ScrollToCellWithinTime(int index, float time)
         {
             if (totalCount >= 0 && (index < 0 || index >= totalCount))
             {
@@ -808,15 +812,18 @@ namespace UnityEngine.UI
                     dist -= offset;
                 }
             }
+            
             await ScrollToCellCoroutine(index, Mathf.Abs(dist) / time);
+
         }
 
-        private async UniTask ScrollToCellCoroutine(int index, float speed)
+        private async ETTask ScrollToCellCoroutine(int index, float speed)
         {
             bool needMoving = true;
             while (needMoving)
             {
-                await UniTask.Yield();
+                await YIUIMgrComponent.Inst.Root().GetComponent<TimerComponent>().WaitFrameAsync();
+
                 if (!m_Dragging)
                 {
                     float move = 0;
@@ -891,7 +898,7 @@ namespace UnityEngine.UI
         /// <summary>
         /// Refresh item data
         /// </summary>
-        public async UniTask RefreshCells()
+        public async ETTask RefreshCells()
         {
             if (Application.isPlaying && this.isActiveAndEnabled)
             {
@@ -918,7 +925,7 @@ namespace UnityEngine.UI
         /// <summary>
         /// Refill cells from endItem at the end while clear existing ones
         /// </summary>
-        public async UniTask RefillCellsFromEnd(int endItem = 0, bool alignStart = false)
+        public async ETTask RefillCellsFromEnd(int endItem = 0, bool alignStart = false)
         {
             if (!Application.isPlaying)
                 return;
@@ -992,7 +999,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <param name="startItem">The first item to fill</param>
         /// <param name="contentOffset">The first item's offset compared to viewBound</param>
-        public async UniTask RefillCells(int startItem = 0, float contentOffset = 0)
+        public async ETTask RefillCells(int startItem = 0, float contentOffset = 0)
         {
             if (!Application.isPlaying)
                 return;
@@ -1052,7 +1059,7 @@ namespace UnityEngine.UI
             UpdatePrevData();
         }
 
-        protected async UniTask<float> NewItemAtStart(bool includeSpacing = true)
+        protected async ETTask<float> NewItemAtStart(bool includeSpacing = true)
         {
             if (totalCount >= 0 && itemTypeStart - contentConstraintCount < 0)
             {
@@ -1128,7 +1135,7 @@ namespace UnityEngine.UI
         }
 
 
-        protected async UniTask<float> NewItemAtEnd(bool includeSpacing = true)
+        protected async ETTask<float> NewItemAtEnd(bool includeSpacing = true)
         {
             if (totalCount >= 0 && itemTypeEnd >= totalCount)
             {
@@ -1210,7 +1217,7 @@ namespace UnityEngine.UI
 
         protected int deletedItemTypeStart = 0;
         protected int deletedItemTypeEnd = 0;
-        protected abstract UniTask<RectTransform> GetFromTempPool(int itemIdx);
+        protected abstract ETTask<RectTransform> GetFromTempPool(int itemIdx);
         protected abstract void ReturnToTempPool(bool fromStart, int count = 1);
         protected abstract void ClearTempPool();
 
@@ -1219,13 +1226,13 @@ namespace UnityEngine.UI
         [Obsolete("SrollToCell(int, float) has been renamed to ScrollToCell(int, float).")]
         public void SrollToCell(int index, float speed)
         {
-            ScrollToCell(index, speed).Forget();
+            ScrollToCell(index, speed).Coroutine();
         }
         
         [Obsolete("SrollToCellWithinTime(int, float) has been renamed to ScrollToCellWithinTime(int, float).")]
         public void SrollToCellWithinTime(int index, float time)
         {
-            ScrollToCellWithinTime(index, time).Forget();
+            ScrollToCellWithinTime(index, time).Coroutine();
         }
         #endregion
         //==========LoopScrollRect==========
@@ -1518,7 +1525,7 @@ namespace UnityEngine.UI
             if ((position - m_Content.anchoredPosition).sqrMagnitude > 0.001f)
             {
                 m_Content.anchoredPosition = position;
-                UpdateBounds(true).Forget();
+                UpdateBounds(true).Coroutine();
             }
             //==========LoopScrollRect==========
         }
@@ -1849,7 +1856,7 @@ namespace UnityEngine.UI
                 anchoredPosition[axis] = newAnchoredPosition;
                 m_Content.anchoredPosition = anchoredPosition;
                 m_Velocity[axis] = 0;
-                UpdateBounds(true).Forget();	//==========LoopScrollRect==========
+                UpdateBounds(true).Coroutine();	//==========LoopScrollRect==========
             }
         }
 
@@ -2043,7 +2050,7 @@ namespace UnityEngine.UI
         /// <summary>
         /// Calculate the bounds the ScrollRect should be using.
         /// </summary>
-        private async UniTask UpdateBounds(bool updateItems) //==========LoopScrollRect==========
+        private async ETTask UpdateBounds(bool updateItems) //==========LoopScrollRect==========
         {
             m_ViewBounds = new Bounds(viewRect.rect.center, viewRect.rect.size);
             m_ContentBounds = GetBounds();

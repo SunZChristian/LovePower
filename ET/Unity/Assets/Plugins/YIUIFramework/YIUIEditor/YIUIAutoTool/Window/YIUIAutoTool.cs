@@ -63,10 +63,14 @@ namespace YIUIFramework.Editor
             m_AllMenuItem.Add(
                 new TreeMenuItem<UII2LocalizationModule>(this, m_OdinMenuTree,
                     "多语言", EditorIcons.SpeechBubblesRound));
-
+            
             m_AllMenuItem.Add(
                 new TreeMenuItem<UIMacroModule>(this, m_OdinMenuTree,
                     "宏设置", EditorIcons.SettingsCog));
+
+            m_AllMenuItem.Add(
+                new TreeMenuItem<UIETScriptModule>(this, m_OdinMenuTree,
+                    "ET生成", EditorIcons.SettingsCog));
 
             m_OdinMenuTree.Add("全局设置", this, EditorIcons.SettingsCog);
 
@@ -137,7 +141,11 @@ namespace YIUIFramework.Editor
 
         [BoxGroup("全局图集设置", centerLabel: true)]
         [ShowInInspector]
-        internal UIAtlasModule AtlasModule = new UIAtlasModule();
+        internal UIAtlasModule AtlasModule = new();
+        
+        [BoxGroup("其他设置", centerLabel: true)]
+        [ShowInInspector]
+        internal UIOtherModule OtherModule = new();
         
         protected override void Initialize()
         {
@@ -145,6 +153,7 @@ namespace YIUIFramework.Editor
             m_Author = UserNamePrefs.Value;
             m_UIBaseModule?.Initialize();
             AtlasModule?.Initialize();
+            OtherModule?.Initialize();
         }
 
         protected override void OnDestroy()
@@ -153,6 +162,7 @@ namespace YIUIFramework.Editor
             UserNamePrefs.Value = Author;
             m_UIBaseModule?.OnDestroy();
             AtlasModule?.OnDestroy();
+            OtherModule?.OnDestroy();
 
             foreach (var menuItem in m_AllMenuItem)
             {

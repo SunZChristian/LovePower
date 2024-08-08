@@ -12,3 +12,17 @@ C:\SunZ\ET\DotNet\Hotfix\obj\Debug\Hotfix.dll
 C:\SunZ\ET\DotNet\Hotfix\obj\Debug\refint\Hotfix.dll
 C:\SunZ\ET\DotNet\Hotfix\obj\Debug\Hotfix.pdb
 C:\SunZ\ET\DotNet\Hotfix\obj\Debug\ref\Hotfix.dll
+C:\SunZ\LovePower\ET\Bin\Hotfix.deps.json
+C:\SunZ\LovePower\ET\Bin\Hotfix.dll
+C:\SunZ\LovePower\ET\Bin\Hotfix.pdb
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.csproj.AssemblyReference.cache
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.GeneratedMSBuildEditorConfig.editorconfig
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.AssemblyInfoInputs.cache
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.AssemblyInfo.cs
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.csproj.CoreCompileInputs.cache
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\DotNet.Hotfix.sourcelink.json
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\DotNet.H.534EEE23.Up2Date
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\Hotfix.dll
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\refint\Hotfix.dll
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\Hotfix.pdb
+C:\SunZ\LovePower\ET\DotNet\Hotfix\obj\Debug\ref\Hotfix.dll

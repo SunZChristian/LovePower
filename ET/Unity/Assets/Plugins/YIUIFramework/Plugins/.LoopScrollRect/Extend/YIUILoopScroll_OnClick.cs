@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using ET.Client;
 using UnityEngine;
-using YIUIBind;
 
 namespace YIUIFramework
 {
@@ -178,7 +178,7 @@ namespace YIUIFramework
         {
             if (!m_OnClickInit) return uiBase;
 
-            var eventTable = uiBase.m_EventTable;
+            var eventTable = uiBase.GetParent<YIUIComponent>().EventTable;
             if (eventTable == null)
             {
                 Debug.LogError($"目标item 没有 event表 请检查");

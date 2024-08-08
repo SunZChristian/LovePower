@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using Logger = YIUIFramework.Logger;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     public abstract partial class UIEventBind
     {
@@ -21,7 +21,14 @@ namespace YIUIBind
 
             try
             {
-                m_UIEvent?.Invoke();
+                if (m_UIEvent.IsTaskEvent)
+                {
+                    m_UIEvent.InvokeAsync().Coroutine();
+                }
+                else
+                {
+                    m_UIEvent.Invoke();
+                }
             }
             catch (Exception e)
             {
@@ -40,7 +47,7 @@ namespace YIUIBind
                 return null;
             }
 
-            var list = m_EventTable.GetFilterParamTypeEventName(GetFilterParamType());
+            var list = m_EventTable.GetFilterParamTypeEventName(GetFilterParamType, IsTaskEvent);
 
             for (var i = list.Count - 1; i >= 0; i--)
             {
@@ -68,7 +75,7 @@ namespace YIUIBind
             if (m_EventName == c_ErrorTips)
             {
                 m_EventName = "";
-                Logger.LogError($"{c_ErrorTips} 请创建 提示: {GetFilterParamType().GetAllParamTypeTips()}");
+                Logger.LogError($"{c_ErrorTips} 请创建 提示: {GetFilterParamType.GetAllParamTypeTips()}");
             }
 
             UnbindEvent();

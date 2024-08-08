@@ -14,15 +14,15 @@ namespace YIUIFramework
         public ObjCache(Func<T> createCallback, int capacity = 0)
         {
             m_pool = capacity > 0
-                ? new Stack<T>(capacity)
-                : new Stack<T>();
+                    ? new Stack<T>(capacity)
+                    : new Stack<T>();
 
             m_createCallback = createCallback;
         }
 
         public T Get()
         {
-            return m_pool.Count > 0 ? m_pool.Pop() : m_createCallback();
+            return m_pool.Count > 0? m_pool.Pop() : m_createCallback();
         }
 
         public void Put(T value)

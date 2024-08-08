@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EqJsLy+/jtmqW4hhcNAGGZM6sDQFK8iCS7efOqkg8ZHPwRe1u8Ge6igf2tSJckUcSTI4jgenJRfXuWNo+n2s9Q==",
+  "dgSpecHash": "K3Z9oi/G7dRx7o4fnH5xmPM9Rd3Q8hFlnXESpSOdPwrH4dVEYmQnSrW2UvEZoRN/jVUBpJL6ImN1XaSKpiSsBQ==",
   "success": true,
-  "projectFilePath": "C:\\SunZ\\ET\\DotNet\\Core\\DotNet.Core.csproj",
+  "projectFilePath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Core\\DotNet.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zhe_sun\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",
     "C:\\Users\\zhe_sun\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

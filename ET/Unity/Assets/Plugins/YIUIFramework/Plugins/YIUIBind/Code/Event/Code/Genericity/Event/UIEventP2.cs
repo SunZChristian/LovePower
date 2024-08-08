@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using YIUIFramework;
 using Logger = YIUIFramework.Logger;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     public class UIEventP2<P1, P2> : UIEventBase, IUIEventInvoke<P1, P2>
     {
@@ -44,6 +44,8 @@ namespace YIUIBind
             }
         }
 
+        public override bool IsTaskEvent => false;
+        
         public override bool Clear()
         {
             if (m_UIEventDelegates == null) return false;

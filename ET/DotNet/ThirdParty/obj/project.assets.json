@@ -2204,11 +2204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj",
+      "projectUniqueName": "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj",
       "projectName": "ThirdParty",
-      "projectPath": "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj",
+      "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj",
       "packagesPath": "C:\\Users\\zhe_sun\\.nuget\\packages\\",
-      "outputPath": "C:\\SunZ\\ET\\DotNet\\ThirdParty\\obj\\",
+      "outputPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

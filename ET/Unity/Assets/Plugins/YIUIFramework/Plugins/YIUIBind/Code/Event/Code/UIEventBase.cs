@@ -4,7 +4,7 @@ using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     [Serializable]
     [HideReferenceObjectPicker]
@@ -28,6 +28,8 @@ namespace YIUIBind
         [ShowIf("ShowIfAllEventParamType")]
         #endif
         public List<EUIEventParamType> AllEventParamType = new List<EUIEventParamType>();
+
+        public abstract bool IsTaskEvent { get;}
 
         public void RefreshAllEventParamType(List<EUIEventParamType> targetType)
         {

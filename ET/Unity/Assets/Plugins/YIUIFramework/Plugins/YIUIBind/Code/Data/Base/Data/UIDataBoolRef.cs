@@ -5,7 +5,7 @@ using UnityEngine;
 using YIUIFramework;
 using Logger = YIUIFramework.Logger;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     [Serializable]
     [HideReferenceObjectPicker]
@@ -153,6 +153,32 @@ namespace YIUIBind
                     }
 
                     break;
+                case EUIBindDataType.Long:
+                    var valueLong     = m_Data.GetValue<long>();
+                    var referenceLong = m_ReferenceData.GetValue<long>();
+                    switch (m_CompareMode)
+                    {
+                        case UICompareModeEnum.Less:
+                            result = valueLong < referenceLong;
+                            break;
+                        case UICompareModeEnum.LessEqual:
+                            result = valueLong <= referenceLong;
+                            break;
+                        case UICompareModeEnum.Equal:
+                            result = valueLong == referenceLong;
+                            break;
+                        case UICompareModeEnum.Great:
+                            result = valueLong > referenceLong;
+                            break;
+                        case UICompareModeEnum.GreatEqual:
+                            result = valueLong >= referenceLong;
+                            break;
+                        default:
+                            Logger.LogError($"不可能有其他类型 不允许扩展 {m_CompareMode}");
+                            break;
+                    }
+
+                    break;
                 case EUIBindDataType.Float:
                     var valueFloat     = m_Data.GetValue<float>();
                     var referenceFloat = m_ReferenceData.GetValue<float>();
@@ -165,8 +191,7 @@ namespace YIUIBind
                             result = valueFloat <= referenceFloat;
                             break;
                         case UICompareModeEnum.Equal:
-                            result = Mathf.Approximately(
-                                valueFloat, referenceFloat);
+                            result = Mathf.Approximately(valueFloat, referenceFloat);
                             break;
                         case UICompareModeEnum.Great:
                             result = valueFloat > referenceFloat;
@@ -196,11 +221,8 @@ namespace YIUIBind
                             Logger.LogError($"String 的 bool 比较只支持 == 取反就是 != 不支持其他");
                             break;
                     }
-
+                    
                     break;
-
-                //case UIDataType.Asset:
-                //case UIDataType.Color:
                 default:
                     Logger.LogError($"类型比较 不支持这个类型 {m_Data.DataValue.UIBindDataType}");
                     return false;

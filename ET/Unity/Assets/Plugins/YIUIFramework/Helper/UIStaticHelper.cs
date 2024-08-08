@@ -4,6 +4,7 @@
 // Data: 2023年2月12日
 //------------------------------------------------------------
 
+using ET.Client;
 using Sirenix.OdinInspector;
 
 namespace YIUIFramework
@@ -18,7 +19,7 @@ namespace YIUIFramework
         public const string UIProjectName = "YIUI";
 
         [LabelText("YIUI项目命名空间")]
-        public const string UINamespace = "YIUI"; //所有生成文件的命名空间
+        public const string UINamespace = "ET.Client"; //所有生成文件的命名空间
 
         [LabelText("YIUI项目编辑器资源路径")]
         public const string UIProjectEditorPath = "Assets/Editor/" + UIProjectName; //编辑器才会用到的资源
@@ -27,10 +28,16 @@ namespace YIUIFramework
         public const string UIProjectResPath = "Assets/GameRes/" + UIProjectName; //玩家的预设/图片等资源存放的地方
 
         [LabelText("YIUI项目脚本路径")]
-        public const string UIGenerationPath = "Assets/Scripts/YIUIGeneration"; //自动生成的代码
+        public const string UIETComponentGenPath = "Assets/Scripts/ModelView/Client/YIUIGen"; //自动生成的代码会覆盖不可修改
+
+        [LabelText("YIUI项目ET组件路径")]
+        public const string UIETComponentPath = "Assets/Scripts/ModelView/Client/YIUIComponent"; //玩家可编写的核心代码部分 ET系统
 
         [LabelText("YIUI项目自定义脚本路径")]
-        public const string UICodeScriptsPath = "Assets/Scripts/" + UIProjectName; //玩家可编写的核心代码部分
+        public const string UIETSystemGenPath = "Assets/Scripts/HotfixView/Client/YIUIGen"; //自动生成的代码会覆盖不可修改
+
+        [LabelText("YIUI项目ET系统路径")]
+        public const string UIETSystemPath = "Assets/Scripts/HotfixView/Client/YIUISystem"; //玩家可编写的核心代码部分 ET系统
 
         [LabelText("YIUI框架所处位置路径")]
         public const string UIFrameworkPath = "Assets/Plugins/YIUIFramework";
@@ -39,12 +46,8 @@ namespace YIUIFramework
         public const string UITemplatePath = UIFrameworkPath + "/YIUIEditor/YIUIAutoTool/Template";
 
         public const string UIRootPrefabPath =
-            UIFrameworkPath + "/YIUIEditor/UIRootPrefab/" + PanelMgr.UIRootName + ".prefab";
+                UIFrameworkPath + "/YIUIEditor/UIRootPrefab/" + YIUIMgrComponent.UIRootName + ".prefab";
 
-        public const string UIBaseName               = nameof(UIBase);
-        public const string UIBasePanelName          = nameof(BasePanel);
-        public const string UIBaseViewName           = nameof(BaseView);
-        public const string UIBaseComponentName      = nameof(BaseComponent);
         public const string UIPanelName              = "Panel";
         public const string UIViewName               = "View";
         public const string UIParentName             = "Parent";

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Cysharp.Threading.Tasks;
+using ET;
+using ET.Client;
 using UnityEngine;
 
 namespace YIUIFramework
@@ -12,7 +13,7 @@ namespace YIUIFramework
     {
         //设置数据 然后刷新
         //不管是要修改数据长度 还是数据变更了 都用此方法刷新
-        public async UniTask SetDataRefresh(IList<TData> data)
+        public async ETTask SetDataRefresh(IList<TData> data)
         {
             m_Data             = data;
             m_Owner.totalCount = data.Count;
@@ -21,7 +22,7 @@ namespace YIUIFramework
         
         //所有数据全部刷新 全部显示 不基于无限循环了
         //适用于数据量很少的情况 需要动态显示的
-        public async UniTask SetDataRefreshShowAll(IList<TData> data)
+        public async ETTask SetDataRefreshShowAll(IList<TData> data)
         {
             m_Data             = data;
             m_Owner.totalCount = data.Count;
@@ -33,14 +34,14 @@ namespace YIUIFramework
         //注意这里相当于+=操作 如果你会频繁调用这个方法
         //又想每次刷新选中不同的索引
         //那么你应该先自行调用一次 ClearSelect
-        public async UniTask SetDataRefresh(IList<TData> data, int index)
+        public async ETTask SetDataRefresh(IList<TData> data, int index)
         {
             SetDefaultSelect(index);
             await SetDataRefresh(data);
         }
 
         //同上 请看注释 注意使用方式
-        public async UniTask SetDataRefresh(IList<TData> data, List<int> index)
+        public async ETTask SetDataRefresh(IList<TData> data, List<int> index)
         {
             SetDefaultSelect(index);
             await SetDataRefresh(data);
@@ -49,7 +50,7 @@ namespace YIUIFramework
         //如果 < 0 则表示这个对象在对象池里
         public int GetItemIndex(TItemRenderer item)
         {
-            return GetItemIndex(item.OwnerRectTransform);
+            return GetItemIndex(item.GetParent<YIUIComponent>().OwnerRectTransform);
         }
 
         //只能获取当前可见的对象
@@ -128,7 +129,7 @@ namespace YIUIFramework
         }
 
         //移除某个选中的目标 然后刷新
-        public async UniTask RemoveSelectIndexRefresh(int index)
+        public async ETTask RemoveSelectIndexRefresh(int index)
         {
             RemoveSelectIndex(index);
             await RefreshCells();

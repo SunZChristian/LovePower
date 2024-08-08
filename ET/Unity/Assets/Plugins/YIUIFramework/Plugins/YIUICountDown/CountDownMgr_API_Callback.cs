@@ -20,7 +20,7 @@ namespace YIUIFramework
 
             return true;
         }
-
+        
         /// <summary>
         /// 移除一个回调
         /// </summary>
@@ -56,7 +56,7 @@ namespace YIUIFramework
             {
                 return false;
             }
-
+            
             var callbackGuid = 0;
             var result       = Add(ref callbackGuid, totalTime, interval, timerCallback, startCallback);
             if (result)
@@ -77,12 +77,12 @@ namespace YIUIFramework
                 Logger.LogError($"<color=red> 必须有callback </color>");
                 return false;
             }
-
+            
             if (!TryAddCallback(timerCallback))
             {
                 return false;
             }
-
+            
             var callbackGuid = 0;
             var result       = Add(ref callbackGuid, totalTime, timerCallback, startCallback);
             if (result)
@@ -112,7 +112,7 @@ namespace YIUIFramework
             {
                 return false;
             }
-
+            
             var callbackGuid = 0;
             var result       = Add(ref callbackGuid, totalTime, interval, timerCallback, forever, startCallback);
             if (result)
@@ -122,7 +122,7 @@ namespace YIUIFramework
 
             return result;
         }
-
+        
         /// <summary>
         /// 判断这个倒计时是否存在
         /// </summary>

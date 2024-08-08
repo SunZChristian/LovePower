@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Logger = YIUIFramework.Logger;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     [InfoBox("提示: 可用事件参数 <参数1:float(当前滚动值 0-1)>")]
     [LabelText("滚动条<Float>")]
@@ -19,15 +19,15 @@ namespace YIUIBind
         [LabelText("滚动条")]
         private Scrollbar m_Scrollbar;
 
+        protected override bool IsTaskEvent => false;
+        
+        [NonSerialized]
         private List<EUIEventParamType> m_FilterParamType = new List<EUIEventParamType>
         {
             EUIEventParamType.Float
         };
 
-        protected override List<EUIEventParamType> GetFilterParamType()
-        {
-            return m_FilterParamType;
-        }
+        protected override List<EUIEventParamType> GetFilterParamType => m_FilterParamType;
 
         private void Awake()
         {

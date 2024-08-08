@@ -4,7 +4,6 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using YIUIBind;
 
 namespace YIUIFramework
 {
@@ -13,7 +12,7 @@ namespace YIUIFramework
     /// </summary>
     [LabelText("长按<obj>")]
     [AddComponentMenu("YIUIBind/Event/长按 【Press】 UIEventBindPress")]
-    public class UIEventBindPress : UIEventBind, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler
+    public class UIEventBindPress: UIEventBind, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler
     {
         [SerializeField]
         [LabelText("长按时间")]
@@ -31,13 +30,12 @@ namespace YIUIFramework
         [LabelText("可选组件")]
         private Selectable m_Selectable;
 
+        protected override bool IsTaskEvent => false;
+        
         [NonSerialized]
         private List<EUIEventParamType> m_FilterParamType = new List<EUIEventParamType> { };
 
-        protected override List<EUIEventParamType> GetFilterParamType()
-        {
-            return m_FilterParamType;
-        }
+        protected override List<EUIEventParamType> GetFilterParamType => m_FilterParamType;
 
         private void Awake()
         {
@@ -70,7 +68,7 @@ namespace YIUIFramework
             CountDownMgr.Inst?.Remove(PressEnd);
         }
 
-        private void PressEnd(double _, double __, double ___)
+        private void PressEnd(double residuetime, double elapsetime, double totaltime)
         {
             if (m_Selectable != null && !m_Selectable.interactable) return;
             if (this.m_SkipExit && this.m_PointerExit) return;

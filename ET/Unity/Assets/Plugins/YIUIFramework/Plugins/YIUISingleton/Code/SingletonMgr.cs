@@ -14,8 +14,8 @@ namespace YIUIFramework
 
         public static bool Disposing { get; private set; } = true;
 
-        public static int  Count      => g_Singles.Count;
-        
+        public static int Count => g_Singles.Count;
+
         public static bool IsQuitting { get; private set; }
 
         static SingletonMgr()
@@ -34,14 +34,14 @@ namespace YIUIFramework
         //游戏退出时不必调用 因为游戏都退了 所有都会被清空
         //需要调用的时机 如不退出游戏 但是要重置全部的情况下使用
         //一般情况是不需要使用的
-        public static void Dispose()
+        internal static void Dispose()
         {
             if (IsQuitting)
             {
                 //Debug.Log("正在退出游戏 不必清理");
                 return;
             }
-            
+
             Disposing = true;
 
             //Debug.Log($"SingletonMgr.清除所有单例");
@@ -60,7 +60,7 @@ namespace YIUIFramework
         }
 
         //初始化
-        public static void Initialize()
+        internal static void Initialize()
         {
             if (IsQuitting)
             {

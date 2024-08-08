@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wf0LpzAtM3IVOy88U6jKHTbp2a1OMZV5vJFfwpJRzCGzXxlJcOFJPa/bEOD8AFV7eLLp+4xUTrnZbTn3GeftvA==",
+  "dgSpecHash": "dakcnA+IvfU5Vf3zgcdMbXUajGv3I1ouB0LsrwAaSC/F0Z5wcHpvByN5Y2cJLyagyyTNyFQkc9YT7UljiZEdCw==",
   "success": true,
-  "projectFilePath": "C:\\SunZ\\ET\\Share\\Analyzer\\Share.Analyzer.csproj",
+  "projectFilePath": "C:\\SunZ\\LovePower\\ET\\Share\\Analyzer\\Share.Analyzer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zhe_sun\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\zhe_sun\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",

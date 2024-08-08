@@ -5,7 +5,7 @@ using UnityEngine;
 using YIUIFramework;
 using Logger = YIUIFramework.Logger;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     [ExecuteInEditMode]
     public abstract partial class UIEventBind : SerializedMonoBehaviour
@@ -29,7 +29,7 @@ namespace YIUIBind
         #endif
         [PropertyOrder(-99)]
         protected string m_EventName = null;
-
+        
         /// <summary>
         /// 当前的UI事件
         /// </summary>
@@ -60,7 +60,9 @@ namespace YIUIBind
             return uiEvent;
         }
 
-        protected abstract List<EUIEventParamType> GetFilterParamType();
+        protected abstract bool IsTaskEvent { get; }
+
+        protected abstract List<EUIEventParamType> GetFilterParamType { get; }
 
         private bool m_Binded;
 

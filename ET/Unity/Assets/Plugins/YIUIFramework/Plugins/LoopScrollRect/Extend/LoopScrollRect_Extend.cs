@@ -17,7 +17,7 @@ namespace UnityEngine.UI
         [LabelText("自动取消上一个选择")]
         [MinValue(1)]
         internal bool u_AutoCancelLast = true;
-        
+
         [SerializeField]
         [LabelText("重复点击则取消")]
         internal bool u_RepetitionCancel;

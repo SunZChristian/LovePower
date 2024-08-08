@@ -5,7 +5,8 @@
 //------------------------------------------------------------
 
 using System.Collections.Generic;
-using Cysharp.Threading.Tasks;
+using ET;
+using ET.Client;
 using UnityEngine;
 using UnityEngine.UI;
 using Object = UnityEngine.Object;
@@ -13,7 +14,7 @@ using Object = UnityEngine.Object;
 namespace YIUIFramework
 {
     public partial class YIUILoopScroll<TData, TItemRenderer>: LoopScrollPrefabAsyncSource, LoopScrollDataSource
-            where TItemRenderer : UIBase
+            where TItemRenderer : Entity, IYIUIBind, IYIUIInitialize
     {
         /// <summary>
         /// 列表项渲染器
@@ -24,8 +25,9 @@ namespace YIUIFramework
         /// <param name="select">是否被选中</param>
         public delegate void ListItemRenderer(int index, TData data, TItemRenderer item, bool select);
 
+        private Entity           m_OwnerEntity;
         private ListItemRenderer m_ItemRenderer;
-        private UIBindVo       m_BindVo;
+        private YIUIBindVo       m_BindVo;
         private IList<TData>     m_Data;
 
         private LoopScrollRect                       m_Owner;
@@ -34,16 +36,18 @@ namespace YIUIFramework
         private Dictionary<Transform, int>           m_ItemTransformIndexDic = new Dictionary<Transform, int>();
 
         public YIUILoopScroll(
+        Entity           ownerEneity,
         LoopScrollRect   owner,
         ListItemRenderer itemRenderer)
         {
-            var data = UIBindHelper.GetBindVoByType<TItemRenderer>();
+            var data = YIUIBindHelper.GetBindVoByType<TItemRenderer>();
             if (data == null) return;
             m_ItemTransformDic.Clear();
             m_ItemTransformIndexDic.Clear();
             m_BindVo             = data.Value;
             m_ItemRenderer       = itemRenderer;
             m_UIBasePool         = new ObjAsyncCache<TItemRenderer>(OnCreateItemRenderer);
+            m_OwnerEntity        = ownerEneity;
             m_Owner              = owner;
             m_Owner.prefabSource = this;
             m_Owner.dataSource   = this;
@@ -110,17 +114,17 @@ namespace YIUIFramework
 
         #region LoopScrollRect Interface
 
-        private async UniTask<TItemRenderer> OnCreateItemRenderer()
+        private async ETTask<TItemRenderer> OnCreateItemRenderer()
         {
-            var uiBase = await YIUIFactory.InstantiateAsync<TItemRenderer>(m_BindVo);
-            AddItemRendererByDic(uiBase.OwnerRectTransform, uiBase);
+            var uiBase = await YIUIFactory.InstantiateAsync<TItemRenderer>(m_BindVo, m_OwnerEntity);
+            AddItemRendererByDic(uiBase.GetParent<YIUIComponent>().OwnerRectTransform, uiBase);
             return AddOnClickEvent(uiBase);
         }
 
-        public async UniTask<GameObject> GetObject(int index)
+        public async ETTask<GameObject> GetObject(int index)
         {
             var uiBase = await m_UIBasePool.Get();
-            return uiBase.OwnerGameObject;
+            return uiBase.GetParent<YIUIComponent>().OwnerGameObject;
         }
 
         public void ReturnObject(Transform transform)

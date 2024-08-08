@@ -6,7 +6,7 @@ using UnityEngine;
 using YIUIFramework;
 using Logger = YIUIFramework.Logger;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     //Editor
     public sealed partial class UIBindDataTable
@@ -19,8 +19,8 @@ namespace YIUIBind
         {
             if (!UIOperationHelper.CheckUIOperation(this)) return;
 
-			var dicKey = m_DataDic.Keys.ToList();
-            foreach (var oldName in dicKey)
+            var dicKey = m_DataDic.Keys.ToList();
+			foreach (var oldName in dicKey)
             {
                 if (string.IsNullOrEmpty(oldName))
                 {

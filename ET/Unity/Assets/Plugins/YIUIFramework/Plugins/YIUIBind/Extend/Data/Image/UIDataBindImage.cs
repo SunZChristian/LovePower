@@ -1,24 +1,30 @@
-﻿using Cysharp.Threading.Tasks;
+﻿using System.Threading;
+using ET;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
 using YIUIFramework;
 using Logger = YIUIFramework.Logger;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
-    [RequireComponent(typeof(Image))]
+    [RequireComponent(typeof (Image))]
     [LabelText("Image 图片")]
     [AddComponentMenu("YIUIBind/Data/图片 【Image】 UIDataBindImage")]
-    public sealed class UIDataBindImage : UIDataBindSelectBase
+    public sealed class UIDataBindImage: UIDataBindSelectBase
     {
-        [SerializeField] [ReadOnly] [Required("必须有此组件")] [LabelText("图片")]
+        [SerializeField]
+        [ReadOnly]
+        [Required("必须有此组件")]
+        [LabelText("图片")]
         private Image m_Image;
 
-        [SerializeField] [LabelText("自动调整图像大小")]
+        [SerializeField]
+        [LabelText("自动调整图像大小")]
         private bool m_SetNativeSize = false;
 
-        [SerializeField] [LabelText("可修改Enabled")]
+        [SerializeField]
+        [LabelText("可修改Enabled")]
         private bool m_ChangeEnabled = true;
 
         private string m_LastSpriteName;
@@ -69,12 +75,12 @@ namespace YIUIBind
                 return;
             }
 
-            ChangeSprite(dataValue).Forget();
+            ChangeSprite(dataValue).Coroutine();
         }
 
-        private async UniTaskVoid ChangeSprite(string resName)
+        private async ETTask ChangeSprite(string resName)
         {
-            using var asyncLock = await AsyncLockMgr.Inst.Wait(GetHashCode());
+            using var asyncLock = await SemaphoreSlimSingleton.Instance.Wait(this.GetHashCode());
 
             if (m_LastSpriteName == resName)
             {
@@ -92,20 +98,22 @@ namespace YIUIBind
 
             ReleaseLastSprite();
 
-#if UNITY_EDITOR
+            #if UNITY_EDITOR
             if (!YIUILoadHelper.VerifyAssetValidity(resName))
             {
-                Logger.LogError($"没有这个资源 图片无法加载 请检查 {resName}");
+                var objName = gameObject != null? gameObject.name : "无对象";
+                Logger.LogError($"{objName} 没有这个资源 图片无法加载 请检查 {resName}");
                 SetEnabled(false);
                 return;
             }
-#endif
+            #endif
 
             var sprite = await YIUILoadHelper.LoadAssetAsync<Sprite>(resName);
 
             if (sprite == null)
             {
-                Logger.LogError($"没有这个资源 图片无法加载 请检查 {resName}");
+                var objName = gameObject != null? gameObject.name : "无对象";
+                Logger.LogError($"{objName} 加载失败 没有这个资源 图片无法加载 请检查 {resName}");
                 SetEnabled(false);
                 return;
             }
@@ -117,7 +125,7 @@ namespace YIUIBind
                 return;
             }
 
-            m_LastSprite = sprite;
+            m_LastSprite   = sprite;
             m_Image.sprite = sprite;
             if (m_SetNativeSize)
                 m_Image.SetNativeSize();

@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     [LabelText("滑动动画")]
     internal enum ETweenType
@@ -44,7 +44,13 @@ namespace YIUIBind
         private float m_TweenSpeed = 0.0f;
 
         [SerializeField]
+        [ShowIf("ShowIfTweenType")]
         private ETweenType m_TweenType = ETweenType.DoubleWay;
+
+        private bool ShowIfTweenType()
+        {
+            return m_TweenSpeed > 0.0f;
+        }
 
         private float m_TargetValue;
         private bool  m_PlayingTween = false;

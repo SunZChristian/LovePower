@@ -17,7 +17,7 @@ namespace YIUIFramework
         /// 是否存在
         /// </summary>
         public static bool Exist => g_Inst != null;
-
+        
         /// <summary>
         /// 得到单例
         /// </summary>
@@ -33,7 +33,7 @@ namespace YIUIFramework
                         return null;
                     }
 
-                    Debug.LogError($" {typeof(T).Name} g_inst == null 这个是MonoSceneSingleton 需要自己创建对象的单例 不会自动创建");
+                    Debug.LogError($"g_inst == null 这个是MonoSceneSingleton 需要自己创建对象的单例 不会自动创建");
                     return null;
                 }
 
@@ -46,7 +46,7 @@ namespace YIUIFramework
         {
             if (SingletonMgr.Disposing)
             {
-                Debug.LogError($" {typeof(T).Name} 单例管理器已释放或未初始化 禁止使用");
+                Debug.LogError($" {typeof (T).Name} 单例管理器已释放或未初始化 禁止使用");
                 return;
             }
 
@@ -63,12 +63,12 @@ namespace YIUIFramework
             {
                 DontDestroyOnLoad(g_Inst);
             }
-
+                 
             if (g_Inst.GetHideAndDontSave())
             {
                 gameObject.hideFlags = HideFlags.HideAndDontSave;
             }
-
+            
             SingletonMgr.Add(g_Inst);
             g_Inst.OnInitSingleton();
         }
@@ -80,7 +80,7 @@ namespace YIUIFramework
 
         //子类如果使用这个生命周期记得调用base
         //推荐使用 重写 OnDispose
-        protected virtual void OnDestroy()
+        protected override void OnDestroy()
         {
             base.OnDestroy();
             SingletonMgr.Remove(g_Inst);

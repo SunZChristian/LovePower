@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using ET.Client;
 using UnityEngine;
-using YIUIBind;
 
 namespace YIUIFramework
 {
@@ -21,12 +21,12 @@ namespace YIUIFramework
         private Queue<int>       m_OnClickItemQueue   = new Queue<int>();   //当前所有已选择 遵循先进先出 有序
         private HashSet<int>     m_OnClickItemHashSet = new HashSet<int>(); //当前所有已选择 无序 为了更快查找
         private int              m_MaxClickCount      = 1;                  //可选最大数量 >=2 就是复选 最小1
-        private bool             m_RepetitionCancel = true;                        //重复选择 则取消选择
-        private bool             m_AutoCancelLast = true;                   //当选择操作最大数量过后 自动取消第一个选择的 否则选择无效
+        private bool             m_RepetitionCancel   = true;               //重复选择 则取消选择
+        private bool             m_AutoCancelLast     = true;               //当选择操作最大数量过后 自动取消第一个选择的 否则选择无效
 
         public YIUILoopScroll<TData, TItemRenderer> SetOnClickInfo(
-            string           itemClickEventName,
-            OnClickItemEvent onClickItemEvent)
+        string           itemClickEventName,
+        OnClickItemEvent onClickItemEvent)
         {
             if (m_OnClickInit)
             {
@@ -96,16 +96,17 @@ namespace YIUIFramework
         //传入对象 选中目标
         public void OnClickItem(TItemRenderer item)
         {
-            var index  = GetItemIndex(item);
+            var index = GetItemIndex(item);
             if (index < 0)
             {
                 Debug.LogError($"无法选中一个不在显示中的对象");
                 return;
             }
+
             var select = OnClickItemQueueEnqueue(index);
             OnClickItem(index, item, select);
         }
-        
+
         //传入索引 选中目标
         public void OnClickItem(int index)
         {
@@ -114,14 +115,15 @@ namespace YIUIFramework
                 Debug.LogError($"索引越界{index}  0 - {m_Data.Count}");
                 return;
             }
-            var item  = GetItemByIndex(index,false);
+
+            var item   = GetItemByIndex(index, false);
             var select = OnClickItemQueueEnqueue(index);
             if (item != null)
             {
                 OnClickItem(index, item, select);
             }
         }
-        
+
         private bool OnClickItemQueueEnqueue(int index)
         {
             if (m_OnClickItemHashSet.Contains(index))
@@ -176,7 +178,7 @@ namespace YIUIFramework
         {
             if (!m_OnClickInit) return uiBase;
 
-            var eventTable = uiBase.m_EventTable;
+            var eventTable = uiBase.GetParent<YIUIComponent>().EventTable;
             if (eventTable == null)
             {
                 Debug.LogError($"目标item 没有 event表 请检查");
@@ -186,7 +188,7 @@ namespace YIUIFramework
             var uEventClickItem = eventTable.FindEvent<UIEventP0>(m_ItemClickEventName);
             if (uEventClickItem == null)
             {
-                Debug.LogError($"当前监听的事件未找到 请检查 {typeof(TItemRenderer).Name} 中是否有这个事件 {m_ItemClickEventName}");
+                Debug.LogError($"当前监听的事件未找到 请检查 {typeof (TItemRenderer).Name} 中是否有这个事件 {m_ItemClickEventName}");
             }
             else
             {

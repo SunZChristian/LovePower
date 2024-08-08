@@ -4,9 +4,8 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using Logger = YIUIFramework.Logger;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     /// <summary>
     /// 点击事件绑定
@@ -15,7 +14,7 @@ namespace YIUIBind
     /// </summary>
     [LabelText("点击<null>")]
     [AddComponentMenu("YIUIBind/Event/点击 【Click】 UIEventBindClick")]
-    public class UIEventBindClick : UIEventBind, IPointerClickHandler
+    public class UIEventBindClick: UIEventBind, IPointerClickHandler
     {
         [SerializeField]
         [LabelText("拖拽时不响应点击")]
@@ -47,13 +46,11 @@ namespace YIUIBind
                 throw;
             }
         }
-
+        
+        protected override bool IsTaskEvent => false;
+        [NonSerialized]
         private List<EUIEventParamType> m_BaseFilterParamType = new List<EUIEventParamType> { };
-
-        protected override List<EUIEventParamType> GetFilterParamType()
-        {
-            return m_BaseFilterParamType;
-        }
+        protected override List<EUIEventParamType> GetFilterParamType => m_BaseFilterParamType;
 
         private void Awake()
         {

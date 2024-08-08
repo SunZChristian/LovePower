@@ -36,7 +36,7 @@ namespace YIUIFramework
                 load.RemoveRefCount();
                 return null;
             }
-
+            
             load.ResetHandle(obj, hashCode);
             return (T)obj;
         }

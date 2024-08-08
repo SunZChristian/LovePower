@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using ET.Client;
 using UnityEngine;
 
 namespace YIUIFramework
@@ -27,22 +28,22 @@ namespace YIUIFramework
             SetDefaultSelect(index);
             SetDataRefresh(data);
         }
-        
+
         //同上 请看注释 注意使用方式
         public void SetDataRefresh(IList<TData> data, List<int> index)
         {
             SetDefaultSelect(index);
             SetDataRefresh(data);
         }
-        
+
         //如果 < 0 则表示这个对象在对象池里
         public int GetItemIndex(TItemRenderer item)
         {
-            return GetItemIndex(item.OwnerRectTransform);
+            return GetItemIndex(item.GetParent<YIUIComponent>().OwnerRectTransform);
         }
 
         //只能获取当前可见的对象
-        public TItemRenderer GetItemByIndex(int index,bool log = true)
+        public TItemRenderer GetItemByIndex(int index, bool log = true)
         {
             if (index < ItemStart || index >= ItemEnd) return null;
             var childIndex = index - ItemStart;
@@ -50,9 +51,9 @@ namespace YIUIFramework
             {
                 if (log)
                 {
-                    Debug.LogError(
-                        $"索引错误 请检查 index:{index} Start:{ItemStart} childIndex:{childIndex} childCount:{Content.childCount}");
+                    Debug.LogError($"索引错误 请检查 index:{index} Start:{ItemStart} childIndex:{childIndex} childCount:{Content.childCount}");
                 }
+
                 return null;
             }
 

@@ -12,3 +12,17 @@ C:\SunZ\ET\DotNet\Model\obj\Debug\Model.dll
 C:\SunZ\ET\DotNet\Model\obj\Debug\refint\Model.dll
 C:\SunZ\ET\DotNet\Model\obj\Debug\Model.pdb
 C:\SunZ\ET\DotNet\Model\obj\Debug\ref\Model.dll
+C:\SunZ\LovePower\ET\Bin\Model.deps.json
+C:\SunZ\LovePower\ET\Bin\Model.dll
+C:\SunZ\LovePower\ET\Bin\Model.pdb
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\DotNet.Model.csproj.AssemblyReference.cache
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\DotNet.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\DotNet.Model.AssemblyInfoInputs.cache
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\DotNet.Model.AssemblyInfo.cs
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\DotNet.Model.csproj.CoreCompileInputs.cache
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\DotNet.Model.sourcelink.json
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\DotNet.M.982713FF.Up2Date
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\Model.dll
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\refint\Model.dll
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\Model.pdb
+C:\SunZ\LovePower\ET\DotNet\Model\obj\Debug\ref\Model.dll

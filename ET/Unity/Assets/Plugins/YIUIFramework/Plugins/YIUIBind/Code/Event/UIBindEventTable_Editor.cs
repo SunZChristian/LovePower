@@ -1,19 +1,18 @@
 #if UNITY_EDITOR
-
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
-using YIUIFramework;
 
-namespace YIUIBind
+namespace YIUIFramework
 {
     public sealed partial class UIBindEventTable
     {
         [GUIColor(1, 1, 0)]
         [Button("自动检查", 30)]
-        [PropertyOrder(-100)]
+        [PropertyOrder(-999)]
         [ShowIf("@UIOperationHelper.CommonShowIf()")]
         public void AutoCheck()
         {
@@ -47,6 +46,45 @@ namespace YIUIBind
             OnValidate();
         }
 
+        [HideLabel]
+        public enum EUITaskEventType
+        {
+            [LabelText("同步事件")]
+            Sync,
+
+            [LabelText("异步事件")]
+            Async,
+        }
+
+        [NonSerialized]
+        private bool m_FirstGetEventType;
+
+        [NonSerialized]
+        private EUITaskEventType m_UITaskEventTypeTemp;
+
+        [ShowInInspector]
+        [BoxGroup("添加新事件")]
+        [EnumToggleButtons]
+        [HideLabel]
+        [PropertyOrder(-100)]
+        [ShowIf("@UIOperationHelper.CommonShowIf()")]
+        private EUITaskEventType m_UITaskEventType
+        {
+            get
+            {
+                if (!m_FirstGetEventType)
+                {
+                    m_UITaskEventTypeTemp = new EnumPrefs<EUITaskEventType>("YIUIAutoTool_OtherModule_TaskEventType",null,EUITaskEventType.Async).Value;
+                    m_FirstGetEventType = true;
+                }
+                return  m_UITaskEventTypeTemp;
+            }
+            set
+            {
+                m_UITaskEventTypeTemp = value;
+            }
+        }
+
         [ShowInInspector]
         [BoxGroup("添加新事件")]
         [HideReferenceObjectPicker]
@@ -62,8 +100,6 @@ namespace YIUIBind
         [ShowInInspector]
         [LabelText("需要添加的事件参数")]
         [ShowIf("@UIOperationHelper.CommonShowIf()")]
-
-        //[ListDrawerSettings(DraggableItems = false,lsyExpanded = false,ShowIndexLabels = true,ShowPaging = false,ShowItemCount = false,HideRemoveButton = true)]
         public List<EUIEventParamType> AllEventParamType = new List<EUIEventParamType>();
 
         [GUIColor(0, 1, 0)]
@@ -85,7 +121,21 @@ namespace YIUIBind
                 return;
             }
 
-            var uiEventBase = UIEventBaseHelper.CreatorUIEventBase(m_AddUIEventName, AllEventParamType);
+            UIEventBase uiEventBase;
+
+            switch (m_UITaskEventType)
+            {
+                case EUITaskEventType.Sync:
+                    uiEventBase = UIEventBaseHelper.CreatorUIEventBase(m_AddUIEventName, AllEventParamType);
+                    break;
+                case EUITaskEventType.Async:
+                    uiEventBase = UITaskEventBaseHelper.CreatorUITaskEventBase(m_AddUIEventName, AllEventParamType);
+                    break;
+                default:
+                    uiEventBase = UIEventBaseHelper.CreatorUIEventBase(m_AddUIEventName, AllEventParamType);
+                    throw new ArgumentOutOfRangeException();
+            }
+
             if (uiEventBase == null)
             {
                 UnityTipsHelper.ShowError($"创建失败 {m_AddUIEventName}");
@@ -95,9 +145,7 @@ namespace YIUIBind
             m_EventDic.Add(m_AddUIEventName, uiEventBase);
 
             AllEventParamType = new List<EUIEventParamType>();
-
-            m_AddUIEventName = "";
-
+            m_AddUIEventName  = "";
             AutoCheck();
         }
 
@@ -137,12 +185,12 @@ namespace YIUIBind
             return allName;
         }
 
-        public List<string> GetFilterParamTypeEventName(List<EUIEventParamType> list)
+        public List<string> GetFilterParamTypeEventName(List<EUIEventParamType> list, bool taskEvent)
         {
             var allName = new List<string>();
             foreach (var eventValue in m_EventDic.Values)
             {
-                if (eventValue.AllEventParamType.ParamEquals(list))
+                if (eventValue.IsTaskEvent == taskEvent && eventValue.AllEventParamType.ParamEquals(list))
                 {
                     allName.Add(eventValue.EventName);
                 }

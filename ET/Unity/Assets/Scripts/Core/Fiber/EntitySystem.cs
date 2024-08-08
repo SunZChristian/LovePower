@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace ET
 {
-    public class EntitySystem
+    public partial class EntitySystem
     {
         private readonly Queue<EntityRef<Entity>>[] queues = new Queue<EntityRef<Entity>>[InstanceQueueIndex.Max];
-        
+
         public EntitySystem()
         {
             for (int i = 0; i < this.queues.Length; i++)
@@ -14,8 +14,7 @@ namespace ET
                 this.queues[i] = new Queue<EntityRef<Entity>>();
             }
         }
-        
-        
+
         public virtual void RegisterSystem(Entity component)
         {
             Type type = component.GetType();
@@ -25,12 +24,14 @@ namespace ET
             {
                 return;
             }
+
             for (int i = 0; i < oneTypeSystems.QueueFlag.Length; ++i)
             {
                 if (!oneTypeSystems.QueueFlag[i])
                 {
                     continue;
                 }
+
                 this.queues[i].Enqueue(component);
             }
         }
@@ -51,7 +52,7 @@ namespace ET
                 {
                     continue;
                 }
-                
+
                 if (component is not IUpdate)
                 {
                     continue;
@@ -59,7 +60,8 @@ namespace ET
 
                 try
                 {
-                    List<SystemObject> iUpdateSystems = EntitySystemSingleton.Instance.TypeSystems.GetSystems(component.GetType(), typeof (IUpdateSystem));
+                    List<SystemObject> iUpdateSystems =
+                            EntitySystemSingleton.Instance.TypeSystems.GetSystems(component.GetType(), typeof(IUpdateSystem));
                     if (iUpdateSystems == null)
                     {
                         continue;
@@ -83,7 +85,6 @@ namespace ET
                 {
                     throw new Exception($"entity system update fail: {component.GetType().FullName}", e);
                 }
-
             }
         }
 
@@ -103,13 +104,14 @@ namespace ET
                 {
                     continue;
                 }
-                
+
                 if (component is not ILateUpdate)
                 {
                     continue;
                 }
 
-                List<SystemObject> iLateUpdateSystems = EntitySystemSingleton.Instance.TypeSystems.GetSystems(component.GetType(), typeof (ILateUpdateSystem));
+                List<SystemObject> iLateUpdateSystems =
+                        EntitySystemSingleton.Instance.TypeSystems.GetSystems(component.GetType(), typeof(ILateUpdateSystem));
                 if (iLateUpdateSystems == null)
                 {
                     continue;

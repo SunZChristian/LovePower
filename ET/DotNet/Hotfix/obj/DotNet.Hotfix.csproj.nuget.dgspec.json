@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SunZ\\ET\\DotNet\\Hotfix\\DotNet.Hotfix.csproj": {}
+    "C:\\SunZ\\LovePower\\ET\\DotNet\\Hotfix\\DotNet.Hotfix.csproj": {}
   },
   "projects": {
-    "C:\\SunZ\\ET\\DotNet\\Core\\DotNet.Core.csproj": {
+    "C:\\SunZ\\LovePower\\ET\\DotNet\\Core\\DotNet.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SunZ\\ET\\DotNet\\Core\\DotNet.Core.csproj",
+        "projectUniqueName": "C:\\SunZ\\LovePower\\ET\\DotNet\\Core\\DotNet.Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\SunZ\\ET\\DotNet\\Core\\DotNet.Core.csproj",
+        "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Core\\DotNet.Core.csproj",
         "packagesPath": "C:\\Users\\zhe_sun\\.nuget\\packages\\",
-        "outputPath": "C:\\SunZ\\ET\\DotNet\\Core\\obj\\",
+        "outputPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj": {
-                "projectPath": "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj"
+              "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj": {
+                "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\SunZ\\ET\\DotNet\\Hotfix\\DotNet.Hotfix.csproj": {
+    "C:\\SunZ\\LovePower\\ET\\DotNet\\Hotfix\\DotNet.Hotfix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SunZ\\ET\\DotNet\\Hotfix\\DotNet.Hotfix.csproj",
+        "projectUniqueName": "C:\\SunZ\\LovePower\\ET\\DotNet\\Hotfix\\DotNet.Hotfix.csproj",
         "projectName": "Hotfix",
-        "projectPath": "C:\\SunZ\\ET\\DotNet\\Hotfix\\DotNet.Hotfix.csproj",
+        "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Hotfix\\DotNet.Hotfix.csproj",
         "packagesPath": "C:\\Users\\zhe_sun\\.nuget\\packages\\",
-        "outputPath": "C:\\SunZ\\ET\\DotNet\\Hotfix\\obj\\",
+        "outputPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Hotfix\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -102,11 +102,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\SunZ\\ET\\DotNet\\Loader\\DotNet.Loader.csproj": {
-                "projectPath": "C:\\SunZ\\ET\\DotNet\\Loader\\DotNet.Loader.csproj"
+              "C:\\SunZ\\LovePower\\ET\\DotNet\\Loader\\DotNet.Loader.csproj": {
+                "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Loader\\DotNet.Loader.csproj"
               },
-              "C:\\SunZ\\ET\\DotNet\\Model\\DotNet.Model.csproj": {
-                "projectPath": "C:\\SunZ\\ET\\DotNet\\Model\\DotNet.Model.csproj"
+              "C:\\SunZ\\LovePower\\ET\\DotNet\\Model\\DotNet.Model.csproj": {
+                "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Model\\DotNet.Model.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\SunZ\\ET\\DotNet\\Loader\\DotNet.Loader.csproj": {
+    "C:\\SunZ\\LovePower\\ET\\DotNet\\Loader\\DotNet.Loader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SunZ\\ET\\DotNet\\Loader\\DotNet.Loader.csproj",
+        "projectUniqueName": "C:\\SunZ\\LovePower\\ET\\DotNet\\Loader\\DotNet.Loader.csproj",
         "projectName": "Loader",
-        "projectPath": "C:\\SunZ\\ET\\DotNet\\Loader\\DotNet.Loader.csproj",
+        "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Loader\\DotNet.Loader.csproj",
         "packagesPath": "C:\\Users\\zhe_sun\\.nuget\\packages\\",
-        "outputPath": "C:\\SunZ\\ET\\DotNet\\Loader\\obj\\",
+        "outputPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Loader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -172,11 +172,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\SunZ\\ET\\DotNet\\Core\\DotNet.Core.csproj": {
-                "projectPath": "C:\\SunZ\\ET\\DotNet\\Core\\DotNet.Core.csproj"
+              "C:\\SunZ\\LovePower\\ET\\DotNet\\Core\\DotNet.Core.csproj": {
+                "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Core\\DotNet.Core.csproj"
               },
-              "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj": {
-                "projectPath": "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj"
+              "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj": {
+                "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj"
               }
             }
           }
@@ -211,14 +211,14 @@
         }
       }
     },
-    "C:\\SunZ\\ET\\DotNet\\Model\\DotNet.Model.csproj": {
+    "C:\\SunZ\\LovePower\\ET\\DotNet\\Model\\DotNet.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SunZ\\ET\\DotNet\\Model\\DotNet.Model.csproj",
+        "projectUniqueName": "C:\\SunZ\\LovePower\\ET\\DotNet\\Model\\DotNet.Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\SunZ\\ET\\DotNet\\Model\\DotNet.Model.csproj",
+        "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Model\\DotNet.Model.csproj",
         "packagesPath": "C:\\Users\\zhe_sun\\.nuget\\packages\\",
-        "outputPath": "C:\\SunZ\\ET\\DotNet\\Model\\obj\\",
+        "outputPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -242,11 +242,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\SunZ\\ET\\DotNet\\Core\\DotNet.Core.csproj": {
-                "projectPath": "C:\\SunZ\\ET\\DotNet\\Core\\DotNet.Core.csproj"
+              "C:\\SunZ\\LovePower\\ET\\DotNet\\Core\\DotNet.Core.csproj": {
+                "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\Core\\DotNet.Core.csproj"
               },
-              "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj": {
-                "projectPath": "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj"
+              "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj": {
+                "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj"
               }
             }
           }
@@ -281,14 +281,14 @@
         }
       }
     },
-    "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj": {
+    "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj",
+        "projectUniqueName": "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj",
         "projectName": "ThirdParty",
-        "projectPath": "C:\\SunZ\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj",
+        "projectPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\DotNet.ThirdParty.csproj",
         "packagesPath": "C:\\Users\\zhe_sun\\.nuget\\packages\\",
-        "outputPath": "C:\\SunZ\\ET\\DotNet\\ThirdParty\\obj\\",
+        "outputPath": "C:\\SunZ\\LovePower\\ET\\DotNet\\ThirdParty\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

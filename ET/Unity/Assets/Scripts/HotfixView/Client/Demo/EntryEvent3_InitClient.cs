@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using YIUIFramework;
 
 namespace ET.Client
 {
@@ -19,6 +20,10 @@ namespace ET.Client
             // 根据配置修改掉Main Fiber的SceneType
             SceneType sceneType = EnumHelper.FromString<SceneType>(globalComponent.GlobalConfig.AppType.ToString());
             root.SceneType = sceneType;
+            
+            
+            YIUIBindHelper.InternalGameGetUIBindVoFunc = YIUICodeGenerated.YIUIBindProvider.Get;
+            await root.AddComponent<YIUIMgrComponent>().Initialize();
             
             await EventSystem.Instance.PublishAsync(root, new AppStartInitFinish());
         }

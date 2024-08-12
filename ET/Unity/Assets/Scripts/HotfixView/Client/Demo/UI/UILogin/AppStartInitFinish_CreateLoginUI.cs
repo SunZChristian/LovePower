@@ -5,7 +5,9 @@
 	{
 		protected override async ETTask Run(Scene root, AppStartInitFinish args)
 		{
-			await UIHelper.Create(root, UIType.UILogin, UILayer.Mid);
+			//await UIHelper.Create(root, UIType.UILogin, UILayer.Mid);
+
+			await YIUIMgrComponent.Inst.Root.OpenPanelAsync<LobbyPanelComponent>();
 		}
 	}
 }

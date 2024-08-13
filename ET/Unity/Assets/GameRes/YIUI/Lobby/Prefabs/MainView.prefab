@@ -620,8 +620,8 @@ MonoBehaviour:
   ComponentTable: {fileID: 0}
   DataTable: {fileID: 0}
   EventTable: {fileID: 6835453279941293368}
-  PkgName: 
-  ResName: 
+  PkgName: Lobby
+  ResName: MainView
   UICodeType: 1
   WindowOption: 0
   PanelLayer: 3

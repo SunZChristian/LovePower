@@ -9,9 +9,44 @@ message Main2NetClient_Login // IRequest
 	int32 OwnerFiberId = 2;
 	string Account = 3;		// 账号
 	string Password = 4; 	// 密码
+	int32 SunZ = 5;//请求测试测试
 }
 
 message NetClient2Main_Login // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	int64 PlayerId = 4;
+	
+	string Gsy = 5;//响应测试测试
+}
+
+// ResponseType NetClient2Main_JoinRoom
+message Main2NetClient_JoinRoom // IRequest
+{
+	int32 RpcId = 1;
+	int32 OwnerFiberId = 2;
+}
+
+message NetClient2Main_JoinRoom // IResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	int64 PlayerId = 4;
+}
+
+// ResponseType NetClient2Main_CreateRoom
+message Main2NetClient_CreateRoom // IRequest
+{
+	int32 RpcId = 1;
+	int32 OwnerFiberId = 2;
+}
+
+message NetClient2Main_CreateRoom // IResponse
 {
 	int32 RpcId = 1;
 	int32 Error = 2;

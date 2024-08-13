@@ -16,7 +16,9 @@ namespace ET.Client
         [EntitySystem]
         private static void YIUIInitialize(this MainViewComponent self)
         {
-
+            Log.Info($"mainview 初始化");
+            
+            Log.Info($"当前显隐状态："+self.UIBase.ActiveSelf);
         }
         
         [EntitySystem]
@@ -28,7 +30,7 @@ namespace ET.Client
         private static async ETTask<bool> YIUIOpen(this MainViewComponent self)
         {
             //self.UIBase.SetActive(true);
-            Log.Info($"当前显隐状态："+self.UIBase.ActiveSelf);
+           
             await ETTask.CompletedTask;
             return true;
         }

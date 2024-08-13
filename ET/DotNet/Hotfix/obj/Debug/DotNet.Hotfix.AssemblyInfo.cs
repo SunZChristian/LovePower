@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hotfix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02faaa50112e7e35f618ea40c69710940be2a315")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4256e9e59bde8e2126471a61a87e10d2eceec5d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hotfix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hotfix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

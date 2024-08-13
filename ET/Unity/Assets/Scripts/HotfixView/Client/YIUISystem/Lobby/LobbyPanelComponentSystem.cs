@@ -29,6 +29,9 @@ namespace ET.Client
         private static async ETTask<bool> YIUIOpen(this LobbyPanelComponent self)
         {
             Log.Info($"大厅：open");
+
+            await self.UIPanel.OpenViewAsync<MainViewComponent>();
+            
             await ETTask.CompletedTask;
             return true;
         }

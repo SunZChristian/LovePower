@@ -48,7 +48,18 @@ namespace ET.Client
             NetClient2Main_Login response = await self.Root().GetComponent<ProcessInnerSender>().Call(self.netClientActorId, main2NetClientLogin) as NetClient2Main_Login;
             return response.PlayerId;
         }
+        
+        public static async ETTask<long> JoinRoomAsync(this ClientSenderComponent self)
+        {
+            self.fiberId = await FiberManager.Instance.Create(SchedulerType.ThreadPool, 0, SceneType.NetClient, "");
+            self.netClientActorId = new ActorId(self.Fiber().Process, self.fiberId);
 
+            Main2NetClient_JoinRoom main2NetClientJoinRoom = Main2NetClient_JoinRoom.Create();
+            main2NetClientJoinRoom.OwnerFiberId = self.Fiber().Id;
+            NetClient2Main_JoinRoom response = await self.Root().GetComponent<ProcessInnerSender>().Call(self.netClientActorId, main2NetClientJoinRoom) as NetClient2Main_JoinRoom;
+            return response.PlayerId;
+        }
+        
         public static void Send(this ClientSenderComponent self, IMessage message)
         {
             A2NetClient_Message a2NetClientMessage = A2NetClient_Message.Create();

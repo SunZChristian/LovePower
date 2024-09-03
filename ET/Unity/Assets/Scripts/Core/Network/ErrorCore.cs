@@ -63,6 +63,9 @@
 
         public const int ERR_Cancel = 200001;
         public const int ERR_Timeout = 200002;
+        public const int ERR_SUCCESS = 200003;
+        public const int ERR_RequestRepeatedly = 200004;
+        public const int ERR_LoginInfoIsNull = 200005;
 
         public static bool IsRpcNeedThrowException(int error)
         {

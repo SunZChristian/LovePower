@@ -23,6 +23,8 @@ namespace ET.Client
         public YIUIViewComponent UIView => u_UIView;
         public UIEventP0 u_EventJoinRoom;
         public UIEventHandleP0 u_EventJoinRoomHandle;
+        public UIEventP0 u_EventCreateRoom;
+        public UIEventHandleP0 u_EventCreateRoomHandle;
 
     }
 }

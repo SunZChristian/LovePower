@@ -36,6 +36,8 @@ namespace ET.Client
 
             self.u_EventJoinRoom = self.UIBase.EventTable.FindEvent<UIEventP0>("u_EventJoinRoom");
             self.u_EventJoinRoomHandle = self.u_EventJoinRoom.Add(self.OnEventJoinRoomAction);
+            self.u_EventCreateRoom = self.UIBase.EventTable.FindEvent<UIEventP0>("u_EventCreateRoom");
+            self.u_EventCreateRoomHandle = self.u_EventCreateRoom.Add(self.OnEventCreateRoomAction);
 
         }
     }

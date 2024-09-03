@@ -9,7 +9,7 @@ message Main2NetClient_Login // IRequest
 	int32 OwnerFiberId = 2;
 	string Account = 3;		// 账号
 	string Password = 4; 	// 密码
-	int32 SunZ = 5;//请求测试测试
+	int32 SunZ = 5;//孙哲
 }
 
 message NetClient2Main_Login // IResponse
@@ -20,7 +20,8 @@ message NetClient2Main_Login // IResponse
 
 	int64 PlayerId = 4;
 	
-	string Gsy = 5;//响应测试测试
+	string Gsy = 5;//顾诗云
+	string Token = 6;
 }
 
 // ResponseType NetClient2Main_JoinRoom

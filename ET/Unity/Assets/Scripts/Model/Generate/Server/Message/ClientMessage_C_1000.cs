@@ -32,7 +32,7 @@ namespace ET
         public string Password { get; set; }
 
         /// <summary>
-        /// 请求测试测试
+        /// 孙哲
         /// </summary>
         [MemoryPackOrder(4)]
         public int SunZ { get; set; }
@@ -76,10 +76,13 @@ namespace ET
         public long PlayerId { get; set; }
 
         /// <summary>
-        /// 响应测试测试
+        /// 顾诗云
         /// </summary>
         [MemoryPackOrder(4)]
         public string Gsy { get; set; }
+
+        [MemoryPackOrder(5)]
+        public string Token { get; set; }
 
         public override void Dispose()
         {
@@ -93,6 +96,7 @@ namespace ET
             this.Message = default;
             this.PlayerId = default;
             this.Gsy = default;
+            this.Token = default;
 
             ObjectPool.Instance.Recycle(this);
         }

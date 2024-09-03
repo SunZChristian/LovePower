@@ -12,8 +12,6 @@ namespace ET.Client
     public enum ELobbyPanelViewEnum
     {
         MainView = 1,
-        Main2View = 2,
-        Main3View = 3,
     }
     /// <summary>
     /// 由YIUI工具自动创建 请勿修改

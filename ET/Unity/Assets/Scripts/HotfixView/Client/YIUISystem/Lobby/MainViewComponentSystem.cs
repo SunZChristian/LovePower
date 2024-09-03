@@ -41,6 +41,16 @@ namespace ET.Client
         private static void OnEventJoinRoomAction(this MainViewComponent self)
         {
             Log.Info($"加入房间");
+            LoginHelper.Login(self.Root(), "YouRenA","19941129").Coroutine();
+            //进入房间
+            
+        }
+        
+        private static void OnEventCreateRoomAction(this MainViewComponent self)
+        {
+            Log.Info($"创建房间");
+            LoginHelper.Login(self.Root(), "GongYuanXun","19960115").Coroutine();
+            //创建房间
         }
         #endregion YIUIEvent结束
     }

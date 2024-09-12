@@ -250,3 +250,54 @@ message G2C_Benchmark // ISessionResponse
 	int32 Error = 2;
 	string Message = 3;
 }
+
+message ServerInfoProto
+{
+	int32 Id = 1;
+	int32 Status = 2;
+	string ServerName = 3;
+}
+
+// ResponseType R2C_GetServerInfos
+message C2R_GetServerInfos // ISessionRequest
+{
+	int32 RpcId = 90;
+	string Token = 1;
+	string Account = 2;
+}
+
+message R2C_GetServerInfos // ISessionResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	repeated ServerInfoProto ServerInfosList = 1;
+}
+
+message RoleInfoProto
+{
+	int32 Id = 1;
+	string Name = 2;
+	int32 State = 3;
+	string Account = 4;
+	int64 LastLoginTime = 5;
+	int64 CreateTime = 6;
+	int32 ServerId = 7;
+}
+
+// ResponseType R2C_GetRoles
+message C2R_GetRoles // ISessionRequest
+{
+	int32 RpcId = 90;
+	string Token = 1;
+	string Account = 2;
+	int32 ServerId = 3;
+}
+
+message R2C_GetRoles // ISessionResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	repeated ServerInfoProto ServerInfosList = 1;
+} 

@@ -32,11 +32,25 @@ namespace ET.Server
             {
                 using (await coroutineLockComponent.Wait(CoroutineLockType.LoginAccount,request.Account.GetLongHashCode()))
                 {
+                    //数据库操作，账号是否存在，不存在则创建账号
                     
+                    //Realm与LoginCenter之间通信
+                    R2L_LoginAccountRequest r2LLoginAccountRequest = R2L_LoginAccountRequest.Create();
+                    r2LLoginAccountRequest.Account = request.Account;
+
+                    StartSceneConfig loginCenterConfig = StartSceneConfigCategory.Instance.LoginCenterConfig;
+                    var loginAccountResponse = await session.Fiber().Root.GetComponent<MessageSender>().Call(loginCenterConfig.ActorId, r2LLoginAccountRequest) as
+                            L2R_LoginAccountResponse;
+
+                    if (loginAccountResponse.Error != ErrorCore.ERR_SUCCESS)
+                    {
+                        response.Error = loginAccountResponse.Error;
+                        session?.Disconnect().Coroutine();
+                        session?.Dispose();
+                        return;
+                    }
                 }
             }
         }
     }
 }
-
-

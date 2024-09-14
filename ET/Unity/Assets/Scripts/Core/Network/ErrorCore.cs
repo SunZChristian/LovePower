@@ -67,6 +67,7 @@
         public const int ERR_RequestRepeatedly = 200004;
         public const int ERR_LoginInfoIsNull = 200005;
         public const int ERR_TokenError = 200006;
+        public const int ERR_RoleNameIsNull = 200007;
         
         public static bool IsRpcNeedThrowException(int error)
         {

@@ -1,6 +1,7 @@
 namespace ET.Server
 {
-    []
+    [MessageSessionHandler(SceneType.Realm)]
+    [FriendOf(typeof(RoleInfo))]
     public class C2R_GetRolesHandler:MessageSessionHandler<C2R_GetRoles,R2C_GetRoles>
     {
         protected override async ETTask Run(Session session, C2R_GetRoles request, R2C_GetRoles response)

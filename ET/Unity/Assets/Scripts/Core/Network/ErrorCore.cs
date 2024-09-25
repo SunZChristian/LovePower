@@ -68,6 +68,17 @@
         public const int ERR_LoginInfoIsNull = 200005;
         public const int ERR_TokenError = 200006;
         public const int ERR_RoleNameIsNull = 200007;
+        public const int ERR_RoleNameSame = 200008;
+        public const int ERR_RoleNotExit = 200009;
+        public const int ERR_LoginPasswordError = 200010;
+        public const int ERR_LoginGameGateError01 = 200011;
+        public const int ERR_SessionPlayerError = 200012;
+        public const int ERR_NonePlayerError = 200013;
+        public const int ERR_PlayerSessionError = 200014;
+        public const int ERR_ReEnterGameError = 200015;
+        public const int ERR_ReEnterGameError2 = 200016; 
+        public const int ERR_EnterGameError = 200017;
+        public const int ERR_OtherAccountLogin = 200018;
         
         public static bool IsRpcNeedThrowException(int error)
         {

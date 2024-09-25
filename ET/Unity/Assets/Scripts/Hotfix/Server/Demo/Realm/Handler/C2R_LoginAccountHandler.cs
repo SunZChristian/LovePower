@@ -33,6 +33,33 @@ namespace ET.Server
                 using (await coroutineLockComponent.Wait(CoroutineLockType.LoginAccount,request.Account.GetLongHashCode()))
                 {
                     //数据库操作，账号是否存在，不存在则创建账号
+                    DBComponent dbComponent = session.Root().GetComponent<DBManagerComponent>().GetZoneDB(session.Zone());
+
+                    List<Account> accountInfoList = await dbComponent.Query<Account>(d => d.AccountName.Equals(request.Account));
+                    Account account = null;
+                    
+                    if (accountInfoList != null && accountInfoList.Count > 0)
+                    {
+                        account = accountInfoList[0];
+                        session.AddChild(account);
+                        
+                        if (!account.Password.Equals(request.Password))
+                        {
+                            response.Error = ErrorCore.ERR_LoginPasswordError;
+                            session.Disconnect().Coroutine();
+                            account?.Dispose();
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        account = session.AddChild<Account>();
+                        account.AccountName = request.Account.Trim();
+                        account.Password    = request.Password;
+                        account.CreateTime  = TimeInfo.Instance.ServerNow();
+                        account.AccountType = (int)AccountType.General;
+                        await dbComponent.Save<Account>(account);
+                    }
                     
                     //Realm与LoginCenter之间通信
                     R2L_LoginAccountRequest r2LLoginAccountRequest = R2L_LoginAccountRequest.Create();
@@ -49,6 +76,8 @@ namespace ET.Server
                         session?.Dispose();
                         return;
                     }
+                    
+                    
                 }
             }
         }

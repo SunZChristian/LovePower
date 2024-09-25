@@ -236,6 +236,85 @@ namespace ET
         }
     }
 
+    [MemoryPackable]
+    [Message(ClientMessage.Main2NetClient_LoginGame)]
+    [ResponseType(nameof(NetClient2Main_LoginGame))]
+    public partial class Main2NetClient_LoginGame : MessageObject, IRequest
+    {
+        public static Main2NetClient_LoginGame Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(Main2NetClient_LoginGame), isFromPool) as Main2NetClient_LoginGame;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public string Account { get; set; }
+
+        [MemoryPackOrder(2)]
+        public long RealmKey { get; set; }
+
+        [MemoryPackOrder(3)]
+        public long RoleId { get; set; }
+
+        [MemoryPackOrder(4)]
+        public string GateAddress { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Account = default;
+            this.RealmKey = default;
+            this.RoleId = default;
+            this.GateAddress = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(ClientMessage.NetClient2Main_LoginGame)]
+    public partial class NetClient2Main_LoginGame : MessageObject, IResponse
+    {
+        public static NetClient2Main_LoginGame Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(NetClient2Main_LoginGame), isFromPool) as NetClient2Main_LoginGame;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Error { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string Message { get; set; }
+
+        [MemoryPackOrder(3)]
+        public long PlayerId { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Error = default;
+            this.Message = default;
+            this.PlayerId = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
     public static class ClientMessage
     {
         public const ushort Main2NetClient_Login = 1001;
@@ -244,5 +323,7 @@ namespace ET
         public const ushort NetClient2Main_JoinRoom = 1004;
         public const ushort Main2NetClient_CreateRoom = 1005;
         public const ushort NetClient2Main_CreateRoom = 1006;
+        public const ushort Main2NetClient_LoginGame = 1007;
+        public const ushort NetClient2Main_LoginGame = 1008;
     }
 }

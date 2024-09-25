@@ -8,7 +8,7 @@ namespace ET.Server
         {
             if (session.GetComponent<SessionLockingComponent>() != null)
             {
-                response.Error = ErrorCore. ERR_RequestRepeatedly
+                response.Error = ErrorCore.ERR_RequestRepeatedly;
                 session?.Disconnect().Coroutine();
                 return;
             }
@@ -28,8 +28,34 @@ namespace ET.Server
             }
 
             CoroutineLockComponent coroutineLockComponent = session.Root().GetComponent<CoroutineLockComponent>();
+            using (session.AddComponent<SessionLockingComponent>())
+            {
+                using (await coroutineLockComponent.Wait(CoroutineLockType.CreateRole,request.Account.GetLongHashCode()))
+                {
+                    DBComponent dbComponent = session.Root().GetComponent<DBManagerComponent>().GetZoneDB(session.Zone());
+                    var roleInfo = await dbComponent.Query<RoleInfo>(d => d.Name == request.Name && d.ServerId == request.ServerId);
+                    if (roleInfo != null && roleInfo.Count > 0)
+                    {
+                        response.Error = ErrorCore.ERR_RoleNameSame;
+                        return;
+                    }
+
+                    RoleInfo newRoleInfo = session.AddChild<RoleInfo>();
+                    newRoleInfo.Name = request.Name;
+                    newRoleInfo.State = (int)RoleInfoState.Normal;
+                    newRoleInfo.Account = request.Account;
+                    newRoleInfo.ServerId = request.ServerId;
+                    newRoleInfo.CreateTime = TimeInfo.Instance.ServerNow();
+                    newRoleInfo.LastLoginTime = 0;
+
+                    await dbComponent.Save<RoleInfo>(newRoleInfo);
+
+                    response.RoleInfo = newRoleInfo.ToMessage();
+                    
+                    newRoleInfo?.Dispose();
+                }
+            }
             
         }
     }
 }
-

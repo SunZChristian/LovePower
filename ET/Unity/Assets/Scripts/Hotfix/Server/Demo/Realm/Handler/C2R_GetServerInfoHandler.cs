@@ -18,7 +18,7 @@ namespace ET.Server
             foreach (var serverInfoRef in session.Root().GetComponent<ServerInfoManagerComponent>().ServerInfos)
             {
                 ServerInfo serverInfo = serverInfoRef;
-                response.ServerInfosList.Add(serverInfo.ToMeqqqqqqqqssage());
+                response.ServerInfosList.Add(serverInfo.ToMessage());
             }
 
             await ETTask.CompletedTask;

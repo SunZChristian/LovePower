@@ -12,6 +12,7 @@ namespace ET.Server
             {
                 if (!scene.GetComponent<LoginInfoRecordComponent>().IsExist(accountId))
                 {
+                    response.Error = ErrorCore.ERR_SUCCESS;
                     return;
                 }
 
@@ -21,7 +22,7 @@ namespace ET.Server
                 l2GDisconnectGateUnit.Account = request.Account;
                 G2L_DisconnectGateUnit g2LDisconnectGateUnit =await scene.GetComponent<MessageSender>().Call(gateConfig.ActorId, l2GDisconnectGateUnit) as G2L_DisconnectGateUnit;
 
-                response.Error = g2LDisconnectGateUnit.Error;
+               
             }
         }
     }

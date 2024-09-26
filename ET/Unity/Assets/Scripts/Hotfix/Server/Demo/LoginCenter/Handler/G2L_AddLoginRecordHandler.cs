@@ -7,7 +7,7 @@ namespace ET.Server
         {
             scene.GetComponent<LoginInfoRecordComponent>().Remove(request.Account.GetLongHashCode());
             scene.GetComponent<LoginInfoRecordComponent>().Add(request.Account.GetLongHashCode(),request.ServerId);
-
+            response.Error = ErrorCore.ERR_SUCCESS;
             await ETTask.CompletedTask;
         }
     }

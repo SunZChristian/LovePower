@@ -51,7 +51,7 @@ namespace ET.Server
                     await dbComponent.Save<RoleInfo>(newRoleInfo);
 
                     response.RoleInfo = newRoleInfo.ToMessage();
-                    
+                    response.Error = ErrorCore.ERR_SUCCESS;
                     newRoleInfo?.Dispose();
                 }
             }

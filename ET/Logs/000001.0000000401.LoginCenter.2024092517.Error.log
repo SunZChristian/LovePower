@@ -1,0 +1,3 @@
+2024-09-25 17:58:57.6151 (FiberManager.cs:83) init fiber fail: LoginCenter System.Exception: Invoke error5: 1048576 ET.FiberInit
+   at ET.EventSystem.Invoke[A,T](Int64 type, A args) in C:\SunZ\LovePower\ET\Unity\Assets\Scripts\Core\World\Module\EventSystem\EventSystem.cs:line 183
+   at ET.FiberManager.<>c__DisplayClass8_1.<<Create>b__0>d.MoveNext() in C:\SunZ\LovePower\ET\Unity\Assets\Scripts\Core\World\Module\Fiber\FiberManager.cs:line 83

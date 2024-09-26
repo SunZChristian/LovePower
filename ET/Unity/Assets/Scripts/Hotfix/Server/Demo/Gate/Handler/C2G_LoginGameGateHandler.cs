@@ -79,6 +79,7 @@ namespace ET.Server
                     }
 
                     response.PlayerId = player.Id;
+                    response.Error = ErrorCore.ERR_SUCCESS;
                 }
             }
         }

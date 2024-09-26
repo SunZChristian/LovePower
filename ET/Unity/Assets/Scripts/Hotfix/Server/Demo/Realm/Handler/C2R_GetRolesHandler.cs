@@ -36,6 +36,7 @@ namespace ET.Server
 
                     if (roleInfos == null || roleInfos.Count == 0)
                     {
+                        response.Error = ErrorCore.ERR_SUCCESS;
                         return;
                     }
 
@@ -48,6 +49,8 @@ namespace ET.Server
                     roleInfos.Clear();
                 }
             }
+
+            response.Error = ErrorCore.ERR_SUCCESS;
         }
     }
 }

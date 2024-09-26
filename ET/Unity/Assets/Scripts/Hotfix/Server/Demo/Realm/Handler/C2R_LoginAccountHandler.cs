@@ -77,7 +77,21 @@ namespace ET.Server
                         return;
                     }
                     
-                    
+                    Session otherSession  = session.Root().GetComponent<AccountSessionsComponent>().Get(request.Account);
+                   
+                    otherSession?.Send( A2C_Disconnect.Create());
+                    otherSession?.Disconnect().Coroutine();
+                    session.Root().GetComponent<AccountSessionsComponent>().Add(request.Account, session);
+                    session.AddComponent<AccountCheckOutTimeComponent, string>(request.Account);
+
+                    string Token = TimeInfo.Instance.ServerNow().ToString() + RandomGenerator.RandomNumber(int.MinValue, int.MaxValue).ToString();
+                    session.Root().GetComponent<TokenComponent>().Remove(request.Account);
+                    session.Root().GetComponent<TokenComponent>().Add(request.Account, Token);
+
+                    response.Error = ErrorCore.ERR_SUCCESS;
+                    response.Token = Token;
+                   
+                    account?.Dispose();
                 }
             }
         }

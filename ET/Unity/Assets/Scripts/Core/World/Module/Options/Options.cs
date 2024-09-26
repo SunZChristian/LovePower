@@ -16,6 +16,7 @@ namespace ET
         
         Demo,
         LockStep,
+        LovePower
     }
     
     public class Options: Singleton<Options>

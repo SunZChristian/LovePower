@@ -21,6 +21,7 @@ namespace ET.Server
                 response.ServerInfosList.Add(serverInfo.ToMessage());
             }
 
+            response.Error = ErrorCore.ERR_SUCCESS;
             await ETTask.CompletedTask;
         }
     }

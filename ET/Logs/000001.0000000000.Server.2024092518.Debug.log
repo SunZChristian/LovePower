@@ -1,0 +1,11 @@
+2024-09-25 18:05:38.4314 (Init.cs:29) System.IO.FileNotFoundException: Could not find file 'C:\SunZ\LovePower\ET\Bin\Hotfix.dll'.
+File name: 'C:\SunZ\LovePower\ET\Bin\Hotfix.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.ReadAllBytes(String path)
+   at ET.CodeLoader.LoadHotfix() in C:\SunZ\LovePower\ET\DotNet\Loader\CodeLoader.cs:line 40
+   at ET.CodeLoader.Awake() in C:\SunZ\LovePower\ET\DotNet\Loader\CodeLoader.cs:line 27
+   at ET.World.AddSingleton[T]() in C:\SunZ\LovePower\ET\Unity\Assets\Scripts\Core\World\World.cs:line 53
+   at ET.Init.Start() in C:\SunZ\LovePower\ET\DotNet\Loader\Init.cs:line 29
+2024-09-25 18:29:49.5621 (Scene.cs:36) scene create: Main -1 1
+2024-09-25 18:33:50.5860 (Scene.cs:36) scene create: Main -1 1

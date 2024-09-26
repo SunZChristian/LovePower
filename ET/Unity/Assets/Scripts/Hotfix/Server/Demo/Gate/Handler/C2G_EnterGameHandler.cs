@@ -94,6 +94,7 @@ namespace ET.Server
 						player.UnitId          = unitId;
 						response.MyUnitId      = unitId;
 						player.PlayerState     = PlayerState.Game;
+						response.Error = ErrorCore.ERR_SUCCESS;
 					}
 					catch (Exception e)
 					{

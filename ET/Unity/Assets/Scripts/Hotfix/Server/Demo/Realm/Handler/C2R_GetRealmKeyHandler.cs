@@ -37,7 +37,7 @@ namespace ET.Server
                      response.Address = startSceneConfig.InnerIPPort.ToString();
                      response.Key = g2RGetLoginKey.Key;
                      response.GateId = g2RGetLoginKey.GateId;
-                     
+                     response.Error = ErrorCore.ERR_SUCCESS;
                      session.Disconnect().Coroutine();
                 }
             }

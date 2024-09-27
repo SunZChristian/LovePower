@@ -397,3 +397,18 @@ message A2C_Disconnect // ISessionMessage
 	int32 Error = 2;
 	string Message = 3;
 }
+
+// ResponseType G2C_CreateRoom
+message C2G_CreateRoom // ISessionRequest
+{
+	int32 RpcId = 1;
+}
+
+message G2C_CreateRoom // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+
+	int32 RoomId = 4;
+}

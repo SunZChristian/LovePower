@@ -54,6 +54,7 @@ message NetClient2Main_CreateRoom // IResponse
 	string Message = 3;
 
 	int64 PlayerId = 4;
+	int32 RoomId = 5;
 }
 
 // ResponseType NetClient2Main_LoginGame

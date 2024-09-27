@@ -7,8 +7,7 @@ namespace ET.Client
     {
         protected override async ETTask Run(Scene scene, LoginFinish args)
         {
-            Log.Info("收到消息！！！");
+            await YIUIMgrComponent.Inst.Root.OpenPanelAsync<LobbyPanelComponent>();
         }
     }
 }
-

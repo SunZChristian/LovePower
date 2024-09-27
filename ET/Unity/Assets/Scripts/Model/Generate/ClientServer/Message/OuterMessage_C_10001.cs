@@ -1799,6 +1799,69 @@ namespace ET
         }
     }
 
+    [MemoryPackable]
+    [Message(OuterMessage.C2G_CreateRoom)]
+    [ResponseType(nameof(G2C_CreateRoom))]
+    public partial class C2G_CreateRoom : MessageObject, ISessionRequest
+    {
+        public static C2G_CreateRoom Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(C2G_CreateRoom), isFromPool) as C2G_CreateRoom;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
+    [MemoryPackable]
+    [Message(OuterMessage.G2C_CreateRoom)]
+    public partial class G2C_CreateRoom : MessageObject, ISessionResponse
+    {
+        public static G2C_CreateRoom Create(bool isFromPool = false)
+        {
+            return ObjectPool.Instance.Fetch(typeof(G2C_CreateRoom), isFromPool) as G2C_CreateRoom;
+        }
+
+        [MemoryPackOrder(0)]
+        public int RpcId { get; set; }
+
+        [MemoryPackOrder(1)]
+        public int Error { get; set; }
+
+        [MemoryPackOrder(2)]
+        public string Message { get; set; }
+
+        [MemoryPackOrder(3)]
+        public int RoomId { get; set; }
+
+        public override void Dispose()
+        {
+            if (!this.IsFromPool)
+            {
+                return;
+            }
+
+            this.RpcId = default;
+            this.Error = default;
+            this.Message = default;
+            this.RoomId = default;
+
+            ObjectPool.Instance.Recycle(this);
+        }
+    }
+
     public static class OuterMessage
     {
         public const ushort HttpGetRouterResponse = 10002;
@@ -1854,5 +1917,7 @@ namespace ET
         public const ushort C2G_EnterGame = 10052;
         public const ushort G2C_EnterGame = 10053;
         public const ushort A2C_Disconnect = 10054;
+        public const ushort C2G_CreateRoom = 10055;
+        public const ushort G2C_CreateRoom = 10056;
     }
 }

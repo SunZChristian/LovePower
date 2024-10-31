@@ -16,20 +16,18 @@ namespace ET.Client
         [EntitySystem]
         private static void YIUIInitialize(this LobbyPanelComponent self)
         {
-            Log.Info($"大厅：初始化");
+
         }
 
         [EntitySystem]
         private static void Destroy(this LobbyPanelComponent self)
         {
-            Log.Info($"大厅：删除");
+
         }
         
         [EntitySystem]
         private static async ETTask<bool> YIUIOpen(this LobbyPanelComponent self)
         {
-            Log.Info($"大厅：open");
-
             await self.UIPanel.OpenViewAsync<MainViewComponent>();
             
             await ETTask.CompletedTask;

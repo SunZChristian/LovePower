@@ -14,7 +14,7 @@ namespace ET.Client
                 //response.Error = ErrorCore
                 return;
             }
-
+            
             response.Error = ErrorCore.ERR_SUCCESS;
             response.RoomId = g2CCreateRoom.RoomId;
         }

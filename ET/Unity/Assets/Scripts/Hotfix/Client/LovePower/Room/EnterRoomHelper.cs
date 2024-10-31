@@ -4,6 +4,11 @@ namespace ET.Client
     {
         public static async ETTask CreateRoom(Scene root)
         {
+            await EnterMapHelper.EnterMapAsync(root);
+            
+            Log.Info("进入地图完成");
+            //进入地图完成
+            
             Main2NetClient_CreateRoom main2NetClientCreateRoom = Main2NetClient_CreateRoom.Create();
             main2NetClientCreateRoom.OwnerFiberId = root.Fiber.Id;
             

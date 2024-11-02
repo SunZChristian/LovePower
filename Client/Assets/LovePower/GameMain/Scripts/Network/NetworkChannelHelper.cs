@@ -79,6 +79,23 @@ namespace LovePower
             GameEntry.Event.Subscribe(UnityGameFramework.Runtime.NetworkMissHeartBeatEventArgs.EventId, OnNetworkMissHeartBeat);
             GameEntry.Event.Subscribe(UnityGameFramework.Runtime.NetworkErrorEventArgs.EventId, OnNetworkError);
             GameEntry.Event.Subscribe(UnityGameFramework.Runtime.NetworkCustomErrorEventArgs.EventId, OnNetworkCustomError);
+
+
+
+            // 创建一个示例的包头
+            var header = new CSPacketHeader
+            {
+                Id = 1,
+                PacketLength = 128 // 例如，设定一个包长度
+            };
+
+            // 使用 MemoryStream 序列化并获取字节长度
+            using (var memoryStream = new System.IO.MemoryStream())
+            {
+                Serializer.SerializeWithLengthPrefix(memoryStream, header, PrefixStyle.Fixed32);
+                byte[] byteArray = memoryStream.ToArray();
+                Console.WriteLine("序列化后的字节流长度: " + byteArray.Length);
+            }
         }
 
         /// <summary>
@@ -146,31 +163,9 @@ namespace LovePower
             packetHeader.Id = packet.Id;
             packetHeader.PacketLength = (int)m_CachedStream.Length - PacketHeaderLength;
 
-            if (packetHeader.Id == PacketID.CSSyncRoomStatus)
-            {
-                Log.Info("包头ID：" + packetHeader.Id);
-            }
-            var len = GetSerializedLengthWithPrefix(packetHeader);
-            Log.Info("包头长度：" + len);
-
             m_CachedStream.Position = 0;
-            RuntimeTypeModel.Default.SerializeWithLengthPrefix(m_CachedStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);
-            //Serializer.SerializeWithLengthPrefix(destination, packetHeader, PrefixStyle.Fixed32);
-
-            if (packetHeader.Id == PacketID.CSSyncRoomStatus)
-            {
-                var cccc = packet as CSSyncRoomStatus;
-                var code = cccc.OperationCode;
-                var progress = cccc.VideoProgress;
-                Log.Info("同步房间状态 code:{0}， progress: {1},包的长度：{2}", code, progress, packetHeader.PacketLength);
-
-                //var bytes = m_CachedStream.ToArray();
-                //for (int i = 0; i < bytes.Length; i++)
-                //{
-                //    Log.Info(bytes[i]);
-                //}
-                Log.Info("同步房间状态完成");
-            }
+            //RuntimeTypeModel.Default.SerializeWithLengthPrefix(m_CachedStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);
+            Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
 
             ReferencePool.Release(packetHeader);
             ReferencePool.Release((IReference)packet);
@@ -192,7 +187,7 @@ namespace LovePower
         {
             customErrorData = null;
             //var obj = ReferencePool.Acquire<SCPacketHeader>();
-            source.Seek(0, SeekOrigin.Begin);
+            //source.Seek(0, SeekOrigin.Begin);
             return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);
             //return (IPacketHeader)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(source, ReferencePool.Acquire<SCPacketHeader>(), obj.GetType(), PrefixStyle.Fixed32, 0);
 
@@ -238,15 +233,6 @@ namespace LovePower
 
             ReferencePool.Release(scPacketHeader);
             return packet;
-        }
-
-        public long GetSerializedLengthWithPrefix<T>(T obj)
-        {
-            using (var memoryStream = new MemoryStream())
-            {
-                RuntimeTypeModel.Default.SerializeWithLengthPrefix(memoryStream, obj,obj.GetType(), PrefixStyle.Fixed32,0);
-                return memoryStream.Length;
-            }
         }
 
 

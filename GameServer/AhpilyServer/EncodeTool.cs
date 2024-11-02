@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
+using ProtoBuf;
+using ProtoBuf.Meta;
+using Protocol.Base;
+using Protocol.Header;
 
 namespace AhpilyServer
 {
@@ -159,6 +164,97 @@ namespace AhpilyServer
                 object value = bf.Deserialize(ms);
                 return value;
             }
+        }
+
+        #endregion
+
+        #region ProtoBuf
+
+        private static Dictionary<int, Type> m_ClientToServerPacketTypes = new Dictionary<int, Type>();
+
+        public static void Initialize()
+        {
+            Type packetBaseType = typeof(SCPacketBase);
+
+            Assembly assembly = Assembly.GetAssembly(packetBaseType);
+            Type[] types = assembly.GetTypes(); 
+            for (int i = 0; i < types.Length; i++)
+            {
+                if (!types[i].IsClass || types[i].IsAbstract)
+                {
+                    continue;
+                }
+
+                if (types[i].BaseType == packetBaseType)
+                {
+                    PacketBase packetBase = (PacketBase)Activator.CreateInstance(types[i]);
+                    Type packetType = GetServerToClientPacketType(packetBase.Id);
+                    if (packetType != null)
+                    {
+                        Console.WriteLine("Already exist packet type '{0}', check '{1}' or '{2}'?.", packetBase.Id.ToString(), packetType.Name, packetBase.GetType().Name);
+                        continue;
+                    }
+
+                    m_ClientToServerPacketTypes.Add(packetBase.Id, types[i]);
+                }
+               
+            }
+
+            Console.WriteLine("初始化完成");
+        }
+
+        public static PacketHeaderBase DeserializePacketHeader(Stream source, out object customErrorData)
+        {
+            customErrorData = null;
+            //var obj = ReferencePool.Acquire<SCPacketHeader>();
+            //source.Seek(0, SeekOrigin.Begin);
+            return Serializer.DeserializeWithLengthPrefix<CSPacketHeader>(source, PrefixStyle.Fixed32);
+            //return (IPacketHeader)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(source, ReferencePool.Acquire<SCPacketHeader>(), obj.GetType(), PrefixStyle.Fixed32, 0);
+        }
+
+        public static PacketBase DeserializePacket(PacketHeaderBase packetHeader, Stream source, out object customErrorData)
+        {
+            // 注意：此函数并不在主线程调用！
+            customErrorData = null;
+
+            CSPacketHeader csPacketHeader = packetHeader as CSPacketHeader;
+            if (csPacketHeader == null)
+            {
+                Console.WriteLine("Packet header is invalid.");
+                return null;
+            }
+
+            PacketBase packet = null;
+            if (csPacketHeader.IsValid)
+            {
+                Type packetType = GetServerToClientPacketType(csPacketHeader.Id);
+                if (packetType != null)
+                {
+                    packet = (PacketBase)RuntimeTypeModel.Default.DeserializeWithLengthPrefix(
+                        source, Activator.CreateInstance(packetType), packetType, PrefixStyle.Fixed32, 0);
+                }
+                else
+                {
+                    Console.WriteLine("Can not deserialize packet for packet id '{0}'.", csPacketHeader.Id.ToString());
+                }
+            }
+            else
+            {
+                Console.WriteLine("Packet header is invalid.");
+            }
+
+            return packet;
+        }
+
+        private static Type GetServerToClientPacketType(int id)
+        {
+            Type type = null;
+            if (m_ClientToServerPacketTypes.TryGetValue(id, out type))
+            {
+                return type;
+            }
+
+            return null;
         }
 
         #endregion

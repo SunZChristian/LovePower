@@ -16,3 +16,7 @@ C:\SunZ\LovePower\GameServer\AhpilyServer\obj\Debug\AhpilyServer.csproj.Assembly
 C:\SunZ\LovePower\GameServer\AhpilyServer\obj\Debug\AhpilyServer.csproj.CoreCompileInputs.cache
 C:\SunZ\LovePower\GameServer\AhpilyServer\obj\Debug\AhpilyServer.dll
 C:\SunZ\LovePower\GameServer\AhpilyServer\obj\Debug\AhpilyServer.pdb
+C:\SunZ\LovePower\GameServer\AhpilyServer\bin\Debug\protobuf-net.dll
+C:\SunZ\LovePower\GameServer\AhpilyServer\bin\Debug\Protocol.dll
+C:\SunZ\LovePower\GameServer\AhpilyServer\bin\Debug\Protocol.pdb
+C:\SunZ\LovePower\GameServer\AhpilyServer\obj\Debug\AhpilyServer.csproj.CopyComplete

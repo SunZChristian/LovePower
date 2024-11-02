@@ -33,3 +33,4 @@ C:\SunZ\LovePower\GameServer\GameServer\obj\Debug\GameServer.csproj.CoreCompileI
 C:\SunZ\LovePower\GameServer\GameServer\obj\Debug\GameServer.csproj.CopyComplete
 C:\SunZ\LovePower\GameServer\GameServer\obj\Debug\GameServer.exe
 C:\SunZ\LovePower\GameServer\GameServer\obj\Debug\GameServer.pdb
+C:\SunZ\LovePower\GameServer\GameServer\bin\Debug\protobuf-net.dll

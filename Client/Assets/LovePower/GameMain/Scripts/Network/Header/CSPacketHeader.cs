@@ -12,12 +12,13 @@ namespace LovePower
     [ProtoContract]
     public sealed class CSPacketHeader : PacketHeaderBase
     {
-        [ProtoMember(1, DataFormat = DataFormat.FixedSize)]
+        [ProtoMember(1)]
         public override int Id { get; set; }
 
-        [ProtoMember(2, DataFormat = DataFormat.FixedSize)]
+        [ProtoMember(2)]
         public override int PacketLength { get; set; }
 
+        [ProtoMember(3)]
         public override PacketType PacketType
         {
             get

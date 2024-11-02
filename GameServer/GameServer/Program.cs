@@ -8,6 +8,8 @@ namespace GameServer
     {
         static void Main(string[] args)
         {
+            EncodeTool.Initialize();
+
             ServerPeer server = new ServerPeer();
             //指定所关联的应用
             server.SetApplication(new NetMsgCenter());

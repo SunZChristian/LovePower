@@ -13,13 +13,12 @@ namespace Protocol.Header
     [ProtoContract]
     public sealed class CSPacketHeader : PacketHeaderBase
     {
-        [ProtoMember(1)]
+        [ProtoMember(1, DataFormat = DataFormat.FixedSize)]
         public override int Id { get; set; }
 
-        [ProtoMember(2)]
+        [ProtoMember(2, DataFormat = DataFormat.FixedSize)]
         public override int PacketLength { get; set; }
 
-        [ProtoMember(3)]
         public override PacketType PacketType
         {
             get

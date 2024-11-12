@@ -86,15 +86,15 @@ namespace LovePower
             var header = new CSPacketHeader
             {
                 Id = 1,
-                PacketLength = 128 // 例如，设定一个包长度
+                PacketLength = 1 // 例如，设定一个包长度
             };
 
             // 使用 MemoryStream 序列化并获取字节长度
-            using (var memoryStream = new System.IO.MemoryStream())
+            using (var memoryStream = new MemoryStream())
             {
                 Serializer.SerializeWithLengthPrefix(memoryStream, header, PrefixStyle.Fixed32);
                 byte[] byteArray = memoryStream.ToArray();
-                Console.WriteLine("序列化后的字节流长度: " + byteArray.Length);
+                Log.Info("序列化后的字节流长度: " + byteArray.Length);
             }
         }
 

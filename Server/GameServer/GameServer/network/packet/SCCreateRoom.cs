@@ -1,0 +1,22 @@
+﻿using ProtoBuf;
+using System;
+
+[Serializable, ProtoContract(Name = @"SCCreateRoom")]
+public class SCCreateRoom : SCPacketBase
+{
+    [ProtoMember(1, DataFormat = DataFormat.FixedSize)]
+    public int Code;
+
+    public SCCreateRoom()
+    {
+    }
+
+    public override int Id
+    {
+        get
+        {
+            return PacketID.SCCreateRoom;
+        }
+    }
+
+}

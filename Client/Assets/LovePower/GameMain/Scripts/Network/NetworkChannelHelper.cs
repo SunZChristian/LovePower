@@ -81,21 +81,13 @@ namespace LovePower
             GameEntry.Event.Subscribe(UnityGameFramework.Runtime.NetworkCustomErrorEventArgs.EventId, OnNetworkCustomError);
 
 
-
-            // 创建一个示例的包头
-            var header = new CSPacketHeader
-            {
-                Id = 1,
-                PacketLength = 1 // 例如，设定一个包长度
-            };
-
             // 使用 MemoryStream 序列化并获取字节长度
-            using (var memoryStream = new MemoryStream())
-            {
-                Serializer.SerializeWithLengthPrefix(memoryStream, header, PrefixStyle.Fixed32);
-                byte[] byteArray = memoryStream.ToArray();
-                Log.Info("序列化后的字节流长度: " + byteArray.Length);
-            }
+            //using (var memoryStream = new MemoryStream())
+            //{
+            //    Serializer.SerializeWithLengthPrefix(memoryStream, new CSHeartBeat(), PrefixStyle.Fixed32);
+            //    byte[] byteArray = memoryStream.ToArray();
+            //    Log.Info("测试 ~ 序列化后的字节流长度: " + byteArray.Length);
+            //}
         }
 
         /// <summary>
@@ -158,14 +150,22 @@ namespace LovePower
             m_CachedStream.SetLength(PacketHeaderLength);
             Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
 
+            // 使用 MemoryStream 序列化并获取字节长度
+            using (var memoryStream = new MemoryStream())
+            {
+                Serializer.SerializeWithLengthPrefix(memoryStream, packet, PrefixStyle.Fixed32);
+                byte[] byteArray = memoryStream.ToArray();
+                Log.Info("序列化后的字节流长度: " + byteArray.Length);
+            }
+
 
             CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
             packetHeader.Id = packet.Id;
             packetHeader.PacketLength = (int)m_CachedStream.Length - PacketHeaderLength;
-
             m_CachedStream.Position = 0;
-            //RuntimeTypeModel.Default.SerializeWithLengthPrefix(m_CachedStream, packetHeader, packetHeader.GetType(), PrefixStyle.Fixed32, 0);
             Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
+
+            Log.Info("包体长度：" + packetHeader.PacketLength + "   当前m_CachedStream的Length: "+ (int)m_CachedStream.Length);
 
             ReferencePool.Release(packetHeader);
             ReferencePool.Release((IReference)packet);

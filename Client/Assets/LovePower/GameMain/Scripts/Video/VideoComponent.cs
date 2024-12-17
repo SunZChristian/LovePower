@@ -67,6 +67,7 @@ namespace LovePower
                 }
 
                 m_videoPlayer.prepareCompleted += PrepareCompleted;
+                m_videoPlayer.errorReceived += ErrorReceived;
             }
 
         }
@@ -154,6 +155,11 @@ namespace LovePower
         {
             Log.Info("视频准备完成：" + source.url);
             OnPrepareCompleted?.Invoke();
+        }
+
+        private void ErrorReceived(VideoPlayer source, string message)
+        {
+            Log.Info("视频加载出错：" + message);
         }
 
 
